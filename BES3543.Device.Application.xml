@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.2.0.0" runtimeid="3.5.16.40" libversion="4.2.0.0" compiler="3.5.18.40" lmm="3.5.18.40" profile="CODESYS V3.5 SP18 Patch 4+" settings="SupportOPCUA, XmlIncludeComments, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="BES3543" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_DINT" size="4" swapsize="4" typeclass="DInt" iecname="DINT" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_LREAL" size="8" swapsize="8" typeclass="LReal" iecname="LREAL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+    <TypeSimple name="T_STRING" size="81" swapsize="0" typeclass="String" iecname="STRING" />
+    <TypeSimple name="T_TIME" size="4" swapsize="4" typeclass="Time" iecname="TIME" />
+    <TypeSimple name="T_UINT" size="2" swapsize="2" typeclass="UInt" iecname="UINT" />
+    <TypeArray name="T_ARRAY__0__9__OF_BOOL" size="10" nativesize="10" typeclass="Array" iecname="ARRAY [0..9] OF BOOL" basetype="T_BOOL">
+      <ArrayDim minrange="0" maxrange="9" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__9__OF_DINT" size="40" nativesize="40" typeclass="Array" iecname="ARRAY [0..9] OF DINT" basetype="T_DINT">
+      <ArrayDim minrange="0" maxrange="9" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__9__OF_REAL" size="40" nativesize="40" typeclass="Array" iecname="ARRAY [0..9] OF REAL" basetype="T_REAL">
+      <ArrayDim minrange="0" maxrange="9" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__1__7__OF_LREAL" size="56" nativesize="56" typeclass="Array" iecname="ARRAY [1..7] OF LREAL" basetype="T_LREAL">
+      <ArrayDim minrange="1" maxrange="7" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__1__7__OF_TIME" size="28" nativesize="28" typeclass="Array" iecname="ARRAY [1..7] OF TIME" basetype="T_TIME">
+      <ArrayDim minrange="1" maxrange="7" />
+    </TypeArray>
+    <TypeUserDef name="T_EIXO_MOVER" size="32" nativesize="32" typeclass="Userdef" pouclass="STRUCTURE" iecname="EIXO_MOVER">
+      <UserDefElement iecname="sp_POSICAO" type="T_LREAL" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_VELOCIDADE" type="T_LREAL" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_ACELERACAO" type="T_LREAL" byteoffset="16" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_DESACELERACAO" type="T_LREAL" byteoffset="24" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_R_TRIG" size="2" nativesize="8" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="R_TRIG">
+      <UserDefElement iecname="CLK" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Q" type="T_BOOL" byteoffset="1" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_UINT__0__2106_" size="2" swapsize="2" typeclass="Subrange" iecname="UINT (0..2106)" underlyingtype="T_UINT" lowerborder="0" upperborder="2106" />
+    <TypeSimple name="T_UINT__0__23_" size="2" swapsize="2" typeclass="Subrange" iecname="UINT (0..23)" underlyingtype="T_UINT" lowerborder="0" upperborder="23" />
+    <TypeSimple name="T_UINT__0__59_" size="2" swapsize="2" typeclass="Subrange" iecname="UINT (0..59)" underlyingtype="T_UINT" lowerborder="0" upperborder="59" />
+    <TypeSimple name="T_UINT__1__12_" size="2" swapsize="2" typeclass="Subrange" iecname="UINT (1..12)" underlyingtype="T_UINT" lowerborder="1" upperborder="12" />
+    <TypeSimple name="T_UINT__1__31_" size="2" swapsize="2" typeclass="Subrange" iecname="UINT (1..31)" underlyingtype="T_UINT" lowerborder="1" upperborder="31" />
+    <TypeArray name="T_ARRAY__1__7__OF_EIXO_MOVER" size="224" nativesize="224" typeclass="Array" iecname="ARRAY [1..7] OF EIXO_MOVER" basetype="T_EIXO_MOVER">
+      <ArrayDim minrange="1" maxrange="7" />
+    </TypeArray>
+    <TypeSimple name="T_DAY" size="2" swapsize="2" typeclass="Subrange" iecname="DAY" aliasedtype="T_UINT__1__31_" aliasediecname="UINT (1..31)" underlyingtype="T_UINT" lowerborder="1" upperborder="31" />
+    <TypeSimple name="T_HOUR" size="2" swapsize="2" typeclass="Subrange" iecname="HOUR" aliasedtype="T_UINT__0__23_" aliasediecname="UINT (0..23)" underlyingtype="T_UINT" lowerborder="0" upperborder="23" />
+    <TypeSimple name="T_MINUTE" size="2" swapsize="2" typeclass="Subrange" iecname="MINUTE" aliasedtype="T_UINT__0__59_" aliasediecname="UINT (0..59)" underlyingtype="T_UINT" lowerborder="0" upperborder="59" />
+    <TypeSimple name="T_MONTH" size="2" swapsize="2" typeclass="Subrange" iecname="MONTH" aliasedtype="T_UINT__1__12_" aliasediecname="UINT (1..12)" underlyingtype="T_UINT" lowerborder="1" upperborder="12" />
+    <TypeSimple name="T_SECOND" size="2" swapsize="2" typeclass="Subrange" iecname="SECOND" aliasedtype="T_UINT__0__59_" aliasediecname="UINT (0..59)" underlyingtype="T_UINT" lowerborder="0" upperborder="59" />
+    <TypeUserDef name="T_TURNOS_10" size="120" nativesize="120" typeclass="Userdef" pouclass="STRUCTURE" iecname="TURNOS_10">
+      <UserDefElement iecname="PRIMEIRO" type="T_ARRAY__0__9__OF_DINT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="SEGUNDO" type="T_ARRAY__0__9__OF_DINT" byteoffset="40" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="TERCEIRO" type="T_ARRAY__0__9__OF_DINT" byteoffset="80" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_YEAR" size="2" swapsize="2" typeclass="Subrange" iecname="YEAR" aliasedtype="T_UINT__0__2106_" aliasediecname="UINT (0..2106)" underlyingtype="T_UINT" lowerborder="0" upperborder="2106" />
+    <TypeUserDef name="T_RECEITA" size="1112" nativesize="1144" typeclass="Userdef" pouclass="STRUCTURE" iecname="RECEITA">
+      <UserDefElement iecname="NOME" type="T_STRING" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="int_NUM_MAX_CAMADAS_EMPILHADOR" type="T_INT" byteoffset="82" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="int_NUM_DESCER_MESA_EMPILHADOR" type="T_INT" byteoffset="84" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_PRE_PEGA_GARRA_EMPILHADOR" type="T_EIXO_MOVER" byteoffset="88" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_PEGA_GARRA_EMPILHADOR" type="T_EIXO_MOVER" byteoffset="120" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_PRE_ENTREGA_GARRA_EMPILHADOR_POSICAO" type="T_ARRAY__1__7__OF_LREAL" byteoffset="152" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_ENTREGA_GARRA_EMPILHADOR_VELOCIDADE" type="T_LREAL" byteoffset="208" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_ENTREGA_GARRA_EMPILHADOR_ACELERACAO" type="T_LREAL" byteoffset="216" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_ENTREGA_GARRA_EMPILHADOR_DESACELERACAO" type="T_LREAL" byteoffset="224" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_ENTREGA_GARRA_EMPILHADOR_POSICAO" type="T_ARRAY__1__7__OF_LREAL" byteoffset="232" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_PRE_ENTREGA_GARRA_EMPILHADOR_VELOCIDADE" type="T_LREAL" byteoffset="288" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_PRE_ENTREGA_GARRA_EMPILHADOR_ACELERACAO" type="T_LREAL" byteoffset="296" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_PRE_ENTREGA_GARRA_EMPILHADOR_DESACELERACAO" type="T_LREAL" byteoffset="304" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="tmr_TRANSICAO_ENTREGA_EMPILHADOR" type="T_ARRAY__1__7__OF_TIME" byteoffset="312" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp_POSICAO_ABRE_GARRA_EMPILHADOR" type="T_ARRAY__1__7__OF_LREAL" byteoffset="344" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_EMPILHADOR_POS" type="T_ARRAY__1__7__OF_EIXO_MOVER" byteoffset="400" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_EMPILHADOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="624" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_EMPILHADOR_INSPECAO" type="T_EIXO_MOVER" byteoffset="656" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_MESA_GIRO_INICIAL" type="T_EIXO_MOVER" byteoffset="688" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_MESA_GIRO_FINAL" type="T_EIXO_MOVER" byteoffset="720" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_MESA_GIRO_INSPECAO" type="T_EIXO_MOVER" byteoffset="752" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_GIRO_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="784" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_GIRO_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="816" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="848" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="880" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="912" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_PRE_PEGA" type="T_EIXO_MOVER" byteoffset="944" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="976" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_SAIDA_PEGA" type="T_EIXO_MOVER" byteoffset="1008" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="1040" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="1072" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="int_NUMERO_GIROS_ENVOLVEDOR" type="T_INT" byteoffset="1104" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="num_PESO_SACOLA" type="T_REAL" byteoffset="1108" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeArray name="T_ARRAY__0__10__OF_RECEITA" size="12232" nativesize="12584" typeclass="Array" iecname="ARRAY [0..10] OF RECEITA" basetype="T_RECEITA">
+      <ArrayDim minrange="0" maxrange="10" />
+    </TypeArray>
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="LA_IHM">
+        <Node name="ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_4" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_5" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_6" type="T_BOOL" access="ReadWrite" />
+        <Node name="array_HIST_ERRO_PESAGEM_7" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_EMPILHADOR_AVANCADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_EMPILHADOR_AVANCAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_EMPILHADOR_RECUADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_EMPILHADOR_RECUAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_ENVOLVEDOR_AVANCADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_ENVOLVEDOR_AVANCAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_ENVOLVEDOR_RECUADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_ENVOLVEDOR_RECUAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_PESAGEM_AVANCADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_PESAGEM_AVANCAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_PESAGEM_RECUADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_PESAGEM_RECUAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_POSICIONADOR_AVANCADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_POSICIONADOR_AVANCAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_POSICIONADOR_RECUADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ATU_POSICIONADOR_RECUAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_INSPECAO_OK" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_RESET_EST_ENTRADA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_RESET_EST_SAIDA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_RESET_EST_TR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_RESET_INSPECAO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_RESET_PESAGEM" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_RESET_SERVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_CONTADORES_RESET" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GARRA_EMPILHADOR_ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GARRA_EMPILHADOR_FAZENDO_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GARRA_EMPILHADOR_FAZER_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GARRA_EMPILHADOR_HABILITADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GARRA_EMPILHADOR_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GARRA_EMPILHADOR_JOG_POSITIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GERAL_SAFETY" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LD_ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LD_FAZENDO_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LD_FAZER_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LD_HABILITADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LD_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LD_JOG_POSITIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LE_ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LE_FAZENDO_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LE_FAZER_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LE_HABILITADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LE_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_ENVOLVEDOR_LE_JOG_POSITIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_MESA_ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_MESA_FAZENDO_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_MESA_FAZER_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_MESA_HABILITADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_MESA_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_GIRO_MESA_JOG_POSITIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_EMPILHADOR_ALARME_ATIVO" type="T_BOOL" access="ReadWrite">
+          <Comment>ICONES DE ALARME NOS EIXOS</Comment>
+        </Node>
+        <Node name="bit_EIXO_X_EMPILHADOR_FAZENDO_HOME" type="T_BOOL" access="ReadWrite">
+          <Comment>ICONES DE STATUS DO HOME DOS EIXOS</Comment>
+        </Node>
+        <Node name="bit_EIXO_X_EMPILHADOR_FAZER_HOME" type="T_BOOL" access="ReadWrite">
+          <Comment>ICONES PARA FAZER HOME DOS EIXOS	</Comment>
+        </Node>
+        <Node name="bit_EIXO_X_EMPILHADOR_HABILITADO" type="T_BOOL" access="ReadWrite">
+          <Comment>ICONES DE EIXOS HABILITADOS	</Comment>
+        </Node>
+        <Node name="bit_EIXO_X_EMPILHADOR_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_EMPILHADOR_JOG_POSITIVO" type="T_BOOL" access="ReadWrite">
+          <Comment>ICONES PARA MOVIMENTOS JOG DOS EIXOS	</Comment>
+        </Node>
+        <Node name="bit_EIXO_X_ENVOLVEDOR_ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_ENVOLVEDOR_FAZENDO_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_ENVOLVEDOR_FAZER_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_ENVOLVEDOR_HABILITADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_ENVOLVEDOR_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_X_ENVOLVEDOR_JOG_POSITIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_Z_ENVOLVEDOR_ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_Z_ENVOLVEDOR_FAZENDO_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_Z_ENVOLVEDOR_FAZER_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_Z_ENVOLVEDOR_HABILITADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_Z_ENVOLVEDOR_JOG_NEGATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EIXO_Z_ENVOLVEDOR_JOG_POSITIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_EMPILHA_SACOLA_HOME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_ENV_CORTE_FILME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_ENTRADA_ENVOLVEDOR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_EST_INSPECAO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_ESTAGIO_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_MERGER_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_MESA_GIRO" type="T_BOOL" access="ReadWrite">
+          <Comment>ICONES DE ALARME NOS MOTORES</Comment>
+        </Node>
+        <Node name="bit_feedback_ERRO_MESA_TRANSFER" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_REJEITO_PRODUTO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_feedback_ERRO_TRANSP_SAIDA_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_GIRO_EMPILHAMENTO_RESET" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_GIRO_SACOLA_RESET" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_HORARIO_DIA_COMPLETO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_HORARIO_DIA_COMPLETO_REAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_HORARIO_HORA_COMPLETO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_HORARIO_MINUTO_COMPLETO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_MANUAL_HABILITAR_EIXOS" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_MAQUINA_MANUAL" type="T_BOOL" access="ReadWrite">
+          <Comment>Tela de Operação</Comment>
+        </Node>
+        <Node name="bit_PORTA_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_PORTA_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_RESET_RTON" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_EMPILHADOR_BANDEJA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_EMPILHADOR_DESCE_MESA_GIRO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_EMPILHADOR_GARRA_SACOLA" type="T_BOOL" access="ReadWrite">
+          <Comment>SELECIONAR ATUADORES EMPILHADOR</Comment>
+        </Node>
+        <Node name="bit_SELEC_EMPILHADOR_POSICIONA_SACOLA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_ENVOLVEDOR_APROX_GARRA" type="T_BOOL" access="ReadWrite">
+          <Comment>SELECIONAR ATUADORES ENVOLVEDOR</Comment>
+        </Node>
+        <Node name="bit_SELEC_ENVOLVEDOR_CORTE_FILME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_ENVOLVEDOR_FECHA_FILME_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_ENVOLVEDOR_FECHA_FILME_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_ENVOLVEDOR_FECHA_FILME_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_ENVOLVEDOR_GARRA_DUPLA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_ENVOLVEDOR_VACUO_FILME" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_PESAGEM_ACIONAMENTO_TRANSFERENCIA" type="T_BOOL" access="ReadWrite">
+          <Comment>SELECIONAR ATUADORES PESAGEM</Comment>
+        </Node>
+        <Node name="bit_SELEC_RECEITA_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_10" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_4" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_5" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_6" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_7" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_8" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SELEC_RECEITA_9" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SIMULA_GIRO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SIMULA_PEGA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_STATUS_INSPECAO_OK" type="T_INT" access="ReadWrite" />
+        <Node name="bit_STATUS_PESAGEM" type="T_INT" access="ReadWrite" />
+        <Node name="bt_CARREGAR_RECEITA" type="T_BOOL" access="ReadWrite">
+          <Comment> Tela de Receita</Comment>
+        </Node>
+        <Node name="bt_DOWNLOAD_RECEITA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bt_SALVAR_RECEITA" type="T_BOOL" access="ReadWrite" />
+        <Node name="bt_UPLOAD_RECEITA" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_ENVOLVEDOR_ENTRADA" type="T_BOOL" access="ReadWrite">
+          <Comment>ESTEIRAS DO ENVOLVEDOR</Comment>
+        </Node>
+        <Node name="est_ENVOLVEDOR_SAIDA" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_INSPECAO_EMPILHADOR" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_INSPECAO_EMPILHADOR_REVERSE" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_MESA_DE_TRANSFERENCIA" type="T_BOOL" access="ReadWrite">
+          <Comment>ESTEIRAS PARA REALIZAR PESAGEM DE SACOLAS</Comment>
+        </Node>
+        <Node name="est_MESA_DE_TRANSFERENCIA_REVERSE" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_REJEITO_PRODUTO" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_ROLETES_GIRO_MESA" type="T_BOOL" access="ReadWrite">
+          <Comment>BITS ATUADORES MODO MANUAL
+ESTEIRAS DO EMPILHAMENTO DE SACOLA</Comment>
+        </Node>
+        <Node name="est_ROLETES_GIRO_MESA_REVERSE" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_TRANNSPORTADOR_MERGER" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_TRANSPORTADOR_ENVOLVEDOR" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_TRANSPORTADOR_ESTAGIO_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_TRANSPORTADOR_PESAGEM" type="T_BOOL" access="ReadWrite" />
+        <Node name="est_TRANSPORTADOR_PESAGEM_REVERSE" type="T_BOOL" access="ReadWrite" />
+        <Node name="hist_VALOR_PESAGEM_ARRAY" type="T_ARRAY__0__9__OF_REAL" access="ReadWrite">
+          <Comment>HISTÓRICO DE PESO</Comment>
+        </Node>
+        <Node name="HORARIO_ATUAL_ANO" type="T_YEAR" access="ReadWrite" />
+        <Node name="HORARIO_ATUAL_DIA" type="T_DAY" access="ReadWrite" />
+        <Node name="HORARIO_ATUAL_HORA" type="T_HOUR" access="ReadWrite" />
+        <Node name="HORARIO_ATUAL_MES" type="T_MONTH" access="ReadWrite" />
+        <Node name="HORARIO_ATUAL_MINUTO" type="T_MINUTE" access="ReadWrite" />
+        <Node name="HORARIO_ATUAL_SEGUNDO" type="T_SECOND" access="ReadWrite" />
+        <Node name="ihm_HIST_INDEX_TURNO1" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
+        <Node name="ihm_HIST_INDEX_TURNO2" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
+        <Node name="ihm_HIST_INDEX_TURNO3" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="info_DIA_ANTERIOR" type="T_DINT" access="ReadWrite" />
+        <Node name="info_MANI_POS_ATUAL_GARRA_EMPILHADOR" type="T_LREAL" access="ReadWrite" />
+        <Node name="info_MANI_POS_ATUAL_GIRO_MESA" type="T_LREAL" access="ReadWrite" />
+        <Node name="info_MANI_POS_ATUAL_X_EMPILHADOR" type="T_LREAL" access="ReadWrite">
+          <Comment>INFORMAÇÃO DE POSIÇÃO ATUAL</Comment>
+        </Node>
+        <Node name="info_MANI_POS_ATUAL_X_ENVOLVEDOR" type="T_LREAL" access="ReadWrite" />
+        <Node name="info_MANI_POS_ATUAL_Z_ENVOLVEDOR" type="T_LREAL" access="ReadWrite" />
+        <Node name="info_MES_ANTERIOR" type="T_DINT" access="ReadWrite" />
+        <Node name="info_POS_ATUAL_GIRO_EMPILHADOR_LD" type="T_LREAL" access="ReadWrite" />
+        <Node name="info_POS_ATUAL_GIRO_EMPILHADOR_LE" type="T_LREAL" access="ReadWrite" />
+        <Node name="int_CAMADA_ATUAL" type="T_INT" access="ReadWrite" />
+        <Node name="int_EMPILHADOR_ATUADOR_SELECIONADO" type="T_INT" access="ReadWrite">
+          <Comment>BITS DE SELEÇÃO DE ATUADOR</Comment>
+        </Node>
+        <Node name="int_ENVOLVEDOR_ATUADOR_SELECIONADO" type="T_INT" access="ReadWrite" />
+        <Node name="int_PESAGEM_ATUADOR_SELECIONADO" type="T_INT" access="ReadWrite" />
+        <Node name="int_RECEITA_ATUAL" type="T_INT" access="ReadWrite" />
+        <Node name="int_STATUS_RECEITA" type="T_INT" access="ReadWrite" />
+        <Node name="nome_RECEITA_1" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_10" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_2" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_3" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_4" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_5" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_6" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_7" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_8" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_9" type="T_STRING" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_HORAS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_HORAS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_HORAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_MINUTOS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_MINUTOS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_MINUTOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_HORAS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_HORAS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_HORAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_MINUTOS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_MINUTOS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_MINUTOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_SEGUNDOS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_SEGUNDOS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_SEGUNDOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_HORAS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_HORAS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_HORAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_MINUTOS_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_MINUTOS_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_MINUTOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_SEGUNDOS_T1" type="T_DINT" access="ReadWrite">
+          <Comment>CONTADORES DE TEMPO DE MAQUINA
+TURNO 1</Comment>
+        </Node>
+        <Node name="num_MAQUINA_RODANDO_SEGUNDOS_T2" type="T_DINT" access="ReadWrite">
+          <Comment>TURNO 2</Comment>
+        </Node>
+        <Node name="num_MAQUINA_RODANDO_SEGUNDOS_T3" type="T_DINT" access="ReadWrite">
+          <Comment>TURNO 3</Comment>
+        </Node>
+        <Node name="num_PILHAS_COMPLETADAS_T1" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_COMPLETADAS_T2" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_COMPLETADAS_T3" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_REJEITADAS_T1" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_REJEITADAS_T2" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_REJEITADAS_T3" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_TOTAL_T1" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_TOTAL_T2" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_TOTAL_T3" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_COMPLETADAS_T1" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_COMPLETADAS_T2" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_COMPLETADAS_T3" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_REJEITADAS_T1" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_REJEITADAS_T2" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_REJEITADAS_T3" type="T_REAL" access="ReadWrite" />
+        <Node name="ONS_DIA_COMPLETO_1" type="T_R_TRIG" access="ReadWrite" />
+        <Node name="sp_MANI_VELOCIDADE" type="T_UINT" access="ReadWrite" />
+        <Node name="TEMPO_1" type="T_TIME" access="ReadWrite" />
+        <Node name="TEMPO_2" type="T_TIME" access="ReadWrite" />
+        <Node name="TEMPO_3" type="T_TIME" access="ReadWrite" />
+        <Node name="TEMPO_4" type="T_TIME" access="ReadWrite" />
+        <Node name="TEMPO_5" type="T_TIME" access="ReadWrite" />
+        <Node name="TEMPO_TOTAL" type="T_TIME" access="ReadWrite" />
+        <Node name="TEMPO_TOTAL_2" type="T_TIME" access="ReadWrite" />
+        <Node name="time_ANO" type="T_INT" access="ReadWrite" />
+        <Node name="time_DIA" type="T_INT" access="ReadWrite" />
+        <Node name="time_HORAS" type="T_INT" access="ReadWrite" />
+        <Node name="time_MES" type="T_INT" access="ReadWrite" />
+        <Node name="time_MINUTOS" type="T_INT" access="ReadWrite" />
+        <Node name="time_SEGUNDOS" type="T_INT" access="ReadWrite">
+          <Comment>CONTADORES</Comment>
+        </Node>
+        <Node name="tmr_MAQUINA_OCIOSA_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_OCIOSA_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_OCIOSA_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_PARADA_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_PARADA_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_PARADA_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_RODANDO_T1" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_RODANDO_T2" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_RODANDO_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="turno_A" type="T_BOOL" access="ReadWrite" />
+        <Node name="turno_B" type="T_BOOL" access="ReadWrite" />
+        <Node name="turno_C" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="PVAR">
+        <Node name="ihm_DIA_TURNO_ARRAY" type="T_TURNOS_10" access="ReadWrite" />
+        <Node name="ihm_MES_TURNO_ARRAY" type="T_TURNOS_10" access="ReadWrite" />
+        <Node name="rec_ATUAL" type="T_RECEITA" access="ReadWrite">
+          <Comment>================================================================================================================================================================================
+RECEITAS</Comment>
+        </Node>
+        <Node name="RECEITAS" type="T_ARRAY__0__10__OF_RECEITA" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
