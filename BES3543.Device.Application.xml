@@ -58,7 +58,7 @@
       <UserDefElement iecname="TERCEIRO" type="T_ARRAY__0__9__OF_DINT" byteoffset="80" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
     <TypeSimple name="T_YEAR" size="2" swapsize="2" typeclass="Subrange" iecname="YEAR" aliasedtype="T_UINT__0__2106_" aliasediecname="UINT (0..2106)" underlyingtype="T_UINT" lowerborder="0" upperborder="2106" />
-    <TypeUserDef name="T_RECEITA" size="1112" nativesize="1144" typeclass="Userdef" pouclass="STRUCTURE" iecname="RECEITA">
+    <TypeUserDef name="T_RECEITA" size="1144" nativesize="1144" typeclass="Userdef" pouclass="STRUCTURE" iecname="RECEITA">
       <UserDefElement iecname="NOME" type="T_STRING" byteoffset="0" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="int_NUM_MAX_CAMADAS_EMPILHADOR" type="T_INT" byteoffset="82" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="int_NUM_DESCER_MESA_EMPILHADOR" type="T_INT" byteoffset="84" vartype="VAR" access="ReadWrite" />
@@ -81,24 +81,35 @@
       <UserDefElement iecname="coord_MESA_GIRO_FINAL" type="T_EIXO_MOVER" byteoffset="720" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="coord_MESA_GIRO_INSPECAO" type="T_EIXO_MOVER" byteoffset="752" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="coord_GIRO_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="784" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_GIRO_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="816" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_X_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="848" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_X_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="880" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_X_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="912" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_Z_ENVOLVEDOR_PRE_PEGA" type="T_EIXO_MOVER" byteoffset="944" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_Z_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="976" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_Z_ENVOLVEDOR_SAIDA_PEGA" type="T_EIXO_MOVER" byteoffset="1008" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_Z_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="1040" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="coord_Z_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="1072" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="int_NUMERO_GIROS_ENVOLVEDOR" type="T_INT" byteoffset="1104" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="num_PESO_SACOLA" type="T_REAL" byteoffset="1108" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_GIRO_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="816" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_GIRO_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="848" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="880" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="912" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_X_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="944" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_PRE_PEGA" type="T_EIXO_MOVER" byteoffset="976" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_PEGA" type="T_EIXO_MOVER" byteoffset="1008" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_SAIDA_PEGA" type="T_EIXO_MOVER" byteoffset="1040" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_CORTE" type="T_EIXO_MOVER" byteoffset="1072" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="coord_Z_ENVOLVEDOR_ENTREGA" type="T_EIXO_MOVER" byteoffset="1104" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="int_NUMERO_GIROS_ENVOLVEDOR" type="T_INT" byteoffset="1136" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="num_PESO_SACOLA" type="T_REAL" byteoffset="1140" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
-    <TypeArray name="T_ARRAY__0__10__OF_RECEITA" size="12232" nativesize="12584" typeclass="Array" iecname="ARRAY [0..10] OF RECEITA" basetype="T_RECEITA">
+    <TypeArray name="T_ARRAY__0__10__OF_RECEITA" size="12584" nativesize="12584" typeclass="Array" iecname="ARRAY [0..10] OF RECEITA" basetype="T_RECEITA">
       <ArrayDim minrange="0" maxrange="10" />
     </TypeArray>
   </TypeList>
   <NodeList>
     <Node name="Application">
+      <Node name="LA_GERAL">
+        <Node name="int_HIST_INDEX_TURNO1" type="T_DINT" access="ReadWrite" />
+        <Node name="int_HIST_INDEX_TURNO2" type="T_DINT" access="ReadWrite" />
+        <Node name="int_HIST_INDEX_TURNO3" type="T_DINT" access="ReadWrite" />
+        <Node name="rec_IHM" type="T_RECEITA" access="ReadWrite">
+          <Comment>Teste teste teste	
+RECEITAS</Comment>
+        </Node>
+        <Node name="rec_SELECIONADA" type="T_RECEITA" access="ReadWrite" />
+      </Node>
       <Node name="LA_IHM">
         <Node name="ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />
         <Node name="array_HIST_ERRO_PESAGEM_1" type="T_BOOL" access="ReadWrite" />
