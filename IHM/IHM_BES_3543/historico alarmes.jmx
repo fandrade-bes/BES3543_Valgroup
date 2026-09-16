@@ -1,0 +1,221 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="PageWgt" staticFile="opt/historico alarmes.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="Historico Alarmes" dataWndSize="0,70" pageName="Historico Alarmes" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto Medium,Roboto">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="Grupo"/>
+    <MLText id="1" L1="Data / Hora"/>
+    <MLText id="2" L1="1 Min"/>
+    <MLText id="3" L1="Descrição"/>
+    <MLText id="4" L1="10 Min"/>
+    <MLText id="5" L1="30 Min"/>
+    <MLText id="6" L1="1 Hora"/>
+    <MLText id="7" L1="1 Dia"/>
+    <MLText id="8" L1="Histórico de Alarmes"/>
+    <MLText id="9" L1="Busca de :"/>
+    <MLText id="10" L1="Inicio :"/>
+    <MLText id="11" L1="Final :"/>
+    <MLText id="12" L1="Recarregar"/>
+   </MLTexts>
+  </object>
+  <object class="GroupWgt" customType="AlarmsList" id="AlrmHstry">
+   <wgtStyle x="1.60" y="34.65" wgtStaticOpt="dynamic" cx="399" cy="204.49" width="798" height="408.99" forcePaint="81">
+    <gridGroupLayout gridGlobalStrokeWidth="0" gridScrollSize="5" gridScrollAutohide="0" gridScrollImage="" gridHorOverFlow="2" gridVerUnderFlow="2" gridVerOverFlow="2" gridScrollBgColor="none" gridScrollColor="rgb(153,153,153)" gridScrollOffset="2" gridGlobalStrokeCollapsed="1" gridNCols="2" gridHorUnderFlow="2" gridGlobalStrokeMode="1" gridGlobalStrokeColor="rgb(0,0,0)" gridNRows="4">
+     <colProperties>
+      <colProperty rightMargin="0" leftStrokeColor="rgb(0,0,0)" rightStroke="0" rightStrokeColor="rgb(0,0,0)" leftMargin="0" leftStroke="0" minWidth="300" stretch="5" maxWidth="10000"/>
+      <colProperty rightMargin="0" leftStrokeColor="rgb(0,0,0)" rightStroke="0" rightStrokeColor="rgb(0,0,0)" leftMargin="0" leftStroke="0" minWidth="34" stretch="1" maxWidth="75"/>
+     </colProperties>
+     <rowProperties>
+      <rowProperty topStroke="0" backColor="none" selForColor="none" selBackColor="none" bottonMargin="0" bottonStroke="0" topStrokeColor="rgb(0,0,0)" bottonStrokeColor="rgb(0,0,0)" maxHeight="19" stretch="1" selStrokeColor="none" minHeight="19" topMargin="0"/>
+      <rowProperty topStroke="0" backColor="none" selForColor="none" selBackColor="none" bottonMargin="0" bottonStroke="0" topStrokeColor="rgb(0,0,0)" bottonStrokeColor="rgb(0,0,0)" maxHeight="39" stretch="1" selStrokeColor="none" minHeight="39" topMargin="0"/>
+      <rowProperty topStroke="0" backColor="none" selForColor="none" selBackColor="none" bottonMargin="3" bottonStroke="0" topStrokeColor="rgb(0,0,0)" bottonStrokeColor="rgb(0,0,0)" maxHeight="10000" stretch="8" selStrokeColor="none" minHeight="0" topMargin="9"/>
+      <rowProperty topStroke="0" backColor="none" selForColor="none" selBackColor="none" bottonMargin="0" bottonStroke="0" topStrokeColor="rgb(0,0,0)" bottonStrokeColor="rgb(0,0,0)" maxHeight="39" stretch="2" selStrokeColor="none" minHeight="39" topMargin="5"/>
+     </rowProperties>
+    </gridGroupLayout>
+   </wgtStyle>
+   <object class="LabelWgt" id="AlrmHstry.Title">
+    <wgtStyle verItemOverflow="0" horItemUnderflow="0" topMargin="0" font-size="9" minHeight="0" verItemUnderflow="0" wrapping="true" rightMargin="0" cx="303.24" cy="5.91" x="0" maxWidth="100000" y="0" rowSpan="1" aspectRatio="257:11" rowOcc="1" horItemOverflow="0" height="19" font-sizepx="12" font-bold="true" minWidth="0" font-color="rgb(76,76,77)" preserveAspectRatio="0" width="798" min-font-size="8" bottonMargin="0" vert-align="top" wrap-type="wordWrap" leftMargin="0" forcePaint="17" wgtStaticOpt="dynamic" font-family="Roboto Medium" maxHeight="100000" keypad-type="None" colOcc="1" colSpan="2" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="8">
+      <MLFontFamily L1="Roboto Medium"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="AlrmHstry.Duration">
+    <wgtStyle verItemOverflow="0" horItemUnderflow="0" topMargin="0" minHeight="0" verItemUnderflow="0" rightMargin="0" cx="399" cy="19.50" x="0" maxWidth="100000" y="19" rowSpan="1" aspectRatio="257:20" rowOcc="2" horItemOverflow="0" height="39" minWidth="0" preserveAspectRatio="0" width="798" bottonMargin="0" leftMargin="0" forcePaint="17" wgtStaticOpt="dynamic" maxHeight="100000" colOcc="1" colSpan="2"/>
+    <object class="LabelWgt" id="AlrmHstry.Duration.lblFrom">
+     <wgtStyle font-size="9" wrapping="true" cx="35.20" cy="7.80" x="0" y="3" font-sizepx="12" font-bold="true" height="15.60" font-color="rgb(76,76,77)" min-font-size="8" width="70.39" vert-align="top" wrap-type="wordWrap" forcePaint="17" wgtStaticOpt="dynamic" font-family="Roboto Medium" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="10">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object class="NumericWgt" id="AlrmHstry.Duration.dtFrom">
+     <wgtStyle form="date-time" min="0" timeSpec="local" font-size="9" step="1" cx="140.25" cy="11.40" x="81.25" numberFormat="0" showThousandSeparator="false" y="3" font-sizepx="12" height="16.57" font-color="rgb(76,76,77)" min-font-size="8" width="231.10" max="4096" vert-align="top" wrap-type="wordWrap" forcePaint="25" usingFormat="DD/MM/YY - hh:mm:ss" wgtStaticOpt="dynamic" font-family="Roboto" text="-1" value="-1" keypad-type="None" max-font-size="64"/>
+     <dataLinks>
+      <dataLink sourceType="Widget" tag="min" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" readWrite="R" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="AlrmHstry.Duration.lblDur">
+     <wgtStyle font-size="9" cx="32.92" cy="8.76" x="308.04" y="14" font-sizepx="12" font-bold="true" height="16.57" font-color="rgb(76,76,77)" min-font-size="8" width="102.90" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="81" wgtStaticOpt="dynamic" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="ComboBoxWgt" id="AlrmHstry.Duration.comboDur">
+     <wgtStyle font-size="9" type="1" list="1 Min,10 Min,30 Min,1 Hora,1 Dia" cx="66.67" dropdownBorderColor="rgb(200,200,200)" cy="22.16" x="413.44" y="4.88" imageList="images/,images/,images/,images/,images/" dropdownButtonWidth="30" dropdownButtonImageWidth="20" listData="1,3,4,5,10" dropdownButtonBgColor="rgb(245,245,245)" font-sizepx="12" font-bold="true" height="34" dropdownFontColor="rgb(76,76,77)" font-color="rgb(76,76,77)" min-font-size="8" width="256.95" continous="true" vert-align="top" wrap-type="wordWrap" dropdownButtonImageHeight="20" forcePaint="25" wgtStaticOpt="dynamic" font-family="Roboto" text="" listIndex="1,3,4,5,6" keypad-type="None" index="8" bgColor="rgb(245,245,245)" dropdownSelFontColor="rgb(255,255,255)" max-font-size="64" borderColor="rgb(245,245,245)" dropdownSelBgColor="rgb(0,176,199)"/>
+     <dataLinks>
+      <dataLink sourceType="Widget" tag="PageDuration" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" tagIndex="-1" readWrite="R/W" attribute="data"/>
+     </dataLinks>
+     <links>
+      <lang class="MLComboBoxLink:list:">
+       <MLFontFamily L1="Roboto"/>
+       <textid idx="1" val="2"/>
+       <textid idx="3" val="4"/>
+       <textid idx="4" val="5"/>
+       <textid idx="5" val="6"/>
+       <textid idx="6" val="7"/>
+      </lang>
+     </links>
+    </object>
+    <object class="NumericWgt" id="AlrmHstry.Duration.dtTo">
+     <wgtStyle form="date-time" min="0" timeSpec="local" font-size="9" step="1" cx="140.25" cy="11.40" x="81.25" numberFormat="0" showThousandSeparator="false" y="25" font-sizepx="12" height="16.57" font-color="rgb(76,76,77)" min-font-size="8" width="231.10" max="4096" vert-align="top" wrap-type="wordWrap" forcePaint="25" usingFormat="DD/MM/YY - hh:mm:ss" wgtStaticOpt="dynamic" font-family="Roboto" text="-1" value="-1" keypad-type="None" max-font-size="64"/>
+     <dataLinks>
+      <dataLink sourceType="Widget" tag="max" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" readWrite="R" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="AlrmHstry.Duration.lblTo">
+     <wgtStyle font-size="9" wrapping="true" cx="35.20" cy="7.80" x="0" y="26" font-sizepx="12" font-bold="true" height="15.60" font-color="rgb(76,76,77)" min-font-size="8" width="70.39" vert-align="top" wrap-type="wordWrap" forcePaint="17" wgtStaticOpt="dynamic" font-family="Roboto Medium" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="11">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object class="GroupWgt" customType="ButtonsWithLabel" id="AlrmHstry.Duration.rfrshBtn">
+     <wgtStyle x="682.46" y="4.88" wgtStaticOpt="dynamic" cx="57.79" cy="17" width="115.54" height="34" forcePaint="17"/>
+     <object class="ButtonWgt" id="AlrmHstry.Duration.rfrshBtn.btn" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+      <wgtStyle form="standard" pushColor="rgb(128,128,0)" bdrSize="0.17,0.17,0.15,0.16" type="momentary" fill="rgb(0,70,136)" cx="57.79" cy="17" x="0" y="0" height="34" downFillColor="rgb(0,176,199)" releasePath="images\Btn_rect_blueUp.svg" width="115.54" forcePaint="17" bdrImageSize="54.00,44.00" wgtStaticOpt="dynamic" value="0" style="0" needlePath="images\Btn_rect_Dwn.svg"/>
+      <links>
+       <action class="RefreshEventAction" actionID="1" wgtName="AlrmHstry.Table.evntwgt.evntbfrwgt" event="onMouseUp" actionWgt="_WgtMgr" attribute="onMouseRelease"/>
+      </links>
+     </object>
+     <object class="LabelWgt" id="AlrmHstry.Duration.rfrshBtn.lbl" hmiStyle="hmi-type:wgtlabel">
+      <wgtStyle font-size="9" wrapping="true" cx="51.36" cy="15.46" x="4.28" y="0.77" font-sizepx="12" height="31.69" font-color="rgb(245,245,245)" min-font-size="8" width="102.70" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="17" wgtStaticOpt="dynamic" font-family="Roboto Medium" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="12">
+        <MLFontFamily L1="Roboto Medium"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+   </object>
+   <object class="GroupWgt" id="AlrmHstry.Buttons">
+    <wgtStyle verItemOverflow="0" horItemUnderflow="0" topMargin="0" minHeight="0" verItemUnderflow="0" rightMargin="0" cx="37.50" cy="17" x="723" maxWidth="100000" y="375" rowSpan="1" aspectRatio="71:34" rowOcc="4" horItemOverflow="0" height="34" minWidth="0" preserveAspectRatio="0" width="75" bottonMargin="0" leftMargin="0" forcePaint="81" wgtStaticOpt="dynamic" maxHeight="100000" colOcc="2" colSpan="1"/>
+    <object class="GroupWgt" customType="ButtonsWithIcon" id="AlrmHstry.Buttons.bckBtn">
+     <wgtStyle x="2" y="0" wgtStaticOpt="dynamic" cx="16.99" cy="17" width="34" height="34" forcePaint="81"/>
+     <links>
+      <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+     </links>
+     <object class="ButtonWgt" id="AlrmHstry.Buttons.bckBtn.btn" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+      <wgtStyle form="standard" pushColor="rgb(128,128,0)" bdrSize="0.17,0.17,0.15,0.16" type="momentary" fill="rgb(0,70,136)" cx="15.99" cy="17" x="1.01" y="0" height="34" downFillColor="rgb(0,176,199)" releasePath="images\btn_rect_blueup.svg" width="32" forcePaint="81" bdrImageSize="54.00,44.00" wgtStaticOpt="dynamic" value="0" style="0" needlePath="images\btn_rect_dwn.svg"/>
+      <links>
+       <action class="ScrollEventsBackwardAction" actionID="1" scrollInterval="0" event="onMouseClick" actionWgt="_EventMgr" eventName="AlrmHstry.Table.evntwgt.evntbfrwgt" attribute="onMouseClick"/>
+      </links>
+     </object>
+     <object class="ImageWgt" id="AlrmHstry.Buttons.bckBtn.icoImg" hmiStyle="hmi-name:solid; hmi-type:icon">
+      <wgtStyle imagePath="images/dwn_arrow_ico.svg" x="0" y="0" wgtStaticOpt="dynamic" stroke-width="2" cx="17.01" cy="17" stroke="rgb(245,245,245)" enableCache="true" width="34" height="34" fill="none" forcePaint="17"/>
+     </object>
+    </object>
+    <object class="GroupWgt" customType="ButtonsWithIcon" id="AlrmHstry.Buttons.fwdBtn">
+     <wgtStyle x="42" y="0" wgtStaticOpt="dynamic" cx="17.01" cy="17" width="34" height="34" forcePaint="81"/>
+     <links>
+      <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+     </links>
+     <object class="ButtonWgt" id="AlrmHstry.Buttons.fwdBtn.btn" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+      <wgtStyle form="standard" pushColor="rgb(128,128,0)" bdrSize="0.17,0.17,0.15,0.16" type="momentary" fill="rgb(0,70,136)" cx="15.99" cy="17" x="1.01" y="0" height="34" downFillColor="rgb(0,176,199)" releasePath="images\btn_rect_blueup.svg" width="31.99" forcePaint="81" bdrImageSize="54.00,44.00" wgtStaticOpt="dynamic" value="0" style="0" needlePath="images\btn_rect_dwn.svg"/>
+      <links>
+       <action class="ScrollEventsForwardAction" actionID="1" scrollInterval="0" event="onMouseClick" actionWgt="_EventMgr" eventName="AlrmHstry.Table.evntwgt.evntbfrwgt" attribute="onMouseClick"/>
+      </links>
+     </object>
+     <object class="ImageWgt" id="AlrmHstry.Buttons.fwdBtn.icoImg" hmiStyle="hmi-name:solid; hmi-type:icon">
+      <wgtStyle imagePath="images/up_arrow_ico.svg" x="0" y="0" wgtStaticOpt="dynamic" stroke-width="2" cx="17.02" cy="17" stroke="rgb(245,245,245)" enableCache="true" width="34" height="34" fill="none" forcePaint="17"/>
+     </object>
+    </object>
+   </object>
+   <object class="GroupWgt" id="AlrmHstry.Table">
+    <wgtStyle verItemOverflow="0" horItemUnderflow="0" topMargin="0" minHeight="0" verItemUnderflow="0" rightMargin="0" cx="399" cy="150" x="0" maxWidth="100000" y="67" rowSpan="1" aspectRatio="514:225" rowOcc="3" horItemOverflow="0" height="300" minWidth="0" preserveAspectRatio="0" width="798" bottonMargin="0" leftMargin="0" forcePaint="17" wgtStaticOpt="dynamic" maxHeight="100000" colOcc="1" colSpan="2"/>
+    <object class="TableWgt" id="AlrmHstry.Table.Table">
+     <wgtStyle font-size="9" hdrfgColor="rgb(255,255,255)" cx="38.67" cy="8.91" x="0" y="0" enableSort="true" font-sizepx="12" font-bold="true" height="300" datafont-sizepx="13" hdrbgColor="rgb(80,80,115)" fgColor="rgb(76,76,77)" width="798" scrollHeight="25" scroll_type="1" forcePaint="25" wgtStaticOpt="dynamic" showHeader="true" font-family="Calibri"/>
+     <dataLinks>
+      <dataLink sourceType="Data" tag="eventCount" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" readWrite="R" attribute="rowCount"/>
+      <dataLink sourceType="Widget" tag="alFGColor" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" tagIndex="-1" readWrite="R" attribute="fgColor">
+       <xForms>
+        <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="" name="ColorPaletteCustom"/>
+       </xForms>
+      </dataLink>
+      <dataLink sourceType="Widget" tag="alBGColor" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" tagIndex="-1" readWrite="R" attribute="bgColor">
+       <xForms>
+        <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="" name="ColorPaletteCustom"/>
+       </xForms>
+      </dataLink>
+     </dataLinks>
+     <table cols="3" rows="0">
+      <colInfo>
+       <col type="4" numberformat="DD/MM/YY - hh:mm" sizeToFit="false" name="Data / Hora" visibility="true" stringList="" width="152">
+        <links>
+         <lang class="MLTableColLink:tableCol:" textid="1">
+          <MLFontFamily L1="Calibri"/>
+         </lang>
+        </links>
+        <dataLinks>
+         <dataLink sourceType="Data" tag="alDateTime" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" readWrite="R" attribute="value"/>
+        </dataLinks>
+       </col>
+       <col type="0" sizeToFit="false" name="Grupo" visibility="true" stringList="" width="130">
+        <links>
+         <lang class="MLTableColLink:tableCol:" textid="0">
+          <MLFontFamily L1="Calibri"/>
+         </lang>
+        </links>
+        <dataLinks>
+         <dataLink sourceType="Widget" tag="alGroups" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" tagIndex="-1" readWrite="R" attribute="value"/>
+        </dataLinks>
+       </col>
+       <col type="0" sizeToFit="false" name="Descrição" visibility="true" stringList="" width="800">
+        <links>
+         <lang class="MLTableColLink:tableCol:" textid="3">
+          <MLFontFamily L1="Calibri"/>
+         </lang>
+        </links>
+        <dataLinks>
+         <dataLink sourceType="Data" tag="alDescription" dataSource="AlrmHstry.Table.evntwgt.evntbfrwgt" readWrite="R" attribute="value"/>
+        </dataLinks>
+       </col>
+      </colInfo>
+     </table>
+    </object>
+    <object class="GroupWgt" id="AlrmHstry.Table.evntwgt">
+     <wgtStyle x="649.94" y="213.88" wgtStaticOpt="dynamic" cx="65" cy="25.39" width="129.99" height="50.74" forcePaint="17"/>
+     <object class="EventBufferWgt" xmlFileWgt="alrmhstry.table.xmlfle" dateFormat="dd/MM/yy - hh:mm:ss" BlockDuration="86400" timeSpec="local" StartTime="-86400" id="AlrmHstry.Table.evntwgt.evntbfrwgt" EventBuffer="AlarmBuffer1" StopTime="0" NumSamples="512" PageDuration="86400">
+      <wgtStyle x="0" y="0" wgtStaticOpt="dynamic" width="57.79" height="50.74" forcePaint="25"/>
+      <dataLinks>
+       <dataLink sourceType="Data" dataSource="AlrmHstry.Table.evntwgt.idalevntwgt" readWrite="R" attribute="ReadSource"/>
+      </dataLinks>
+     </object>
+     <object class="IdalEventsWgt" id="AlrmHstry.Table.evntwgt.idalevntwgt">
+      <wgtStyle x="72.20" y="0" wgtStaticOpt="dynamic" width="57.79" height="50.74" forcePaint="17"/>
+     </object>
+    </object>
+    <object class="XMLFileWgt" id="AlrmHstry.Table.xmlFle" fileName="config/eventlistinfo.xml">
+     <wgtStyle x="577.71" y="212.50" wgtStaticOpt="dynamic" width="57.79" height="50.74" forcePaint="17"/>
+    </object>
+   </object>
+  </object>
+ </object>
+</wgtPage>

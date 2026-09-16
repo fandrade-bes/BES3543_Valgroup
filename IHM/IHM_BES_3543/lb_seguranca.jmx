@@ -1,0 +1,49 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="PageWgt" staticFile="opt/lb_seguranca.png" downloadPrepDone="false" templateFile="lb_geral.jmx" staticOptEnable="true" id="LB_Seguranca" dataWndSize="0,70" pageName="LB_Seguranca" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="Porta 1"/>
+    <MLText id="1" L1="Porta 2"/>
+   </MLTexts>
+  </object>
+  <object class="ImageWgt" id="ImageWgt2" static="true">
+   <wgtStyle imagePath="images/3543_seguranca.png" x="83" y="49" ver-flip="true" mtx="1,0,0,0,-1,0,0,395,1" cx="308.50" cy="197.50" width="617" height="395"/>
+  </object>
+  <object class="LabelWgt" id="GroupWgt3.label2" static="true">
+   <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="53.69" cy="16.60" x="144.55" marker="true" y="89" font-sizepx="16" font-bold="true" height="31.70" font-color="rgb(40,40,40)" min-font-size="8" width="58.55" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="0">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="GroupWgt3.label9" static="true">
+   <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="53.69" cy="16.60" x="310" marker="true" y="89" font-sizepx="16" font-bold="true" height="31.70" min-font-size="8" width="58.55" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="1">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="MultiStateImageWgt" id="GroupWgt3.MultistateImage5">
+   <wgtStyle imagePath="images/icons8-cancelar-48.png,images/icons8-ok-48.png" continuousIndex="1" x="321" y="116" imagePathIndexList="" cx="18.77" cy="19.81" width="37.53" height="39.62" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_PORTA_2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="MultiStateImageWgt" id="GroupWgt3.MultistateImage7">
+   <wgtStyle imagePath="images/icons8-cancelar-48.png,images/icons8-ok-48.png" continuousIndex="1" x="156.90" y="116" imagePathIndexList="" cx="18.77" cy="19.81" width="37.53" height="39.62" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_PORTA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="GroupSubscribeWgt" id="LB_Seguranca@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+ </object>
+</wgtPage>

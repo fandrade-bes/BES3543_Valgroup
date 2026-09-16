@@ -1,0 +1,251 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object ServerSynchEnable="disable" browserOptNativeRenderLoop="1" dataWndSize="0,70" autoRepeatPeriod="250" onAccessDenied="0" id="IHM_BES_3543" TouchBuzzerTime="200" default-font-type="0" targetName="CDPX-X-B-W-7" longDateFormat="MM/DD/YY - hh:mm:ss" browserOptForceLayers="1" screenSaverTimeout="0" screenSaverDisplayTime="0" class="ProjectWgt" orientation="0" refreshTime="100" bgColorOption="0" IncludePDFReader="true" IncludeVNC="true" qtft="true" messageboxVisible="1" shortDateFormat="DD/MM/YYYY" guid="77D9F5EF-FED2-424E-98DA-400F01119073" holdTime="2000" pageSize="640,480" brC="00" pageName="IHM_BES_3543" debugIP="127.0.0.1" signProject="false" browserOpt="1" thousandSymbol="," changePageAnimationOnCache="1" ContextMenu="1" defaultPageSize="800,480" diskSizes="128MB" IncludeWebKit="true" webConnectionMode="auto" compatibleAlignmentMode="0" downloadPrepDone="false" webInactivityTimeout="600" decimalSymbol="." targetType="Linux OE/un60" KeyPadTmplType="KeyPadTemplates_medium" maxTrendPrintRows="10000" panelMemory="4GB" staticOptEnable="true" enableWatchdog="true" maxBandwidth="0" webMemoryAvailable="0" manufacturerCode="504" UserMgmtTmplType="Large" listSeparator="," gesturePassthruDelay="200" enableUserMgmt="true" pageType="project" webShowRuntimeErrors="false" webMemoryThreshold="0" maxOpenDlgs="5" screenSaverPage="0" sdcards="0" changePageAnimation="1">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="640" height="480" v="04.05.02.517"/>
+  <object class="MultiLangMgrWgt" id="_MultiLangMgr" fileName="multilang.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="PageMgrWgt" id="_PageMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <categories>
+    <category technology="7" defaultsize="800,480" home="Selecao Lado.jmx" name="Unified" minsize="0,0" maxsize="*,*" useragent="*">
+     <pages>
+      <page class="PageWgt" type="normal" name="LA_Menu Geral" size="800,480" file="la_menu geral.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Operacao - Empilhador" size="800,480" file="la_operacao - empilhador.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Operacao - Envolvedor" size="800,480" file="la_operacao - envolvedor.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Operacao -  Pesagem" size="800,480" file="la_operacao -  pesagem.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Manual_Seletor" size="800,480" file="la_manual_seletor.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Manual - Empilhador Motores" size="800,480" file="la_manual - empilhador motores.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Manual - Envolvedor Motores" size="800,480" file="la_manual - envolvedor motores.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Manual - Empilhador Atuadores" size="800,480" file="la_manual - empilhador atuadores.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Manual - Envolvedor Atuadores" size="800,480" file="la_manual - envolvedor atuadores.jmx"/>
+      <page class="PageWgt" type="normal" name="Manual - Pesagem" size="800,480" file="manual - pesagem.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Receitas" size="800,480" file="la_receitas.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Parametros - Empilhador Garra" size="800,480" file="la_parametros - empilhador garra.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Parametros - Empilhador Movimento" size="800,480" file="la_parametros - empilhador movimento.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Parametros - Envolvedor" size="800,480" file="la_parametros - envolvedor.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Dados - Celula T1" size="800,480" file="la_dados - celula t1.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Dados - Celula T2" size="800,480" file="la_dados - celula t2.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Dados - Celula T3" size="800,480" file="la_dados - celula t3.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Seguranca" size="800,480" file="la_seguranca.jmx"/>
+      <page class="PageWgt" type="normal" name="Alarmes" size="800,480" file="alarmes.jmx"/>
+      <page class="PageWgt" type="normal" name="Historico Alarmes" size="800,480" file="historico alarmes.jmx"/>
+      <page class="DialogWgt" type="dialog" name="Salvar Receita" size="600,400" file="salvar receita.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Menu Geral" size="800,480" file="lb_menu geral.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Operacao - Empilhador" size="800,480" file="lb_operacao - empilhador.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Operacao - Envolvedor" size="800,480" file="lb_operacao - envolvedor.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Operacao - Pesagem" size="800,480" file="lb_operacao - pesagem.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Manual_Seletor" size="800,480" file="lb_manual_seletor.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Manual - Empiilhador Motores" size="800,480" file="lb_manual - empiilhador motores.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Manual - Envolvedor Motores" size="800,480" file="lb_manual - envolvedor motores.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Manual - Empilhador Atuadores" size="800,480" file="lb_manual - empilhador atuadores.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Manual - Envolvedor Atuadores" size="800,480" file="lb_manual - envolvedor atuadores.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Receitas" size="800,480" file="lb_receitas.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Parametros - Empilhador Garra" size="800,480" file="lb_parametros - empilhador garra.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Parametros - Empilhador Movimento" size="800,480" file="lb_parametros - empilhador movimento.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Parametros - Envolvedor" size="800,480" file="lb_parametros - envolvedor.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Dados - Celula T1" size="800,480" file="lb_dados - celula t1.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Dados - Celulas T2" size="800,480" file="lb_dados - celulas t2.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Dados - Celulas T3" size="800,480" file="lb_dados - celulas t3.jmx"/>
+      <page class="PageWgt" type="normal" name="LB_Seguranca" size="800,480" file="lb_seguranca.jmx"/>
+      <page class="PageWgt" type="normal" name="Selecao Lado" size="800,480" file="selecao lado.jmx"/>
+     </pages>
+     <templatePages>
+      <templatePage class="TemplatePageWgt" type="template" name="LA_Geral" file="la_geral.jmx"/>
+      <templatePage class="TemplatePageWgt" type="template" name="LB_Geral" file="lb_geral.jmx"/>
+     </templatePages>
+     <groups>
+      <group name="LADO A">
+       <page name="LA_Menu Geral"/>
+       <page name="LA_Operacao - Empilhador"/>
+       <page name="LA_Operacao -  Pesagem"/>
+       <page name="LA_Manual_Seletor"/>
+       <page name="LA_Manual - Empilhador Motores"/>
+       <page name="LA_Manual - Envolvedor Motores"/>
+       <page name="LA_Manual - Empilhador Atuadores"/>
+       <page name="LA_Manual - Envolvedor Atuadores"/>
+       <page name="LA_Receitas"/>
+       <page name="LA_Parametros - Empilhador Garra"/>
+       <page name="LA_Parametros - Empilhador Movimento"/>
+       <page name="LA_Parametros - Envolvedor"/>
+       <page name="LA_Dados - Celula T1"/>
+       <page name="LA_Dados - Celula T2"/>
+       <page name="LA_Dados - Celula T3"/>
+       <page name="LA_Seguranca"/>
+       <page name="LA_Geral"/>
+      </group>
+      <group name="LADO B">
+       <page name="LB_Menu Geral"/>
+       <page name="LB_Operacao - Empilhador"/>
+       <page name="LB_Operacao - Envolvedor"/>
+       <page name="LB_Operacao - Pesagem"/>
+       <page name="LB_Manual_Seletor"/>
+       <page name="LB_Manual - Empiilhador Motores"/>
+       <page name="LB_Manual - Envolvedor Motores"/>
+       <page name="LB_Manual - Empilhador Atuadores"/>
+       <page name="LB_Manual - Envolvedor Atuadores"/>
+       <page name="LB_Receitas"/>
+       <page name="LB_Parametros - Empilhador Garra"/>
+       <page name="LB_Parametros - Empilhador Movimento"/>
+       <page name="LB_Parametros - Envolvedor"/>
+       <page name="LB_Dados - Celula T1"/>
+       <page name="LB_Dados - Celulas T2"/>
+       <page name="LB_Dados - Celulas T3"/>
+       <page name="LB_Seguranca"/>
+       <page name="LB_Geral"/>
+      </group>
+      <group name="GERAL">
+       <page name="Selecao Lado"/>
+       <page name="Manual - Pesagem"/>
+       <page name="Alarmes"/>
+       <page name="Historico Alarmes"/>
+      </group>
+     </groups>
+    </category>
+   </categories>
+  </object>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_ProjectMLTextMgr" mgrType="Project">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="PLCMgrWgt" id="_PLCMgr" fileName="protocols.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="TagMgrWgt" id="_TagMgr" fileName="tags.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <dataLinks>
+    <dataLink sourceType="Data" dataSource="_IdalGrpSrc" readWrite="R" attribute="GroupSource"/>
+    <dataLink sourceType="Data" dataSource="_IdalTagSrc" readWrite="R/W" attribute="TagSource"/>
+   </dataLinks>
+  </object>
+  <object class="IdalItemsWgt" threadEnable="true" id="_IdalTagSrc" retryCount="1" debugEnable="false">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalGroupWgt" threadEnable="false" id="_IdalGrpSrc" retryCount="1" debugEnable="false">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="TrendMgrWgt" id="_TrendMgr" fileName="trends.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="ReportMgrWgt" id="_ReportMgr" fileName="reports.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="ReportPageMgrWgt" id="_ReportPageMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <categories>
+    <category technology="3" defaultsize="800,480" home="PageBlank.jmx" name="Native"/>
+   </categories>
+  </object>
+  <object class="DictionaryMgrWgt" id="_DictionaryMgr" fileName="dictionaries.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="PageMLTextMgrWgt" mlFileName="alarms.xml" id="_AlarmMLTextMgr" mgrType="Alarm">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="AlarmsMgrWgt" nCustomFields="2" id="_AlarmsMgr" fileName="alarms.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <dataLinks>
+    <dataLink sourceType="Data" dataSource="_IdalAlarms" readWrite="R" attribute="AlarmSource"/>
+   </dataLinks>
+  </object>
+  <object class="EventMgrWgt" id="_EventMgr" fileName="eventconfig.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="PageMLTextMgrWgt" mlFileName="scheduler.xml" id="_ScheduleMLTextMgr" mgrType="Scheduler">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="ScheduleMgrWgt" id="_ScheduleMgr" fileName="scheduler.xml">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalAlarmsWgt" threadEnable="false" id="_IdalAlarms" retryCount="1" debugEnable="false">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalUserMgmtWgt" id="_IdalUserMgmt">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalMgrWgt" id="_IdalMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="RecipeMgrWgt" id="_RecipeMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <dataLinks>
+    <dataLink sourceType="Recipe" dataSource="_IdalRecipe" readWrite="R/W" attribute="recipeIOSrc"/>
+   </dataLinks>
+  </object>
+  <object class="AuditTrailMgrWgt" id="_AuditTrailMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="DataTransferMgrWgt" id="_DataTransferMgr" syncOnInit="true">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IndexedTagSetMgrWgt" id="_IndexedTagSetMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="DBConnectorMgrWgt" id="_DBConnectorMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalDBConnectorWgt" id="_IdalDBConnector">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="UserGroupMgrWgt" id="_UserGroupMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="UserMgrWgt" id="_UserMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <dataLinks>
+    <dataLink sourceType="Data" dataSource="_IdalUserMgmt" readWrite="R" attribute="userSource"/>
+    <dataLink sourceType="Data" dataSource="_IdalUserMgmt" readWrite="W" attribute="userSource"/>
+   </dataLinks>
+  </object>
+  <object class="PrintMgrWgt" id="_PrintMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="ThreadMgrWgt" id="_ThreadMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <dataLinks>
+    <dataLink sourceType="Data" dataSource="_IdalItems" readWrite="W" attribute="WriteSource"/>
+   </dataLinks>
+  </object>
+  <object class="IdalItemsWgt" threadEnable="false" id="_IdalItems" retryCount="1" debugEnable="false">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="VariablesWgt" id="_VariablesWgt">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="RemoteClientMgrWgt" id="_RemoteClientMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="SysPropMgrWgt" id="_SysPropMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <dataLinks>
+    <dataLink sourceType="Data" dataSource="_IdalSysProp" readWrite="R/W" attribute="sysIOSrc"/>
+   </dataLinks>
+  </object>
+  <object class="ScreenMgrWgt" id="_ScreenMgr" TimeOutInterval="60">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalRecipeWgt" id="_IdalRecipe">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IdalSysPropWgt" id="_IdalSysProp">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="KeypadMgrWgt" id="_KeypadMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="KeyExtMgrWgt" id="_KeyExtMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="OPCUAMgrWgt" id="_OPCUAMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="IFMqttMgrWgt" id="_IFMqttMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="SignatureMgrWgt" id="_SignatureMgr">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+ </object>
+</wgtPage>

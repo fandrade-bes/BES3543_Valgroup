@@ -1,0 +1,150 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="TemplatePageWgt" staticFile="opt/" downloadPrepDone="false" staticOptEnable="true" id="LB_Geral" pageType="template" dataWndSize="0,70" pageName="LB_Geral" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" color="none" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_TemplatePageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="12" L1=""/>
+    <MLText id="8" L1="B"/>
+    <MLText id="31" L1="Receita:"/>
+    <MLText id="32" L1="Receita"/>
+    <MLText id="33" L1="Usuario"/>
+    <MLText id="34" L1="Usuário:"/>
+    <MLText id="35" L1="Screen Name"/>
+   </MLTexts>
+  </object>
+  <object class="ShapeWgt" id="rect3" static="true">
+   <wgtStyle x="-0.61" y="-2.79" stroke-width="0" cx="387.42" cy="18.49" stroke="none" width="800.61" height="36.99" fill="rgb(40,40,40)" nodeName="rect"/>
+  </object>
+  <object class="ShapeWgt" id="rect2" static="true">
+   <wgtStyle x="-1" y="443.99" stroke-width="0" cx="388.09" cy="18.50" stroke="none" width="802" height="37" fill="rgb(40,40,40)" nodeName="rect"/>
+  </object>
+  <object class="NumericWgt" id="timedate2">
+   <wgtStyle frameColor="none" form="date-time" min="0" timeSpec="local" font-size="10" step="1" cx="38.60" cy="12.71" x="739" numberFormat="0" showThousandSeparator="false" y="440" font-sizepx="13" font-bold="true" height="20" font-color="rgb(255,255,255)" frameFill="rgb(192,192,192)" min-font-size="8" width="53.65" alignment="center" max="4096" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="hh:mm" font-family="Calibri" text="-1" value="-1" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="SysPropMgrWgt" sourceType="System" tag="System Time" dataSource="_SysPropMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="image2" static="true">
+   <wgtStyle imagePath="images/logo B&amp;S.png" x="706.66" y="0.02" cx="15.33" cy="4.93" width="92.95" height="33.54"/>
+  </object>
+  <object class="LabelWgt" id="label1">
+   <wgtStyle font-size="10" wrapping="true" cx="71.50" cy="8.14" x="98.98" marker="true" y="14.49" font-sizepx="13" height="15.28" font-color="rgb(232,232,232)" min-font-size="8" width="60.14" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Segoe UI Light" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="SysPropMgrWgt" sourceType="System" tag="This Client User-Name" dataSource="_SysPropMgr" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="33">
+     <MLFontFamily L1="Segoe UI Light"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label2">
+   <wgtStyle font-size="10" wrapping="true" cx="30.07" cy="7.23" x="98.98" marker="true" y="1.63" font-sizepx="13" font-bold="true" height="15.28" font-color="rgb(232,232,232)" min-font-size="8" width="60.14" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Segoe UI Light" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="34">
+     <MLFontFamily L1="Segoe UI Light"/>
+    </lang>
+   </links>
+  </object>
+  <object class="NumericWgt" id="timedate1">
+   <wgtStyle frameColor="none" form="date-time" min="0" timeSpec="local" font-size="10" step="1" cx="35.15" cy="12.11" x="738.65" numberFormat="0" showThousandSeparator="false" y="459" font-sizepx="13" font-bold="true" height="19" font-color="rgb(255,255,255)" frameFill="rgb(192,192,192)" min-font-size="8" width="54" alignment="center" max="4096" vert-align="middle" wrap-type="wordWrap" forcePaint="73" usingFormat="DD/MM/YY" font-family="Calibri" text="-1" value="-1" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="SysPropMgrWgt" sourceType="System" tag="System Time" dataSource="_SysPropMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="GroupWgt" customType="Shape Button" id="BtnRect">
+   <wgtStyle x="6" y="445" cx="33.50" cy="15.50" width="67" height="31"/>
+   <object class="ButtonWgt" id="BtnRect.btn" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="none" needlePath="images\win-like-press.svg" y="0" needleColor="none" dx="1" dy="-1" value="0" stroke="none" width="67" height="31" fill="none" downFillColor="none"/>
+    <links>
+     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="lb_menu geral.jmx" attribute="onMouseRelease"/>
+    </links>
+   </object>
+   <object class="LabelWgt" id="BtnRect.txt" static="true">
+    <wgtStyle font-size="14" wrapping="true" cx="24.91" cy="5.16" x="18.88" y="11.78" font-sizepx="18" font-bold="true" height="9.92" font-color="rgb(0,0,255)" min-font-size="8" width="48.51" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Arial" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="12">
+      <MLFontFamily L1="Arial"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ImageWgt" id="image1">
+   <wgtStyle imagePath="images/icons8-card_U225pio-48.png" x="8" y="445" cx="78.75" cy="50.10" width="36" height="37" forcePaint="1"/>
+  </object>
+  <object class="MultiStateImageWgt" id="GroupWgt3.MultistateImage1">
+   <wgtStyle imagePath="images/,images/icons8-erro-482.png" continuousIndex="1" frame="1" x="587.94" y="-4" imagePathIndexList="" cx="18.75" cy="19.30" width="37.49" height="38.60"/>
+  </object>
+  <object class="GroupWgt" customType="Shape Button" id="BtnOthersRect3">
+   <wgtStyle x="579.73" y="1.63" cx="26.95" cy="15.68" width="53.89" height="31.36" forcePaint="1"/>
+   <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton9" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="none" needlePath="images\win-like-press.svg" y="0" needleColor="none" dx="1" dy="-1" value="0" stroke="none" width="53.89" height="31.36" fill="none" forcePaint="1" downFillColor="none"/>
+    <links>
+     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="alarmes.jmx" attribute="onMouseRelease"/>
+    </links>
+   </object>
+   <object class="LabelWgt" id="SimpleRectBtn1-text9" static="true">
+    <wgtStyle font-size="16" wrapping="true" cx="20.03" cy="5.22" x="8.37" y="10.66" font-sizepx="21" font-bold="true" height="10.04" font-color="rgb(255,255,255)" min-font-size="8" width="39.03" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="12">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ShapeWgt" id="rect1" static="true">
+   <wgtStyle x="318.46" y="0.02" stroke-width="2" cx="113.38" cy="14.88" stroke="rgb(232,232,232)" width="234.32" height="29.75" fill="none" nodeName="rect"/>
+  </object>
+  <object class="LabelWgt" id="label3">
+   <wgtStyle font-size="12" wrapping="true" cx="270.23" cy="9.85" x="321.59" marker="true" y="4.85" font-sizepx="16" height="18.49" font-color="rgb(232,232,232)" min-font-size="8" width="227.30" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Segoe UI" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="SysPropMgrWgt" tagType="string" sourceType="System" tag="Current page" dataSource="_SysPropMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="35">
+     <MLFontFamily L1="Segoe UI"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label4">
+   <wgtStyle font-size="10" wrapping="true" cx="173.67" cy="9.53" x="161.04" marker="true" y="12.89" font-sizepx="13" height="17.90" font-color="rgb(232,232,232)" min-font-size="8" width="146.06" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Segoe UI Light" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/PVAR/rec_ATUAL/NOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="32">
+     <MLFontFamily L1="Segoe UI Light"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label5">
+   <wgtStyle font-size="10" wrapping="true" cx="73.03" cy="8.47" x="161.04" marker="true" y="-2.39" font-sizepx="13" font-bold="true" height="17.90" font-color="rgb(232,232,232)" min-font-size="8" width="146.06" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Segoe UI Light" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="31">
+     <MLFontFamily L1="Segoe UI Light"/>
+    </lang>
+   </links>
+  </object>
+  <object class="ShapeWgt" id="rect4" static="true">
+   <wgtStyle x="-1" y="-2.79" cx="48.38" cy="18.90" stroke="none" width="99.98" height="37.79" fill="rgb(255,255,255)" nodeName="rect"/>
+  </object>
+  <object class="ImageWgt" id="ImageWgt1" static="true">
+   <wgtStyle imagePath="images/valgroup.png" x="-0.22" y="1.23" cx="49.21" cy="14.47" width="98.42" height="28.95"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="LB_Geral@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="LabelWgt" id="GroupWgt9.GroupWgt1.label41" static="true">
+   <wgtStyle frameColor="none" font-size="18" wrapping="true" frameSize="0" cx="47.68" cy="22.52" x="638.71" marker="true" y="-4.71" font-sizepx="24" font-bold="true" height="43" font-color="rgb(255,255,255)" min-font-size="8" width="52" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="8">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+ </object>
+</wgtPage>

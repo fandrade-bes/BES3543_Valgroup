@@ -1,0 +1,108 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="PageWgt" staticFile="opt/alarmes.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="Alarmes" dataWndSize="0,70" pageName="Alarmes" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="6" L1=""/>
+    <MLText id="0" L1="Histórico"/>
+    <MLText id="1" L1="Descricao"/>
+    <MLText id="2" L1="Data / Hora"/>
+    <MLText id="3" L1="Grupo"/>
+    <MLText id="4" L1="State"/>
+   </MLTexts>
+  </object>
+  <object class="GroupWgt" customType="Shape Button" id="BtnOthersRect1">
+   <wgtStyle x="336.21" y="400.94" cx="81.31" cy="19.30" width="162.62" height="38.59"/>
+   <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton2" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="162.62" height="38.59" fill="rgb(247,247,247)" downFillColor="rgb(247,247,247)"/>
+    <links>
+     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="historico alarmes.jmx" attribute="onMouseRelease"/>
+    </links>
+   </object>
+   <object class="LabelWgt" id="SimpleRectBtn1-text2" static="true">
+    <wgtStyle font-size="16" wrapping="true" cx="60.45" cy="6.42" x="25.24" y="13.12" font-sizepx="21" font-bold="true" height="12.35" font-color="rgb(255,255,255)" min-font-size="8" width="117.76" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="6">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ImageWgt" id="image7">
+   <wgtStyle imagePath="images/icons8-erro-482.png" x="347.94" y="400.94" cx="15.64" cy="16.08" width="37.53" height="38.59" forcePaint="1"/>
+  </object>
+  <object class="LabelWgt" id="GroupWgt7.label3">
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="88.91" cy="13.05" x="401.88" marker="true" y="407.37" font-sizepx="19" font-bold="true" height="24.93" min-font-size="8" width="96.95" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="0">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="TableWgt" id="table">
+   <wgtStyle frameThickness="2" hdrfgColor="rgb(255,255,255)" cx="40.69" cy="10.19" x="-0.42" y="40.53" enableSort="true" filterString="^((Not Triggered Acked|Not Triggered Not Acked|Triggered).*$)" font-sizepx="13" font-bold="true" height="353.78" datafont-sizepx="13" hdrbgColor="rgb(80,80,115)" sortOrder="0" width="801" scrollHeight="25" scroll_type="1" forcePaint="8" showHeader="true" font-family="Calibri" filterCol="3"/>
+   <dataLinks>
+    <dataLink sourceType="Data" tag="alarmCount" dataSource="_AlarmsMgr" widgetType="Project" readWrite="R" attribute="rowCount"/>
+    <dataLink sourceType="Widget" tag="FGColor" dataSource="_AlarmsMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fgColor">
+     <xForms>
+      <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="" name="ColorPaletteCustom"/>
+     </xForms>
+    </dataLink>
+    <dataLink sourceType="Data" tag="BGColor" dataSource="_AlarmsMgr" widgetType="Project" readWrite="R" attribute="bgColor">
+     <xForms>
+      <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="" name="ColorPaletteCustom"/>
+     </xForms>
+    </dataLink>
+    <dataLink sourceType="Widget" tag="alSelect" dataSource="_AlarmsMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="selectionAttr"/>
+   </dataLinks>
+   <table cols="4" rows="0">
+    <colInfo>
+     <col type="4" numberformat="DD/MM/YY - hh:mm" sizeToFit="false" name="Data / Hora" visibility="true" stringList="" width="120">
+      <links>
+       <lang class="MLTableColLink:tableCol:" textid="2">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+      <dataLinks>
+       <dataLink sourceType="Data" tag="alDateTime" dataSource="_AlarmsMgr" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </col>
+     <col type="0" sizeToFit="false" name="Grupo" visibility="true" stringList="" width="100">
+      <links>
+       <lang class="MLTableColLink:tableCol:" textid="3">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+      <dataLinks>
+       <dataLink sourceType="Widget" tag="alGroups" dataSource="_AlarmsMgr" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </col>
+     <col type="0" sizeToFit="false" name="Descricao" visibility="true" stringList="" width="800">
+      <links>
+       <lang class="MLTableColLink:tableCol:" textid="1">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+      <dataLinks>
+       <dataLink sourceType="Data" tag="alDescription" dataSource="_AlarmsMgr" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </col>
+     <col type="0" sizeToFit="false" name="State" visibility="false" stringList="" width="100">
+      <links>
+       <lang class="MLTableColLink:tableCol:" textid="4">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+      <dataLinks>
+       <dataLink sourceType="Widget" tag="alState" dataSource="_AlarmsMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </col>
+    </colInfo>
+   </table>
+  </object>
+ </object>
+</wgtPage>

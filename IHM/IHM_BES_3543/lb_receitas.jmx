@@ -1,0 +1,573 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="PageWgt" staticFile="opt/lb_receitas.png" downloadPrepDone="false" templateFile="lb_geral.jmx" staticOptEnable="true" id="LB_Receitas" dataWndSize="0,70" pageName="LB_Receitas" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto,Tahoma,Roboto Light">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="1" L1="Parâmetros Envolvedor"/>
+    <MLText id="2" L1="Parâmetros Empilhador"/>
+    <MLText id="3" L1="Comandos das Receitas"/>
+    <MLText id="4" L1="Seleção de Receitas"/>
+    <MLText id="5" L1="Salvar"/>
+    <MLText id="6" L1="Carregar"/>
+    <MLText id="7" L1="Upload"/>
+    <MLText id="8" L1="Download"/>
+    <MLText id="9" L1="Receita Carregada:"/>
+    <MLText id="10" L1="Receita Atual:"/>
+    <MLText id="11" L1="Sacola 1"/>
+    <MLText id="12" L1="Sacola 2"/>
+    <MLText id="13" L1="Sacola 3"/>
+    <MLText id="14" L1="Sacola 4"/>
+    <MLText id="15" L1="Sacola 5"/>
+    <MLText id="16" L1="Sacola 6"/>
+    <MLText id="17" L1="Sacola 7"/>
+    <MLText id="18" L1="Sacola 8"/>
+    <MLText id="19" L1="Sacola 9"/>
+    <MLText id="20" L1="Sacola 10"/>
+    <MLText id="21" L1="Dados"/>
+    <MLText id="22" L1="Label"/>
+    <MLText id="25" L1="Peso Produto g"/>
+   </MLTexts>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt4.rect2" static="true">
+   <wgtStyle x="14.26" y="42.04" cx="119.97" cy="197.92" width="247.94" height="395.85" fill="rgb(40,40,40)" nodeName="rect"/>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt4.rect4" static="true">
+   <wgtStyle x="286.46" y="43.49" cx="236.13" cy="108.99" width="488.01" height="217.97" fill="rgb(40,40,40)" nodeName="rect"/>
+  </object>
+  <object class="LabelWgt" id="label6" static="true">
+   <wgtStyle font-size="10" wrapping="true" cx="83.14" cy="16.60" x="283.24" marker="true" y="129.48" font-sizepx="13" font-bold="true" height="35.05" font-color="rgb(255,255,255)" min-font-size="8" width="166.26" alignment="right" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="9"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label7" static="true">
+   <wgtStyle font-size="10" wrapping="true" cx="83.14" cy="16.60" x="283.24" marker="true" y="85.89" font-sizepx="13" font-bold="true" height="35.05" font-color="rgb(255,255,255)" min-font-size="8" width="166.26" alignment="right" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="10"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt6.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="69.20" dx="1" dy="-1" cx="113.38" cy="16.41" value="0" width="230.31" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt6.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="74.77" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="11"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt7.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="106.63" dx="1" dy="-1" cx="113.28" cy="16.41" value="0" width="230.12" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt7.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="112.21" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="12"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt8.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="144.07" dx="1" dy="-1" cx="113.18" cy="16.41" value="0" width="229.92" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt8.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="149.64" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="13"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt9.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="181.50" dx="1" dy="-1" cx="113.09" cy="16.41" value="0" width="229.73" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_4" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt9.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="187.07" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_4" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="14"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt10.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="218.94" dx="1" dy="-1" cx="113" cy="16.41" value="0" width="229.54" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_5" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt10.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="224.51" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_5" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="15"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt11.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="256.37" dx="1" dy="-1" cx="112.90" cy="16.41" value="0" width="229.35" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_6" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt11.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="261.95" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_6" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="16"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt12.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="293.01" dx="1" dy="-1" cx="112.81" cy="16.41" value="0" width="229.16" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_7" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt12.label6">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="298.59" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_7" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="17"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt12">
+   <wgtStyle x="417.10" y="161.28" cx="49.66" cy="46.95" width="99.33" height="93.89"/>
+   <object class="ButtonWgt" id="GroupWgt12.hotspotbtn3" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="2.16" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="47.84" cy="46.03" value="0" width="97.18" height="93.89" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+    <links>
+     <action class="ShowDialogAction" actionID="0" event="onMouseUp" actionWgt="_PageMgr" pageName="salvar receita.jmx" attribute="onMouseRelease"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="GroupWgt12.image9">
+    <wgtStyle imagePath="images/icons8-salvar-48.png" x="23.76" y="7.51" cx="19.43" cy="23.17" width="51.83" height="60.08" forcePaint="1"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt12.label4">
+    <wgtStyle font-size="12" wrapping="true" cx="49.66" cy="14.83" x="0" marker="true" y="60.08" font-sizepx="16" font-bold="true" height="31.29" font-color="rgb(255,255,255)" min-font-size="8" width="99.33" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="5">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt15">
+   <wgtStyle x="289.70" y="160.11" cx="49.66" cy="46.94" width="99.33" height="93.89"/>
+   <object class="ButtonWgt" id="GroupWgt15.hotspotbtn2" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="1.08" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="47.84" cy="46.03" value="0" width="97.18" height="93.89" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bt_CARREGAR_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="ImageWgt" id="GroupWgt15.image9">
+    <wgtStyle imagePath="images/icons8-abrir-documento-48.png" x="23.76" y="6.26" cx="19.43" cy="23.17" width="51.83" height="60.08" forcePaint="1"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt15.label4">
+    <wgtStyle font-size="12" wrapping="true" cx="49.66" cy="14.83" x="0" marker="true" y="61.33" font-sizepx="16" font-bold="true" height="31.29" font-color="rgb(255,255,255)" min-font-size="8" width="99.33" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="6">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt16">
+   <wgtStyle x="670.82" y="161.28" cx="49.66" cy="46.94" width="99.33" height="93.89"/>
+   <object class="ButtonWgt" id="GroupWgt16.hotspotbtn5" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="1.08" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="47.84" cy="46.03" value="0" width="97.18" height="93.89" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bt_DOWNLOAD_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="ImageWgt" id="GroupWgt16.image9">
+    <wgtStyle imagePath="images/icons8-baixar-48.png" x="23.76" y="7.51" cx="19.43" cy="23.17" width="51.83" height="60.08" forcePaint="1"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt16.label4">
+    <wgtStyle font-size="12" wrapping="true" cx="49.66" cy="14.83" x="0" marker="true" y="60.08" font-sizepx="16" font-bold="true" height="31.29" font-color="rgb(255,255,255)" min-font-size="8" width="99.33" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="8">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt17">
+   <wgtStyle x="543.42" y="160.11" cx="49.66" cy="46.94" width="99.33" height="93.89"/>
+   <object class="ButtonWgt" id="GroupWgt17.hotspotbtn4" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="2.16" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="47.84" cy="46.03" value="0" width="97.18" height="93.89" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bt_UPLOAD_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt17.label4">
+    <wgtStyle font-size="12" wrapping="true" cx="49.66" cy="14.83" x="0" marker="true" y="61.33" font-sizepx="16" font-bold="true" height="31.29" font-color="rgb(255,255,255)" min-font-size="8" width="99.33" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="7">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="ImageWgt" id="GroupWgt17.image9">
+    <wgtStyle imagePath="images/icons8-fazer-upload-48.png" x="23.76" y="8.77" cx="19.43" cy="23.17" width="51.83" height="60.08" forcePaint="1"/>
+   </object>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt8.rect4" static="true">
+   <wgtStyle x="14.26" y="42.55" stroke-width="0" cx="119.39" cy="9.59" width="246.75" height="19.18" fill="rgb(87,106,130)" nodeName="rect"/>
+  </object>
+  <object class="LabelWgt" id="label8" static="true">
+   <wgtStyle font-size="10" wrapping="true" cx="117.75" cy="8.30" x="17.65" marker="true" y="45.31" font-sizepx="13" font-bold="true" height="17.52" font-color="rgb(255,255,255)" min-font-size="8" width="235.48" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="4"/>
+   </links>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage1">
+   <wgtStyle imagePath="images/,images/icons8-ok-25.png,images/,images/,images/" continuousIndex="1" frame="1" x="300.49" y="158.93" imagePathIndexList="" cx="13.50" cy="14.73" width="26.99" height="29.46" forcePaint="9"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage2">
+   <wgtStyle imagePath="images/.images/,images/.images/,images/icons8-ok-25.png,images/.images/,images/.images/" continuousIndex="1" frame="2" x="427.89" y="158.93" imagePathIndexList="" cx="13.50" cy="14.73" width="26.99" height="29.46" forcePaint="9"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage3">
+   <wgtStyle imagePath="images/,images/,images/,images/icons8-ok-25.png,images/" continuousIndex="1" frame="3" x="556.38" y="158.93" imagePathIndexList="" cx="13.50" cy="14.73" width="26.99" height="29.46" forcePaint="9"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage4">
+   <wgtStyle imagePath="images/,images/,images/,images/,images/icons8-ok-25.png" continuousIndex="1" frame="4" x="684.86" y="158.93" imagePathIndexList="" cx="13.50" cy="14.73" width="26.99" height="29.46" forcePaint="9"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt20.hotspotbtn1" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="330.44" dx="1" dy="-1" cx="112.71" cy="16.41" value="0" width="228.96" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_8" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt20.label1">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="336.02" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_8" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="18"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt11.hotspotbtn1" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="367.88" dx="1" dy="-1" cx="112.62" cy="16.41" value="0" width="228.77" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_9" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt11.label1">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="373.45" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_9" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="19"/>
+   </links>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt12.hotspotbtn2" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="404.52" dx="1" dy="-1" cx="112.52" cy="16.41" value="0" width="228.57" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_SELEC_RECEITA_10" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="GroupWgt12.label1">
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="410.09" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_IHM/nome_RECEITA_10" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="20"/>
+   </links>
+  </object>
+  <object class="NumericWgt" id="numeric1">
+   <wgtStyle form="Numeric" timeSpec="local" font-size="10" cx="75.98" cy="12.20" x="458.12" numberFormat="0" showThousandSeparator="false" y="124.77" font-sizepx="13" height="27.09" font-color="rgb(255,255,255)" readWrite="true" min-font-size="8" width="165.19" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Tahoma" text="NOME" value="NOME" keypad-type="Alphabet" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/NOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+   </dataLinks>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt18.rect5" static="true">
+   <wgtStyle x="286.36" y="43.69" stroke-width="0" cx="235.69" cy="14" width="487.11" height="28" fill="rgb(87,106,130)" nodeName="rect"/>
+  </object>
+  <object class="LabelWgt" id="label9" static="true">
+   <wgtStyle font-size="10" wrapping="true" cx="112.29" cy="12.28" x="420.83" marker="true" y="49.36" font-sizepx="13" font-bold="true" height="25.92" font-color="rgb(255,255,255)" min-font-size="8" width="224.57" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
+   </links>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt4.rect1" static="true">
+   <wgtStyle x="285.86" y="269.92" cx="235.89" cy="84.10" width="487.51" height="168.21" fill="rgb(40,40,40)" nodeName="rect"/>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt8.rect1" static="true">
+   <wgtStyle x="285.68" y="269.37" stroke-width="0" cx="235.81" cy="11.69" width="487.35" height="23.38" fill="rgb(87,106,130)" nodeName="rect"/>
+  </object>
+  <object class="LabelWgt" id="label10" static="true">
+   <wgtStyle font-size="10" wrapping="true" cx="96.29" cy="10.85" x="437.58" marker="true" y="273.41" font-sizepx="13" font-bold="true" height="22.91" font-color="rgb(255,255,255)" min-font-size="8" width="192.58" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="21"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="Arrows5">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="76.10" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==1" compiledExpression="$0==1" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows1">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="113.32" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==2" compiledExpression="$0==2" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows2">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="150.53" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==3" compiledExpression="$0==3" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows3">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="187.74" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==4" compiledExpression="$0==4" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows4">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="224.95" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==5" compiledExpression="$0==5" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows6">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="262.17" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==6" compiledExpression="$0==6" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows7">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="299.39" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==7" compiledExpression="$0==7" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows8">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="336.60" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==8" compiledExpression="$0==8" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows9">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="373.81" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==9" compiledExpression="$0==9" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="Arrows10">
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="411.02" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm class="FormulaXForm" expression="$('Application/GVL_IHM/int_RECEITA_ATUAL')==10" compiledExpression="$0==10" colorPalette="" name="Formula">
+       <dataLinks>
+        <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="LabelWgt" id="label11">
+   <wgtStyle font-size="10" wrapping="true" cx="92.22" cy="15.92" x="458.12" marker="true" y="85.89" font-sizepx="13" height="33.61" font-color="rgb(255,255,255)" min-font-size="8" width="184.45" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/PVAR/rec_ATUAL/NOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="22"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt3">
+   <wgtStyle staticFile="opt/LB_ReceitasGroupWgt3.png" x="615.45" y="285.27" cx="82.90" cy="78.88" width="165.81" height="157.77" forcePaint="97"/>
+   <object class="LabelWgt" id="GroupWgt3.label16" static="true">
+    <wgtStyle font-size="12" wrapping="true" cx="68.11" cy="23.99" x="14.64" marker="true" y="107.15" font-sizepx="16" font-bold="true" height="50.61" font-color="rgb(255,255,255)" min-font-size="8" width="136.23" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt1">
+    <wgtStyle x="22.70" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55"/>
+    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt4" static="true">
+     <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="0" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55"/>
+    </object>
+    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt6" static="true">
+     <wgtStyle imagePath="images/2114532.png" x="14.33" y="26.91" mtx="0.999768,0.0215225,0,-0.0226431,0.999744,0,1.59001,0,1" cx="45.72" cy="36.07" width="89.86" height="70.22"/>
+    </object>
+    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt7" static="true">
+     <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="54.25" y="52.97" mtx="0.112511,0.993651,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93"/>
+    </object>
+   </object>
+   <object class="ButtonWgt" id="GroupWgt3.hotspotbtn2" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="12.65" dx="1" dy="-1" cx="81.63" cy="66.80" value="0" width="165.81" height="136.29" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+    <links>
+     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="lb_parametros - empilhador garra.jmx" attribute="onMouseRelease"/>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt1">
+   <wgtStyle x="439.37" y="284.07" cx="82.90" cy="75.05" width="165.81" height="150.09"/>
+   <object class="ButtonWgt" id="GroupWgt1.hotspotbtn1" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="13.39" dx="1" dy="-1" cx="81.63" cy="66.80" value="0" width="165.81" height="136.29" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+    <links>
+     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="lb_parametros - envolvedor.jmx" attribute="onMouseRelease"/>
+    </links>
+   </object>
+   <object class="ImageWgt" id="GroupWgt1.ImageWgt3">
+    <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="22.94" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55" forcePaint="1"/>
+   </object>
+   <object class="ImageWgt" id="GroupWgt1.ImageWgt2">
+    <wgtStyle imagePath="images/bandage_3983709.png" x="48.12" y="24.01" cx="34.87" cy="41.63" width="69.73" height="83.27" forcePaint="1"/>
+   </object>
+   <object class="ImageWgt" id="GroupWgt1.ImageWgt5">
+    <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="83.56" y="52.06" mtx="0.112511,0.993651,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93" forcePaint="1"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt1.label10">
+    <wgtStyle font-size="12" wrapping="true" cx="68.57" cy="20.12" x="14.81" marker="true" y="107.64" font-sizepx="16" font-bold="true" height="42.45" font-color="rgb(255,255,255)" min-font-size="8" width="137.14" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="1"/>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt2">
+   <wgtStyle x="288.28" y="283.86" cx="68.57" cy="75.25" width="137.14" height="150.51"/>
+   <object class="ImageWgt" id="GroupWgt2.ImageWgt3" static="true">
+    <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="8.52" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55"/>
+   </object>
+   <object class="ImageWgt" id="GroupWgt2.ImageWgt2" static="true">
+    <wgtStyle imagePath="images/weighing-scale_4228652.png" x="34.77" y="27.24" cx="33.80" cy="34.47" width="67.61" height="68.96"/>
+   </object>
+   <object class="ImageWgt" id="GroupWgt2.ImageWgt5" static="true">
+    <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="74.06" y="52.06" mtx="0.112511,0.99365,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt2.label1" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" cx="68.57" cy="20.12" x="0" marker="true" y="105.14" font-sizepx="16" font-bold="true" height="41.45" font-color="rgb(255,255,255)" min-font-size="8" width="136.14" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="25">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="NumericWgt" id="GroupWgt2.numeric1">
+    <wgtStyle frameColor="none" form="Numeric" min="-3.40282e+38" timeSpec="local" font-size="14" step="1" cx="54.53" cy="66.48" decimalDigits="1" x="9.30" numberFormat="1" showThousandSeparator="false" y="2.75" font-sizepx="19" font-bold="true" height="146.76" font-color="rgb(255,255,255)" readWrite="true" min-font-size="8" width="117.54" alignment="center" max="3.40282e+38" vert-align="bottom" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="float" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/num_PESO_SACOLA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+  </object>
+  <object class="GroupSubscribeWgt" id="LB_Receitas@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+ </object>
+</wgtPage>

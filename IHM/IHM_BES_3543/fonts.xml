@@ -1,0 +1,15 @@
+<fonts>
+ <font embed="true" name="Roboto-Regular.ttf" removable="false" size="170984" langIds="1" fontname="Roboto"/>
+ <font embed="true" name="Roboto-Bold.ttf" removable="false" size="170064" langIds="1" fontname="Roboto"/>
+ <font name="calibri.ttf" removable="false" size="1650632" langIds="1" fontname="Calibri"/>
+ <font name="calibrib.ttf" removable="false" size="1615616" langIds="1" fontname="Calibri"/>
+ <font name="segoeuil.ttf" removable="false" size="910144" langIds="1" fontname="Segoe UI Light"/>
+ <font name="arial.ttf" removable="false" size="1045720" langIds="1" fontname="Arial"/>
+ <font name="arialbd.ttf" removable="false" size="989780" langIds="1" fontname="Arial"/>
+ <font name="segoeui.ttf" removable="false" size="959752" langIds="1" fontname="Segoe UI"/>
+ <font name="segoeuib.ttf" removable="false" size="947092" langIds="1" fontname="Segoe UI"/>
+ <font name="tahoma.ttf" removable="false" size="919260" langIds="1" fontname="Tahoma"/>
+ <font name="tahomabd.ttf" removable="false" size="849284" langIds="1" fontname="Tahoma"/>
+ <font embed="true" name="Roboto-Light.ttf" removable="false" size="169680" langIds="1" fontname="Roboto Light"/>
+ <font embed="true" name="Roboto-Medium.ttf" removable="false" size="171320" langIds="1" fontname="Roboto Medium"/>
+</fonts>

@@ -1,0 +1,109 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="DialogWgt" staticFile="opt/salvar receita.png" downloadPrepDone="false" dynPosition="false" titlebar="false" singleInstance="true" staticOptEnable="true" titleName="" px="0" id="Salvar Receita" py="0" dataWndSize="0,70" pageType="modal" pageName="Salvar Receita" pageSize="600,400" usedFonts="Segoe UI,Arial,Roboto,Calibri">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" color="rgb(40,40,40)" width="600" height="400" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="A receita carregada será salva e irá sobrescrever a receita Selecionada.&#xa;Tem certeza de que quer continuar?"/>
+    <MLText id="1" L1="SALVAR"/>
+    <MLText id="2" L1="Label"/>
+    <MLText id="3" L1="Receita Carregada:"/>
+    <MLText id="4" L1="Receita Selecionada:"/>
+    <MLText id="5" L1="Salvar"/>
+   </MLTexts>
+  </object>
+  <object class="GroupWgt" id="GroupWgt4">
+   <wgtStyle x="0" y="0.84" cx="300" cy="24.50" width="600" height="48.99"/>
+   <object class="ShapeWgt" id="GroupWgt4.rect2" static="true">
+    <wgtStyle x="0" y="0" stroke-width="0" cx="290.32" cy="24.50" width="600" height="48.99" fill="rgb(87,106,130)" nodeName="rect"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt4.label17" static="true">
+    <wgtStyle font-size="16" wrapping="true" cx="529.54" cy="17.65" x="77.30" marker="true" y="10.14" font-sizepx="21" font-bold="true" height="33.14" font-color="rgb(232,232,232)" min-font-size="8" width="445.41" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Segoe UI" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="1">
+      <MLFontFamily L1="Segoe UI"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt3.hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="519.06" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="35.67" cy="29.73" value="0" width="72.46" height="60.64" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+   <links>
+    <action class="CloseDialogAction" actionID="0" closeParam="Selected" event="onMouseUp" actionWgt="_PageMgr" pageName="" attribute="onMouseRelease"/>
+   </links>
+  </object>
+  <object class="ImageWgt" id="GroupWgt3.image1">
+   <wgtStyle imagePath="images/icons8-excluir-30.png" x="533.85" y="6.76" cx="14.13" cy="17.67" width="44.36" height="44.37" forcePaint="1"/>
+  </object>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle font-size="16" wrapping="true" cx="221.28" cy="56.03" x="76.17" marker="true" y="73.37" font-sizepx="21" font-bold="true" height="118.29" font-color="rgb(255,255,255)" min-font-size="8" width="442.57" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Arial" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="0">
+     <MLFontFamily L1="Arial"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label4" static="true">
+   <wgtStyle font-size="14" wrapping="true" cx="113.87" cy="20.84" x="70.99" marker="true" y="168.20" font-sizepx="19" font-bold="true" height="44" font-color="rgb(255,255,255)" min-font-size="8" width="227.74" alignment="right" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label8">
+   <wgtStyle font-size="14" wrapping="true" cx="110.17" cy="22.33" x="310.55" marker="true" y="168.20" font-sizepx="19" height="47.15" font-color="rgb(255,255,255)" min-font-size="8" width="220.35" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/NOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="2"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label2" static="true">
+   <wgtStyle font-size="14" wrapping="true" cx="113.87" cy="20.84" x="75.41" marker="true" y="231.93" font-sizepx="19" font-bold="true" height="44" font-color="rgb(255,255,255)" min-font-size="8" width="227.74" alignment="right" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="4"/>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label3">
+   <wgtStyle font-size="14" wrapping="true" cx="110.17" cy="22.33" x="310.55" marker="true" y="231.93" font-sizepx="19" height="47.15" font-color="rgb(255,255,255)" min-font-size="8" width="220.35" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_GERAL/rec_SELECIONADA/NOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
+   </dataLinks>
+   <links>
+    <lang class="MLTextLink" textid="2"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt2">
+   <wgtStyle x="235.13" y="279.13" cx="68.03" cy="58.93" width="136.05" height="117.87"/>
+   <object class="ButtonWgt" id="GroupWgt2.hotspotbtn3" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="2.96" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="65.53" cy="57.79" value="0" width="133.09" height="117.87" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bt_SALVAR_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="ImageWgt" id="GroupWgt2.image9">
+    <wgtStyle imagePath="images/icons8-salvar-48.png" x="32.54" y="9.42" cx="26.62" cy="29.08" width="70.99" height="75.43" forcePaint="1"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt2.label4">
+    <wgtStyle font-size="12" wrapping="true" cx="68.03" cy="18.63" x="0" marker="true" y="75.43" font-sizepx="16" font-bold="true" height="39.29" font-color="rgb(255,255,255)" min-font-size="8" width="136.05" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="5">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage2">
+   <wgtStyle imagePath="images/,images/,images/icons8-ok-25.png,images/,images/" continuousIndex="1" frame="2" x="257.31" y="282.08" imagePathIndexList="" cx="18.48" cy="18.49" width="36.97" height="36.98" forcePaint="9"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
+  </object>
+  <object class="GroupSubscribeWgt" id="Salvar Receita@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+ </object>
+</wgtPage>

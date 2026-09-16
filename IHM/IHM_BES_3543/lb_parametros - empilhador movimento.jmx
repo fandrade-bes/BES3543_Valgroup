@@ -1,0 +1,1207 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="PageWgt" staticFile="opt/lb_parametros - empilhador movimento.png" downloadPrepDone="false" templateFile="lb_geral.jmx" staticOptEnable="true" id="LB_Parametros - Empilhador Movimento" dataWndSize="0,70" pageName="LB_Parametros - Empilhador Movimento" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto,Roboto Light">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="44" L1=""/>
+    <MLText id="0" L1="Eixo X Inspeção"/>
+    <MLText id="1" L1="Eixo X Entrega"/>
+    <MLText id="2" L1="Eixo X Pos. 1"/>
+    <MLText id="3" L1="Posição"/>
+    <MLText id="4" L1="Velocidade"/>
+    <MLText id="5" L1="Aceleração"/>
+    <MLText id="6" L1="Desaceleração"/>
+    <MLText id="7" L1="mm/s"/>
+    <MLText id="8" L1="mm/s²"/>
+    <MLText id="9" L1="mm/s²"/>
+    <MLText id="10" L1="mm"/>
+    <MLText id="14" L1="Eixo X Pos. 2"/>
+    <MLText id="15" L1="Eixo X Pos. 3"/>
+    <MLText id="16" L1="Eixo X Pos. 4"/>
+    <MLText id="17" L1="Eixo X Pos. 5"/>
+    <MLText id="18" L1="Giro Pos. Final"/>
+    <MLText id="19" L1="Giro Pos. Inicial"/>
+    <MLText id="20" L1="Giro Pos. Inspeção"/>
+    <MLText id="21" L1="Empilhador&#xa;Garra"/>
+    <MLText id="45" L1="Empilhador"/>
+    <MLText id="46" L1="Envolvedor"/>
+   </MLTexts>
+  </object>
+  <object class="GroupWgt" id="GroupWgt14">
+   <wgtStyle x="94.53" y="39" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt14.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="2">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt14.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt14.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt14.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[1]/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt14.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt14.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt14.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[1]/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt14.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt14.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt14.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[1]/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt14.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt14.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt14.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt14.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[1]/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt4">
+   <wgtStyle x="9.80" y="162.57" cx="33.38" cy="48.15" width="66.75" height="96.31"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt4.BtnRect1">
+    <wgtStyle x="0" y="0" cx="33.38" cy="48.15" width="66.75" height="96.31"/>
+    <object class="ButtonWgt" id="GroupWgt4.BtnRect1.btn" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="none" needlePath="images\win-like-press.svg" y="0" needleColor="none" dx="1" dy="-1" value="0" stroke="none" width="66.75" height="96.31" fill="none" downFillColor="none"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt4.BtnRect1.txt" static="true">
+     <wgtStyle font-size="14" wrapping="true" cx="24.82" cy="16.02" x="18.82" y="36.59" font-sizepx="18" font-bold="true" height="30.82" font-color="rgb(0,0,255)" min-font-size="8" width="48.33" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Arial" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="44">
+       <MLFontFamily L1="Arial"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="ImageWgt" id="GroupWgt4.ImageWgt1">
+    <wgtStyle imagePath="images/icons8-one-page-down-80.png" x="3.88" y="18.74" hor-flip="true" mtx="-1,0,0,0,1,0,62.0969,0,1" cx="31.05" cy="32.59" width="62.10" height="65.17" forcePaint="1"/>
+   </object>
+  </object>
+  <object class="LabelWgt" id="GroupWgt5.GroupWgt1.GroupWgt9.label1">
+   <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="58.72" cy="22.62" x="11.20" marker="true" y="237.29" font-sizepx="13" font-bold="true" height="43.18" font-color="rgb(40,40,40)" min-font-size="8" width="64.04" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="21">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt1">
+   <wgtStyle x="225.58" y="39" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt1.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="14">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt1.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt1.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt1.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[2]/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt1.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt1.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt1.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[2]/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt1.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt1.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt1.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[2]/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt1.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt1.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt1.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt1.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[2]/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt2">
+   <wgtStyle x="356.62" y="39" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt2.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="15">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt2.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt2.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt2.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[3]/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt2.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt2.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt2.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[3]/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt2.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt2.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt2.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[3]/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt2.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt2.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt2.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[3]/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt3">
+   <wgtStyle x="487.66" y="39" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt3.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="16">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt3.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt3.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[4]/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt3.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt3.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[4]/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt3.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt3.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[4]/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt3.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt3.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[4]/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt5">
+   <wgtStyle x="618.70" y="39" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt5.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="17">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt5.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt5.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt5.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[5]/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt5.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt5.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt5.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[5]/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt5.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt5.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt5.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[5]/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt5.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt5.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt5.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt5.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_POS[5]/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt6">
+   <wgtStyle x="487.66" y="249.18" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt6.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="18">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt6.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt6.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt6.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_FINAL/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt6.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt6.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt6.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_FINAL/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt6.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt6.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt6.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_FINAL/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt6.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt6.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt6.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_FINAL/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt7">
+   <wgtStyle x="356.62" y="249.18" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt7.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="19">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt7.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt7.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt7.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INICIAL/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt7.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt7.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt7.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INICIAL/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt7.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt7.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt7.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INICIAL/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt7.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt7.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt7.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt7.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INICIAL/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt8">
+   <wgtStyle x="618.70" y="249.18" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt8.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="20">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt8.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt8.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt8.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INSPECAO/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt8.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt8.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt8.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INSPECAO/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt8.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt8.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt8.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INSPECAO/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt8.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt8.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt8.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt8.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_MESA_GIRO_INSPECAO/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="LineWgt" id="line4" static="true">
+   <wgtStyle x="110.93" anchorIdx="3" y="246.07" mtx="0.999999,-0.00106629,0,0.000927433,1,0,0,0.664797,1" stroke-width="2" cx="311.73" cy="0.67" stroke="rgb(230,230,250)" width="623.47" height="0.67"/>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt5.hotspotbtn2" hmiStyle="type:btn">
+   <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="maintained" fill="rgb(160,160,164)" cx="32.46" cy="49.12" x="11" y="178.71" height="100.20" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" holdTime="1" width="65.94" forcePaint="1" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+   <links>
+    <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="lb_parametros - empilhador garra.jmx" attribute="onMouseRelease"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt9">
+   <wgtStyle x="94.53" y="249.18" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt9.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="0">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt9.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt9.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt9.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_INSPECAO/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt9.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt9.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt9.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_INSPECAO/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt9.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt9.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt9.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_INSPECAO/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt9.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt9.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt9.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt9.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_INSPECAO/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt10">
+   <wgtStyle x="225.57" y="249.18" cx="66.06" cy="94.91" width="132.10" height="189.82"/>
+   <object class="LabelWgt" id="GroupWgt10.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.14" cy="9.51" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.16" min-font-size="8" width="132.10" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="1">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt10.GroupWgt4">
+    <wgtStyle x="18.96" y="21.97" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt10.GroupWgt4.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt4.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="3"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt4.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt10.GroupWgt4.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="6.03" numberFormat="1" showThousandSeparator="false" y="16.44" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_ENTREGA/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt10.GroupWgt5">
+    <wgtStyle x="18.96" y="64.89" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt10.GroupWgt5.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt5.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt5.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt10.GroupWgt5.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_ENTREGA/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt10.GroupWgt6">
+    <wgtStyle x="18.96" y="107.80" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt10.GroupWgt6.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt6.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt6.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="8"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt10.GroupWgt6.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_ENTREGA/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt10.GroupWgt9">
+    <wgtStyle x="18.96" y="150.71" cx="47.10" cy="19.55" width="94.20" height="39.10"/>
+    <object class="ShapeWgt" id="GroupWgt10.GroupWgt9.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.58" cy="19.55" stroke="rgb(192,192,192)" width="94.20" height="39.10" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt9.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.74" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.01" marker="true" cy="8.35" max-font-size="64" font-sizepx="11" width="74.02" wrapping="true" height="17.63"/>
+     <links>
+      <lang class="MLTextLink" textid="6"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt9.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.91" vert-align="top" y="23.92" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17.99" alignment="center" marker="true" cy="4.24" max-font-size="64" font-sizepx="11" width="35.99" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="9"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt10.GroupWgt9.numeric2">
+     <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.16" cy="6.73" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="18.19" font-sizepx="16" height="14.96" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.56" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/GVL_GERAL/rec_IHM/coord_X_EMPILHADOR_ENTREGA/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt12">
+   <wgtStyle x="403" y="449" cx="63.09" cy="13.69" width="126.17" height="27.38"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt12.BtnOthersRect1">
+    <wgtStyle x="0" y="0.38" cx="63.09" cy="13.50" width="126.17" height="27"/>
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton2" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="27" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
+     <links>
+      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="lb_parametros - envolvedor.jmx" attribute="onMouseRelease"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="SimpleRectBtn1-text2" static="true">
+     <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
+     <links>
+      <lang class="MLTextLink" textid="44">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt12.label1">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.13" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="27" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="46">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt13">
+   <wgtStyle x="261" y="449" cx="63.09" cy="13.69" width="126.17" height="27.38"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt13.BtnOthersRect2">
+    <wgtStyle x="0" y="0.38" cx="63.09" cy="13.50" width="126.17" height="27"/>
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton3" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="27" fill="rgb(0,255,0)" downFillColor="rgb(184,219,255)"/>
+    </object>
+    <object class="LabelWgt" id="SimpleRectBtn1-text3" static="true">
+     <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
+     <links>
+      <lang class="MLTextLink" textid="44">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt13.label38">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.13" x="14.80" marker="true" y="0" font-sizepx="16" font-bold="true" height="27" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="45">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ImageWgt" id="image5">
+   <wgtStyle imagePath="images/icons8-desfazer-48.png" x="69.73" y="446.87" mtx="1,-0.000934358,0,0.0010584,0.999999,0,0,0.0394616,1" cx="92.44" cy="46.15" width="42.23" height="34.11" forcePaint="1"/>
+  </object>
+  <object class="ButtonWgt" id="hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="momentary" fill="rgb(160,160,164)" cx="31.51" cy="18.63" x="60.06" y="444.03" height="37.93" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" mtx="0.999999,-0.00102221,0,0.000967432,1,0,0,0.0653842,1" width="63.96" forcePaint="1" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+   <links>
+    <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_receitas.jmx" attribute="onMouseRelease"/>
+   </links>
+  </object>
+  <object class="GroupSubscribeWgt" id="LB_Parametros - Empilhador Movimento@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+ </object>
+</wgtPage>

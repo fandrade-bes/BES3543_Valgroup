@@ -1,0 +1,981 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object class="PageWgt" staticFile="opt/la_manual - envolvedor motores.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Manual - Envolvedor Motores" dataWndSize="0,70" pageName="LA_Manual - Envolvedor Motores" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
+   </langs>
+   <MLTexts>
+    <MLText id="38" L1="Esteira Transportador&#xa;Envolvedor"/>
+    <MLText id="39" L1="Desligado"/>
+    <MLText id="41" L1="Esteira Entrada Envolvedor"/>
+    <MLText id="42" L1="Pos. Eixo X"/>
+    <MLText id="43" L1="Ligado"/>
+    <MLText id="44" L1="Message"/>
+    <MLText id="45" L1="Message"/>
+    <MLText id="46" L1="Pos. Eixo Z"/>
+    <MLText id="47" L1="Motores Esteiras"/>
+    <MLText id="48" L1="Sem &#xa;falhas"/>
+    <MLText id="49" L1="Alarme &#xa;ativo"/>
+    <MLText id="50" L1="Message"/>
+    <MLText id="51" L1="Message"/>
+    <MLText id="52" L1="Esteira Saída Envolvedor"/>
+    <MLText id="53" L1="Home"/>
+    <MLText id="54" L1="mm"/>
+    <MLText id="55" L1="Habilitado"/>
+    <MLText id="56" L1="Negativo"/>
+    <MLText id="57" L1="Positivo"/>
+    <MLText id="58" L1="Alarme"/>
+    <MLText id="60" L1="Home"/>
+    <MLText id="61" L1="mm"/>
+    <MLText id="62" L1="Negativo"/>
+    <MLText id="63" L1="Positivo"/>
+    <MLText id="64" L1="Alarme"/>
+    <MLText id="65" L1="Servo Motores"/>
+    <MLText id="66" L1="Alarme"/>
+    <MLText id="67" L1="Manual Atuadores"/>
+    <MLText id="68" L1="Alarme"/>
+    <MLText id="69" L1="Desligado"/>
+    <MLText id="70" L1="Ligado"/>
+    <MLText id="71" L1="Message"/>
+    <MLText id="72" L1="Message"/>
+    <MLText id="73" L1="Habilitar Eixos Manualmente"/>
+    <MLText id="74" L1="Pos. Giro 1"/>
+    <MLText id="75" L1="Pos. Giro 2"/>
+   </MLTexts>
+  </object>
+  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic; ">
+   <wgtStyle x="560.18" y="307.53" mtx="1.16056,-0.00123927,0,0.000992283,1.07146,0,0,0.153669,1" groupStyle="xform-scaling" cx="72.02" cy="66.51" width="124" height="124"/>
+   <links>
+    <attr attrName="min" alias="NeedleWgt.min;LabelsWgt.min"/>
+    <attr attrName="max" alias="NeedleWgt.max;LabelsWgt.max"/>
+    <attr attrName="endAngle" alias="NeedleWgt.endAngle;LabelsWgt.endAngle;TicksWgt.endAngle"/>
+    <attr attrName="reverseScale" alias="NeedleWgt.reverseScale;LabelsWgt.reverseScale"/>
+    <attr attrName="startAngle" alias="NeedleWgt.startAngle;LabelsWgt.startAngle;TicksWgt.startAngle"/>
+    <attr attrName="numStates" alias="NeedleWgt.numStates;TicksWgt.numStates;LabelsWgt.numStates"/>
+   </links>
+   <object class="LabelsWgt" id="Knob2.lbl">
+    <wgtStyle form="round" min="1" timeSpec="local" tickFreq="1" font-size="9" step="1" cx="62" cy="62" x="0" numberFormat="1" showThousandSeparator="false" y="0" dataType="Text" labelNames="AUTO,MANUAL" font-sizepx="12" font-bold="true" height="124" endAngle="135" readWrite="true" min-font-size="8" width="124" max="2" dataFormat="labels" vert-align="top" wrap-type="wordWrap" usingFormat="" labelFreq="2" startAngle="45" font-family="Tahoma" text="" value="" keypad-type="None" max-font-size="64"/>
+   </object>
+   <object class="NeedleWgt" id="Knob2.ndl" hmiStyle="hmi-name:black plastic; hmi-shape:round_1; hmi-type:top-knob">
+    <wgtStyle min="1" form="round" cx="50" cy="53" x="11" y="16" toolTipFontName="Arial" height="88" endAngle="135" width="103" max="2" imagePath="images/knob_blkpl_1_rev1.svg" forcePaint="73" discrete="true" labelFreq="2" startAngle="45" toolTipBgColor="rgb(255,255,255)" toolTipTextColor="rgb(0,0,0)" writeMode="0" acceptClick="true" toolTipFontSize="12" moveStep="1" initAngle="180"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MAQUINA_MANUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+    <object class="ImageWgt" id="Knob2.ndl.img">
+     <wgtStyle imagePath="images/knob_blkpl_1_rev1.svg" x="0" y="-1" stroke-width="3" cx="32" rot="-135" cy="31" stroke="none" width="65" height="62" fill="rgb(53,53,53)" forcePaint="65"/>
+    </object>
+   </object>
+  </object>
+  <object class="LabelWgt" id="GroupWgt7.label3" static="true">
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="131.69" cy="13.76" x="274.06" marker="true" y="275.59" font-sizepx="19" font-bold="true" height="26.25" min-font-size="8" width="143.60" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="47">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt3">
+   <wgtStyle x="13.68" y="56.97" cx="148.92" cy="51.63" width="297.83" height="103.25" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill-opacity"/>
+   </dataLinks>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt11">
+    <wgtStyle x="0" y="0" cx="120.91" cy="50.13" width="241.83" height="100.26" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt3.GroupWgt11.hotspotbtn2" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="93.02" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="25.52" dx="1" dy="-1" cx="31.89" cy="36.63" value="0" width="64.78" height="74.74" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_JOG_NEGATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt3.GroupWgt11.GroupWgt9">
+     <wgtStyle x="102.39" y="23.88" cx="23.63" cy="28.30" width="47.25" height="56.60" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt3.GroupWgt11.GroupWgt9.label10">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="43.29" cy="9.02" x="0.03" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="47.22" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="56">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt3.GroupWgt11.GroupWgt9.image5">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="0" y="0" mtx="-1,0,0,0,-1,0,46.8271,49.2172,1" cx="-35.12" cy="-4.10" width="46.83" height="49.22" fill="rgb(40,40,40)" forcePaint="1"/>
+     </object>
+    </object>
+    <object class="ButtonWgt" id="GroupWgt3.GroupWgt11.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="166.38" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="24.70" dx="1" dy="-1" cx="31.89" cy="36.86" value="0" width="64.78" height="75.20" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_JOG_POSITIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt3.GroupWgt11.GroupWgt4">
+     <wgtStyle x="174.19" y="23.88" cx="24.58" cy="28.30" width="49.17" height="56.60" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt3.GroupWgt11.GroupWgt4.image4">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="1.17" y="0" cx="81.95" cy="53.32" width="46.83" height="49.22" forcePaint="1"/>
+     </object>
+     <object class="LabelWgt" id="GroupWgt3.GroupWgt11.GroupWgt4.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="45.09" cy="9.02" x="0" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="49.17" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="57">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt3.GroupWgt11.GroupWgt8">
+     <wgtStyle x="65.32" y="0" cx="88.25" cy="10.61" width="176.51" height="21.23" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt3.GroupWgt11.GroupWgt8.label41">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="77.95" cy="10.55" x="0" marker="true" y="0" font-sizepx="16" height="20.14" min-font-size="8" width="85" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="74">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="NumericWgt" id="GroupWgt3.GroupWgt11.GroupWgt8.field3">
+      <wgtStyle frameColor="rgb(255,255,255)" form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="24.94" cy="9.56" x="87.35" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="16" height="20.23" min-font-size="8" width="53.23" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="9" usingFormat="0.00" frame="true" font-family="Segoe UI Light" text="9999" value="9999" keypad-type="Numeric" max-font-size="64"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/info_POS_ATUAL_GIRO_EMPILHADOR_LD" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt3.GroupWgt11.GroupWgt8.label42">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="31.03" cy="10.57" x="142.67" marker="true" y="0" font-sizepx="16" height="20.17" min-font-size="8" width="33.84" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="54">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt3.GroupWgt11.GroupWgt10">
+     <wgtStyle x="0.78" y="37.37" cx="38.15" cy="8.82" width="76.29" height="17.64" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt3.GroupWgt11.GroupWgt10.label49">
+      <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="19.71" marker="true" y="0" font-sizepx="16" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="55">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt3.GroupWgt11.GroupWgt10.GroupWgt3.GroupWgt4.GroupWgt10.plyrImg126">
+      <wgtStyle imagePath="images/ic_pl1_127.svg" x="0" y="0.21" cx="8.19" cy="8.61" width="16.39" height="17.23" fill="rgb(152,152,152)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_HABILITADO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#00ff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt3.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7">
+     <wgtStyle x="0" y="60.34" cx="39.22" cy="8.82" width="78.43" height="17.64" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt3.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.altImg9">
+      <wgtStyle imagePath="images/ic_al1_080.svg" x="0" y="0" cx="8.01" cy="8.61" width="16.39" height="17.23" fill="rgb(127,127,127)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_ALARME_ATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#ffff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt3.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.label11">
+      <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="21.85" marker="true" y="0" font-sizepx="16" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="58">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt3.GroupWgt15">
+    <wgtStyle x="237.32" y="25.03" cx="30.25" cy="39.11" width="60.51" height="78.22" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt3.GroupWgt15.hotspotbtn3" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="29.79" cy="38.34" value="0" width="60.51" height="78.22" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_FAZER_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="GroupWgt3.GroupWgt15.label3">
+     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="53.64" cy="10.96" x="1.01" marker="true" y="56.18" font-sizepx="16" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="58.49" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="53">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt3.GroupWgt15.MultistateImage5">
+     <wgtStyle imagePath="images/icons8-quadro-girat_U243rio-1-48 (1).png,images/icons8-quadro-girat_U243rio-2-48.png,images/icons8-quadro-girat_U243rio-3-48.png,images/icons8-quadro-girat_U243rio-4-48.png,images/icons8-quadro-girat_U243rio-5-48.png,images/icons8-quadro-girat_U243rio-6-48 (1).png,images/icons8-quadro-girat_U243rio-7-48.png,images/icons8-quadro-girat_U243rio-8-48.png" continuousIndex="1" x="5.04" updateRate="100" animate="1" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="animate"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt3.GroupWgt15.MultistateImage6">
+     <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="5.04" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LD_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt6">
+   <wgtStyle x="347.22" y="56.97" cx="149.15" cy="51.13" width="298.29" height="102.25" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill-opacity"/>
+   </dataLinks>
+   <object class="GroupWgt" id="GroupWgt6.GroupWgt11">
+    <wgtStyle x="0" y="0" cx="121.82" cy="50.13" width="243.64" height="100.26" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt6.GroupWgt11.hotspotbtn2" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="94.82" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="25.52" dx="1" dy="-1" cx="31.89" cy="36.63" value="0" width="64.78" height="74.74" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_JOG_NEGATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt6.GroupWgt11.GroupWgt9">
+     <wgtStyle x="104.19" y="23.88" cx="23.63" cy="28.30" width="47.25" height="56.60" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt6.GroupWgt11.GroupWgt9.label10">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="43.29" cy="9.02" x="0.03" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="47.22" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="62">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt6.GroupWgt11.GroupWgt9.image5">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="0" y="0" mtx="-1,0,0,0,-1,0,46.8271,49.2172,1" cx="-35.12" cy="-4.10" width="46.83" height="49.22" fill="rgb(40,40,40)" forcePaint="1"/>
+     </object>
+    </object>
+    <object class="ButtonWgt" id="GroupWgt6.GroupWgt11.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="168.19" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="24.70" dx="1" dy="-1" cx="31.89" cy="36.86" value="0" width="64.78" height="75.20" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_JOG_POSITIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt6.GroupWgt11.GroupWgt4">
+     <wgtStyle x="175.99" y="23.88" cx="24.58" cy="28.30" width="49.17" height="56.60" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt6.GroupWgt11.GroupWgt4.image4">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="1.17" y="0" cx="81.95" cy="53.32" width="46.83" height="49.22" forcePaint="1"/>
+     </object>
+     <object class="LabelWgt" id="GroupWgt6.GroupWgt11.GroupWgt4.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="45.09" cy="9.02" x="0" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="49.17" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="63">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt6.GroupWgt11.GroupWgt8">
+     <wgtStyle x="66.20" y="0" cx="88.72" cy="10.61" width="177.44" height="21.23" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt6.GroupWgt11.GroupWgt8.label41">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="78.87" cy="10.55" x="0" marker="true" y="0" font-sizepx="16" height="20.14" min-font-size="8" width="86" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="75">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="NumericWgt" id="GroupWgt6.GroupWgt11.GroupWgt8.field3">
+      <wgtStyle frameColor="rgb(255,255,255)" form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="24.94" cy="9.56" x="88.27" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="16" height="20.23" min-font-size="8" width="53.23" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="9" usingFormat="0.00" frame="true" font-family="Segoe UI Light" text="9999" value="9999" keypad-type="Numeric" max-font-size="64"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/info_POS_ATUAL_GIRO_EMPILHADOR_LE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt6.GroupWgt11.GroupWgt8.label42">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="31.03" cy="10.57" x="143.60" marker="true" y="0" font-sizepx="16" height="20.17" min-font-size="8" width="33.84" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="61">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt1">
+     <wgtStyle x="1.27" y="37.37" cx="37.90" cy="8.82" width="75.80" height="17.64" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt1.label49">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="19.22" marker="true" y="0" font-sizepx="13" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="55">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt1.GroupWgt3.GroupWgt4.GroupWgt10.plyrImg126">
+      <wgtStyle imagePath="images/ic_pl1_127.svg" x="0" y="0.21" cx="8.19" cy="8.61" width="16.39" height="17.23" fill="rgb(152,152,152)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_HABILITADO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#00ff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7">
+     <wgtStyle x="0" y="60.34" cx="39.22" cy="8.82" width="78.43" height="17.64" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.altImg9">
+      <wgtStyle imagePath="images/ic_al1_080.svg" x="0" y="0" cx="8.01" cy="8.61" width="16.39" height="17.23" fill="rgb(127,127,127)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_ALARME_ATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#ffff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="21.85" marker="true" y="0" font-sizepx="13" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="64">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt6.GroupWgt15">
+    <wgtStyle x="237.78" y="24.03" cx="30.25" cy="39.11" width="60.51" height="78.22" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt6.GroupWgt15.hotspotbtn3" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="29.79" cy="38.34" value="0" width="60.51" height="78.22" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_FAZER_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="GroupWgt6.GroupWgt15.label3">
+     <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="53.64" cy="10.96" x="1.01" marker="true" y="56.18" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="58.49" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="60">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt6.GroupWgt15.MultistateImage5">
+     <wgtStyle imagePath="images/icons8-quadro-girat_U243rio-1-48 (1).png,images/icons8-quadro-girat_U243rio-2-48.png,images/icons8-quadro-girat_U243rio-3-48.png,images/icons8-quadro-girat_U243rio-4-48.png,images/icons8-quadro-girat_U243rio-5-48.png,images/icons8-quadro-girat_U243rio-6-48 (1).png,images/icons8-quadro-girat_U243rio-7-48.png,images/icons8-quadro-girat_U243rio-8-48.png" continuousIndex="1" x="5.04" updateRate="100" animate="1" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="animate"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt6.GroupWgt15.MultistateImage6">
+     <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="5.05" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_ENVOLVEDOR_LE_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="LabelWgt" id="GroupWgt7.label2">
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="111.65" cy="14.33" x="284.99" marker="true" y="34" font-sizepx="19" font-bold="true" height="27.35" min-font-size="8" width="121.75" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="65">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="GroupWgt5.GroupWgt1.GroupWgt9.label2" static="true">
+   <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="55.82" cy="16.64" x="713.37" marker="true" y="385.94" font-sizepx="13" font-bold="true" height="31.76" font-color="rgb(40,40,40)" min-font-size="8" width="60.88" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="67">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
+  </object>
+  <object class="ImageWgt" id="ImageWgt3" static="true">
+   <wgtStyle imagePath="images/pneumatic-cylinder-icon-on-white-flat-vector-47643297 (1) (1).png" x="716.45" y="326.87" cx="30.83" cy="30.35" width="61.66" height="60.70"/>
+  </object>
+  <object class="ButtonWgt" id="GroupWgt5.hotspotbtn2" hmiStyle="type:btn">
+   <wgtStyle type="maintained" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="711.80" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="330.10" dx="1" dy="-1" cx="32.64" cy="49.46" value="0" holdTime="1" width="66.30" height="100.90" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+   <links>
+    <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_manual - envolvedor atuadores.jmx" attribute="onMouseRelease"/>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt5">
+   <wgtStyle x="678.73" y="94.25" cx="47.61" cy="64.73" width="95.22" height="129.46"/>
+   <object class="ButtonWgt" id="GroupWgt5.hotspotbtn1" hmiStyle="type:btn">
+    <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="maintained" fill="rgb(160,160,164)" cx="29.79" cy="45.37" x="17.36" y="36.91" height="92.54" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" holdTime="1" width="60.51" forcePaint="8" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="MsgTextWgt" id="GroupWgt5.msgtext1">
+    <wgtStyle min="0" font-size="10" cx="29.24" cy="9.92" x="17.36" marker="true" y="93.51" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="59.49" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+     <msgtxt>
+      <msg index="0"/>
+      <msg index="1"/>
+      <msg index="2"/>
+      <msg index="3"/>
+     </msgtxt>
+    </wgtStyle>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+    </dataLinks>
+    <links>
+     <lang class="MLMsgLink:messages:">
+      <MLFontFamily L1="Calibri"/>
+      <textid idx="0" val="69"/>
+      <textid idx="1" val="70"/>
+      <textid idx="2" val="71"/>
+      <textid idx="3" val="72"/>
+     </lang>
+    </links>
+   </object>
+   <object class="MultiStateImageWgt" id="GroupWgt5.MultistateImage2">
+    <wgtStyle imagePath="images/icons8-desligar-48.png,images/icons8-ligar-48.png" continuousIndex="1" frame="1" x="23.41" y="43.48" imagePathIndexList="" cx="24.20" cy="26.44" width="48.40" height="52.88" forcePaint="9"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt5.label1">
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="87.32" cy="28.74" x="0" marker="true" y="0" font-sizepx="13" height="54.87" min-font-size="8" width="95.22" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="73">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt7">
+   <wgtStyle x="419.51" y="306.72" cx="71.02" cy="61.61" width="142.04" height="123.22" forcePaint="65"/>
+   <object class="LabelWgt" id="GroupWgt7.label4">
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="130.26" cy="21.49" x="0" marker="true" y="0" font-sizepx="13" height="41.01" min-font-size="8" width="142.04" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="38">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt7.GroupWgt1">
+    <wgtStyle x="35.10" y="43.63" cx="30.44" cy="39.79" width="60.88" height="79.58" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt7.GroupWgt1.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="maintained" fill="rgb(160,160,164)" cx="29.97" cy="38.14" x="0" y="0" height="77.81" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" holdTime="1" width="60.88" forcePaint="9" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_TRANSPORTADOR_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt7.GroupWgt1.MultistateImage2">
+     <wgtStyle imagePath="images/icons8-desligar-48.png,images/icons8-ligar-48.png" continuousIndex="1" frame="1" x="6.05" y="6.60" imagePathIndexList="" cx="24.20" cy="26.44" width="48.40" height="52.88" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_TRANSPORTADOR_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+    <object class="MsgTextWgt" id="GroupWgt7.GroupWgt1.msgtext1">
+     <wgtStyle min="0" font-size="10" cx="29.24" cy="9.92" x="0.69" marker="true" y="58.65" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="59.49" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+      <msgtxt>
+       <msg index="0"/>
+       <msg index="1"/>
+       <msg index="2"/>
+       <msg index="3"/>
+      </msgtxt>
+     </wgtStyle>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_TRANSPORTADOR_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+     </dataLinks>
+     <links>
+      <lang class="MLMsgLink:messages:">
+       <MLFontFamily L1="Calibri"/>
+       <textid idx="0" val="39"/>
+       <textid idx="1" val="43"/>
+       <textid idx="2" val="44"/>
+       <textid idx="3" val="45"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+  </object>
+  <object class="LineWgt" id="line4" static="true">
+   <wgtStyle x="189.55" y="330.10" mtx="0.999832,0.0183429,0,-0.0166457,0.999861,0,1.55792,0,1" stroke-width="2" cx="2.40" cy="46.82" stroke="rgb(230,230,250)" width="3.23" height="93.59"/>
+  </object>
+  <object class="GroupWgt" id="GroupWgt1">
+   <wgtStyle x="222.20" y="308.99" cx="67.62" cy="59.35" width="135.23" height="118.70"/>
+   <object class="LabelWgt" id="GroupWgt1.label5" static="true">
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="111.65" cy="17.62" x="10.93" marker="true" y="0" font-sizepx="13" height="33.63" min-font-size="8" width="121.75" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="52">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt1.GroupWgt9">
+    <wgtStyle x="0" y="36.91" cx="30.44" cy="38.91" width="60.88" height="77.81"/>
+    <object class="ButtonWgt" id="GroupWgt1.GroupWgt9.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="maintained" fill="rgb(160,160,164)" cx="29.97" cy="38.14" x="0" y="0" height="77.81" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" holdTime="1" width="60.88" forcePaint="8" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_ENVOLVEDOR_SAIDA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt1.GroupWgt9.MultistateImage2">
+     <wgtStyle imagePath="images/icons8-desligar-48.png,images/icons8-ligar-48.png" continuousIndex="1" frame="1" x="6.05" y="6.60" imagePathIndexList="" cx="24.20" cy="26.44" width="48.40" height="52.88" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_ENVOLVEDOR_SAIDA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+    <object class="MsgTextWgt" id="GroupWgt1.GroupWgt9.msgtext1">
+     <wgtStyle min="0" font-size="10" cx="29.24" cy="9.92" x="0.69" marker="true" y="58.65" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="59.49" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+      <msgtxt>
+       <msg index="0"/>
+       <msg index="1"/>
+       <msg index="2"/>
+       <msg index="3"/>
+      </msgtxt>
+     </wgtStyle>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_ENVOLVEDOR_SAIDA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+     </dataLinks>
+     <links>
+      <lang class="MLMsgLink:messages:">
+       <MLFontFamily L1="Calibri"/>
+       <textid idx="0" val="39"/>
+       <textid idx="1" val="43"/>
+       <textid idx="2" val="44"/>
+       <textid idx="3" val="45"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt1.GroupWgt3">
+    <wgtStyle x="84.69" y="37.73" cx="21.85" cy="22.07" width="43.71" height="44.15"/>
+    <object class="ImageWgt" id="GroupWgt1.GroupWgt3.altImg9">
+     <wgtStyle imagePath="images/ic_al1_080.svg" x="0" y="0" cx="21.35" cy="22.07" width="43.71" height="44.15" fill="rgb(127,127,127)" forcePaint="136"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_feedback_ERRO_TRANSP_SAIDA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="MsgTextWgt" id="GroupWgt1.msgtext3">
+    <wgtStyle min="0" font-size="10" cx="28.20" cy="14.26" x="77.86" marker="true" y="88.59" font-sizepx="13" font-bold="true" height="30.10" font-color="rgb(40,40,40)" min-font-size="8" width="57.37" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="8" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+     <msgtxt>
+      <msg index="0"/>
+      <msg index="1"/>
+      <msg index="2"/>
+      <msg index="3"/>
+     </msgtxt>
+    </wgtStyle>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_feedback_ERRO_TRANSP_SAIDA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+    </dataLinks>
+    <links>
+     <lang class="MLMsgLink:messages:">
+      <MLFontFamily L1="Calibri"/>
+      <textid idx="0" val="48"/>
+      <textid idx="1" val="49"/>
+      <textid idx="2" val="50"/>
+      <textid idx="3" val="51"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt9">
+   <wgtStyle x="24.89" y="308.99" cx="67.62" cy="59.35" width="135.23" height="118.70"/>
+   <object class="LabelWgt" id="GroupWgt9.label5" static="true">
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="111.65" cy="17.62" x="10.93" marker="true" y="0" font-sizepx="13" height="33.63" min-font-size="8" width="121.75" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="41">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt9.GroupWgt9">
+    <wgtStyle x="0" y="36.91" cx="30.44" cy="39.79" width="60.88" height="79.58"/>
+    <object class="ButtonWgt" id="GroupWgt9.GroupWgt9.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="maintained" fill="rgb(160,160,164)" cx="29.97" cy="38.14" x="0" y="0" height="77.81" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" holdTime="1" width="60.88" forcePaint="8" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_ENVOLVEDOR_ENTRADA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt9.GroupWgt9.MultistateImage2">
+     <wgtStyle imagePath="images/icons8-desligar-48.png,images/icons8-ligar-48.png" continuousIndex="1" frame="1" x="6.05" y="6.60" imagePathIndexList="" cx="24.20" cy="26.44" width="48.40" height="52.88" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_ENVOLVEDOR_ENTRADA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+    <object class="MsgTextWgt" id="GroupWgt9.GroupWgt9.msgtext1">
+     <wgtStyle min="0" font-size="10" cx="29.24" cy="9.92" x="0.69" marker="true" y="58.65" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="59.49" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+      <msgtxt>
+       <msg index="0"/>
+       <msg index="1"/>
+       <msg index="2"/>
+       <msg index="3"/>
+      </msgtxt>
+     </wgtStyle>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/est_ENVOLVEDOR_ENTRADA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+     </dataLinks>
+     <links>
+      <lang class="MLMsgLink:messages:">
+       <MLFontFamily L1="Calibri"/>
+       <textid idx="0" val="39"/>
+       <textid idx="1" val="43"/>
+       <textid idx="2" val="44"/>
+       <textid idx="3" val="45"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt9.GroupWgt3">
+    <wgtStyle x="84.69" y="37.73" cx="21.85" cy="22.07" width="43.71" height="44.15"/>
+    <object class="ImageWgt" id="GroupWgt9.GroupWgt3.altImg9">
+     <wgtStyle imagePath="images/ic_al1_080.svg" x="0" y="0" cx="21.35" cy="22.07" width="43.71" height="44.15" fill="rgb(127,127,127)" forcePaint="136"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_feedback_ERRO_ENTRADA_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="MsgTextWgt" id="GroupWgt9.msgtext3">
+    <wgtStyle min="0" font-size="10" cx="28.20" cy="14.26" x="77.86" marker="true" y="88.59" font-sizepx="13" font-bold="true" height="30.10" font-color="rgb(40,40,40)" min-font-size="8" width="57.37" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="8" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+     <msgtxt>
+      <msg index="0"/>
+      <msg index="1"/>
+      <msg index="2"/>
+      <msg index="3"/>
+     </msgtxt>
+    </wgtStyle>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_feedback_ERRO_ENTRADA_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+    </dataLinks>
+    <links>
+     <lang class="MLMsgLink:messages:">
+      <MLFontFamily L1="Calibri"/>
+      <textid idx="0" val="48"/>
+      <textid idx="1" val="49"/>
+      <textid idx="2" val="50"/>
+      <textid idx="3" val="51"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt10">
+   <wgtStyle x="11.88" y="168.53" cx="152.70" cy="51.01" width="305.40" height="102.01" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill-opacity"/>
+   </dataLinks>
+   <object class="GroupWgt" id="GroupWgt10.GroupWgt11">
+    <wgtStyle x="0" y="0" cx="121.82" cy="50.13" width="243.63" height="100.26" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt10.GroupWgt11.hotspotbtn2" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="94.82" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="25.52" dx="1" dy="-1" cx="31.89" cy="36.63" value="0" width="64.78" height="74.74" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_JOG_NEGATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt10.GroupWgt11.GroupWgt9">
+     <wgtStyle x="104.19" y="23.88" cx="23.62" cy="28.30" width="47.25" height="56.60" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt10.GroupWgt11.GroupWgt9.label10">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="43.29" cy="9.02" x="0.03" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="47.22" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="62">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt10.GroupWgt11.GroupWgt9.image5">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="0" y="0" mtx="-1,0,0,0,-1,0,46.8271,49.2172,1" cx="-35.12" cy="-4.10" width="46.83" height="49.22" fill="rgb(40,40,40)" forcePaint="1"/>
+     </object>
+    </object>
+    <object class="ButtonWgt" id="GroupWgt10.GroupWgt11.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="168.19" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="24.70" dx="1" dy="-1" cx="31.89" cy="36.86" value="0" width="64.78" height="75.20" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_JOG_POSITIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt10.GroupWgt11.GroupWgt4">
+     <wgtStyle x="175.99" y="23.88" cx="24.58" cy="28.30" width="49.17" height="56.60" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt10.GroupWgt11.GroupWgt4.image4">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="1.17" y="0" cx="81.95" cy="53.32" width="46.83" height="49.22" forcePaint="1"/>
+     </object>
+     <object class="LabelWgt" id="GroupWgt10.GroupWgt11.GroupWgt4.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="45.09" cy="9.02" x="0" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="49.17" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="63">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt10.GroupWgt11.GroupWgt8">
+     <wgtStyle x="67.30" y="0" cx="88.17" cy="10.61" width="176.33" height="21.23" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt10.GroupWgt11.GroupWgt8.label41">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="77.95" cy="10.32" x="0" marker="true" y="0" font-sizepx="16" height="19.70" min-font-size="8" width="85" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="42">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="NumericWgt" id="GroupWgt10.GroupWgt11.GroupWgt8.field3">
+      <wgtStyle frameColor="rgb(255,255,255)" form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="24.94" cy="9.56" x="87.16" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="16" height="20.23" min-font-size="8" width="53.23" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="9" usingFormat="0.00" frame="true" font-family="Segoe UI Light" text="9999" value="9999" keypad-type="Numeric" max-font-size="64"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/info_MANI_POS_ATUAL_X_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt10.GroupWgt11.GroupWgt8.label42">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="31.03" cy="10.57" x="142.49" marker="true" y="0" font-sizepx="16" height="20.17" min-font-size="8" width="33.84" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="61">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt10.GroupWgt11.GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt2">
+     <wgtStyle x="0" y="37.37" cx="38.54" cy="8.82" width="77.07" height="17.64" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt10.GroupWgt11.GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt2.label49">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="20.49" marker="true" y="0" font-sizepx="13" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="55">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt10.GroupWgt11.GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt2.GroupWgt3.GroupWgt4.GroupWgt10.plyrImg126">
+      <wgtStyle imagePath="images/ic_pl1_127.svg" x="1.02" y="0.21" cx="8.19" cy="8.61" width="16.39" height="17.23" fill="rgb(152,152,152)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_HABILITADO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#00ff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt10.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7">
+     <wgtStyle x="0" y="60.34" cx="39.22" cy="8.82" width="78.44" height="17.64" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt10.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.altImg9">
+      <wgtStyle imagePath="images/ic_al1_080.svg" x="0" y="0" cx="8.01" cy="8.61" width="16.39" height="17.23" fill="rgb(127,127,127)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_ALARME_ATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#ffff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt10.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="21.85" marker="true" y="0" font-sizepx="13" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="66">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt10.GroupWgt15">
+    <wgtStyle x="244.89" y="23.79" cx="30.25" cy="39.11" width="60.51" height="78.22" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt10.GroupWgt15.hotspotbtn3" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="29.79" cy="38.34" value="0" width="60.51" height="78.22" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_FAZER_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="GroupWgt10.GroupWgt15.label3">
+     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="53.64" cy="10.96" x="1.01" marker="true" y="56.18" font-sizepx="16" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="58.49" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="60">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt10.GroupWgt15.MultistateImage5">
+     <wgtStyle imagePath="images/icons8-quadro-girat_U243rio-1-48 (1).png,images/icons8-quadro-girat_U243rio-2-48.png,images/icons8-quadro-girat_U243rio-3-48.png,images/icons8-quadro-girat_U243rio-4-48.png,images/icons8-quadro-girat_U243rio-5-48.png,images/icons8-quadro-girat_U243rio-6-48 (1).png,images/icons8-quadro-girat_U243rio-7-48.png,images/icons8-quadro-girat_U243rio-8-48.png" continuousIndex="1" x="5.04" updateRate="100" animate="1" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="animate"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt10.GroupWgt15.MultistateImage6">
+     <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="5.04" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt2">
+   <wgtStyle x="347.22" y="168.53" cx="152.70" cy="51.01" width="305.40" height="102.01" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill-opacity"/>
+   </dataLinks>
+   <object class="GroupWgt" id="GroupWgt2.GroupWgt11">
+    <wgtStyle x="0" y="0" cx="121.81" cy="50.13" width="243.63" height="100.26" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt2.GroupWgt11.hotspotbtn2" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="94.82" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="25.52" dx="1" dy="-1" cx="31.89" cy="36.63" value="0" width="64.78" height="74.74" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_JOG_NEGATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt2.GroupWgt11.GroupWgt9">
+     <wgtStyle x="104.19" y="23.88" cx="23.62" cy="28.30" width="47.25" height="56.60" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt2.GroupWgt11.GroupWgt9.label10">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="43.29" cy="9.02" x="0.03" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="47.22" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="62">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt2.GroupWgt11.GroupWgt9.image5">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="0" y="0" mtx="-1,0,0,0,-1,0,46.8271,49.2172,1" cx="-35.12" cy="-4.10" width="46.83" height="49.22" fill="rgb(40,40,40)" forcePaint="1"/>
+     </object>
+    </object>
+    <object class="ButtonWgt" id="GroupWgt2.GroupWgt11.hotspotbtn1" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="168.19" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="24.70" dx="1" dy="-1" cx="31.89" cy="36.86" value="0" width="64.78" height="75.20" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_JOG_POSITIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="GroupWgt" id="GroupWgt2.GroupWgt11.GroupWgt4">
+     <wgtStyle x="175.99" y="23.88" cx="24.58" cy="28.30" width="49.17" height="56.60" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt2.GroupWgt11.GroupWgt4.image4">
+      <wgtStyle imagePath="images/icons8-avan_U231ar-60.png" x="1.17" y="0" cx="81.95" cy="53.32" width="46.83" height="49.22" forcePaint="1"/>
+     </object>
+     <object class="LabelWgt" id="GroupWgt2.GroupWgt11.GroupWgt4.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="45.09" cy="9.02" x="0" marker="true" y="39.37" font-sizepx="13" font-bold="true" height="17.23" font-color="rgb(40,40,40)" min-font-size="8" width="49.17" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="63">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt2.GroupWgt11.GroupWgt8">
+     <wgtStyle x="67.20" y="0" cx="88.21" cy="10.61" width="176.43" height="21.23" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt2.GroupWgt11.GroupWgt8.label41">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="77.95" cy="10.32" x="0" marker="true" y="0" font-sizepx="16" height="19.70" min-font-size="8" width="85" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="46">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="NumericWgt" id="GroupWgt2.GroupWgt11.GroupWgt8.field3">
+      <wgtStyle frameColor="rgb(255,255,255)" form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="24.94" cy="9.56" x="87.26" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="16" height="20.23" min-font-size="8" width="53.23" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="9" usingFormat="0.00" frame="true" font-family="Segoe UI Light" text="9999" value="9999" keypad-type="Numeric" max-font-size="64"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/info_MANI_POS_ATUAL_Z_ENVOLVEDOR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt2.GroupWgt11.GroupWgt8.label42">
+      <wgtStyle frameColor="rgb(255,255,255)" font-size="12" wrapping="true" frameSize="0" cx="31.03" cy="10.57" x="142.59" marker="true" y="0" font-sizepx="16" height="20.17" min-font-size="8" width="33.84" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="61">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt2.GroupWgt11.GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt2">
+     <wgtStyle x="0" y="37.37" cx="38.54" cy="8.82" width="77.07" height="17.64" forcePaint="1"/>
+     <object class="LabelWgt" id="GroupWgt2.GroupWgt11.GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt2.label49">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="20.49" marker="true" y="0" font-sizepx="13" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="55">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+     <object class="ImageWgt" id="GroupWgt2.GroupWgt11.GroupWgt6.GroupWgt11.GroupWgt3.GroupWgt11.GroupWgt2.GroupWgt3.GroupWgt4.GroupWgt10.plyrImg126">
+      <wgtStyle imagePath="images/ic_pl1_127.svg" x="1.27" y="0.21" cx="8.19" cy="8.61" width="16.39" height="17.23" fill="rgb(152,152,152)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_HABILITADO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#00ff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+    </object>
+    <object class="GroupWgt" id="GroupWgt2.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7">
+     <wgtStyle x="0" y="60.34" cx="39.22" cy="8.82" width="78.44" height="17.64" forcePaint="1"/>
+     <object class="ImageWgt" id="GroupWgt2.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.altImg9">
+      <wgtStyle imagePath="images/ic_al1_080.svg" x="0" y="0" cx="8.01" cy="8.61" width="16.39" height="17.23" fill="rgb(127,127,127)" forcePaint="137"/>
+      <dataLinks>
+       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_ALARME_ATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="fill">
+        <xForms>
+         <xForm class="ColorPaletteCustomXForm" ColorPaletteCustom="#989898;#ffff00" name="ColorPaletteCustom">
+          <value i="0">0</value>
+          <value i="1">1</value>
+         </xForm>
+        </xForms>
+       </dataLink>
+      </dataLinks>
+     </object>
+     <object class="LabelWgt" id="GroupWgt2.GroupWgt11.GroupWgt3.GroupWgt4.GroupWgt7.label11">
+      <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="51.89" cy="9.24" x="21.85" marker="true" y="0" font-sizepx="13" height="17.64" min-font-size="8" width="56.58" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+      <links>
+       <lang class="MLTextLink" textid="68">
+        <MLFontFamily L1="Calibri"/>
+       </lang>
+      </links>
+     </object>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt2.GroupWgt15">
+    <wgtStyle x="244.89" y="23.79" cx="30.25" cy="39.11" width="60.51" height="78.22" forcePaint="1"/>
+    <object class="ButtonWgt" id="GroupWgt2.GroupWgt15.hotspotbtn3" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="29.79" cy="38.34" value="0" width="60.51" height="78.22" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_FAZER_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="GroupWgt2.GroupWgt15.label3">
+     <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="53.64" cy="10.96" x="1.01" marker="true" y="56.18" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="58.49" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="60">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt2.GroupWgt15.MultistateImage5">
+     <wgtStyle imagePath="images/icons8-quadro-girat_U243rio-1-48 (1).png,images/icons8-quadro-girat_U243rio-2-48.png,images/icons8-quadro-girat_U243rio-3-48.png,images/icons8-quadro-girat_U243rio-4-48.png,images/icons8-quadro-girat_U243rio-5-48.png,images/icons8-quadro-girat_U243rio-6-48 (1).png,images/icons8-quadro-girat_U243rio-7-48.png,images/icons8-quadro-girat_U243rio-8-48.png" continuousIndex="1" x="5.04" updateRate="100" animate="1" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="animate"/>
+     </dataLinks>
+    </object>
+    <object class="MultiStateImageWgt" id="GroupWgt2.GroupWgt15.MultistateImage6">
+     <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="5.05" y="2.21" imagePathIndexList="" cx="25.21" cy="27.53" width="50.42" height="55.08" forcePaint="9"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+     </dataLinks>
+    </object>
+   </object>
+  </object>
+  <object class="LineWgt" id="line5" static="true">
+   <wgtStyle x="11.88" y="276.80" mtx="0.999999,-0.00106782,0,0.000926108,1,0,0,0.824329,1" stroke-width="2" cx="385.99" cy="0.82" stroke="rgb(230,230,250)" width="771.98" height="0.82"/>
+  </object>
+  <object class="LineWgt" id="line6" static="true">
+   <wgtStyle x="386.86" y="330.10" mtx="0.999832,0.0183429,0,-0.0166457,0.999861,0,1.55792,0,1" stroke-width="2" cx="2.40" cy="46.82" stroke="rgb(230,230,250)" width="3.23" height="93.59"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="LA_Manual - Envolvedor Motores@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="ImageWgt" id="image5">
+   <wgtStyle imagePath="images/icons8-desfazer-48.png" x="69.73" y="446.87" mtx="1,-0.000934358,0,0.0010584,0.999999,0,0,0.0394616,1" cx="92.44" cy="46.15" width="42.23" height="34.11" forcePaint="1"/>
+  </object>
+  <object class="ButtonWgt" id="hotspotbtn" hmiStyle="type:btn">
+   <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="momentary" fill="rgb(160,160,164)" cx="31.51" cy="18.63" x="60.06" y="444.03" height="37.93" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" mtx="0.999999,-0.00102221,0,0.000967432,1,0,0,0.0653842,1" width="63.96" forcePaint="1" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
+   <links>
+    <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_manual_seletor.jmx" attribute="onMouseRelease"/>
+   </links>
+  </object>
+ </object>
+</wgtPage>
