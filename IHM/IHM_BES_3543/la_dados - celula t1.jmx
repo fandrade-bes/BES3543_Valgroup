@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_dados - celula t1.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T1" dataWndSize="0,70" pageName="LA_Dados - Celula T1" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+ <object class="PageWgt" staticFile="opt/la_dados - celula t1.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T1" dataWndSize="0,70" pageName="LA_Dados - Celula T1" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>

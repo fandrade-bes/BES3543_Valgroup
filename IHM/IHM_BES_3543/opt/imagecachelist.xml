@@ -1,0 +1,116 @@
+<files>
+ <file isSvgFile="true" imgSize="16,17" numSizes="1" file="images/ic_pl1_127.svg" numUses="28" dynamic="true" stroke="none" fill="rgb(152,152,152)"/>
+ <file isSvgFile="true" imgSize="16,17" numSizes="12" file="images/ic_al1_080.svg" numUses="39" dynamic="true" stroke="none" fill="rgb(127,127,127)"/>
+ <file strokeSize="3" isSvgFile="true" imgSize="65,62" numSizes="1" file="images/knob_blkpl_1_rev1.svg" numUses="9" dynamic="true" stroke="none" fill="rgb(53,53,53)"/>
+ <file isSvgFile="true" imgSize="60,19" numSizes="3" file="images/li_shape_rrect.svg" numUses="10" dynamic="true" stroke="none" fill="rgb(180,180,180)"/>
+ <file isSvgFile="true" imgSize="25,20" numSizes="1" file="images/arrowsicon5.svg" numUses="20" dynamic="true" stroke="none" fill="rgb(50,205,50)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="41,60" numSizes="33" file="images/fe_btn_kbdwht_2.svg" numUses="72" stroke="none" fill="rgb(0,0,0)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="41,60" numSizes="33" file="images/fe_btn_kbdwht_1.svg" numUses="72" stroke="none" fill="rgb(0,0,0)"/>
+ <file isSvgFile="true" imgSize="67,31" numSizes="67" file="images/win-like-press.svg" numUses="68" stroke="none" fill="none"/>
+ <file isSvgFile="true" imgSize="67,31" numSizes="67" file="images/win-like.svg" numUses="68" stroke="none" fill="none"/>
+ <file imgSize="37,39" numSizes="49" file="images/" numUses="50"/>
+ <file imgSize="47,48" numSizes="35" file="images/icons8-avan_u231ar-60.png" numUses="38"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="31" file="images/win-like-press.svg" numUses="36" stroke="none" fill="rgb(184,219,255)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="31" file="images/win-like.svg" numUses="36" stroke="none" fill="rgb(184,219,255)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="26" file="images/win-like-press.svg" numUses="31" stroke="none" fill="rgb(247,247,247)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="26" file="images/win-like.svg" numUses="31" stroke="none" fill="rgb(247,247,247)"/>
+ <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96.png" numUses="23"/>
+ <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96 (1).png" numUses="23"/>
+ <file imgSize="48,53" numSizes="6" file="images/icons8-desligar-48.png" numUses="23"/>
+ <file imgSize="48,53" numSizes="6" file="images/icons8-ligar-48.png" numUses="23"/>
+ <file imgSize="40,42" numSizes="17" file="images/icons8-compromisso-recorrente-50.png" numUses="20"/>
+ <file isSvgFile="true" imgSize="126,27" numSizes="3" file="images/win-like-press.svg" numUses="18" stroke="none" fill="rgb(0,255,0)"/>
+ <file isSvgFile="true" imgSize="126,27" numSizes="3" file="images/win-like.svg" numUses="18" stroke="none" fill="rgb(0,255,0)"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-1-48 (1).png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-2-48.png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-3-48.png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-4-48.png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-5-48.png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-6-48 (1).png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-7-48.png" numUses="18"/>
+ <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-8-48.png" numUses="18"/>
+ <file imgSize="42,34" numSizes="1" file="images/icons8-desfazer-48.png" numUses="17"/>
+ <file imgSize="27,29" numSizes="2" file="images/icons8-ok-25.png" numUses="9"/>
+ <file isSvgFile="true" imgSize="84,58" numSizes="1" file="images/win-like-press.svg" numUses="8" stroke="none" fill="rgb(255,255,255)"/>
+ <file isSvgFile="true" imgSize="84,58" numSizes="1" file="images/win-like.svg" numUses="8" stroke="none" fill="rgb(255,255,255)"/>
+ <file imgSize="27,29" numSizes="1" file="images/.images/" numUses="8"/>
+ <file imgSize="39,41" numSizes="5" file="images/icons8-ok-48.png" numUses="8"/>
+ <file imgSize="56,25" numSizes="1" file="images/esteira_1 (1).png" numUses="6"/>
+ <file imgSize="39,41" numSizes="1" file="images/icons8-sync-48.png" numUses="6"/>
+ <file imgSize="35,37" numSizes="1" file="images/icons8-compromisso-recorrente-50 (1).png" numUses="6"/>
+ <file imgSize="63,64" numSizes="3" file="images/icons8-direita-90.png" numUses="6"/>
+ <file imgSize="63,64" numSizes="3" file="images/icons8-esquerda.png" numUses="6"/>
+ <file imgSize="39,41" numSizes="5" file="images/icons8-cancelar-48.png" numUses="6"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="76,60" numSizes="6" file="images/fe_btn_kbdwht_long_2.svg" numUses="6" stroke="none" fill="rgb(0,0,0)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="76,60" numSizes="6" file="images/fe_btn_kbdwht_long_1.svg" numUses="6" stroke="none" fill="rgb(0,0,0)"/>
+ <file imgSize="37,39" numSizes="4" file="images/icons8-erro-482.png" numUses="5"/>
+ <file isSvgFile="true" imgSize="32,17" numSizes="1" file="images/arrowsicon16.svg" numUses="4" stroke="none" fill="rgb(255,0,0)"/>
+ <file imgSize="77,70" numSizes="1" file="images/servo.png" numUses="4"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_dwn.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_blueup.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
+ <file imgSize="62,64" numSizes="3" file="images/icons8-one-page-down-80.png" numUses="4"/>
+ <file imgSize="52,60" numSizes="2" file="images/icons8-salvar-48.png" numUses="3"/>
+ <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_dwn.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
+ <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_blueup.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
+ <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like-press.svg" numUses="2" stroke="none" fill="rgb(255,186,180)"/>
+ <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like.svg" numUses="2" stroke="none" fill="rgb(255,186,180)"/>
+ <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like-press.svg" numUses="2" stroke="none" fill="rgb(152,251,152)"/>
+ <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like.svg" numUses="2" stroke="none" fill="rgb(152,251,152)"/>
+ <file imgSize="36,37" numSizes="1" file="images/icons8-card_u225pio-48.png" numUses="2"/>
+ <file imgSize="38,39" numSizes="1" file="images/icons8-servi_u231os-48.png" numUses="2"/>
+ <file imgSize="38,39" numSizes="1" file="images/icons8-performance-50.png" numUses="2"/>
+ <file imgSize="38,39" numSizes="1" file="images/icons8-op_u231_u245es-de-ordena_u231_u227o-48.png" numUses="2"/>
+ <file imgSize="38,39" numSizes="1" file="images/icons8-editar-propriedade-48.png" numUses="2"/>
+ <file imgSize="38,39" numSizes="1" file="images/icons8-seguran_u231a-verificada-48.png" numUses="2"/>
+ <file imgSize="41,41" numSizes="1" file="images/icons8-logout-40.png" numUses="2"/>
+ <file imgSize="41,41" numSizes="1" file="images/icons8-login-40.png" numUses="2"/>
+ <file imgSize="40,43" numSizes="1" file="images/icons8-sinal-de-alerta-geral-96.png" numUses="2"/>
+ <file imgSize="58,62" numSizes="1" file="images/icons8-inspe_u231_u227o-100.png" numUses="2"/>
+ <file imgSize="46,45" numSizes="1" file="images/inspecao.png" numUses="2"/>
+ <file imgSize="32,32" numSizes="1" file="images/icons8-sincronizar-40.png" numUses="2"/>
+ <file imgSize="51,65" numSizes="1" file="images/imagem2.png" numUses="2"/>
+ <file imgSize="570,410" numSizes="1" file="images/se_u231_u227o_pesagem.png" numUses="2"/>
+ <file imgSize="84,90" numSizes="1" file="images/balanca.png" numUses="2"/>
+ <file imgSize="76,79" numSizes="1" file="images/icons8-carimbo-de-visto-96.png" numUses="2"/>
+ <file imgSize="641,409" numSizes="1" file="images/3543_celula.png" numUses="2"/>
+ <file imgSize="583,389" numSizes="1" file="images/empilhador_4.png" numUses="2"/>
+ <file imgSize="188,125" numSizes="1" file="images/garra_empilhador2.png" numUses="2"/>
+ <file imgSize="581,391" numSizes="1" file="images/envolvedor_superior.png" numUses="2"/>
+ <file imgSize="186,122" numSizes="1" file="images/garra_envolvedor3.png" numUses="2"/>
+ <file imgSize="52,60" numSizes="1" file="images/icons8-abrir-documento-48.png" numUses="2"/>
+ <file imgSize="52,60" numSizes="1" file="images/icons8-baixar-48.png" numUses="2"/>
+ <file imgSize="52,60" numSizes="1" file="images/icons8-fazer-upload-48.png" numUses="2"/>
+ <file imgSize="120,118" numSizes="1" file="images/bloco_imgupscaler.ai_afiador_2k.png" numUses="2"/>
+ <file imgSize="70,83" numSizes="1" file="images/bandage_3983709.png" numUses="2"/>
+ <file imgSize="46,42" numSizes="1" file="images/icons8-l_u225pis-100.png" numUses="2"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="54,46" numSizes="1" file="images/ic_cn2_03.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="16,15" numSizes="1" file="images/keyboard-grab-dark.svg" numUses="1" stroke="none" fill="rgb(23,30,40)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="84,67" numSizes="1" file="images/ic_pl2_114.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="84,67" numSizes="1" file="images/ic_pl2_115.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="84,67" numSizes="1" file="images/ic_pl2_117.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="84,67" numSizes="1" file="images/ic_pl2_116_rev1.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
+ <file isSvgFile="true" prePath="keypads" imgSize="47,50" numSizes="1" file="images/ic_cn2_04.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
+ <file isSvgFile="true" imgSize="34,34" numSizes="1" file="images/dwn_arrow_ico.svg" numUses="1" stroke="none" fill="none"/>
+ <file isSvgFile="true" imgSize="34,34" numSizes="1" file="images/up_arrow_ico.svg" numUses="1" stroke="none" fill="none"/>
+ <file imgSize="630,407" numSizes="1" file="images/lado a.png" numUses="1"/>
+ <file imgSize="441,407" numSizes="1" file="images/empilhador_5.png" numUses="1"/>
+ <file imgSize="152,286" numSizes="1" file="images/empilhador_3.png" numUses="1"/>
+ <file imgSize="466,407" numSizes="1" file="images/envolvedor.png" numUses="1"/>
+ <file imgSize="569,370" numSizes="1" file="images/pesagem_superior1.png" numUses="1"/>
+ <file imgSize="187,120" numSizes="1" file="images/atuador_transferencia.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_parametros - empilhador garra.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_parametros - empilhador movimento.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_parametros - envolvedor.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t1.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t2.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t3.png" numUses="1"/>
+ <file imgSize="257,34" numSizes="1" file="images/,images/,images/,images/,images/" numUses="1"/>
+ <file imgSize="44,44" numSizes="1" file="images/icons8-excluir-30.png" numUses="1"/>
+ <file imgSize="630,407" numSizes="1" file="images/lado b.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/lb_parametros - empilhador garra.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/lb_parametros - empilhador movimento.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/lb_parametros - envolvedor.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/lb_dados - celula t1.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/lb_dados - celulas t2.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/lb_dados - celulas t3.png" numUses="1"/>
+</files>

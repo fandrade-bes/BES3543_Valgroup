@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_manual - envolvedor atuadores.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Manual - Envolvedor Atuadores" dataWndSize="0,70" pageName="LA_Manual - Envolvedor Atuadores" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+ <object class="PageWgt" staticFile="opt/la_manual - envolvedor atuadores.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Manual - Envolvedor Atuadores" dataWndSize="0,70" pageName="LA_Manual - Envolvedor Atuadores" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -29,7 +29,7 @@
   <object class="ShapeWgt" id="GroupWgt4.rect7">
    <wgtStyle x="-1" y="32.95" mtx="1,-0.000883735,0,0.00111902,0.999999,0,0,0.204861,1" cx="112.39" cy="206" width="231.81" height="411.80" fill="rgb(40,40,40)" nodeName="rect" forcePaint="1"/>
   </object>
-  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic; ">
+  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic">
    <wgtStyle x="42.65" y="21.38" mtx="1.15905,-0.0012219,0,0.000990995,1.05645,0,0,0.151516,1" groupStyle="xform-scaling" cx="71.92" cy="65.58" width="124" height="124" forcePaint="1"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;LabelsWgt.min"/>

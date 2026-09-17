@@ -1,5 +1,10 @@
 <groups>
  <group Type="Auto">
+  <name>AddUser@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Force Logoff Time</tag>
+ </group>
+ <group Type="Auto">
   <name>Calendar@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>System Time</tag>
@@ -1009,9 +1014,9 @@
  <group Type="Auto">
   <name>Salvar Receita@$GroupSubscrWgt@$0</name>
   <active>false</active>
-  <tag>Application/GVL_IHM/bt_SALVAR_RECEITA</tag>
-  <tag>Application/GVL_IHM/int_STATUS_RECEITA</tag>
   <tag>Application/LA_GERAL/rec_IHM/NOME</tag>
   <tag>Application/LA_GERAL/rec_SELECIONADA/NOME</tag>
+  <tag>Application/LA_IHM/bt_SALVAR_RECEITA</tag>
+  <tag>Application/LA_IHM/int_STATUS_RECEITA</tag>
  </group>
 </groups>

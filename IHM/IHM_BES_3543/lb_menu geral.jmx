@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/lb_menu geral.png" downloadPrepDone="false" templateFile="lb_geral.jmx" staticOptEnable="true" id="LB_Menu Geral" dataWndSize="0,70" pageName="LB_Menu Geral" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+ <object class="PageWgt" staticFile="opt/lb_menu geral.png" downloadPrepDone="true" templateFile="lb_geral.jmx" staticOptEnable="true" id="LB_Menu Geral" dataWndSize="0,70" pageName="LB_Menu Geral" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="ImageWgt" id="ImageWgt5">
    <wgtStyle imagePath="images/LADO B.png" x="140.20" y="36.41" cx="315.17" cy="203.58" width="630.32" height="407.18" forcePaint="65"/>

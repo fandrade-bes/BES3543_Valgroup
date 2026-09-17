@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_manual - empilhador motores.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Manual - Empilhador Motores" dataWndSize="0,70" pageName="LA_Manual - Empilhador Motores" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+ <object class="PageWgt" staticFile="opt/la_manual - empilhador motores.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Manual - Empilhador Motores" dataWndSize="0,70" pageName="LA_Manual - Empilhador Motores" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -562,7 +562,7 @@
     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_manual_seletor.jmx" attribute="onMouseRelease"/>
    </links>
   </object>
-  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic; ">
+  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic">
    <wgtStyle x="14.32" y="30.53" mtx="1.1611,-0.00123076,0,0.000992751,1.0641,0,0,0.152614,1" groupStyle="xform-scaling" cx="72.05" cy="66.05" width="124" height="124" forcePaint="1"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;LabelsWgt.min"/>

@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/manual - pesagem.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="Manual - Pesagem" dataWndSize="0,70" pageName="Manual - Pesagem" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+ <object class="PageWgt" staticFile="opt/manual - pesagem.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="Manual - Pesagem" dataWndSize="0,70" pageName="Manual - Pesagem" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -43,7 +43,7 @@
   <object class="ShapeWgt" id="GroupWgt4.rect7">
    <wgtStyle x="-2" y="32.95" mtx="1,-0.000877568,0,0.00112688,0.999999,0,0,0.204861,1" cx="113.18" cy="206" width="233.44" height="411.80" fill="rgb(40,40,40)" nodeName="rect" forcePaint="1"/>
   </object>
-  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic; ">
+  <object class="GroupWgt" customType="Knob" id="Knob2" hmiStyle="hmi-name:black plastic">
    <wgtStyle x="41.96" y="21.38" mtx="1.1672,-0.0012219,0,0.000997959,1.05645,0,0,0.151516,1" groupStyle="xform-scaling" cx="72.43" cy="65.58" width="124" height="124" forcePaint="1"/>
    <links>
     <attr attrName="min" alias="NeedleWgt.min;LabelsWgt.min"/>

@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="DialogWgt" staticFile="opt/salvar receita.png" downloadPrepDone="false" dynPosition="false" titlebar="false" singleInstance="true" staticOptEnable="true" titleName="" px="0" id="Salvar Receita" py="0" dataWndSize="0,70" pageType="modal" pageName="Salvar Receita" pageSize="600,400" usedFonts="Segoe UI,Arial,Roboto,Calibri">
+ <object class="DialogWgt" staticFile="opt/salvar receita.png" downloadPrepDone="true" dynPosition="false" titlebar="false" singleInstance="true" staticOptEnable="true" titleName="" px="0" id="Salvar Receita" py="0" dataWndSize="0,70" pageType="modal" pageName="Salvar Receita" pageSize="600,400" usedFonts="Segoe UI,Arial,Roboto,Calibri">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" color="rgb(40,40,40)" width="600" height="400" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -81,7 +81,7 @@
    <object class="ButtonWgt" id="GroupWgt2.hotspotbtn3" hmiStyle="type:btn">
     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="2.96" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="65.53" cy="57.79" value="0" width="133.09" height="117.87" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
     <dataLinks>
-     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bt_SALVAR_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bt_SALVAR_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
     </dataLinks>
    </object>
    <object class="ImageWgt" id="GroupWgt2.image9">
@@ -99,7 +99,7 @@
   <object class="MultiStateImageWgt" id="MultistateImage2">
    <wgtStyle imagePath="images/,images/,images/icons8-ok-25.png,images/,images/" continuousIndex="1" frame="2" x="257.31" y="282.08" imagePathIndexList="" cx="18.48" cy="18.49" width="36.97" height="36.98" forcePaint="9"/>
    <dataLinks>
-    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/GVL_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/LA_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
    </dataLinks>
   </object>
   <object class="GroupSubscribeWgt" id="Salvar Receita@$GroupSubscrWgt@$0">

@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/selecao lado.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="Selecao Lado" dataWndSize="0,70" pageName="Selecao Lado" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+ <object class="PageWgt" staticFile="opt/selecao lado.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="Selecao Lado" dataWndSize="0,70" pageName="Selecao Lado" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="ImageWgt" id="ImageWgt2" static="true">
    <wgtStyle imagePath="images/VISTA SUPERIOR.png" x="137.36" y="36.51" cx="272.50" cy="204" width="545" height="408"/>
@@ -21,9 +21,6 @@
     <wgtStyle x="0.20" y="0" cx="42.16" cy="29.10" width="84.31" height="58.19"/>
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton2" hmiStyle="type:btn">
      <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="84.31" height="58.19" fill="rgb(255,255,255)" downFillColor="rgb(184,219,255)"/>
-     <links>
-      <action class="LoadPageAction" actionID="1" event="onMouseClick" actionWgt="_PageMgr" pageName="lb_menu geral.jmx" attribute="onMouseClick"/>
-     </links>
     </object>
     <object class="LabelWgt" id="SimpleRectBtn1-text2" static="true">
      <wgtStyle font-size="16" wrapping="true" cx="31.34" cy="9.68" x="13.08" y="19.78" font-sizepx="21" font-bold="true" height="18.62" font-color="rgb(232,232,232)" min-font-size="8" width="61.05" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
