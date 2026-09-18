@@ -663,7 +663,7 @@
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton12" hmiStyle="type:btn">
      <wgtStyle type="maintained" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" stroke="rgb(192,192,192)" width="59.14" height="91.44" fill="rgb(247,247,247)" forcePaint="9" downFillColor="rgb(247,247,247)"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/LA_IHM/bit_bt_CORTE_STRETCH" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_ENV_CORTE_FILME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="SimpleRectBtn1-text12" static="true">

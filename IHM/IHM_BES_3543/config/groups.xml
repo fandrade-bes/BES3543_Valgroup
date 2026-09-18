@@ -322,9 +322,9 @@
   <tag>Application/LA_IHM/bit_EIXO_X_ENVOLVEDOR_HABILITADO</tag>
   <tag>Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_ALARME_ATIVO</tag>
   <tag>Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_HABILITADO</tag>
+  <tag>Application/LA_IHM/bit_ENV_CORTE_FILME</tag>
   <tag>Application/LA_IHM/bit_GIRO_SACOLA_RESET</tag>
   <tag>Application/LA_IHM/bit_SIMULA_GIRO</tag>
-  <tag>Application/LA_IHM/bit_bt_CORTE_STRETCH</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_EST_ENTRADA</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_EST_SAIDA</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_EST_TR</tag>
@@ -336,15 +336,6 @@
  <group Type="Auto">
   <name>LA_Parametros - Empilhador Garra@$GroupSubscrWgt@$0</name>
   <active>false</active>
-  <tag>Application/GVL_GERAL/rec_IHM/int_NUM_MAX_CAMADAS_EMPILHADOR</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_POSICAO_ABRE_GARRA_EMPILHADOR[1]</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_POSICAO_ABRE_GARRA_EMPILHADOR[2]</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_POSICAO_ABRE_GARRA_EMPILHADOR[3]</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_POSICAO_ABRE_GARRA_EMPILHADOR[4]</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_POSICAO_ABRE_GARRA_EMPILHADOR[5]</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_ACELERACAO</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_DESACELERACAO</tag>
-  <tag>Application/GVL_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_VELOCIDADE</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_PEGA_GARRA_EMPILHADOR/sp_ACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_PEGA_GARRA_EMPILHADOR/sp_DESACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_PEGA_GARRA_EMPILHADOR/sp_POSICAO</tag>
@@ -363,11 +354,14 @@
   <tag>Application/LA_GERAL/rec_IHM/sp_ENTREGA_GARRA_EMPILHADOR_POSICAO[4]</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_ENTREGA_GARRA_EMPILHADOR_POSICAO[5]</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_ENTREGA_GARRA_EMPILHADOR_VELOCIDADE</tag>
+  <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_ACELERACAO</tag>
+  <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_DESACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_POSICAO[1]</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_POSICAO[2]</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_POSICAO[3]</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_POSICAO[4]</tag>
   <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_POSICAO[5]</tag>
+  <tag>Application/LA_GERAL/rec_IHM/sp_PRE_ENTREGA_GARRA_EMPILHADOR_VELOCIDADE</tag>
   <tag>Application/LA_GERAL/rec_IHM/tmr_TRANSICAO_ENTREGA_EMPILHADOR[1]</tag>
   <tag>Application/LA_GERAL/rec_IHM/tmr_TRANSICAO_ENTREGA_EMPILHADOR[2]</tag>
   <tag>Application/LA_GERAL/rec_IHM/tmr_TRANSICAO_ENTREGA_EMPILHADOR[3]</tag>
