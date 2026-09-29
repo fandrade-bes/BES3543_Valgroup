@@ -3,8 +3,8 @@
     <name>[CODESYS V3 ETH prot1] BES3543.Device.Application</name>
     <protocol>CDS3</protocol>
     <tag_importer_version>CODESYS3 xml v1.0</tag_importer_version>
-    <importfile>C:/Users/DIEGO.AMARAL/Documents/GitHub/BES3543_Valgroup/BES3543.Device.Application.xml</importfile>
-    <import_options importType="linear" ver="1.0"/>
+    <importfile>C:/Users/DIEGO.AMARAL/Documents/GitHub/BES3543_Valgroup/CLP/BES3543.Device.Application.xml</importfile>
+    <import_options ver="1.0" importType="linear"/>
     <tag_locator>
         <locator>tagname</locator>
     </tag_locator>
@@ -2531,6 +2531,14 @@
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/bit_bt_REALIZAR_INSPECAO</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/bit_bt_RESET_EST_ENTRADA</tagname>
             <datatype>boolean</datatype>
             <array>false</array>
@@ -3060,6 +3068,14 @@
         </tag>
         <tag>
             <tagname>Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/bit_MAQ_VALGROUP_ACOPLADA</tagname>
             <datatype>boolean</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -5135,6 +5151,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/TERCEIRO[9]</tagname>
             <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/int_PILHAS_ENTREGUES_MAX</tagname>
+            <datatype>short</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>

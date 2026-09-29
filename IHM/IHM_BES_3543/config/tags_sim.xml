@@ -12215,4 +12215,40 @@ TURNO 1</comment>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
+    <tag>
+        <name>Application/LA_IHM/bit_MAQ_VALGROUP_ACOPLADA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/bit_MAQ_VALGROUP_ACOPLADA?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_MAQ_VALGROUP_ACOPLADA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/int_PILHAS_ENTREGUES_MAX</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/int_PILHAS_ENTREGUES_MAX?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/int_PILHAS_ENTREGUES_MAX</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/bit_bt_REALIZAR_INSPECAO</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/bit_bt_REALIZAR_INSPECAO?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_bt_REALIZAR_INSPECAO</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
 </tags>

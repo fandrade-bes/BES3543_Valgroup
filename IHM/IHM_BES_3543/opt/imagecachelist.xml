@@ -12,8 +12,8 @@
  <file imgSize="47,48" numSizes="35" file="images/icons8-avan_u231ar-60.png" numUses="38"/>
  <file isSvgFile="true" imgSize="172,65" numSizes="31" file="images/win-like-press.svg" numUses="36" stroke="none" fill="rgb(184,219,255)"/>
  <file isSvgFile="true" imgSize="172,65" numSizes="31" file="images/win-like.svg" numUses="36" stroke="none" fill="rgb(184,219,255)"/>
- <file isSvgFile="true" imgSize="172,65" numSizes="26" file="images/win-like-press.svg" numUses="31" stroke="none" fill="rgb(247,247,247)"/>
- <file isSvgFile="true" imgSize="172,65" numSizes="26" file="images/win-like.svg" numUses="31" stroke="none" fill="rgb(247,247,247)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="27" file="images/win-like-press.svg" numUses="32" stroke="none" fill="rgb(247,247,247)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="27" file="images/win-like.svg" numUses="32" stroke="none" fill="rgb(247,247,247)"/>
  <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96.png" numUses="23"/>
  <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96 (1).png" numUses="23"/>
  <file imgSize="48,53" numSizes="6" file="images/icons8-desligar-48.png" numUses="23"/>
@@ -30,10 +30,10 @@
  <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-7-48.png" numUses="18"/>
  <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-8-48.png" numUses="18"/>
  <file imgSize="42,34" numSizes="1" file="images/icons8-desfazer-48.png" numUses="17"/>
- <file imgSize="27,29" numSizes="2" file="images/icons8-ok-25.png" numUses="9"/>
+ <file imgSize="29,29" numSizes="9" file="images/.images/" numUses="12"/>
+ <file imgSize="29,29" numSizes="10" file="images/icons8-ok-25.png" numUses="10"/>
  <file isSvgFile="true" imgSize="84,58" numSizes="1" file="images/win-like-press.svg" numUses="8" stroke="none" fill="rgb(255,255,255)"/>
  <file isSvgFile="true" imgSize="84,58" numSizes="1" file="images/win-like.svg" numUses="8" stroke="none" fill="rgb(255,255,255)"/>
- <file imgSize="27,29" numSizes="1" file="images/.images/" numUses="8"/>
  <file imgSize="39,41" numSizes="5" file="images/icons8-ok-48.png" numUses="8"/>
  <file imgSize="56,25" numSizes="1" file="images/esteira_1 (1).png" numUses="6"/>
  <file imgSize="39,41" numSizes="1" file="images/icons8-sync-48.png" numUses="6"/>
@@ -49,6 +49,7 @@
  <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_dwn.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
  <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_blueup.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
  <file imgSize="62,64" numSizes="3" file="images/icons8-one-page-down-80.png" numUses="4"/>
+ <file imgSize="46,45" numSizes="1" file="images/inspecao.png" numUses="3"/>
  <file imgSize="52,60" numSizes="2" file="images/icons8-salvar-48.png" numUses="3"/>
  <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_dwn.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
  <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_blueup.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
@@ -66,7 +67,6 @@
  <file imgSize="41,41" numSizes="1" file="images/icons8-login-40.png" numUses="2"/>
  <file imgSize="40,43" numSizes="1" file="images/icons8-sinal-de-alerta-geral-96.png" numUses="2"/>
  <file imgSize="58,62" numSizes="1" file="images/icons8-inspe_u231_u227o-100.png" numUses="2"/>
- <file imgSize="46,45" numSizes="1" file="images/inspecao.png" numUses="2"/>
  <file imgSize="32,32" numSizes="1" file="images/icons8-sincronizar-40.png" numUses="2"/>
  <file imgSize="51,65" numSizes="1" file="images/imagem2.png" numUses="2"/>
  <file imgSize="570,410" numSizes="1" file="images/se_u231_u227o_pesagem.png" numUses="2"/>

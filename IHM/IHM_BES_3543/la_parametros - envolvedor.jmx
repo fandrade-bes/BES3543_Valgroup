@@ -8,6 +8,7 @@
    </langs>
    <MLTexts>
     <MLText id="1" L1=""/>
+    <MLText id="0" L1="LD / LE Corte"/>
     <MLText id="2" L1="Pré Pega Z"/>
     <MLText id="3" L1="Pega Z"/>
     <MLText id="4" L1="Pos. Entrega  Z"/>
@@ -20,7 +21,6 @@
     <MLText id="12" L1="Pos. Corte Z"/>
     <MLText id="13" L1="Desaceleração"/>
     <MLText id="14" L1="Entrega X"/>
-    <MLText id="15" L1="LD / LE Pega"/>
     <MLText id="16" L1="LD / LE Entrega"/>
     <MLText id="17" L1="mm/s"/>
     <MLText id="18" L1="mm/s²"/>
@@ -787,7 +787,7 @@
    <object class="LabelWgt" id="GroupWgt6.label5" static="true">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.88" cy="9.47" x="0" marker="true" y="0" font-sizepx="16" font-bold="true" height="18.10" min-font-size="8" width="132.91" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="15">
+     <lang class="MLTextLink" textid="0">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -812,7 +812,7 @@
     <object class="NumericWgt" id="GroupWgt6.GroupWgt4.numeric2">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.34" cy="6.71" decimalDigits="1" x="2.10" numberFormat="1" showThousandSeparator="false" y="18.13" font-sizepx="16" height="14.90" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.96" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_POSICAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
    </object>
@@ -836,7 +836,7 @@
     <object class="NumericWgt" id="GroupWgt6.GroupWgt5.numeric2">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.34" cy="6.71" decimalDigits="1" x="2.10" numberFormat="1" showThousandSeparator="false" y="18.13" font-sizepx="16" height="14.90" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.96" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_VELOCIDADE" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
    </object>
@@ -860,7 +860,7 @@
     <object class="NumericWgt" id="GroupWgt6.GroupWgt6.numeric2">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.34" cy="6.71" decimalDigits="1" x="2.10" numberFormat="1" showThousandSeparator="false" y="18.13" font-sizepx="16" height="14.90" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.96" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_ACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
    </object>
@@ -884,7 +884,7 @@
     <object class="NumericWgt" id="GroupWgt6.GroupWgt9.numeric2">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="12" step="1" cx="30.34" cy="6.71" decimalDigits="1" x="2.10" numberFormat="1" showThousandSeparator="false" y="18.13" font-sizepx="16" height="14.90" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.96" alignment="center" max="1.79769e+308" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_DESACELERACAO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
    </object>

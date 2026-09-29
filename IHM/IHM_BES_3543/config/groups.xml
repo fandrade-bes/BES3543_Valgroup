@@ -301,14 +301,16 @@
   <tag>Application/LA_IHM/bit_EIXO_X_EMPILHADOR_ALARME_ATIVO</tag>
   <tag>Application/LA_IHM/bit_EIXO_X_EMPILHADOR_HABILITADO</tag>
   <tag>Application/LA_IHM/bit_EMPILHA_SACOLA_HOME</tag>
-  <tag>Application/LA_IHM/bit_SIMULA_PEGA</tag>
+  <tag>Application/LA_IHM/bit_MAQ_VALGROUP_ACOPLADA</tag>
   <tag>Application/LA_IHM/bit_STATUS_INSPECAO_OK</tag>
   <tag>Application/LA_IHM/bit_bt_INSPECAO_OK</tag>
+  <tag>Application/LA_IHM/bit_bt_REALIZAR_INSPECAO</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_INSPECAO</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_GARRA_EMPILHADOR</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_GIRO_MESA</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_X_EMPILHADOR</tag>
   <tag>Application/LA_IHM/int_CAMADA_ATUAL</tag>
+  <tag>Application/PVAR/int_PILHAS_ENTREGUES_MAX</tag>
  </group>
  <group Type="Auto">
   <name>LA_Operacao - Envolvedor@$GroupSubscrWgt@$0</name>
@@ -415,14 +417,14 @@
  <group Type="Auto">
   <name>LA_Parametros - Envolvedor@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_ACELERACAO</tag>
+  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_DESACELERACAO</tag>
+  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_POSICAO</tag>
+  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_CORTE/sp_VELOCIDADE</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_ENTREGA/sp_ACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_ENTREGA/sp_DESACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_ENTREGA/sp_POSICAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_ENTREGA/sp_VELOCIDADE</tag>
-  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_ACELERACAO</tag>
-  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_DESACELERACAO</tag>
-  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_POSICAO</tag>
-  <tag>Application/LA_GERAL/rec_IHM/coord_GIRO_ENVOLVEDOR_PEGA/sp_VELOCIDADE</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_X_ENVOLVEDOR_CORTE/sp_ACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_X_ENVOLVEDOR_CORTE/sp_DESACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_X_ENVOLVEDOR_CORTE/sp_POSICAO</tag>
