@@ -19,6 +19,134 @@
     </fields>
     <tags>
         <tag>
+            <tagname>Application/LA_EMP/status_alarm_atu_BANDEJA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_EMP/status_alarm_atu_DESCE_MESA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_EMP/status_alarm_EIXO_GARRA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_EMP/status_alarm_EIXO_GIRO_MESA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_EMP/status_alarm_EIXO_X</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment>ALARMES		============//============//============//============//============//============//============</comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_atu_ABERTURA</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_atu_GARRAS</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_EIXO_GIRO_LD</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_EIXO_GIRO_LE</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_EIXO_X</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_ENV/status_alarm_EIXO_Z</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment>ALARMES		============//============//============//============//============//============//============</comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_GERAL/int_HIST_INDEX_TURNO1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -2329,6 +2457,30 @@
             <arraysize>0</arraysize>
             <rw>R/W</rw>
             <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_GERAL/status_alarm_PORTA_1</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_GERAL/status_alarm_PORTA_2</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_GERAL/status_alarm_SAFETY</tagname>
+            <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment>ALARMES</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/ALARME_ATIVO</tagname>

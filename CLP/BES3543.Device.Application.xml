@@ -100,6 +100,30 @@
   </TypeList>
   <NodeList>
     <Node name="Application">
+      <Node name="LA_EMP">
+        <Node name="status_alarm_atu_BANDEJA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_DESCE_MESA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_GARRA_SACOLA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_POSICIONA_SACOLA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_GARRA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_GIRO_MESA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_X" type="T_INT" access="ReadWrite">
+          <Comment>ALARMES		============//============//============//============//============//============//============</Comment>
+        </Node>
+      </Node>
+      <Node name="LA_ENV">
+        <Node name="status_alarm_atu_ABERTURA" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_FECHA_FILME_1" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_FECHA_FILME_2" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_FECHA_FILME_3" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_atu_GARRAS" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_GIRO_LD" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_GIRO_LE" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_X" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_EIXO_Z" type="T_INT" access="ReadWrite">
+          <Comment>ALARMES		============//============//============//============//============//============//============</Comment>
+        </Node>
+      </Node>
       <Node name="LA_GERAL">
         <Node name="int_HIST_INDEX_TURNO1" type="T_DINT" access="ReadWrite" />
         <Node name="int_HIST_INDEX_TURNO2" type="T_DINT" access="ReadWrite" />
@@ -109,6 +133,11 @@
 RECEITAS</Comment>
         </Node>
         <Node name="rec_SELECIONADA" type="T_RECEITA" access="ReadWrite" />
+        <Node name="status_alarm_PORTA_1" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_PORTA_2" type="T_INT" access="ReadWrite" />
+        <Node name="status_alarm_SAFETY" type="T_INT" access="ReadWrite">
+          <Comment>ALARMES</Comment>
+        </Node>
       </Node>
       <Node name="LA_IHM">
         <Node name="ALARME_ATIVO" type="T_BOOL" access="ReadWrite" />

@@ -545,10 +545,7 @@
   <object class="GroupWgt" customType="Shape Button" id="BtnOthersRect8">
    <wgtStyle x="390.85" y="74.22" cx="67.50" cy="16.17" width="135" height="32.33" forcePaint="1"/>
    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton10" hmiStyle="type:btn">
-    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="135" height="32.33" fill="rgb(247,247,247)" forcePaint="1" downFillColor="rgb(247,247,247)"/>
-    <links>
-     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_receitas.jmx" attribute="onMouseRelease"/>
-    </links>
+    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(255,255,255)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="135" height="32.33" fill="rgb(247,247,247)" forcePaint="1" downFillColor="rgb(247,247,247)"/>
    </object>
    <object class="LabelWgt" id="SimpleRectBtn1-text10" static="true">
     <wgtStyle font-size="16" wrapping="true" cx="50.18" cy="5.38" x="20.95" y="10.99" font-sizepx="21" font-bold="true" height="10.35" font-color="rgb(255,255,255)" min-font-size="8" width="97.76" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
@@ -570,10 +567,7 @@
   <object class="GroupWgt" customType="Shape Button" id="BtnOthersRect1">
    <wgtStyle x="606.51" y="76.73" cx="67.50" cy="16.17" width="135" height="32.33" forcePaint="1"/>
    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton7" hmiStyle="type:btn">
-    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="135" height="32.33" fill="rgb(247,247,247)" forcePaint="1" downFillColor="rgb(247,247,247)"/>
-    <links>
-     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_receitas.jmx" attribute="onMouseRelease"/>
-    </links>
+    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(255,255,255)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="135" height="32.33" fill="rgb(247,247,247)" forcePaint="1" downFillColor="rgb(247,247,247)"/>
    </object>
    <object class="LabelWgt" id="SimpleRectBtn1-text7" static="true">
     <wgtStyle font-size="16" wrapping="true" cx="50.18" cy="5.38" x="20.95" y="10.99" font-sizepx="21" font-bold="true" height="10.35" font-color="rgb(255,255,255)" min-font-size="8" width="97.76" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
@@ -595,10 +589,7 @@
   <object class="GroupWgt" customType="Shape Button" id="BtnOthersRect2">
    <wgtStyle x="620" y="308.18" cx="67.50" cy="16.17" width="135" height="32.33" forcePaint="1"/>
    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton11" hmiStyle="type:btn">
-    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="135" height="32.33" fill="rgb(247,247,247)" forcePaint="1" downFillColor="rgb(247,247,247)"/>
-    <links>
-     <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_receitas.jmx" attribute="onMouseRelease"/>
-    </links>
+    <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(255,255,255)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="135" height="32.33" fill="rgb(247,247,247)" forcePaint="1" downFillColor="rgb(247,247,247)"/>
    </object>
    <object class="LabelWgt" id="SimpleRectBtn1-text11" static="true">
     <wgtStyle font-size="16" wrapping="true" cx="50.18" cy="5.38" x="20.95" y="10.99" font-sizepx="21" font-bold="true" height="10.35" font-color="rgb(255,255,255)" min-font-size="8" width="97.76" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>

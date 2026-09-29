@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<events/>
+<events>
+    <event id="1" name="Alarm1" group="Alarm1" trigger="valueAlarm" description="[11@Alarm]A bandeja não avançou corretamente"/>
+    <event id="2" name="Alarm2" group="Alarm2" trigger="valueAlarm" description="[15@Alarm]A bandeja não recuou corretamente"/>
+    <event id="3" name="Alarm3" group="Alarm3" trigger="valueAlarm" description="[24@Alarm]O atuador Desce Mesa não avançou corretamente"/>
+    <event id="4" name="Alarm4" group="Alarm4" trigger="valueAlarm" description="[23@Alarm]O atuador Desce Mesa não recuou corretamente"/>
+    <event id="5" name="Alarm5" group="Alarm5" trigger="valueAlarm" description="[28@Alarm]O atuador Garra Sacola não avançou corretamente"/>
+    <event id="6" name="Alarm6" group="Alarm6" trigger="valueAlarm" description="[32@Alarm]O atuador Garra Sacola não recuou corretamente"/>
+    <event id="7" name="Alarm7" group="Alarm7" trigger="valueAlarm" description="[36@Alarm]O atuador Posiciona Sacola não avançou corretamente"/>
+    <event id="8" name="Alarm8" group="Alarm8" trigger="valueAlarm" description="[40@Alarm]O atuador Posiciona Sacola não recuou corretamente"/>
+    <event id="9" name="Alarm9" group="Alarm9" trigger="valueAlarm" description="[111@Alarm]O eixo da Garra do Empilhador está em falha"/>
+    <event id="10" name="Alarm10" group="Alarm10" trigger="valueAlarm" description="[110@Alarm]O eixo da Mesa de Giro do Empilhador está em falha"/>
+    <event id="11" name="Alarm11" group="Alarm11" trigger="valueAlarm" description="[53@Alarm]O eixo X do Empilhador está em falha"/>
+    <event id="12" name="Alarm12" group="Alarm12" trigger="valueAlarm" description="[62@Alarm]O atuador de Abertura das Garras não avançou corretamente"/>
+    <event id="13" name="Alarm13" group="Alarm13" trigger="valueAlarm" description="[61@Alarm]O atuador de Abertura das Garras não recuou corretamente"/>
+    <event id="14" name="Alarm14" group="Alarm14" trigger="valueAlarm" description="[66@Alarm]O atuador das Garras não avançou corretamente"/>
+    <event id="15" name="Alarm15" group="Alarm15" trigger="valueAlarm" description="[70@Alarm]O atuador das Garras não recuou corretamente"/>
+    <event id="16" name="Alarm16" group="Alarm16" trigger="valueAlarm" description="[74@Alarm]O atuador Fecha Filme 1 não avançou corretamente"/>
+    <event id="17" name="Alarm17" group="Alarm17" trigger="valueAlarm" description="[78@Alarm]O atuador Fecha Filme 1 não recuou corretamente"/>
+    <event id="18" name="Alarm18" group="Alarm18" trigger="valueAlarm" description="[82@Alarm]O atuador Fecha Filme 2 não avançou corretamente"/>
+    <event id="19" name="Alarm19" group="Alarm19" trigger="valueAlarm" description="[86@Alarm]O atuador Fecha Filme 2 não recuou corretamente"/>
+    <event id="20" name="Alarm20" group="Alarm20" trigger="valueAlarm" description="[95@Alarm]O atuador Fecha Filme 3 não avançou corretamente"/>
+    <event id="21" name="Alarm21" group="Alarm21" trigger="valueAlarm" description="[94@Alarm]O atuador Fecha filme 3 não recuou corretamente"/>
+    <event id="22" name="Alarm22" group="Alarm22" trigger="valueAlarm" description="[108@Alarm]O eixo Z do Envovledor está em falha"/>
+    <event id="23" name="Alarm23" group="Alarm23" trigger="valueAlarm" description="[109@Alarm]O eixo X do Envolvedor está em falha"/>
+    <event id="24" name="Alarm24" group="Alarm24" trigger="valueAlarm" description="[107@Alarm]O eixo rotativo LD do Envolvedor está em falha"/>
+    <event id="25" name="Alarm25" group="Alarm25" trigger="valueAlarm" description="[115@Alarm]O eixo rotativo LE do Envolvedor está em falha"/>
+    <event id="26" name="Alarm26" group="Alarm26" trigger="valueAlarm" description="[119@Alarm]A porta 1 está aberta"/>
+    <event id="27" name="Alarm27" group="Alarm27" trigger="valueAlarm" description="[123@Alarm]A porta 2 está aberta"/>
+    <event id="28" name="Alarm28" group="Alarm28" trigger="valueAlarm" description="[130@Alarm]Alerta! Segurança do Lado A desativada. Verifique portas e botões de emergência"/>
+</events>

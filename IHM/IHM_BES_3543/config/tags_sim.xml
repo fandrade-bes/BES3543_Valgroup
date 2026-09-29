@@ -12224,6 +12224,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_MAQ_VALGROUP_ACOPLADA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12236,6 +12238,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/int_PILHAS_ENTREGUES_MAX</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12247,6 +12251,239 @@ TURNO 1</comment>
         <resourceLocator>VRBL://Application/LA_IHM/bit_bt_REALIZAR_INSPECAO?boolean</resourceLocator>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_bt_REALIZAR_INSPECAO</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_atu_ABERTURA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_atu_ABERTURA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_ABERTURA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_EIXO_X</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_EIXO_X?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_X</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_atu_GARRA_SACOLA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_EIXO_Z</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <comment>ALARMES		============//============//============//============//============//============//============</comment>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_EIXO_Z?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_Z</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_EIXO_X</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <comment>ALARMES		============//============//============//============//============//============//============</comment>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_EIXO_X?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_X</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_GERAL/status_alarm_PORTA_2</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_GERAL/status_alarm_PORTA_2?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_PORTA_2</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_GERAL/status_alarm_SAFETY</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <comment>ALARMES</comment>
+        <resourceLocator>VRBL://Application/LA_GERAL/status_alarm_SAFETY?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_SAFETY</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_EIXO_GIRO_LE</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_EIXO_GIRO_LE?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_GIRO_LE</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_EIXO_GARRA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_EIXO_GARRA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_GARRA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_atu_FECHA_FILME_1?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_EIXO_GIRO_LD</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_EIXO_GIRO_LD?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_GIRO_LD</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_EIXO_GIRO_MESA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_EIXO_GIRO_MESA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_GIRO_MESA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_atu_DESCE_MESA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_atu_DESCE_MESA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_DESCE_MESA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_atu_FECHA_FILME_3?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_GERAL/status_alarm_PORTA_1</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_GERAL/status_alarm_PORTA_1?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_PORTA_1</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_atu_FECHA_FILME_2?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_atu_BANDEJA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_atu_BANDEJA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_BANDEJA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_ENV/status_alarm_atu_GARRAS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_ENV/status_alarm_atu_GARRAS?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_GARRAS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>

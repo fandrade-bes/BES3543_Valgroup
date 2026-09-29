@@ -5,6 +5,7 @@
             <lang name="Lang1" langCode="en-US" writingsystem="Any" defaultFont="Roboto" langId="L1" removable="false" keypads=";;"/>
         </langs>
         <MLTexts>
+            <MLText id="7" L1=""/>
             <MLText id="0" L1="Not Triggered"/>
             <MLText id="1" L1="Disabled"/>
             <MLText id="2" L1="Triggered"/>
@@ -12,8 +13,820 @@
             <MLText id="4" L1="Not Triggered Acked"/>
             <MLText id="5" L1="Not Triggered Not Acked"/>
             <MLText id="6" L1="Triggered Acked"/>
+            <MLText id="11" L1="A bandeja não avançou corretamente"/>
+            <MLText id="15" L1="A bandeja não recuou corretamente"/>
+            <MLText id="23" L1="O atuador Desce Mesa não recuou corretamente"/>
+            <MLText id="24" L1="O atuador Desce Mesa não avançou corretamente"/>
+            <MLText id="28" L1="O atuador Garra Sacola não avançou corretamente"/>
+            <MLText id="32" L1="O atuador Garra Sacola não recuou corretamente"/>
+            <MLText id="36" L1="O atuador Posiciona Sacola não avançou corretamente"/>
+            <MLText id="40" L1="O atuador Posiciona Sacola não recuou corretamente"/>
+            <MLText id="53" L1="O eixo X do Empilhador está em falha"/>
+            <MLText id="61" L1="O atuador de Abertura das Garras não recuou corretamente"/>
+            <MLText id="62" L1="O atuador de Abertura das Garras não avançou corretamente"/>
+            <MLText id="66" L1="O atuador das Garras não avançou corretamente"/>
+            <MLText id="70" L1="O atuador das Garras não recuou corretamente"/>
+            <MLText id="74" L1="O atuador Fecha Filme 1 não avançou corretamente"/>
+            <MLText id="78" L1="O atuador Fecha Filme 1 não recuou corretamente"/>
+            <MLText id="82" L1="O atuador Fecha Filme 2 não avançou corretamente"/>
+            <MLText id="86" L1="O atuador Fecha Filme 2 não recuou corretamente"/>
+            <MLText id="94" L1="O atuador Fecha filme 3 não recuou corretamente"/>
+            <MLText id="95" L1="O atuador Fecha Filme 3 não avançou corretamente"/>
+            <MLText id="107" L1="O eixo rotativo LD do Envolvedor está em falha"/>
+            <MLText id="108" L1="O eixo Z do Envovledor está em falha"/>
+            <MLText id="109" L1="O eixo X do Envolvedor está em falha"/>
+            <MLText id="110" L1="O eixo da Mesa de Giro do Empilhador está em falha"/>
+            <MLText id="111" L1="O eixo da Garra do Empilhador está em falha"/>
+            <MLText id="115" L1="O eixo rotativo LE do Envolvedor está em falha"/>
+            <MLText id="119" L1="A porta 1 está aberta"/>
+            <MLText id="123" L1="A porta 2 está aberta"/>
+            <MLText id="130" L1="Alerta! Segurança do Lado A desativada. Verifique portas e botões de emergência"/>
         </MLTexts>
     </multiLangs>
     <defaultColors notTriggeredTxtColor="#000000" notTriggeredBgColor="#ffffff" disabledTxtColor="#000000" disabledBgColor="#ffffff" triggeredTxtColor="#000000" triggeredBgColor="#ffffff" triggeredNotAckedTxtColor="#000000" triggeredNotAckedBgColor="#ffffff" notTriggeredAckedTxtColor="#000000" notTriggeredAckedBgColor="#ffffff" notTriggeredNotAckedTxtColor="#000000" notTriggeredNotAckedBgColor="#ffffff" triggeredAckedTxtColor="#000000" triggeredAckedBgColor="#ffffff" ackTxtColor="#ff0000" ackBgColor="#ffff00"/>
     <stateMLDesc NotTriggered="[0@Alarm]Not Triggered" Disabled="[1@Alarm]Disabled" Triggered="[2@Alarm]Triggered" TriggeredNotAcked="[3@Alarm]Triggered Not Acked" NotTriggeredAcked="[4@Alarm]Not Triggered Acked" NotTriggeredNotAcked="[5@Alarm]Not Triggered Not Acked" TriggeredAcked="[6@Alarm]Triggered Acked"/>
+    <valueAlarm alarmId="1" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm1</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_BANDEJA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[11@Alarm]A bandeja não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="2" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm2</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_BANDEJA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[15@Alarm]A bandeja não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="3" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm3</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_DESCE_MESA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[24@Alarm]O atuador Desce Mesa não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="4" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm4</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_DESCE_MESA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[23@Alarm]O atuador Desce Mesa não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="5" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm5</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[28@Alarm]O atuador Garra Sacola não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="6" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm6</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[32@Alarm]O atuador Garra Sacola não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="7" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm7</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[36@Alarm]O atuador Posiciona Sacola não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="8" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm8</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[40@Alarm]O atuador Posiciona Sacola não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="9" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm9</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_EIXO_GARRA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[111@Alarm]O eixo da Garra do Empilhador está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="10" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm10</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_EIXO_GIRO_MESA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[110@Alarm]O eixo da Mesa de Giro do Empilhador está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="11" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm11</name>
+        <groups>EMPILHADOR</groups>
+        <source>Application/LA_EMP/status_alarm_EIXO_X</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[53@Alarm]O eixo X do Empilhador está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="12" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm12</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_ABERTURA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[62@Alarm]O atuador de Abertura das Garras não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="13" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm13</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_ABERTURA</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[61@Alarm]O atuador de Abertura das Garras não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="14" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm14</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_GARRAS</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[66@Alarm]O atuador das Garras não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="15" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm15</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_GARRAS</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[70@Alarm]O atuador das Garras não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="16" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm16</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[74@Alarm]O atuador Fecha Filme 1 não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="17" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm17</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[78@Alarm]O atuador Fecha Filme 1 não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="18" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm18</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[82@Alarm]O atuador Fecha Filme 2 não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="19" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm19</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[86@Alarm]O atuador Fecha Filme 2 não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="20" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm20</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[95@Alarm]O atuador Fecha Filme 3 não avançou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="21" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm21</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[94@Alarm]O atuador Fecha filme 3 não recuou corretamente</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>2</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="22" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm22</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_EIXO_Z</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[108@Alarm]O eixo Z do Envovledor está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="23" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm23</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_EIXO_X</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[109@Alarm]O eixo X do Envolvedor está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="24" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm24</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_EIXO_GIRO_LD</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[107@Alarm]O eixo rotativo LD do Envolvedor está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="25" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm25</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_ENV/status_alarm_EIXO_GIRO_LE</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[115@Alarm]O eixo rotativo LE do Envolvedor está em falha</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="26" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm26</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_GERAL/status_alarm_PORTA_1</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[119@Alarm]A porta 1 está aberta</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="27" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm27</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_GERAL/status_alarm_PORTA_2</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[123@Alarm]A porta 2 está aberta</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="28" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Alarm28</name>
+        <groups>ENVOLVEDOR</groups>
+        <source>Application/LA_GERAL/status_alarm_SAFETY</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[130@Alarm]Alerta! Segurança do Lado A desativada. Verifique portas e botões de emergência</description>
+        <severity>1</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[7@Alarm]</customField_1>
+            <customField_2>[7@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
 </alarms>
