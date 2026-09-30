@@ -12266,6 +12266,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_ABERTURA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12278,6 +12280,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_X</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12290,6 +12294,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12303,6 +12309,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_Z</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12316,6 +12324,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_X</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12328,6 +12338,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_PORTA_2</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12341,6 +12353,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_SAFETY</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12353,6 +12367,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_GIRO_LE</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12365,6 +12381,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_GARRA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12377,6 +12395,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12389,6 +12409,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_GIRO_LD</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12401,6 +12423,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_GIRO_MESA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12413,6 +12437,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_DESCE_MESA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12425,6 +12451,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12437,6 +12465,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_PORTA_1</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12449,6 +12479,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12461,6 +12493,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_BANDEJA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12473,6 +12507,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_GARRAS</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12484,6 +12520,20 @@ TURNO 1</comment>
         <resourceLocator>VRBL://Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA?short</resourceLocator>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR?unsignedInt</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>

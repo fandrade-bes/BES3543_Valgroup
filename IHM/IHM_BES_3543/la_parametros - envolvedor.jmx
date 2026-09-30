@@ -7,8 +7,8 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="1" L1=""/>
     <MLText id="0" L1="LD / LE Corte"/>
+    <MLText id="1" L1=""/>
     <MLText id="2" L1="Pré Pega Z"/>
     <MLText id="3" L1="Pega Z"/>
     <MLText id="4" L1="Pos. Entrega  Z"/>
@@ -28,6 +28,8 @@
     <MLText id="20" L1="mm"/>
     <MLText id="23" L1="Empilhador"/>
     <MLText id="24" L1="Envolvedor"/>
+    <MLText id="56" L1="ms"/>
+    <MLText id="64" L1="Timer parar esteira TR"/>
    </MLTexts>
   </object>
   <object class="GroupWgt" id="GroupWgt7">
@@ -1167,6 +1169,32 @@
      </dataLinks>
     </object>
    </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt21.GroupWgt12">
+   <wgtStyle x="461.82" y="115.32" cx="47.14" cy="19.22" width="94.28" height="38.43"/>
+   <object class="ShapeWgt" id="GroupWgt21.GroupWgt12.rect4" static="true">
+    <wgtStyle x="0" y="0" cx="45.62" cy="19.22" stroke="rgb(192,192,192)" width="94.28" height="38.43" fill="rgb(245,245,245)" nodeName="rect"/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt21.GroupWgt12.label10" static="true">
+    <wgtStyle font-family="Roboto" x="56.96" vert-align="top" y="20.32" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="17" alignment="center" marker="true" cy="5.68" max-font-size="64" font-sizepx="11" width="34" wrapping="true" height="12"/>
+    <links>
+     <lang class="MLTextLink" textid="56"/>
+    </links>
+   </object>
+   <object class="NumericWgt" id="GroupWgt21.GroupWgt12.numeric2">
+    <wgtStyle form="Numeric" min="0" timeSpec="local" font-size="12" step="1" cx="30.36" cy="10.79" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="8.59" font-sizepx="16" height="24" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="66" alignment="center" max="4294967295" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="unsignedInt" sourceType="Tag" tag="Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+  </object>
+  <object class="LabelWgt" id="GroupWgt10.label1" static="true">
+   <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="78.86" cy="19.36" x="465.96" marker="true" y="77.91" font-sizepx="16" font-bold="true" height="37" min-font-size="8" width="86" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="64">
+     <MLFontFamily L1="Calibri"/>
+    </lang>
+   </links>
   </object>
  </object>
 </wgtPage>

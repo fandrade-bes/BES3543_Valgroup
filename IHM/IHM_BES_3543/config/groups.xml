@@ -133,10 +133,10 @@
   <tag>Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T3</tag>
   <tag>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T3</tag>
   <tag>Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T3</tag>
-  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T2</tag>
-  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T3</tag>
   <tag>Application/LA_IHM/num_PILHAS_COMPLETADAS_T3</tag>
-  <tag>Application/LA_IHM/num_PILHAS_REJEITADAS_T2</tag>
+  <tag>Application/LA_IHM/num_PILHAS_REJEITADAS_T3</tag>
   <tag>Application/LA_IHM/num_PILHAS_TOTAL_T3</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[0]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[1]</tag>
@@ -457,6 +457,7 @@
   <tag>Application/LA_GERAL/rec_IHM/coord_Z_ENVOLVEDOR_SAIDA_PEGA/sp_DESACELERACAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_Z_ENVOLVEDOR_SAIDA_PEGA/sp_POSICAO</tag>
   <tag>Application/LA_GERAL/rec_IHM/coord_Z_ENVOLVEDOR_SAIDA_PEGA/sp_VELOCIDADE</tag>
+  <tag>Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</tag>
  </group>
  <group Type="Auto">
   <name>LA_Receitas@$GroupSubscrWgt@$0</name>
@@ -500,7 +501,6 @@
   <name>LB_Dados - Celula T1@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>Application/GVL_GERAL/int_HIST_INDEX_TURNO1</tag>
-  <tag>Application/GVL_IHM/bit_CONTADORES_RESET</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO1[0]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO1[1]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO1[2]</tag>
@@ -511,20 +511,21 @@
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO1[7]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO1[8]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO1[9]</tag>
-  <tag>Application/GVL_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T1</tag>
-  <tag>Application/GVL_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_HORAS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_MINUTOS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_HORAS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_MINUTOS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_SEGUNDOS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_HORAS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_MINUTOS_T1</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T1</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_COMPLETADAS_T1</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_REJEITADAS_T1</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_TOTAL_T1</tag>
+  <tag>Application/LA_IHM/bit_CONTADORES_RESET</tag>
+  <tag>Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T1</tag>
+  <tag>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T1</tag>
+  <tag>Application/LA_IHM/num_PILHAS_COMPLETADAS_T1</tag>
+  <tag>Application/LA_IHM/num_PILHAS_REJEITADAS_T1</tag>
+  <tag>Application/LA_IHM/num_PILHAS_TOTAL_T1</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/PRIMEIRO[0]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/PRIMEIRO[1]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/PRIMEIRO[2]</tag>
@@ -550,7 +551,6 @@
   <name>LB_Dados - Celulas T2@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>Application/GVL_GERAL/int_HIST_INDEX_TURNO2</tag>
-  <tag>Application/GVL_IHM/bit_CONTADORES_RESET</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO2[0]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO2[1]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO2[2]</tag>
@@ -561,20 +561,21 @@
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO2[7]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO2[8]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO2[9]</tag>
-  <tag>Application/GVL_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T2</tag>
-  <tag>Application/GVL_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_HORAS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_MINUTOS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_HORAS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_MINUTOS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_SEGUNDOS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_HORAS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_MINUTOS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_COMPLETADAS_T2</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_REJEITADAS_T2</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_TOTAL_T2</tag>
+  <tag>Application/LA_IHM/bit_CONTADORES_RESET</tag>
+  <tag>Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T2</tag>
+  <tag>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T2</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2</tag>
+  <tag>Application/LA_IHM/num_PILHAS_COMPLETADAS_T2</tag>
+  <tag>Application/LA_IHM/num_PILHAS_REJEITADAS_T2</tag>
+  <tag>Application/LA_IHM/num_PILHAS_TOTAL_T2</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/SEGUNDO[0]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/SEGUNDO[1]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/SEGUNDO[2]</tag>
@@ -600,7 +601,6 @@
   <name>LB_Dados - Celulas T3@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>Application/GVL_GERAL/int_HIST_INDEX_TURNO3</tag>
-  <tag>Application/GVL_IHM/bit_CONTADORES_RESET</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO3[0]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO3[1]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO3[2]</tag>
@@ -611,20 +611,21 @@
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO3[7]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO3[8]</tag>
   <tag>Application/GVL_IHM/ihm_HIST_INDEX_TURNO3[9]</tag>
-  <tag>Application/GVL_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T3</tag>
-  <tag>Application/GVL_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_HORAS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_MINUTOS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_HORAS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_MINUTOS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_PARADA_SEGUNDOS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_HORAS_T3</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_MINUTOS_T2</tag>
-  <tag>Application/GVL_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_COMPLETADAS_T3</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_REJEITADAS_T2</tag>
-  <tag>Application/GVL_IHM/num_PILHAS_TOTAL_T3</tag>
+  <tag>Application/LA_IHM/bit_CONTADORES_RESET</tag>
+  <tag>Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T3</tag>
+  <tag>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T3</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T1</tag>
+  <tag>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T1</tag>
+  <tag>Application/LA_IHM/num_PILHAS_COMPLETADAS_T3</tag>
+  <tag>Application/LA_IHM/num_PILHAS_REJEITADAS_T3</tag>
+  <tag>Application/LA_IHM/num_PILHAS_TOTAL_T3</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[0]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[1]</tag>
   <tag>Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[2]</tag>

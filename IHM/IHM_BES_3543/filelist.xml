@@ -1,5 +1,5 @@
 <JMFiles>
- <ProjectInfo Size="58319528" AllowedSize="251658240"/>
+ <ProjectInfo Size="58330609" AllowedSize="251658240"/>
  <files>
   <file name="alarmes.jmxb" size="2865" sha256="9bacf978ecbe930456d5ca8e6dae84344014b910d8c390a0d186135b22c84b1e"/>
   <file name="historico alarmes.jmxb" size="8623" sha256="ef21cebfccf65d6bf1fd349acdca8f378b70002b7dff83df4eff6fdb00ebf305"/>
@@ -111,7 +111,7 @@
   <file name="keypads\numeric.jmx" size="13972" sha256="b0f97491e9dfbd497f8f9da100ed3e701e2e3015482f9cc9d32f3432139d0729"/>
   <file name="la_dados - celula t1.jmxb" size="48427" sha256="e6427049c86f94df39620dfa915e465a023d5447cc2b54a3f9328109716169c2"/>
   <file name="la_dados - celula t2.jmxb" size="48402" sha256="f4a8f538ec74149343be1cfdd5c4ff3afa182ff2e9388264327c44a2608c8fa5"/>
-  <file name="la_dados - celula t3.jmxb" size="48331" sha256="b4334e3401fcd58d4116e67a465069e54f5f972be21eaa29956a7c7a6bed43b6"/>
+  <file name="la_dados - celula t3.jmxb" size="48343" sha256="66dc24fc55a7d88e18df501070abb3967731fff39a59a2ac92f91aa47c7d061c"/>
   <file name="la_geral.jmxb" size="5127" sha256="ca86e92791a1e9b2550a8df9ff0f5ce26e3e8819132a0accd90fcb5d55c16254"/>
   <file name="la_manual - empilhador atuadores.jmxb" size="14695" sha256="aa417ed567393ef197d9766a27b1c2228b53828ea1e9650c13d95da783755ff8"/>
   <file name="la_manual - empilhador motores.jmxb" size="37412" sha256="03c02eddb2bb354013fcc1666bc2dbeabd310436b46bb7391ab5383e17a4fa6b"/>
@@ -124,17 +124,17 @@
   <file name="la_operacao - envolvedor.jmxb" size="27214" sha256="572238c7889b03d3dee840a2710e82a6171fc4a5a47481d930cf41ed3084f19f"/>
   <file name="la_parametros - empilhador garra.jmxb" size="41676" sha256="e9565783402cc103581720f6e97258c052aa319066adfac373ec08b82350ef74"/>
   <file name="la_parametros - empilhador movimento.jmxb" size="53493" sha256="e81a96f7066f64fa107128e7cd3f4a30f6d1b54cdeb874860ba28719b663d9ff"/>
-  <file name="la_parametros - envolvedor.jmxb" size="51908" sha256="ea778f75891ef9aeef00a97da043bad9c911063a8decd32f135124a37f1d18b5"/>
+  <file name="la_parametros - envolvedor.jmxb" size="53080" sha256="3283ca16f5a9411c52828e599ccf9517176de7ec6124926bc9ab5402ae8feb2e"/>
   <file name="la_receitas.jmxb" size="23964" sha256="6cb6a014d80d7940b9791cbf5029e047a654186f189ac590d596188d3cc7fcf7"/>
   <file name="la_seguranca.jmxb" size="2005" sha256="49918f17db8e8a72a913c20af36a13230640f8fc64be29488252e9e97d79f819"/>
-  <file name="lb_dados - celula t1.jmxb" size="48469" sha256="115dc04e6ef242c76b651b1372b9c2917ef50274a040646c5c5cb827016b0020"/>
-  <file name="lb_dados - celulas t2.jmxb" size="48276" sha256="e289a15a7caef5d926a10f8aeaf8cdd5456558b498d242ee847d75350ce07551"/>
-  <file name="lb_dados - celulas t3.jmxb" size="48231" sha256="9ca012f38f0eac7cb4aab008bd3b171b75e77208aa0d31b49ab60b9ce4edf1cb"/>
+  <file name="lb_dados - celula t1.jmxb" size="48459" sha256="7db5e421f67a9ccb84cf604e08a62cb66b1efe993276d5d6a5e6122e251f3939"/>
+  <file name="lb_dados - celulas t2.jmxb" size="48341" sha256="5c67e63385594e18df96fefcdc6c9ef75662bc3341e400fdcfb9caa66f37672f"/>
+  <file name="lb_dados - celulas t3.jmxb" size="48302" sha256="70bb016a00d4128d2efc0c5a847ae733138914951ac3b8aa0b23ef624c9d631a"/>
   <file name="lb_geral.jmxb" size="5127" sha256="f55868eb3e4fbde26f1ac40ca6dc4043b32e265c0cf17c5a044e65125cb8ba60"/>
-  <file name="lb_manual - empiilhador motores.jmxb" size="37384" sha256="34da240311853ec5be3b724c3ecec8aa2d8f04782c08e680d150591299cef962"/>
-  <file name="lb_manual - empilhador atuadores.jmxb" size="14740" sha256="a59fecee2de40036ff8817ee756fe3ab5acd4f748531ce28cdfbb425e8c25021"/>
-  <file name="lb_manual - envolvedor atuadores.jmxb" size="18678" sha256="4a07d0d32623203fe615035fbe2145acbf36bb858518db2e276b208c6e21ca2f"/>
-  <file name="lb_manual - envolvedor motores.jmxb" size="44966" sha256="00e19f844bb3fb2159a112735c3bef263f292a2cba086bb483c26dc6fcae3dbe"/>
+  <file name="lb_manual - empiilhador motores.jmxb" size="37389" sha256="0470b4a5707a75331458bbe98bba67dfcc7c8bc03852c1ec49fa2691e3af571a"/>
+  <file name="lb_manual - empilhador atuadores.jmxb" size="14745" sha256="4876ae82611d2757c9b440ad4e1fe9cdfa4310a97f3d2ab382d806b6d81055b4"/>
+  <file name="lb_manual - envolvedor atuadores.jmxb" size="18683" sha256="318260bb79289a11993950ff7a33a54e4058141f9310c74ca37ac1de0f0a0158"/>
+  <file name="lb_manual - envolvedor motores.jmxb" size="44971" sha256="e1f331c68e6134c7a831dfeea116d6a6b398c3edb3a4154a70741512dcf6a20e"/>
   <file name="lb_manual_seletor.jmxb" size="3768" sha256="24ebac2877e70220d753ce61ee3705278d57328cad150e00b3ae44b96ec61739"/>
   <file name="lb_menu geral.jmxb" size="9952" sha256="7b87d828cc04c30711977776f7e14a5094b96495d6587d096901bfb5a16a3ab0"/>
   <file name="lb_operacao - empilhador.jmxb" size="22366" sha256="114421edd3650be42e6a544d1d629a093752aea234bcbffdfe9a8012f6afa7da"/>
@@ -143,10 +143,11 @@
   <file name="lb_parametros - empilhador garra.jmxb" size="48674" sha256="8e422666b62b757b5f1440db63e4858f32b2195e088cae047c7467b98f44a1d2"/>
   <file name="lb_parametros - empilhador movimento.jmxb" size="53533" sha256="ae668d41275c01c0b13a7d92af7561435f3a66fd76a6197cec164e17fda551a9"/>
   <file name="lb_parametros - envolvedor.jmxb" size="51934" sha256="1154154b984ee7b4a40ca9decad05c02e14ef2e581d562923f5626afef19d12e"/>
-  <file name="lb_receitas.jmxb" size="24013" sha256="50106eb01d35ef36f65d82100b77109acfe595742134c5732d8b55aea1e1356e"/>
+  <file name="lb_receitas.jmxb" size="24013" sha256="c2e8176ba6b8db153f803f5fc9597cde7d325606440647537d4fa9e8294924b3"/>
   <file name="lb_seguranca.jmxb" size="2033" sha256="5280dc5803d44136cc42b16dad48d39675d2f680490f74c5bc6230cd03d6e223"/>
   <file name="manual - pesagem.jmxb" size="25073" sha256="61e54d0b719e642428ea499085679e127f45ba4c9da610a1929d54482b661fce"/>
   <file name="opt/LA_ReceitasGroupWgt3.png" size="8203" sha256="f1acc5e52e1e38b96ec177d7033aa4018dd2ab4548ccb2e8e4dff18320f32f6b"/>
+  <file name="opt/LB_ReceitasGroupWgt3.png" size="8203" sha256="f1acc5e52e1e38b96ec177d7033aa4018dd2ab4548ccb2e8e4dff18320f32f6b"/>
   <file name="opt/alarmes.png" size="8591" sha256="1481073f35f318f5e915d542e0d9ae8d34cfa6400448e56e1306191834c7634c"/>
   <file name="opt/historico alarmes.png" size="8591" sha256="1481073f35f318f5e915d542e0d9ae8d34cfa6400448e56e1306191834c7634c"/>
   <file name="opt/la_dados - celula t1.png" size="35837" sha256="e7f96a553e232fce71c02a9c055449be8cbb89187a6ed1cd71f6e1d2cd32d698"/>
@@ -163,7 +164,7 @@
   <file name="opt/la_operacao - envolvedor.png" size="11974" sha256="ab28212e46a2baf6727dd529dfb6d869f53703f6c89dd3d30087e1588f6b523e"/>
   <file name="opt/la_parametros - empilhador garra.png" size="37996" sha256="2692ff454537e5e99b245dbe8d32c2da153ce0757d8b5370ba185a735ca192c0"/>
   <file name="opt/la_parametros - empilhador movimento.png" size="28528" sha256="dec85832eaf1381f24170630b4a27393e58f49aeba91dc24a346688a66e4a2c2"/>
-  <file name="opt/la_parametros - envolvedor.png" size="30232" sha256="fc816440ab3959d9056f1c308916cf0b9dc58609c01c1f40986a6a7f99195a99"/>
+  <file name="opt/la_parametros - envolvedor.png" size="32488" sha256="6a0b00c4aa4d5486f3df1fcd280dc99dade49e4d0fb5db047d90dcfd9c7718ac"/>
   <file name="opt/la_receitas.png" size="22645" sha256="707b9caa7f904ba2abee8ea2fa8076ae964969c8d0395491461e8adcde013676"/>
   <file name="opt/la_seguranca.png" size="220420" sha256="f2816258d79ea45dab10c52388c95c1d8494a31c1ceabf0d96f60dc6b1901572"/>
   <file name="opt/lb_dados - celula t1.png" size="35794" sha256="67fc3401ea5e5937f164c67a73c5cec39e693c490fcc0d6faa77fd27f05e0e54"/>
@@ -182,7 +183,6 @@
   <file name="opt/lb_parametros - empilhador movimento.png" size="28487" sha256="e6331c097b304f3fbd5d4b9786e71b624fc625d9e0703a214f0f4a5b0dc97405"/>
   <file name="opt/lb_parametros - envolvedor.png" size="30217" sha256="636039322305b84273d282cedab6bbf526da124569bf8687166ed4236403b172"/>
   <file name="opt/lb_receitas.png" size="22606" sha256="3d736dd406e91ef9df1275d2054480637043dd1e5c1eef28c5093c963c306e33"/>
-  <file name="opt/lb_receitasgroupwgt3.png" size="8203" sha256="f1acc5e52e1e38b96ec177d7033aa4018dd2ab4548ccb2e8e4dff18320f32f6b"/>
   <file name="opt/lb_seguranca.png" size="229962" sha256="1e25efb657f0717c0db70a74218a3475836c75e6c6f4569f54db5dd50fc9917e"/>
   <file name="opt/manual - pesagem.png" size="8591" sha256="1481073f35f318f5e915d542e0d9ae8d34cfa6400448e56e1306191834c7634c"/>
   <file name="opt/salvar receita.png" size="18084" sha256="3a4762bd126a41d204a330e928a832396d59fb22c3044874f7d04082ec63a01a"/>
@@ -216,19 +216,19 @@
   <file name="usermgmttemplates\usereditor.jmx" size="16080" sha256="9645b783ee68bc141b011a6fe0f19dde3ed72578cb314bd714169adacda08692"/>
   <file name="ihm_bes_3543.jpr" size="15421" sha256="9566e3b16d41fb5bec049498945435d1238e374bf29050285b77dc9a2cacd171"/>
   <file name="ihm_bes_3543.jprb" size="8998" sha256="89a6aa10931eb6bfb91a27538f33cd6a144a468c0b14ca4bada0de895341f1a5"/>
-  <file name="config\groups.xml" size="62841" sha256="8e93ebfbc161822a8ce3b7318b203782657b38a2b0cc2f2dc8f76c4e067f65aa"/>
+  <file name="config\groups.xml" size="62860" sha256="d979b964a62f0d898886abcc0fd38aedffab108d61539c00b5d11d6dcf53500e"/>
   <file name="config\engineconfig.xml" size="367" sha256="772e6b350d9b68bef52729ba27eed918e2db5fdbf874da13466bb346d75bb847"/>
   <file name="config\storagemonitor.xml" size="70" sha256="ff80ab533c6cef101f8b840a70583ee544269958d4efb0671182e12672ad5b6b"/>
   <file name="config\fastboot.xml" size="137" sha256="261adefe265e2adadffdba280edc90e06fe7d306042d1ac6058f8203adf194a0"/>
   <file name="config\encryptionconfig.xml" size="145" sha256="b2e6141dee060ff9a95d56d661768e5acb9e5d6029a7dd90924c67ad1a8ca058"/>
   <file name="config\projectconfig.xml" size="321" sha256="ab25932cf04d3d6beecefda18cc40e1d93425a7cab913accaec479b1ed09851c"/>
-  <file name="config\tags.xml" size="717094" sha256="efc85dea2107e581c3d294f3b0c4826d496e502affdc9c3c2acbde32e445930e"/>
-  <file name="config\tags.bin" size="297746" sha256="603303f2acc9c5433c852d2296b29ef80e8ff219e75389c521d3e27a3e0bcc46"/>
+  <file name="config\tags.xml" size="718841" sha256="9aab331b8327f0dbff7b163621bdd1908a1f43dcdeb68b76d42a12a549ceed2a"/>
+  <file name="config\tags.bin" size="298376" sha256="a9ecd2175860ed33763e43e3a2c9bfd8faac36d45adbb893a89f8d087c6978f1"/>
   <file name="config\trends.xml" size="513" sha256="fecb844f4ead84a5f913f2dca5f547bd6653816f371f81d501249aeba411dd64"/>
   <file name="config\indexedtagset.xml" size="19" sha256="4d6bc98d664170202e233e30b9fb434383e26e9bb7b28937501f9d59457605bd"/>
   <file name="config\recipe.xml" size="63" sha256="f57496007614c3d5dccae83c7b9a3e2a275bf7c19c84a5eede140a70effa39a1"/>
   <file name="config\alarms.xml" size="37011" sha256="fb074bf285aff9f6e95b4c1e1292e3da975de12d0698f40b338abe362243c1d5"/>
-  <file name="config\alarms.bin" size="12273" sha256="458b65f6287218fa243050f1924f0e48061293b9829657cdc50f04af046359f1"/>
+  <file name="config\alarms.bin" size="12273" sha256="5e57df75402a116251bdfea44568205454335f4530fd8a46820d266e1dc69e67"/>
   <file name="config\multilang.xml" size="205" sha256="54b30f513b273992d246767b93f48ba3adbc1e4c760b3eabade73b0ff698e4bd"/>
   <file name="config\keypads.xml" size="169" sha256="048622a05bb37acb87499eaa5705bd1a45c0c8c61112841aa39393b869dba94f"/>
   <file name="config\scheduler.xml" size="1271" sha256="5f2f21c64c4ba11d4805762268c6fe2d55b3ac5a1df42141f77b6fee3a33f841"/>
@@ -257,7 +257,7 @@
   <file name="web/web/js/hmi.libs.min.js" size="419710" sha256="e97668791a2ab5bb4760c2440e9a083b1fd5df6d4b15ec720ac83809f3728c20"/>
   <file name="web/web/js/hmi.combined.min.js" size="944628" sha256="26e29cc125c473c2a6037176b214b31c2687c111dbcbebd7aa6b6f449ce05aec"/>
   <file name="web/web/js/loadProject.js" size="7378" sha256="322554d7c94851330ff9c401be266dbbb32460707ac4452709e30f54882d4eaf"/>
-  <file name="web/web/js/page.combined.js" size="1430" sha256="94757f5c34ec19b79e674ed37445ae8431680419e1fb18e5f65b5622531124a2"/>
+  <file name="web/web/js/page.combined.js" size="735" sha256="2f17f7c3c01b35eaef23537d569cc9423b0e5fba301b8f1a78c26686ee245a3a"/>
   <file name="web/web/js/index.html" size="101" sha256="b9734e4ee03768bc212384a3f00da0ded747e6f2a219d02bc97b174a9d1ae23c"/>
   <file name="web/web/js/eventsource.min.js" size="7091" sha256="5d8d34f059f75e9765f54a68a730674c42c72c26fec681c315a8b88e53ae8337"/>
   <file name="web/web/umtemplates/js/hmi.libs.min.js" size="419710" sha256="e97668791a2ab5bb4760c2440e9a083b1fd5df6d4b15ec720ac83809f3728c20"/>
@@ -266,13 +266,13 @@
   <file name="web/web/js/hmi.libs.min.js.gz" size="129855" sha256="b614707f3b793f62324a1308c588d63a2b18d4a8eff182049516eb723899356d"/>
   <file name="web/web/js/hmi.combined.min.js.gz" size="226287" sha256="b44cdded8d8e2deabc0962d05436794dab1e48c87ce8806f9586300ba137a760"/>
   <file name="web/web/js/loadProject.js.gz" size="2459" sha256="3e896b418cd0457c87f4849aee5935502ed2bb6e48e9b2796ef0f05bfe2e967b"/>
-  <file name="web/web/js/page.combined.js.gz" size="338" sha256="075993ff1dbe653b4e8e26a8698221307cbe4b15517cbb0d7034e355d9e89772"/>
+  <file name="web/web/js/page.combined.js.gz" size="310" sha256="0e317bd84becdf8917e98074c85d8e7cd4e6da5906bf73cd02ea64efcb9b385e"/>
   <file name="web/web/js/index.html.gz" size="109" sha256="a7015ca06c075cd6e1fb6e33de923ce0c0551a1dcb0232b2cfb727babdd6b5a0"/>
   <file name="web/web/js/eventsource.min.js.gz" size="2498" sha256="40ef95da3ee28892f4156ba73f43f75dee4288821eef8c573da2724d1d8a80a6"/>
   <file name="web/web/umtemplates/js/hmi.libs.min.js.gz" size="129855" sha256="b614707f3b793f62324a1308c588d63a2b18d4a8eff182049516eb723899356d"/>
   <file name="web/web/umtemplates/js/hmi.combined.min.js.gz" size="226287" sha256="b44cdded8d8e2deabc0962d05436794dab1e48c87ce8806f9586300ba137a760"/>
   <file name="web/web/config/server.json" size="104" sha256="64c8544bafdf9f40f149c85f95d709ba5929a463c3c1ebc2c4cdfa57f9d81475"/>
-  <file name="web/web/config/conf.json" size="149480" sha256="f2e576ac3ae087acf68b4eb150554e95d64101b14f5730138ef65cf20785dd4a"/>
+  <file name="web/web/config/conf.json" size="149572" sha256="9663bfacd3a756ec3f18698fd2082eea368ae4421f5aa0e892c9b7a6c7219e96"/>
   <file name="web/web/css/fonts.css" size="1116" sha256="23438f5be344221c2ca18d39801d5ed63c8a8a5d8100f608dc6b496deb25a7e1"/>
   <file name="web/web/css/pages/commons.css" size="639819" sha256="b6d87d498379dd543d7b83cc09af1a335092e5f31e383f0fa6860f32561cd767"/>
   <file name="web/web/css/lib.min.css" size="3337" sha256="a8f719e860b6e2c38ce4807705efe6d8825f0cc304391d698bdd5e5fad0b2797"/>
@@ -297,7 +297,7 @@
   <file name="web/web/pages/precached.html.gz" size="28" sha256="2b5a4fce9b2621787ec5d525d699f125430a7337e8ca3897185ccb612adbb854"/>
   <file name="web/web/index.html.gz" size="551" sha256="a57b35c5e656f48cced0b2e849105b147d126603eef5766e5077d108dcc21383"/>
   <file name="web/web/_webmain.html.gz" size="1511" sha256="c9c94152a8d542bcf8e9c37d16cc8f18935b654733dc03d0b7b915d24a43c9e3"/>
-  <file name="web\web\config\conf.json" size="149480" sha256="f2e576ac3ae087acf68b4eb150554e95d64101b14f5730138ef65cf20785dd4a"/>
+  <file name="web\web\config\conf.json" size="149572" sha256="9663bfacd3a756ec3f18698fd2082eea368ae4421f5aa0e892c9b7a6c7219e96"/>
   <file name="web\web\config\server.json" size="104" sha256="64c8544bafdf9f40f149c85f95d709ba5929a463c3c1ebc2c4cdfa57f9d81475"/>
   <file name="web\web\css\pages\commons.css" size="639819" sha256="b6d87d498379dd543d7b83cc09af1a335092e5f31e383f0fa6860f32561cd767"/>
   <file name="web\web\css\pages\commons.css.gz" size="475430" sha256="55bc0e90467efac9fcdf427825257ed9f69467c3f6943d40c40f444b02b8b01e"/>
@@ -389,7 +389,7 @@
   <file name="web\web\images\0d4997c3f52e8c18097c9b24d996fee09e5686e6.png" size="26217" sha256="6087d6cc32623f6a7190537e84fcc25bf7bf6072878cb4796007be16b606298b"/>
   <file name="web\web\images\0e0a8183cdd8ea8f585699475bcc459f10d4880b.png" size="1058" sha256="f0caf1482e85d0c617ffc96db6f3e68da4ad7f703f0bd53c6c0877868f56f8ea"/>
   <file name="web\web\images\12df67d81f7d605dc1da92da93a370e963ff3196.png" size="766148" sha256="294ba17cfdddcb30a0382ed08de8a2eeec542a0c5f8d34fddbffd1f03f59ca63"/>
-  <file name="web\web\images\173758f1dd4dd117e3aa6b8546bba5e19ffe7123.png" size="30232" sha256="fc816440ab3959d9056f1c308916cf0b9dc58609c01c1f40986a6a7f99195a99"/>
+  <file name="web\web\images\173758f1dd4dd117e3aa6b8546bba5e19ffe7123.png" size="32488" sha256="6a0b00c4aa4d5486f3df1fcd280dc99dade49e4d0fb5db047d90dcfd9c7718ac"/>
   <file name="web\web\images\19f643cb07775004b10c21bed7037b7d2b0d2b96.png" size="8548" sha256="0b4ee652ebbafee7e22957f5d38746d410cc34d01bddbdeec0a8fd7a2c242186"/>
   <file name="web\web\images\20ce0c5c1285456c43b85f4dadf07261515f4dc1.png" size="994" sha256="7d6b356135f3c7f4d44291f8a8b2554eb854c5fea6558ebb275a3239e660269d"/>
   <file name="web\web\images\21d29740a9c001d8a16572d0903b9b8eb8a08c42.png" size="435185" sha256="5e3dd5de34588cb8119346be1a88e6a7f03a8cf934a6aa815fddf8ce74643094"/>
@@ -522,14 +522,14 @@
   <file name="web\web\pages\m12_page12.html.gz" size="12493" sha256="aa103a6709cbd04fc328e60222578a41a228ae36071ed5c7b281ab074e36d638"/>
   <file name="web\web\pages\m13_page13.html" size="134992" sha256="e06b89da19ac3fe5a2a7777fc218831ca5c801e7e7fbb07f1d9fdc205cde7770"/>
   <file name="web\web\pages\m13_page13.html.gz" size="11775" sha256="f0a52c50cd7137bd92fee7265231c50a61bee36cf0f3c306df67c35f3ec4bed9"/>
-  <file name="web\web\pages\m14_page14.html" size="130823" sha256="38f62fb96cd3bf73cc9c8415f363f5a2a880c9ac8ab5a600af90b630764549bb"/>
-  <file name="web\web\pages\m14_page14.html.gz" size="11042" sha256="1d301180d2f97ce15c8f7b578ecbff74c02df16ddf170a3d7e24fa70824e6fb6"/>
+  <file name="web\web\pages\m14_page14.html" size="133259" sha256="7a013bea8f81e9607b4a3fc216d3cd13c6b7391b5127a250f855fd9852f08f8b"/>
+  <file name="web\web\pages\m14_page14.html.gz" size="11367" sha256="de0a6c38bbfa7f177fc330f2d0f8af01151e7a0082fe8e36223116c16b40dce3"/>
   <file name="web\web\pages\m15_page15.html" size="172467" sha256="8f9154bd153e9bf3a21891e392fdef5fd3b1754cc780eeef4aa28de8b45cbb84"/>
   <file name="web\web\pages\m15_page15.html.gz" size="15017" sha256="58460f71e288fd274740cb830049f608a8bfe6472b245aa6372ddf58dd1438fa"/>
   <file name="web\web\pages\m16_page16.html" size="172490" sha256="90c6f3a03608a57f6beaa3721620a8bff0c8b15eb6ccf6d7e4085d7458594190"/>
   <file name="web\web\pages\m16_page16.html.gz" size="15056" sha256="ee19e70403f46e2e8c23269632d9142c26a288a4b0fc2e35c64fb22ef077bf64"/>
-  <file name="web\web\pages\m17_page17.html" size="172205" sha256="a3a48c26159afaf8541763538fc2a6df7a44cf4f8004c3a06ab4cf7a109fbdbd"/>
-  <file name="web\web\pages\m17_page17.html.gz" size="15048" sha256="7375cfd45ee23d8b2bb1e0ed5313dfc85a41e28d3292e55f2375bf7bfcb194b6"/>
+  <file name="web\web\pages\m17_page17.html" size="172235" sha256="8d6a673d834c2b358d16f6be82135e095d5c8ffa1b3ed9b09b0f6c6f5779a853"/>
+  <file name="web\web\pages\m17_page17.html.gz" size="15031" sha256="ddb097970133483e18e5dce814f9655d2d332a7f42dedbf764eb31291800957b"/>
   <file name="web\web\pages\m18_page18.html" size="21197" sha256="776c3fb765076abcfd67ffa90a3f8f48a432a9dd99e1b21df5193c1c8ee46df0"/>
   <file name="web\web\pages\m18_page18.html.gz" size="4697" sha256="3c4f40f4a8a935123de31f0580ada7eff3e2420a30ab705bd8e245205dcc235b"/>
   <file name="web\web\pages\m19_page19.html" size="26994" sha256="550d63e5e171a7656183600067a0f8c54c14ceb672459e1712165ba4cb31ed17"/>
@@ -566,12 +566,12 @@
   <file name="web\web\pages\m32_page33.html.gz" size="11786" sha256="d1de6ce5f421a9cedd5f0130622b79e92ea728c40d38821c57a17921dabb7c06"/>
   <file name="web\web\pages\m33_page34.html" size="130882" sha256="5f5898c06bc195da1372f666a5a059ca89cf0892c8041296752302dfacea311d"/>
   <file name="web\web\pages\m33_page34.html.gz" size="11060" sha256="4e2b63dbcc78392aa23bb021201f921a54a26e43f50893c9172be25655c8d56e"/>
-  <file name="web\web\pages\m34_page35.html" size="172561" sha256="df6cf83444cedc12eecd87cd55818463874357620ff3f03bb91410448266753c"/>
-  <file name="web\web\pages\m34_page35.html.gz" size="15012" sha256="22eedc9765cd498a98e762905e26c26a35a07940e24a4628f925808431b8d2b1"/>
-  <file name="web\web\pages\m35_page36.html" size="172220" sha256="ad62f125f28fbc621d89555a32cf297e087dc356caa7545b85edf404c219cce0"/>
-  <file name="web\web\pages\m35_page36.html.gz" size="15060" sha256="2eacdf88548c3c92c20dad6b48fada767f39398091bb6ea676ac719a8321104b"/>
-  <file name="web\web\pages\m36_page37.html" size="171988" sha256="9233c00ed338bd8e6dc3c7cda18f413c32996d86fec58053cf4283c7bc87fe0e"/>
-  <file name="web\web\pages\m36_page37.html.gz" size="15062" sha256="8380cdf52f6f2491c34efdda37bc3b87101bf9dc0246e2ad9a29cee8fef4ce44"/>
+  <file name="web\web\pages\m34_page35.html" size="172542" sha256="c33a8ba2a8e1d8dd34a655279774af9b2dfa78b2a2ce81af9bb18452e3cf14da"/>
+  <file name="web\web\pages\m34_page35.html.gz" size="14990" sha256="cd2ab6804cd05b0a8a5694d0459b9e73e3fb81b890ed8031547feb7f7bfb0d37"/>
+  <file name="web\web\pages\m35_page36.html" size="172379" sha256="5f8eef48d6aa886a55eb9803df01b346336a144d517a3eca1068cb458185b85d"/>
+  <file name="web\web\pages\m35_page36.html.gz" size="15095" sha256="c7323dd21b17c9285491eeddbae9ac6764189289d17b703a5ad7bf5e955a77b6"/>
+  <file name="web\web\pages\m36_page37.html" size="172165" sha256="9ebb06e85604997d6f0af86306d62e9195162123f534f022a3cfcf01e1db2e67"/>
+  <file name="web\web\pages\m36_page37.html.gz" size="15340" sha256="30e79ced0cb32b96ae091b64ac488b0ef18a0b2fc485b64c6f139330f380c6a1"/>
   <file name="web\web\pages\m37_page38.html" size="21373" sha256="f83a5acb19467132afafa94c97713c776ce8599d11565e491ada1664d7e8ead8"/>
   <file name="web\web\pages\m37_page38.html.gz" size="4746" sha256="175e59f721fde50d112cedf9ecf22904bdde766827d842146b090591edade6fb"/>
   <file name="web\web\pages\m38_page39.html" size="26130" sha256="53ce43cbd64809eca698af9c53680c893391fe592bbdfd752899b0da2a5fea25"/>

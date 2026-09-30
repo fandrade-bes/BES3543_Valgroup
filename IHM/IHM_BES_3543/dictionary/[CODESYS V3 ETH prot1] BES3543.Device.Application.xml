@@ -1307,6 +1307,14 @@
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_GERAL/rec_IHM/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -2445,6 +2453,14 @@
         <tag>
             <tagname>Application/LA_GERAL/rec_SELECIONADA/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_GERAL/rec_SELECIONADA/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>
@@ -6453,6 +6469,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/rec_ATUAL/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/rec_ATUAL/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -7591,6 +7615,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/RECEITAS[0]/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/RECEITAS[0]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>
@@ -8741,6 +8773,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/RECEITAS[1]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/RECEITAS[1]/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -9879,6 +9919,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/RECEITAS[2]/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/RECEITAS[2]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>
@@ -11029,6 +11077,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/RECEITAS[3]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/RECEITAS[3]/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -12167,6 +12223,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/RECEITAS[4]/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/RECEITAS[4]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>
@@ -13317,6 +13381,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/RECEITAS[5]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/RECEITAS[5]/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -14455,6 +14527,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/RECEITAS[6]/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/RECEITAS[6]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>
@@ -15605,6 +15685,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/RECEITAS[7]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/RECEITAS[7]/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -16743,6 +16831,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/RECEITAS[8]/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/RECEITAS[8]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>
@@ -17893,6 +17989,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/RECEITAS[9]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/RECEITAS[9]/num_PESO_SACOLA</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -19031,6 +19135,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/RECEITAS[10]/int_NUMERO_GIROS_ENVOLVEDOR</tagname>
             <datatype>short</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/RECEITAS[10]/tmr_PARAR_ESTEIRA_TR</tagname>
+            <datatype>unsignedInt</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>

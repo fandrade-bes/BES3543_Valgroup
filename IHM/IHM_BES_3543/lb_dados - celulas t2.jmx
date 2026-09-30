@@ -56,19 +56,19 @@
     <object class="NumericWgt" id="GroupWgt6.GroupWgt17.field5">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="0" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_OCIOSA_HORAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt6.GroupWgt17.field6">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="65.36" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_OCIOSA_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt6.GroupWgt17.field7">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="135.75" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt6.GroupWgt17.label4">
@@ -100,7 +100,7 @@
   <object class="ButtonWgt" id="hotspotbtn" hmiStyle="type:btn">
    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="704.21" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="343.93" dx="1" dy="-1" cx="39.27" cy="41.46" value="0" width="79.76" height="84.58" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
-    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_IHM/bit_CONTADORES_RESET" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_CONTADORES_RESET" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="ImageWgt" id="ImageWgt2">
@@ -130,19 +130,19 @@
     <object class="NumericWgt" id="GroupWgt4.GroupWgt15.field1">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="0" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_RODANDO_HORAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt4.GroupWgt15.field2">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="65.36" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_RODANDO_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt4.GroupWgt15.field3">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="135.75" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt4.GroupWgt15.label1">
@@ -187,19 +187,19 @@
     <object class="NumericWgt" id="GroupWgt3.GroupWgt16.field5">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="0" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_PARADA_HORAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt3.GroupWgt16.field6">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="65.36" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_PARADA_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt3.GroupWgt16.field7">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="135.75" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_MAQUINA_PARADA_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt3.GroupWgt16.label4">
@@ -246,7 +246,7 @@
     <object class="NumericWgt" id="GroupWgt22.GroupWgt2.field3">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="0" numberFormat="6" showThousandSeparator="false" y="3.25" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(24,131,0)" min-font-size="8" width="101.46" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="#" font-family="Tahoma" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/GVL_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt22.GroupWgt2.label6">
@@ -263,7 +263,7 @@
     <object class="NumericWgt" id="GroupWgt22.GroupWgt21.field1">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="1.43" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(24,131,0)" min-font-size="8" width="101.46" alignment="center" max="1.79769e+308" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="#" font-family="Tahoma" text="99999" value="99999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_PILHAS_COMPLETADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_COMPLETADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt22.GroupWgt21.label6">
@@ -300,7 +300,7 @@
     <object class="NumericWgt" id="GroupWgt23.GroupWgt2.field3">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="0" numberFormat="6" showThousandSeparator="false" y="3.25" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(192,0,32)" min-font-size="8" width="101.46" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="#" font-family="Tahoma" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/GVL_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt23.GroupWgt2.label6">
@@ -317,7 +317,7 @@
     <object class="NumericWgt" id="GroupWgt23.GroupWgt21.field1">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="1.43" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(192,0,32)" min-font-size="8" width="101.46" alignment="center" max="1.79769e+308" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="#" font-family="Tahoma" text="99999" value="99999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_PILHAS_REJEITADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_REJEITADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt23.GroupWgt21.label6">
@@ -377,7 +377,7 @@
     <object class="NumericWgt" id="GroupWgt2.GroupWgt1.field3">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="1.60" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="19" font-bold="true" height="28.93" min-font-size="8" width="101.46" alignment="center" max="1.79769e+308" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="#" font-family="Tahoma" text="99999" value="99999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/GVL_IHM/num_PILHAS_TOTAL_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_TOTAL_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
    </object>
