@@ -12535,6 +12535,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>

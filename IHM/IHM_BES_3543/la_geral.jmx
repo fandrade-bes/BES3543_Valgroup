@@ -77,10 +77,13 @@
    <wgtStyle imagePath="images/icons8-card_U225pio-48.png" x="8" y="445" cx="78.75" cy="50.10" width="36" height="37" forcePaint="1"/>
   </object>
   <object class="MultiStateImageWgt" id="GroupWgt3.MultistateImage1">
-   <wgtStyle imagePath="images/,images/icons8-erro-482.png" continuousIndex="1" frame="1" x="587.94" y="-4" imagePathIndexList="" cx="18.75" cy="19.30" width="37.49" height="38.60"/>
+   <wgtStyle imagePath="images/,images/icons8-erro-482.png" continuousIndex="1" frame="1" x="587.94" y="-4" imagePathIndexList="" cx="18.75" cy="19.30" width="37.49" height="38.60" forcePaint="8"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/ALARME_ATIVO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+   </dataLinks>
   </object>
   <object class="GroupWgt" customType="Shape Button" id="BtnOthersRect3">
-   <wgtStyle x="579.73" y="1.63" cx="26.95" cy="15.68" width="53.89" height="31.36" forcePaint="1"/>
+   <wgtStyle x="579.74" y="1.23" cx="26.95" cy="15.68" width="53.89" height="31.36" forcePaint="1"/>
    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton9" hmiStyle="type:btn">
     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="none" needlePath="images\win-like-press.svg" y="0" needleColor="none" dx="1" dy="-1" value="0" stroke="none" width="53.89" height="31.36" fill="none" forcePaint="1" downFillColor="none"/>
     <links>

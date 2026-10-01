@@ -162,6 +162,7 @@
  <group Type="Auto">
   <name>LA_Geral@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>Application/LA_IHM/ALARME_ATIVO</tag>
   <tag>Application/PVAR/rec_ATUAL/NOME</tag>
   <tag>Current page</tag>
   <tag>System Time</tag>

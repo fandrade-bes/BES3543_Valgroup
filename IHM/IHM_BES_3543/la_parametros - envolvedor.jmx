@@ -7,8 +7,8 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="0" L1="LD / LE Corte"/>
     <MLText id="1" L1=""/>
+    <MLText id="0" L1="LD / LE Corte"/>
     <MLText id="2" L1="Pré Pega Z"/>
     <MLText id="3" L1="Pega Z"/>
     <MLText id="4" L1="Pos. Entrega  Z"/>
