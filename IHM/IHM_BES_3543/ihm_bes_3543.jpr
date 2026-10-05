@@ -26,6 +26,7 @@
       <page class="PageWgt" type="normal" name="LA_Dados - Celula T1" size="800,480" file="la_dados - celula t1.jmx"/>
       <page class="PageWgt" type="normal" name="LA_Dados - Celula T2" size="800,480" file="la_dados - celula t2.jmx"/>
       <page class="PageWgt" type="normal" name="LA_Dados - Celula T3" size="800,480" file="la_dados - celula t3.jmx"/>
+      <page class="PageWgt" type="normal" name="LA_Dados - Celula T4" size="800,480" file="la_dados - celula t4.jmx"/>
       <page class="PageWgt" type="normal" name="LA_Seguranca" size="800,480" file="la_seguranca.jmx"/>
       <page class="PageWgt" type="normal" name="Alarmes" size="800,480" file="alarmes.jmx"/>
       <page class="PageWgt" type="normal" name="Historico Alarmes" size="800,480" file="historico alarmes.jmx"/>
@@ -70,6 +71,7 @@
        <page name="LA_Dados - Celula T1"/>
        <page name="LA_Dados - Celula T2"/>
        <page name="LA_Dados - Celula T3"/>
+       <page name="LA_Dados - Celula T4"/>
        <page name="LA_Seguranca"/>
        <page name="LA_Geral"/>
       </group>

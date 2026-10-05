@@ -4,14 +4,14 @@
  <file strokeSize="3" isSvgFile="true" imgSize="65,62" numSizes="1" file="images/knob_blkpl_1_rev1.svg" numUses="9" dynamic="true" stroke="none" fill="rgb(53,53,53)"/>
  <file isSvgFile="true" imgSize="60,19" numSizes="3" file="images/li_shape_rrect.svg" numUses="10" dynamic="true" stroke="none" fill="rgb(180,180,180)"/>
  <file isSvgFile="true" imgSize="25,20" numSizes="1" file="images/arrowsicon5.svg" numUses="20" dynamic="true" stroke="none" fill="rgb(50,205,50)"/>
+ <file isSvgFile="true" imgSize="67,31" numSizes="77" file="images/win-like-press.svg" numUses="78" stroke="none" fill="none"/>
+ <file isSvgFile="true" imgSize="67,31" numSizes="77" file="images/win-like.svg" numUses="78" stroke="none" fill="none"/>
  <file isSvgFile="true" prePath="keypads" imgSize="41,60" numSizes="33" file="images/fe_btn_kbdwht_2.svg" numUses="72" stroke="none" fill="rgb(0,0,0)"/>
  <file isSvgFile="true" prePath="keypads" imgSize="41,60" numSizes="33" file="images/fe_btn_kbdwht_1.svg" numUses="72" stroke="none" fill="rgb(0,0,0)"/>
- <file isSvgFile="true" imgSize="67,31" numSizes="67" file="images/win-like-press.svg" numUses="68" stroke="none" fill="none"/>
- <file isSvgFile="true" imgSize="67,31" numSizes="67" file="images/win-like.svg" numUses="68" stroke="none" fill="none"/>
  <file imgSize="37,39" numSizes="49" file="images/" numUses="50"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="37" file="images/win-like-press.svg" numUses="42" stroke="none" fill="rgb(184,219,255)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="37" file="images/win-like.svg" numUses="42" stroke="none" fill="rgb(184,219,255)"/>
  <file imgSize="47,48" numSizes="35" file="images/icons8-avan_u231ar-60.png" numUses="38"/>
- <file isSvgFile="true" imgSize="172,65" numSizes="31" file="images/win-like-press.svg" numUses="36" stroke="none" fill="rgb(184,219,255)"/>
- <file isSvgFile="true" imgSize="172,65" numSizes="31" file="images/win-like.svg" numUses="36" stroke="none" fill="rgb(184,219,255)"/>
  <file isSvgFile="true" imgSize="172,65" numSizes="27" file="images/win-like-press.svg" numUses="32" stroke="none" fill="rgb(247,247,247)"/>
  <file isSvgFile="true" imgSize="172,65" numSizes="27" file="images/win-like.svg" numUses="32" stroke="none" fill="rgb(247,247,247)"/>
  <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96.png" numUses="23"/>
@@ -19,8 +19,8 @@
  <file imgSize="48,53" numSizes="6" file="images/icons8-desligar-48.png" numUses="23"/>
  <file imgSize="48,53" numSizes="6" file="images/icons8-ligar-48.png" numUses="23"/>
  <file imgSize="40,42" numSizes="17" file="images/icons8-compromisso-recorrente-50.png" numUses="20"/>
- <file isSvgFile="true" imgSize="126,27" numSizes="3" file="images/win-like-press.svg" numUses="18" stroke="none" fill="rgb(0,255,0)"/>
- <file isSvgFile="true" imgSize="126,27" numSizes="3" file="images/win-like.svg" numUses="18" stroke="none" fill="rgb(0,255,0)"/>
+ <file isSvgFile="true" imgSize="126,27" numSizes="4" file="images/win-like-press.svg" numUses="19" stroke="none" fill="rgb(0,255,0)"/>
+ <file isSvgFile="true" imgSize="126,27" numSizes="4" file="images/win-like.svg" numUses="19" stroke="none" fill="rgb(0,255,0)"/>
  <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-1-48 (1).png" numUses="18"/>
  <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-2-48.png" numUses="18"/>
  <file imgSize="40,42" numSizes="15" file="images/icons8-quadro-girat_u243rio-3-48.png" numUses="18"/>
@@ -35,9 +35,9 @@
  <file isSvgFile="true" imgSize="84,58" numSizes="1" file="images/win-like-press.svg" numUses="8" stroke="none" fill="rgb(255,255,255)"/>
  <file isSvgFile="true" imgSize="84,58" numSizes="1" file="images/win-like.svg" numUses="8" stroke="none" fill="rgb(255,255,255)"/>
  <file imgSize="39,41" numSizes="5" file="images/icons8-ok-48.png" numUses="8"/>
+ <file imgSize="35,37" numSizes="1" file="images/icons8-compromisso-recorrente-50 (1).png" numUses="7"/>
  <file imgSize="56,25" numSizes="1" file="images/esteira_1 (1).png" numUses="6"/>
  <file imgSize="39,41" numSizes="1" file="images/icons8-sync-48.png" numUses="6"/>
- <file imgSize="35,37" numSizes="1" file="images/icons8-compromisso-recorrente-50 (1).png" numUses="6"/>
  <file imgSize="63,64" numSizes="3" file="images/icons8-direita-90.png" numUses="6"/>
  <file imgSize="63,64" numSizes="3" file="images/icons8-esquerda.png" numUses="6"/>
  <file imgSize="39,41" numSizes="5" file="images/icons8-cancelar-48.png" numUses="6"/>
@@ -104,6 +104,7 @@
  <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t1.png" numUses="1"/>
  <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t2.png" numUses="1"/>
  <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t3.png" numUses="1"/>
+ <file imgSize="800,480" numSizes="1" file="opt/la_dados - celula t4.png" numUses="1"/>
  <file imgSize="257,34" numSizes="1" file="images/,images/,images/,images/,images/" numUses="1"/>
  <file imgSize="44,44" numSizes="1" file="images/icons8-excluir-30.png" numUses="1"/>
  <file imgSize="630,407" numSizes="1" file="images/lado b.png" numUses="1"/>

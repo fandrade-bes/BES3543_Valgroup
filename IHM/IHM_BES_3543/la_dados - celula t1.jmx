@@ -8,6 +8,8 @@
    </langs>
    <MLTexts>
     <MLText id="66" L1=""/>
+    <MLText id="28" L1="Turno B"/>
+    <MLText id="31" L1="Turno D"/>
     <MLText id="34" L1="prod. / turno"/>
     <MLText id="35" L1="Máquina Ociosa"/>
     <MLText id="36" L1="Pilhas Rejeitadas"/>
@@ -36,7 +38,6 @@
     <MLText id="64" L1="nov"/>
     <MLText id="65" L1="dez"/>
     <MLText id="76" L1="Turno A"/>
-    <MLText id="77" L1="Turno B"/>
     <MLText id="78" L1="Turno C"/>
    </MLTexts>
   </object>
@@ -386,7 +387,7 @@
    <wgtStyle x="0" y="0" width="0" height="0"/>
   </object>
   <object class="GroupWgt" id="GroupWgt27">
-   <wgtStyle x="476" y="449" cx="63.08" cy="13.69" width="126.17" height="27.38"/>
+   <wgtStyle x="417" y="449" cx="63.08" cy="13.69" width="126.17" height="27.38"/>
    <object class="GroupWgt" customType="Shape Button" id="GroupWgt27.BtnOthersRect2">
     <wgtStyle x="0" y="0.38" cx="63.08" cy="13.50" width="126.17" height="27"/>
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton6" hmiStyle="type:btn">
@@ -413,36 +414,8 @@
     </links>
    </object>
   </object>
-  <object class="GroupWgt" id="GroupWgt28">
-   <wgtStyle x="336" y="449" cx="63.08" cy="13.69" width="126.17" height="27.38"/>
-   <object class="GroupWgt" customType="Shape Button" id="GroupWgt28.BtnOthersRect1">
-    <wgtStyle x="0" y="0.38" cx="63.08" cy="13.50" width="126.17" height="27"/>
-    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton7" hmiStyle="type:btn">
-     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="27" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
-     <links>
-      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_dados - celula t2.jmx" attribute="onMouseRelease"/>
-     </links>
-    </object>
-    <object class="LabelWgt" id="SimpleRectBtn1-text7" static="true">
-     <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
-     <links>
-      <lang class="MLTextLink" textid="66">
-       <MLFontFamily L1="Calibri"/>
-      </lang>
-     </links>
-    </object>
-   </object>
-   <object class="LabelWgt" id="GroupWgt28.label1">
-    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.13" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="27" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
-    <links>
-     <lang class="MLTextLink" textid="77">
-      <MLFontFamily L1="Calibri"/>
-     </lang>
-    </links>
-   </object>
-  </object>
   <object class="GroupWgt" id="GroupWgt29">
-   <wgtStyle x="196.73" y="449" cx="63.08" cy="13.69" width="126.17" height="27.38"/>
+   <wgtStyle x="137" y="449" cx="63.08" cy="13.69" width="126.17" height="27.38"/>
    <object class="GroupWgt" customType="Shape Button" id="GroupWgt29.BtnOthersRect4">
     <wgtStyle x="0" y="0.38" cx="63.08" cy="13.50" width="126.17" height="27"/>
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton8" hmiStyle="type:btn">
@@ -1434,6 +1407,62 @@
     <dataLinks>
      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/ihm_HIST_INDEX_TURNO1[9]" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
     </dataLinks>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt15">
+   <wgtStyle x="557" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt15.BtnOthersRect1">
+    <wgtStyle x="0" y="0.05" cx="63.08" cy="14" width="126.17" height="28"/>
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton15" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="28" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
+     <links>
+      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_dados - celula t4.jmx" attribute="onMouseRelease"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="SimpleRectBtn1-text15" static="true">
+     <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.52" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.66" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="66">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt15.label1">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="31">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt16">
+   <wgtStyle x="277" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt16.BtnOthersRect1">
+    <wgtStyle x="0" y="0.05" cx="63.08" cy="14" width="126.17" height="28"/>
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton17" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="28" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
+     <links>
+      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_dados - celula t2.jmx" attribute="onMouseRelease"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="SimpleRectBtn1-text17" static="true">
+     <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.52" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.66" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="66">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt16.label1">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="28">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
    </object>
   </object>
  </object>

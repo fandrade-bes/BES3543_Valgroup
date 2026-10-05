@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_operacao - empilhador.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Operacao - Empilhador" dataWndSize="0,70" pageName="LA_Operacao - Empilhador" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+ <object class="PageWgt" staticFile="opt/la_operacao - empilhador.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Operacao - Empilhador" dataWndSize="0,70" pageName="LA_Operacao - Empilhador" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -8,10 +8,11 @@
    </langs>
    <MLTexts>
     <MLText id="1" L1=""/>
+    <MLText id="0" L1="Nº de entrega p/ inspeção"/>
     <MLText id="2" L1="Reiniciar&#xa;Inspeção"/>
     <MLText id="3" L1="Recolher / Levar&#xa;Inspeção"/>
     <MLText id="4" L1="Reiniciar&#xa;Pega"/>
-    <MLText id="5" L1="N° de entrega p/ inspeção"/>
+    <MLText id="6" L1="Pilha&#xa;Atual"/>
     <MLText id="7" L1="Sem sacolas"/>
     <MLText id="8" L1="Sem pilha &#xa;para inspeção"/>
     <MLText id="9" L1="Recolher pilha &#xa;para inspeção"/>
@@ -28,7 +29,6 @@
     <MLText id="45" L1="Pesagem"/>
     <MLText id="46" L1="mm"/>
     <MLText id="47" L1="Empilhador"/>
-    <MLText id="48" L1="Camada&#xa;Atual"/>
     <MLText id="49" L1="Envolvedor"/>
     <MLText id="54" L1="Inspeção&#xa;Feita"/>
     <MLText id="55" L1="Habilitado"/>
@@ -526,7 +526,7 @@
    <object class="LabelWgt" id="GroupWgt5.label7" static="true">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="98.49" cy="21.38" x="0" marker="true" y="1.71" font-sizepx="16" height="40.82" min-font-size="8" width="107.39" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="48">
+     <lang class="MLTextLink" textid="6">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -594,7 +594,7 @@
    <object class="LabelWgt" id="GroupWgt12.label7" static="true">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="98.49" cy="21.38" x="0" marker="true" y="1.71" font-sizepx="16" height="40.82" min-font-size="8" width="107.39" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="5">
+     <lang class="MLTextLink" textid="0">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -638,7 +638,7 @@
    </object>
   </object>
   <object class="MsgTextWgt" id="GroupWgt23.msgtext2">
-   <wgtStyle min="0" font-size="12" cx="75.35" cy="10.90" x="562.05" marker="true" y="-50.15" font-sizepx="16" font-bold="true" height="23" mtx="1,-7.57102e-05,0,-4.33844e-05,1,0,0.000997845,0.0116079,1" min-font-size="8" width="153.32" alignment="center" max="3" continous="false" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
+   <wgtStyle min="0" font-size="12" cx="75.35" cy="10.90" x="562.05" marker="true" y="54.40" font-sizepx="16" font-bold="true" height="23" mtx="1,-7.57102e-05,0,-4.33844e-05,1,0,0.000997841,0.0116079,1" min-font-size="8" width="153.32" alignment="center" max="3" continous="false" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
     <msgtxt>
      <msg index="0"/>
      <msg index="1"/>
@@ -648,7 +648,8 @@
     </msgtxt>
    </wgtStyle>
    <dataLinks>
-    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/LA_IHM/bit_STATUS_INSPECAO_OK" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SACOLA_VALGROUP_POSICIONADA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SACOLA_VALGROUP_POSICIONADA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="blink"/>
    </dataLinks>
    <links>
     <lang class="MLMsgLink:messages:">

@@ -68,92 +68,96 @@
 <webid>m17_page17</webid>
 </page>
 <page>
-<studioid>la_seguranca</studioid>
+<studioid>la_dados - celula t4</studioid>
 <webid>m18_page18</webid>
 </page>
 <page>
-<studioid>alarmes</studioid>
+<studioid>la_seguranca</studioid>
 <webid>m19_page19</webid>
 </page>
 <page>
-<studioid>historico alarmes</studioid>
+<studioid>alarmes</studioid>
 <webid>m20_page20</webid>
 </page>
 <page>
+<studioid>historico alarmes</studioid>
+<webid>m21_page21</webid>
+</page>
+<page>
 <studioid>salvar receita</studioid>
-<webid>d1_page21</webid>
+<webid>d1_page22</webid>
 </page>
 <page>
 <studioid>lb_menu geral</studioid>
-<webid>m21_page22</webid>
-</page>
-<page>
-<studioid>lb_operacao - empilhador</studioid>
 <webid>m22_page23</webid>
 </page>
 <page>
-<studioid>lb_operacao - envolvedor</studioid>
+<studioid>lb_operacao - empilhador</studioid>
 <webid>m23_page24</webid>
 </page>
 <page>
-<studioid>lb_operacao - pesagem</studioid>
+<studioid>lb_operacao - envolvedor</studioid>
 <webid>m24_page25</webid>
 </page>
 <page>
-<studioid>lb_manual_seletor</studioid>
+<studioid>lb_operacao - pesagem</studioid>
 <webid>m25_page26</webid>
 </page>
 <page>
-<studioid>lb_manual - empiilhador motores</studioid>
+<studioid>lb_manual_seletor</studioid>
 <webid>m26_page27</webid>
 </page>
 <page>
-<studioid>lb_manual - envolvedor motores</studioid>
+<studioid>lb_manual - empiilhador motores</studioid>
 <webid>m27_page28</webid>
 </page>
 <page>
-<studioid>lb_manual - empilhador atuadores</studioid>
+<studioid>lb_manual - envolvedor motores</studioid>
 <webid>m28_page29</webid>
 </page>
 <page>
-<studioid>lb_manual - envolvedor atuadores</studioid>
+<studioid>lb_manual - empilhador atuadores</studioid>
 <webid>m29_page30</webid>
 </page>
 <page>
-<studioid>lb_receitas</studioid>
+<studioid>lb_manual - envolvedor atuadores</studioid>
 <webid>m30_page31</webid>
 </page>
 <page>
-<studioid>lb_parametros - empilhador garra</studioid>
+<studioid>lb_receitas</studioid>
 <webid>m31_page32</webid>
 </page>
 <page>
-<studioid>lb_parametros - empilhador movimento</studioid>
+<studioid>lb_parametros - empilhador garra</studioid>
 <webid>m32_page33</webid>
 </page>
 <page>
-<studioid>lb_parametros - envolvedor</studioid>
+<studioid>lb_parametros - empilhador movimento</studioid>
 <webid>m33_page34</webid>
 </page>
 <page>
-<studioid>lb_dados - celula t1</studioid>
+<studioid>lb_parametros - envolvedor</studioid>
 <webid>m34_page35</webid>
 </page>
 <page>
-<studioid>lb_dados - celulas t2</studioid>
+<studioid>lb_dados - celula t1</studioid>
 <webid>m35_page36</webid>
 </page>
 <page>
-<studioid>lb_dados - celulas t3</studioid>
+<studioid>lb_dados - celulas t2</studioid>
 <webid>m36_page37</webid>
 </page>
 <page>
-<studioid>lb_seguranca</studioid>
+<studioid>lb_dados - celulas t3</studioid>
 <webid>m37_page38</webid>
 </page>
 <page>
-<studioid>selecao lado</studioid>
+<studioid>lb_seguranca</studioid>
 <webid>m38_page39</webid>
+</page>
+<page>
+<studioid>selecao lado</studioid>
+<webid>m39_page40</webid>
 </page>
 <umpage>
 <studioid>adduser</studioid>

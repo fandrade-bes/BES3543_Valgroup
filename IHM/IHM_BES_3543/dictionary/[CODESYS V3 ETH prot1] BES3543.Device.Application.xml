@@ -171,6 +171,14 @@
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_GERAL/int_HIST_INDEX_TURNO4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_GERAL/rec_IHM/NOME</tagname>
             <datatype>string-80</datatype>
             <array>false</array>
@@ -3283,6 +3291,14 @@
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/bit_SACOLA_VALGROUP_POSICIONADA</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/bit_SELEC_EMPILHADOR_BANDEJA</tagname>
             <datatype>boolean</datatype>
             <array>false</array>
@@ -3988,6 +4004,94 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4</tagname>
+            <datatype>boolean-10</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[0]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[1]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[2]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[3]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[4]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[5]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[6]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[7]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[8]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[9]</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4012,6 +4116,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4029,6 +4141,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T3</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T4</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4260,6 +4380,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4277,6 +4405,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T3</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T4</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4308,6 +4444,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4325,6 +4469,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T3</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T4</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4356,6 +4508,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4373,6 +4533,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T3</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T4</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4404,6 +4572,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4421,6 +4597,14 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T3</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T4</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4453,6 +4637,14 @@ TURNO 1</comment>
             <comment>TURNO 3</comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment>TURNO 4</comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_PILHAS_COMPLETADAS_T1</tagname>
             <datatype>double</datatype>
             <array>false</array>
@@ -4470,6 +4662,14 @@ TURNO 1</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_PILHAS_COMPLETADAS_T3</tagname>
+            <datatype>double</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_PILHAS_COMPLETADAS_T4</tagname>
             <datatype>double</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4501,6 +4701,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_PILHAS_REJEITADAS_T4</tagname>
+            <datatype>double</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_PILHAS_TOTAL_T1</tagname>
             <datatype>double</datatype>
             <array>false</array>
@@ -4518,6 +4726,14 @@ TURNO 1</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_PILHAS_TOTAL_T3</tagname>
+            <datatype>double</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_PILHAS_TOTAL_T4</tagname>
             <datatype>double</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4549,6 +4765,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/num_PORCENTAGEM_COMPLETADAS_T4</tagname>
+            <datatype>float</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/num_PORCENTAGEM_REJEITADAS_T1</tagname>
             <datatype>float</datatype>
             <array>false</array>
@@ -4566,6 +4790,14 @@ TURNO 1</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/num_PORCENTAGEM_REJEITADAS_T3</tagname>
+            <datatype>float</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/num_PORCENTAGEM_REJEITADAS_T4</tagname>
             <datatype>float</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4725,6 +4957,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/tmr_MAQUINA_OCIOSA_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/tmr_MAQUINA_PARADA_T1</tagname>
             <datatype>int</datatype>
             <array>false</array>
@@ -4742,6 +4982,14 @@ TURNO 1</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/tmr_MAQUINA_PARADA_T3</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/tmr_MAQUINA_PARADA_T4</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -4773,6 +5021,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/tmr_MAQUINA_RODANDO_T4</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/turno_A</tagname>
             <datatype>boolean</datatype>
             <array>false</array>
@@ -4790,6 +5046,14 @@ TURNO 1</comment>
         </tag>
         <tag>
             <tagname>Application/LA_IHM/turno_C</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/turno_D</tagname>
             <datatype>boolean</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -5061,6 +5325,94 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO</tagname>
+            <datatype>int-10</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[0]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[1]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[2]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[3]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[4]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[5]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[6]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[7]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[8]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[9]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/PRIMEIRO</tagname>
             <datatype>int-10</datatype>
             <array>false</array>
@@ -5318,6 +5670,94 @@ TURNO 1</comment>
         </tag>
         <tag>
             <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/TERCEIRO[9]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO</tagname>
+            <datatype>int-10</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[0]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[1]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[2]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[3]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[4]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[5]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[6]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[7]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[8]</tagname>
+            <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[9]</tagname>
             <datatype>int</datatype>
             <array>false</array>
             <arraysize>0</arraysize>

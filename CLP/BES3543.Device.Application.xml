@@ -52,10 +52,11 @@
     <TypeSimple name="T_MINUTE" size="2" swapsize="2" typeclass="Subrange" iecname="MINUTE" aliasedtype="T_UINT__0__59_" aliasediecname="UINT (0..59)" underlyingtype="T_UINT" lowerborder="0" upperborder="59" />
     <TypeSimple name="T_MONTH" size="2" swapsize="2" typeclass="Subrange" iecname="MONTH" aliasedtype="T_UINT__1__12_" aliasediecname="UINT (1..12)" underlyingtype="T_UINT" lowerborder="1" upperborder="12" />
     <TypeSimple name="T_SECOND" size="2" swapsize="2" typeclass="Subrange" iecname="SECOND" aliasedtype="T_UINT__0__59_" aliasediecname="UINT (0..59)" underlyingtype="T_UINT" lowerborder="0" upperborder="59" />
-    <TypeUserDef name="T_TURNOS_10" size="120" nativesize="120" typeclass="Userdef" pouclass="STRUCTURE" iecname="TURNOS_10">
+    <TypeUserDef name="T_TURNOS_10" size="160" nativesize="160" typeclass="Userdef" pouclass="STRUCTURE" iecname="TURNOS_10">
       <UserDefElement iecname="PRIMEIRO" type="T_ARRAY__0__9__OF_DINT" byteoffset="0" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="SEGUNDO" type="T_ARRAY__0__9__OF_DINT" byteoffset="40" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="TERCEIRO" type="T_ARRAY__0__9__OF_DINT" byteoffset="80" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="QUARTO" type="T_ARRAY__0__9__OF_DINT" byteoffset="120" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
     <TypeSimple name="T_YEAR" size="2" swapsize="2" typeclass="Subrange" iecname="YEAR" aliasedtype="T_UINT__0__2106_" aliasediecname="UINT (0..2106)" underlyingtype="T_UINT" lowerborder="0" upperborder="2106" />
     <TypeUserDef name="T_RECEITA" size="1148" nativesize="1152" typeclass="Userdef" pouclass="STRUCTURE" iecname="RECEITA">
@@ -129,6 +130,7 @@
         <Node name="int_HIST_INDEX_TURNO1" type="T_DINT" access="ReadWrite" />
         <Node name="int_HIST_INDEX_TURNO2" type="T_DINT" access="ReadWrite" />
         <Node name="int_HIST_INDEX_TURNO3" type="T_DINT" access="ReadWrite" />
+        <Node name="int_HIST_INDEX_TURNO4" type="T_DINT" access="ReadWrite" />
         <Node name="rec_IHM" type="T_RECEITA" access="ReadWrite">
           <Comment>Teste teste teste	
 RECEITAS</Comment>
@@ -253,6 +255,7 @@ RECEITAS</Comment>
         <Node name="bit_PORTA_1" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_PORTA_2" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_RESET_RTON" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SACOLA_VALGROUP_POSICIONADA" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_SELEC_EMPILHADOR_BANDEJA" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_SELEC_EMPILHADOR_DESCE_MESA_GIRO" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_SELEC_EMPILHADOR_GARRA_SACOLA" type="T_BOOL" access="ReadWrite">
@@ -324,12 +327,15 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</Comment>
         <Node name="ihm_HIST_INDEX_TURNO1" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
         <Node name="ihm_HIST_INDEX_TURNO2" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
         <Node name="ihm_HIST_INDEX_TURNO3" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
+        <Node name="ihm_HIST_INDEX_TURNO4" type="T_ARRAY__0__9__OF_BOOL" access="ReadWrite" />
         <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_COMPLETADAS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="ihm_HIST_PORCENTAGEM_REJEITADAS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="info_DIA_ANTERIOR" type="T_DINT" access="ReadWrite" />
         <Node name="info_MANI_POS_ATUAL_GARRA_EMPILHADOR" type="T_LREAL" access="ReadWrite" />
         <Node name="info_MANI_POS_ATUAL_GIRO_MESA" type="T_LREAL" access="ReadWrite" />
@@ -362,27 +368,35 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</Comment>
         <Node name="num_MAQUINA_OCIOSA_HORAS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_HORAS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_HORAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_HORAS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_MINUTOS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_MINUTOS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_MINUTOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_MINUTOS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_OCIOSA_SEGUNDOS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_HORAS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_HORAS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_HORAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_HORAS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_MINUTOS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_MINUTOS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_MINUTOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_MINUTOS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_SEGUNDOS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_SEGUNDOS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_PARADA_SEGUNDOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_PARADA_SEGUNDOS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_HORAS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_HORAS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_HORAS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_HORAS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_MINUTOS_T1" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_MINUTOS_T2" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_MINUTOS_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="num_MAQUINA_RODANDO_MINUTOS_T4" type="T_DINT" access="ReadWrite" />
         <Node name="num_MAQUINA_RODANDO_SEGUNDOS_T1" type="T_DINT" access="ReadWrite">
           <Comment>CONTADORES DE TEMPO DE MAQUINA
 TURNO 1</Comment>
@@ -393,21 +407,29 @@ TURNO 1</Comment>
         <Node name="num_MAQUINA_RODANDO_SEGUNDOS_T3" type="T_DINT" access="ReadWrite">
           <Comment>TURNO 3</Comment>
         </Node>
+        <Node name="num_MAQUINA_RODANDO_SEGUNDOS_T4" type="T_DINT" access="ReadWrite">
+          <Comment>TURNO 4</Comment>
+        </Node>
         <Node name="num_PILHAS_COMPLETADAS_T1" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_COMPLETADAS_T2" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_COMPLETADAS_T3" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_COMPLETADAS_T4" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_REJEITADAS_T1" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_REJEITADAS_T2" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_REJEITADAS_T3" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_REJEITADAS_T4" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_TOTAL_T1" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_TOTAL_T2" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PILHAS_TOTAL_T3" type="T_LREAL" access="ReadWrite" />
+        <Node name="num_PILHAS_TOTAL_T4" type="T_LREAL" access="ReadWrite" />
         <Node name="num_PORCENTAGEM_COMPLETADAS_T1" type="T_REAL" access="ReadWrite" />
         <Node name="num_PORCENTAGEM_COMPLETADAS_T2" type="T_REAL" access="ReadWrite" />
         <Node name="num_PORCENTAGEM_COMPLETADAS_T3" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_COMPLETADAS_T4" type="T_REAL" access="ReadWrite" />
         <Node name="num_PORCENTAGEM_REJEITADAS_T1" type="T_REAL" access="ReadWrite" />
         <Node name="num_PORCENTAGEM_REJEITADAS_T2" type="T_REAL" access="ReadWrite" />
         <Node name="num_PORCENTAGEM_REJEITADAS_T3" type="T_REAL" access="ReadWrite" />
+        <Node name="num_PORCENTAGEM_REJEITADAS_T4" type="T_REAL" access="ReadWrite" />
         <Node name="ONS_DIA_COMPLETO_1" type="T_R_TRIG" access="ReadWrite" />
         <Node name="sp_MANI_VELOCIDADE" type="T_UINT" access="ReadWrite" />
         <Node name="TEMPO_1" type="T_TIME" access="ReadWrite" />
@@ -428,15 +450,19 @@ TURNO 1</Comment>
         <Node name="tmr_MAQUINA_OCIOSA_T1" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_OCIOSA_T2" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_OCIOSA_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_OCIOSA_T4" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_PARADA_T1" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_PARADA_T2" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_PARADA_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_PARADA_T4" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_RODANDO_T1" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_RODANDO_T2" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_RODANDO_T3" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_MAQUINA_RODANDO_T4" type="T_DINT" access="ReadWrite" />
         <Node name="turno_A" type="T_BOOL" access="ReadWrite" />
         <Node name="turno_B" type="T_BOOL" access="ReadWrite" />
         <Node name="turno_C" type="T_BOOL" access="ReadWrite" />
+        <Node name="turno_D" type="T_BOOL" access="ReadWrite" />
       </Node>
       <Node name="PVAR">
         <Node name="ihm_DIA_TURNO_ARRAY" type="T_TURNOS_10" access="ReadWrite" />
