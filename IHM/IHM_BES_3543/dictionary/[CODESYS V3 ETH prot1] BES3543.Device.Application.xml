@@ -19,6 +19,14 @@
     </fields>
     <tags>
         <tag>
+            <tagname>Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_EMP/status_alarm_atu_BANDEJA</tagname>
             <datatype>short</datatype>
             <array>false</array>
@@ -2692,6 +2700,14 @@
         </tag>
         <tag>
             <tagname>Application/LA_IHM/bit_ATU_POSICIONADOR_RECUAR</tagname>
+            <datatype>boolean</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL</tagname>
             <datatype>boolean</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
@@ -5759,6 +5775,14 @@ TURNO 1</comment>
         <tag>
             <tagname>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[9]</tagname>
             <datatype>int</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
+            <tagname>Application/PVAR/int_PILHAS_ENTREGUES</tagname>
+            <datatype>short</datatype>
             <array>false</array>
             <arraysize>0</arraysize>
             <rw>R/W</rw>

@@ -21,8 +21,10 @@
     <MLText id="10" L1=":"/>
     <MLText id="11" L1="Reset"/>
     <MLText id="12" L1=":"/>
-    <MLText id="42" L1="Turno A"/>
-    <MLText id="44" L1="Turno D"/>
+    <MLText id="13" L1="Turno 1"/>
+    <MLText id="14" L1="Turno 2"/>
+    <MLText id="15" L1="Turno 3"/>
+    <MLText id="16" L1="Turno 4"/>
     <MLText id="121" L1="/"/>
     <MLText id="122" L1="erro"/>
     <MLText id="123" L1="jan"/>
@@ -37,8 +39,6 @@
     <MLText id="132" L1="out"/>
     <MLText id="133" L1="nov"/>
     <MLText id="134" L1="dez"/>
-    <MLText id="153" L1="Turno B"/>
-    <MLText id="214" L1="Turno C"/>
    </MLTexts>
   </object>
   <object class="GroupWgt" id="GroupWgt6">
@@ -1372,7 +1372,7 @@
    <object class="LabelWgt" id="GroupWgt14.label1">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.13" x="14.79" marker="true" y="0.19" font-sizepx="16" font-bold="true" height="27" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="153">
+     <lang class="MLTextLink" textid="14">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -1400,7 +1400,7 @@
    <object class="LabelWgt" id="GroupWgt27.label38">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.13" x="14.80" marker="true" y="0" font-sizepx="16" font-bold="true" height="27" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="214">
+     <lang class="MLTextLink" textid="15">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -1431,7 +1431,7 @@
    <object class="LabelWgt" id="GroupWgt15.label1">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="44">
+     <lang class="MLTextLink" textid="16">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -1459,7 +1459,7 @@
    <object class="LabelWgt" id="GroupWgt19.label2">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="42">
+     <lang class="MLTextLink" textid="13">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>

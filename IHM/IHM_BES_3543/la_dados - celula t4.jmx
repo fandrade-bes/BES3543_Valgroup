@@ -14,7 +14,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text16" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
      <links>
-      <lang class="MLTextLink" textid="1">
+      <lang class="MLTextLink" textid="13">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -23,7 +23,7 @@
    <object class="LabelWgt" id="GroupWgt27.label38">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.13" x="14.80" marker="true" y="0" font-sizepx="16" font-bold="true" height="27" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="62">
+     <lang class="MLTextLink" textid="32">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -35,8 +35,8 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="13" L1=""/>
     <MLText id="1" L1=""/>
+    <MLText id="13" L1=""/>
     <MLText id="0" L1="prod. / turno"/>
     <MLText id="2" L1="Pilhas Rejeitadas"/>
     <MLText id="3" L1="Pilhas Completadas"/>
@@ -63,11 +63,11 @@
     <MLText id="25" L1="out"/>
     <MLText id="26" L1="nov"/>
     <MLText id="27" L1="dez"/>
-    <MLText id="28" L1="Turno D"/>
+    <MLText id="29" L1="Turno 1"/>
+    <MLText id="30" L1="Turno 2"/>
     <MLText id="31" L1="Máquina Ociosa"/>
-    <MLText id="46" L1="Turno B"/>
-    <MLText id="62" L1="Turno C"/>
-    <MLText id="106" L1="Turno A"/>
+    <MLText id="32" L1="Turno 3"/>
+    <MLText id="33" L1="Turno 4"/>
    </MLTexts>
   </object>
   <object class="GroupWgt" id="GroupWgt6">
@@ -437,7 +437,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text13" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -534,7 +534,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text1" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -631,7 +631,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text2" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -728,7 +728,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text3" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -825,7 +825,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text4" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -922,7 +922,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text5" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -1019,7 +1019,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text10" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -1116,7 +1116,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text11" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -1213,7 +1213,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text12" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -1310,7 +1310,7 @@
       <object class="LabelWgt" id="SimpleRectBtn1-text14" static="true">
        <wgtStyle font-size="16" wrapping="true" cx="25.07" cy="5.55" x="10.46" y="11.34" font-sizepx="21" font-bold="true" height="10.67" font-color="rgb(232,232,232)" min-font-size="8" width="48.83" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
        <links>
-        <lang class="MLTextLink" textid="13">
+        <lang class="MLTextLink" textid="1">
          <MLFontFamily L1="Calibri"/>
         </lang>
        </links>
@@ -1395,7 +1395,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text7" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.52" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.66" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.96"/>
      <links>
-      <lang class="MLTextLink" textid="13">
+      <lang class="MLTextLink" textid="1">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -1404,7 +1404,7 @@
    <object class="LabelWgt" id="GroupWgt15.label1">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="46">
+     <lang class="MLTextLink" textid="30">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -1423,7 +1423,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text8" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.31" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.56" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.76"/>
      <links>
-      <lang class="MLTextLink" textid="13">
+      <lang class="MLTextLink" textid="1">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -1432,7 +1432,7 @@
    <object class="LabelWgt" id="GroupWgt17.label2">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="106">
+     <lang class="MLTextLink" textid="29">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
@@ -1448,7 +1448,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text15" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.52" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.66" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.96"/>
      <links>
-      <lang class="MLTextLink" textid="13">
+      <lang class="MLTextLink" textid="1">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -1457,7 +1457,7 @@
    <object class="LabelWgt" id="GroupWgt16.label38">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.80" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="28">
+     <lang class="MLTextLink" textid="33">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>

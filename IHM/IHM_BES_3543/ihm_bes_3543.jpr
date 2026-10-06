@@ -58,6 +58,7 @@
       <group name="LADO A">
        <page name="LA_Menu Geral"/>
        <page name="LA_Operacao - Empilhador"/>
+       <page name="LA_Operacao - Envolvedor"/>
        <page name="LA_Operacao -  Pesagem"/>
        <page name="LA_Manual_Seletor"/>
        <page name="LA_Manual - Empilhador Motores"/>

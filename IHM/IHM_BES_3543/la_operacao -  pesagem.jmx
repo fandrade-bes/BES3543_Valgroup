@@ -7,11 +7,11 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="4" L1=""/>
     <MLText id="0" L1="Pesagem"/>
     <MLText id="1" L1="Envolvedor"/>
     <MLText id="2" L1="Empilhador"/>
     <MLText id="3" L1="Reiniciar&#xa;Pesagem"/>
+    <MLText id="4" L1=""/>
     <MLText id="8" L1="Histórico Peso"/>
     <MLText id="9" L1="Imprimindo"/>
     <MLText id="10" L1="Impressão &#xa;Concluída"/>
@@ -21,6 +21,7 @@
     <MLText id="29" L1="Peso Irregular"/>
     <MLText id="31" L1="Aguardando pilha"/>
     <MLText id="33" L1="g"/>
+    <MLText id="45" L1="Enviar Pilha Manual"/>
    </MLTexts>
   </object>
   <object class="ShapeWgt" id="rect5" static="true">
@@ -147,17 +148,17 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt7">
-   <wgtStyle x="223.24" y="321.19" cx="36.57" cy="50.62" width="73.14" height="101.24"/>
+   <wgtStyle x="184.40" y="320.35" mtx="1,0,0,0,1,0,0,0,1" cx="30.35" cy="45.50" width="60.70" height="91"/>
    <object class="GroupWgt" customType="Shape Button" id="GroupWgt7.BtnOthersRect2">
-    <wgtStyle x="0" y="0" cx="36.57" cy="50.62" width="73.14" height="101.24"/>
+    <wgtStyle x="0" y="0" mtx="1,0,0,0,1,0,0,0,1" cx="30.35" cy="45.50" width="60.70" height="91"/>
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton3" hmiStyle="type:btn">
-     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" stroke="rgb(192,192,192)" width="73.14" height="101.24" fill="rgb(247,247,247)" forcePaint="8" downFillColor="rgb(247,247,247)"/>
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" mtx="1,0,0,0,1,0,0,0,1" dx="1" dy="-1" value="0" stroke="rgb(192,192,192)" width="60.70" height="91" fill="rgb(247,247,247)" forcePaint="8" downFillColor="rgb(247,247,247)"/>
      <dataLinks>
       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_bt_RESET_PESAGEM" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="SimpleRectBtn1-text3" static="true">
-     <wgtStyle font-size="16" wrapping="true" cx="27.19" cy="16.84" x="11.35" y="34.42" font-sizepx="21" font-bold="true" height="32.40" font-color="rgb(232,232,232)" min-font-size="8" width="52.95" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <wgtStyle font-size="16" wrapping="true" cx="22.57" cy="15.14" x="9.42" y="30.94" font-sizepx="21" font-bold="true" height="29.12" font-color="rgb(232,232,232)" mtx="1,0,0,0,1,0,0,0,1" min-font-size="8" width="43.94" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
      <links>
       <lang class="MLTextLink" textid="4">
        <MLFontFamily L1="Calibri"/>
@@ -166,7 +167,7 @@
     </object>
    </object>
    <object class="LabelWgt" id="GroupWgt7.label6">
-    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="53.83" cy="24.13" x="7.22" marker="true" y="52.42" font-sizepx="16" height="46.10" min-font-size="8" width="58.70" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="44.67" cy="21.69" x="5.99" marker="true" y="47.12" font-sizepx="13" font-bold="true" height="41.44" mtx="1,0,0,0,1,0,0,0,1" min-font-size="8" width="48.72" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
      <lang class="MLTextLink" textid="3">
       <MLFontFamily L1="Calibri"/>
@@ -174,7 +175,7 @@
     </links>
    </object>
    <object class="MultiStateImageWgt" id="GroupWgt7.MultistateImage2">
-    <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="12.76" y="6.59" imagePathIndexList="" cx="24.06" cy="22.59" width="48.11" height="45.20" forcePaint="1"/>
+    <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="10.59" y="5.92" imagePathIndexList="" mtx="1,0,0,0,1,0,0,0,1" cx="19.97" cy="20.31" width="39.93" height="40.63" forcePaint="1"/>
    </object>
   </object>
   <object class="ShapeWgt" id="rect6" static="true">
@@ -439,6 +440,50 @@
      <MLFontFamily L1="Calibri"/>
     </lang>
    </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt14">
+   <wgtStyle x="260.96" y="320.13" cx="34.68" cy="45.72" width="69.37" height="91.44" forcePaint="1"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt14.BtnOthersRect2">
+    <wgtStyle x="5.10" y="0" cx="29.57" cy="45.72" width="59.14" height="91.44" forcePaint="1"/>
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton5" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" stroke="rgb(192,192,192)" width="59.14" height="91.44" fill="rgb(247,247,247)" forcePaint="9" downFillColor="rgb(247,247,247)"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+    <object class="LabelWgt" id="SimpleRectBtn1-text5" static="true">
+     <wgtStyle font-size="16" wrapping="true" cx="21.98" cy="15.21" x="9.17" y="31.09" font-sizepx="21" font-bold="true" height="29.26" font-color="rgb(232,232,232)" min-font-size="8" width="42.82" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <links>
+      <lang class="MLTextLink" textid="4">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt14.label6">
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="49" cy="21.80" x="7.96" marker="true" y="47.35" font-sizepx="13" font-bold="true" height="41.64" min-font-size="8" width="53.44" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="45">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="GroupWgt" id="GroupWgt14.GroupWgt22.GroupWgt1">
+    <wgtStyle x="0" y="4.88" cx="34.68" cy="23.97" width="69.37" height="47.94" forcePaint="1"/>
+    <object class="ImageWgt" id="GroupWgt14.GroupWgt22.GroupWgt1.ImageWgt6">
+     <wgtStyle imagePath="images/2114532.png" x="0" y="0" mtx="0.999822,0.0188552,0,-0.0258455,0.999666,0,1.20622,0,1" cx="34.69" cy="23.97" width="68.17" height="46.67" forcePaint="1"/>
+    </object>
+   </object>
+   <object class="ImageWgt" id="GroupWgt14.GroupWgt10.Arrows16">
+    <wgtStyle imagePath="images/ArrowsIcon16.svg" x="10.04" y="26.88" cx="15.50" cy="10" width="31" height="20" fill="rgb(255,0,0)" forcePaint="1"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="ImageWgt3">
+   <wgtStyle imagePath="images/icons8-sinal-de-alerta-geral-96.png" x="383.24" y="86.68" cx="18.50" cy="18" width="37" height="36" blink="true" forcePaint="25"/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="blink"/>
+    <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="visibility"/>
+   </dataLinks>
   </object>
  </object>
 </wgtPage>

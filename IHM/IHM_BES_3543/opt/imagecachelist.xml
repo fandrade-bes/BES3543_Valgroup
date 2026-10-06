@@ -12,8 +12,8 @@
  <file isSvgFile="true" imgSize="172,65" numSizes="37" file="images/win-like-press.svg" numUses="42" stroke="none" fill="rgb(184,219,255)"/>
  <file isSvgFile="true" imgSize="172,65" numSizes="37" file="images/win-like.svg" numUses="42" stroke="none" fill="rgb(184,219,255)"/>
  <file imgSize="47,48" numSizes="35" file="images/icons8-avan_u231ar-60.png" numUses="38"/>
- <file isSvgFile="true" imgSize="172,65" numSizes="27" file="images/win-like-press.svg" numUses="32" stroke="none" fill="rgb(247,247,247)"/>
- <file isSvgFile="true" imgSize="172,65" numSizes="27" file="images/win-like.svg" numUses="32" stroke="none" fill="rgb(247,247,247)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="28" file="images/win-like-press.svg" numUses="33" stroke="none" fill="rgb(247,247,247)"/>
+ <file isSvgFile="true" imgSize="172,65" numSizes="28" file="images/win-like.svg" numUses="33" stroke="none" fill="rgb(247,247,247)"/>
  <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96.png" numUses="23"/>
  <file imgSize="36,37" numSizes="1" file="images/icons8-caixa-de-sele_u231_u227o-96 (1).png" numUses="23"/>
  <file imgSize="48,53" numSizes="6" file="images/icons8-desligar-48.png" numUses="23"/>
@@ -43,13 +43,14 @@
  <file imgSize="39,41" numSizes="5" file="images/icons8-cancelar-48.png" numUses="6"/>
  <file isSvgFile="true" prePath="keypads" imgSize="76,60" numSizes="6" file="images/fe_btn_kbdwht_long_2.svg" numUses="6" stroke="none" fill="rgb(0,0,0)"/>
  <file isSvgFile="true" prePath="keypads" imgSize="76,60" numSizes="6" file="images/fe_btn_kbdwht_long_1.svg" numUses="6" stroke="none" fill="rgb(0,0,0)"/>
+ <file isSvgFile="true" imgSize="32,17" numSizes="2" file="images/arrowsicon16.svg" numUses="5" stroke="none" fill="rgb(255,0,0)"/>
  <file imgSize="37,39" numSizes="4" file="images/icons8-erro-482.png" numUses="5"/>
- <file isSvgFile="true" imgSize="32,17" numSizes="1" file="images/arrowsicon16.svg" numUses="4" stroke="none" fill="rgb(255,0,0)"/>
  <file imgSize="77,70" numSizes="1" file="images/servo.png" numUses="4"/>
  <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_dwn.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
  <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_blueup.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
  <file imgSize="62,64" numSizes="3" file="images/icons8-one-page-down-80.png" numUses="4"/>
  <file imgSize="46,45" numSizes="1" file="images/inspecao.png" numUses="3"/>
+ <file imgSize="40,43" numSizes="2" file="images/icons8-sinal-de-alerta-geral-96.png" numUses="3"/>
  <file imgSize="52,60" numSizes="2" file="images/icons8-salvar-48.png" numUses="3"/>
  <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_dwn.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
  <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_blueup.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
@@ -65,7 +66,6 @@
  <file imgSize="38,39" numSizes="1" file="images/icons8-seguran_u231a-verificada-48.png" numUses="2"/>
  <file imgSize="41,41" numSizes="1" file="images/icons8-logout-40.png" numUses="2"/>
  <file imgSize="41,41" numSizes="1" file="images/icons8-login-40.png" numUses="2"/>
- <file imgSize="40,43" numSizes="1" file="images/icons8-sinal-de-alerta-geral-96.png" numUses="2"/>
  <file imgSize="58,62" numSizes="1" file="images/icons8-inspe_u231_u227o-100.png" numUses="2"/>
  <file imgSize="32,32" numSizes="1" file="images/icons8-sincronizar-40.png" numUses="2"/>
  <file imgSize="51,65" numSizes="1" file="images/imagem2.png" numUses="2"/>
@@ -96,6 +96,7 @@
  <file imgSize="441,407" numSizes="1" file="images/empilhador_5.png" numUses="1"/>
  <file imgSize="152,286" numSizes="1" file="images/empilhador_3.png" numUses="1"/>
  <file imgSize="466,407" numSizes="1" file="images/envolvedor.png" numUses="1"/>
+ <file imgSize="68,47" numSizes="1" file="images/2114532.png" numUses="1"/>
  <file imgSize="569,370" numSizes="1" file="images/pesagem_superior1.png" numUses="1"/>
  <file imgSize="187,120" numSizes="1" file="images/atuador_transferencia.png" numUses="1"/>
  <file imgSize="800,480" numSizes="1" file="opt/la_parametros - empilhador garra.png" numUses="1"/>

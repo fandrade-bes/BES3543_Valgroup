@@ -324,6 +324,7 @@
  <group Type="Auto">
   <name>LA_Operacao -  Pesagem@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL</tag>
   <tag>Application/LA_IHM/array_HIST_ERRO_PESAGEM_1</tag>
   <tag>Application/LA_IHM/array_HIST_ERRO_PESAGEM_2</tag>
   <tag>Application/LA_IHM/array_HIST_ERRO_PESAGEM_3</tag>
@@ -332,6 +333,7 @@
   <tag>Application/LA_IHM/array_HIST_ERRO_PESAGEM_6</tag>
   <tag>Application/LA_IHM/array_HIST_ERRO_PESAGEM_7</tag>
   <tag>Application/LA_IHM/bit_STATUS_PESAGEM</tag>
+  <tag>Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_PESAGEM</tag>
   <tag>Application/LA_IHM/hist_VALOR_PESAGEM_ARRAY[0]</tag>
   <tag>Application/LA_IHM/hist_VALOR_PESAGEM_ARRAY[1]</tag>
@@ -361,7 +363,7 @@
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_GARRA_EMPILHADOR</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_GIRO_MESA</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_X_EMPILHADOR</tag>
-  <tag>Application/LA_IHM/int_CAMADA_ATUAL</tag>
+  <tag>Application/PVAR/int_PILHAS_ENTREGUES</tag>
   <tag>Application/PVAR/int_PILHAS_ENTREGUES_MAX</tag>
  </group>
  <group Type="Auto">

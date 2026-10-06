@@ -102,6 +102,9 @@
   </TypeList>
   <NodeList>
     <Node name="Application">
+      <Node name="GVL_PESAGEM">
+        <Node name="bit_ENVIAR_PILHA_MANUAL" type="T_BOOL" access="ReadWrite" />
+      </Node>
       <Node name="LA_EMP">
         <Node name="status_alarm_atu_BANDEJA" type="T_INT" access="ReadWrite" />
         <Node name="status_alarm_atu_DESCE_MESA" type="T_INT" access="ReadWrite" />
@@ -167,6 +170,7 @@ RECEITAS</Comment>
         <Node name="bit_ATU_POSICIONADOR_AVANCAR" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_ATU_POSICIONADOR_RECUADO" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_ATU_POSICIONADOR_RECUAR" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_bt_ENVIAR_PILHA_MANUAL" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_bt_INSPECAO_OK" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_bt_REALIZAR_INSPECAO" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_bt_RESET_EST_ENTRADA" type="T_BOOL" access="ReadWrite" />
@@ -467,6 +471,7 @@ TURNO 1</Comment>
       <Node name="PVAR">
         <Node name="ihm_DIA_TURNO_ARRAY" type="T_TURNOS_10" access="ReadWrite" />
         <Node name="ihm_MES_TURNO_ARRAY" type="T_TURNOS_10" access="ReadWrite" />
+        <Node name="int_PILHAS_ENTREGUES" type="T_INT" access="ReadWrite" />
         <Node name="int_PILHAS_ENTREGUES_MAX" type="T_INT" access="ReadWrite" />
         <Node name="rec_ATUAL" type="T_RECEITA" access="ReadWrite">
           <Comment>================================================================================================================================================================================
