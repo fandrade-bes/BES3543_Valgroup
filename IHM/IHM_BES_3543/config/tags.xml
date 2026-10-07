@@ -14137,6 +14137,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/int_PILHAS_ENTREGUES</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -14150,6 +14152,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -14163,6 +14167,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>

@@ -73,7 +73,7 @@ hmistudio_dock_keyboard=@ByteArray(\x1\0\0\0x\0\0\0\x19)
 hmistudio_dock_script=@ByteArray(\x1\0\0\0\xff\0\0\0\x19)
 
 [AttachTo]
-searchPattern=enviar
+searchPattern=total_t3
 searchCaseSensitivity=0
 searchPatternSyntax=2
 filterByCurrentText=

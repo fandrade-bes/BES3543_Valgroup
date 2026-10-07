@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_dados - celula t2.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T2" dataWndSize="0,70" pageName="LA_Dados - Celula T2" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+ <object class="PageWgt" staticFile="opt/la_dados - celula t2.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T2" dataWndSize="0,70" pageName="LA_Dados - Celula T2" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -7,7 +7,6 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="45" L1=""/>
     <MLText id="0" L1="prod. / turno"/>
     <MLText id="1" L1="Máquina Ociosa"/>
     <MLText id="2" L1="Pilhas Rejeitadas"/>
@@ -25,6 +24,7 @@
     <MLText id="14" L1="Turno 2"/>
     <MLText id="15" L1="Turno 3"/>
     <MLText id="16" L1="Turno 4"/>
+    <MLText id="45" L1=""/>
     <MLText id="121" L1="/"/>
     <MLText id="122" L1="erro"/>
     <MLText id="123" L1="jan"/>
@@ -1460,6 +1460,58 @@
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
      <lang class="MLTextLink" textid="13">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt22.GroupWgt1">
+   <wgtStyle x="613.98" y="-152.46" cx="50.73" cy="16.09" width="101.46" height="32.18"/>
+   <object class="NumericWgt" id="GroupWgt22.GroupWgt1.field3">
+    <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="0" numberFormat="6" showThousandSeparator="false" y="3.25" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(24,131,0)" min-font-size="8" width="101.46" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="0.00" font-family="Tahoma" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+    <dataLinks>
+     <dataLink sourceType="Formula" attribute="value">
+      <xForms>
+       <xForm class="FormulaXForm" expression="$('Application/LA_IHM/num_PILHAS_COMPLETADAS_T2')/$('Application/LA_IHM/num_PILHAS_TOTAL_T2')*100" compiledExpression="$0/$1*100" colorPalette="" name="Formula">
+        <dataLinks>
+         <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_COMPLETADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+         <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_TOTAL_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$1"/>
+        </dataLinks>
+       </xForm>
+      </xForms>
+     </dataLink>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt22.GroupWgt1.label6">
+    <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="20.75" cy="14.50" x="63.04" marker="true" y="0" font-sizepx="19" font-bold="true" height="27.68" font-color="rgb(24,131,0)" min-font-size="8" width="22.62" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="6">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt23.GroupWgt1">
+   <wgtStyle x="613.98" y="-112.22" cx="50.73" cy="16.09" width="101.46" height="32.18"/>
+   <object class="NumericWgt" id="GroupWgt23.GroupWgt1.field3">
+    <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="0" numberFormat="6" showThousandSeparator="false" y="3.25" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(192,0,32)" min-font-size="8" width="101.46" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="8" usingFormat="0.00" font-family="Tahoma" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+    <dataLinks>
+     <dataLink sourceType="Formula" attribute="value">
+      <xForms>
+       <xForm class="FormulaXForm" expression="100-($('Application/LA_IHM/num_PILHAS_COMPLETADAS_T2')/$('Application/LA_IHM/num_PILHAS_TOTAL_T2')*100)" compiledExpression="100-($0/$1*100)" colorPalette="" name="Formula">
+        <dataLinks>
+         <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_COMPLETADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$0"/>
+         <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_TOTAL_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="$1"/>
+        </dataLinks>
+       </xForm>
+      </xForms>
+     </dataLink>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt23.GroupWgt1.label6">
+    <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="20.75" cy="14.50" x="63.04" marker="true" y="0" font-sizepx="19" font-bold="true" height="27.68" font-color="rgb(192,0,32)" min-font-size="8" width="22.62" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="6">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>

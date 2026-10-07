@@ -14,7 +14,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text16" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
      <links>
-      <lang class="MLTextLink" textid="13">
+      <lang class="MLTextLink" textid="1">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -36,7 +36,7 @@
    </langs>
    <MLTexts>
     <MLText id="1" L1=""/>
-    <MLText id="13" L1=""/>
+    <MLText id="1" L1=""/>
     <MLText id="0" L1="prod. / turno"/>
     <MLText id="2" L1="Pilhas Rejeitadas"/>
     <MLText id="3" L1="Pilhas Completadas"/>

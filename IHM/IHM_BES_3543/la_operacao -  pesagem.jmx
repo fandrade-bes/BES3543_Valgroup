@@ -7,11 +7,11 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
+    <MLText id="4" L1=""/>
     <MLText id="0" L1="Pesagem"/>
     <MLText id="1" L1="Envolvedor"/>
     <MLText id="2" L1="Empilhador"/>
     <MLText id="3" L1="Reiniciar&#xa;Pesagem"/>
-    <MLText id="4" L1=""/>
     <MLText id="8" L1="Histórico Peso"/>
     <MLText id="9" L1="Imprimindo"/>
     <MLText id="10" L1="Impressão &#xa;Concluída"/>
@@ -148,17 +148,17 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt7">
-   <wgtStyle x="184.40" y="320.35" mtx="1,0,0,0,1,0,0,0,1" cx="30.35" cy="45.50" width="60.70" height="91"/>
+   <wgtStyle x="184.40" y="320.35" cx="30.35" cy="45.50" width="60.70" height="91"/>
    <object class="GroupWgt" customType="Shape Button" id="GroupWgt7.BtnOthersRect2">
-    <wgtStyle x="0" y="0" mtx="1,0,0,0,1,0,0,0,1" cx="30.35" cy="45.50" width="60.70" height="91"/>
+    <wgtStyle x="0" y="0" cx="30.35" cy="45.50" width="60.70" height="91"/>
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton3" hmiStyle="type:btn">
-     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" mtx="1,0,0,0,1,0,0,0,1" dx="1" dy="-1" value="0" stroke="rgb(192,192,192)" width="60.70" height="91" fill="rgb(247,247,247)" forcePaint="8" downFillColor="rgb(247,247,247)"/>
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" stroke="rgb(192,192,192)" width="60.70" height="91" fill="rgb(247,247,247)" forcePaint="8" downFillColor="rgb(247,247,247)"/>
      <dataLinks>
       <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_bt_RESET_PESAGEM" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="SimpleRectBtn1-text3" static="true">
-     <wgtStyle font-size="16" wrapping="true" cx="22.57" cy="15.14" x="9.42" y="30.94" font-sizepx="21" font-bold="true" height="29.12" font-color="rgb(232,232,232)" mtx="1,0,0,0,1,0,0,0,1" min-font-size="8" width="43.94" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+     <wgtStyle font-size="16" wrapping="true" cx="22.57" cy="15.14" x="9.42" y="30.94" font-sizepx="21" font-bold="true" height="29.12" font-color="rgb(232,232,232)" min-font-size="8" width="43.94" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
      <links>
       <lang class="MLTextLink" textid="4">
        <MLFontFamily L1="Calibri"/>
@@ -167,7 +167,7 @@
     </object>
    </object>
    <object class="LabelWgt" id="GroupWgt7.label6">
-    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="44.67" cy="21.69" x="5.99" marker="true" y="47.12" font-sizepx="13" font-bold="true" height="41.44" mtx="1,0,0,0,1,0,0,0,1" min-font-size="8" width="48.72" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="44.67" cy="21.69" x="5.99" marker="true" y="47.12" font-sizepx="13" font-bold="true" height="41.44" min-font-size="8" width="48.72" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
      <lang class="MLTextLink" textid="3">
       <MLFontFamily L1="Calibri"/>
@@ -175,7 +175,7 @@
     </links>
    </object>
    <object class="MultiStateImageWgt" id="GroupWgt7.MultistateImage2">
-    <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="10.59" y="5.92" imagePathIndexList="" mtx="1,0,0,0,1,0,0,0,1" cx="19.97" cy="20.31" width="39.93" height="40.63" forcePaint="1"/>
+    <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="10.59" y="5.92" imagePathIndexList="" cx="19.97" cy="20.31" width="39.93" height="40.63" forcePaint="1"/>
    </object>
   </object>
   <object class="ShapeWgt" id="rect6" static="true">
