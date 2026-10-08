@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_dados - celula t2.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T2" dataWndSize="0,70" pageName="LA_Dados - Celula T2" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
+ <object class="PageWgt" staticFile="opt/la_dados - celula t2.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T2" dataWndSize="0,70" pageName="LA_Dados - Celula T2" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -7,6 +7,7 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
+    <MLText id="45" L1=""/>
     <MLText id="0" L1="prod. / turno"/>
     <MLText id="1" L1="Máquina Ociosa"/>
     <MLText id="2" L1="Pilhas Rejeitadas"/>
@@ -24,7 +25,6 @@
     <MLText id="14" L1="Turno 2"/>
     <MLText id="15" L1="Turno 3"/>
     <MLText id="16" L1="Turno 4"/>
-    <MLText id="45" L1=""/>
     <MLText id="121" L1="/"/>
     <MLText id="122" L1="erro"/>
     <MLText id="123" L1="jan"/>

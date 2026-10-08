@@ -156,18 +156,18 @@
    </links>
   </object>
   <object class="GroupWgt" id="GroupWgt12">
-   <wgtStyle x="417.10" y="161.28" cx="49.66" cy="46.95" width="99.33" height="93.89"/>
+   <wgtStyle x="417.10" y="161.28" cx="49.66" cy="46.95" width="99.33" height="93.89" forcePaint="4"/>
    <object class="ButtonWgt" id="GroupWgt12.hotspotbtn3" hmiStyle="type:btn">
-    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="2.16" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="47.84" cy="46.03" value="0" width="97.18" height="93.89" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="2.16" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="47.84" cy="46.03" value="0" width="97.18" height="93.89" fill="rgb(160,160,164)" forcePaint="5" downFillColor="rgb(160,160,164)"/>
     <links>
      <action class="ShowDialogAction" actionID="0" event="onMouseUp" actionWgt="_PageMgr" pageName="salvar receita.jmx" attribute="onMouseRelease"/>
     </links>
    </object>
    <object class="ImageWgt" id="GroupWgt12.image9">
-    <wgtStyle imagePath="images/icons8-salvar-48.png" x="23.76" y="7.51" cx="19.43" cy="23.17" width="51.83" height="60.08" forcePaint="1"/>
+    <wgtStyle imagePath="images/icons8-salvar-48.png" x="23.76" y="7.51" cx="19.43" cy="23.17" width="51.83" height="60.08" forcePaint="5"/>
    </object>
    <object class="LabelWgt" id="GroupWgt12.label4">
-    <wgtStyle font-size="12" wrapping="true" cx="49.66" cy="14.83" x="0" marker="true" y="60.08" font-sizepx="16" font-bold="true" height="31.29" font-color="rgb(255,255,255)" min-font-size="8" width="99.33" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <wgtStyle font-size="12" wrapping="true" cx="49.66" cy="14.83" x="0" marker="true" y="60.08" font-sizepx="16" font-bold="true" height="31.29" font-color="rgb(255,255,255)" min-font-size="8" width="99.33" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="5" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
      <lang class="MLTextLink" textid="5">
       <MLFontFamily L1="Calibri"/>
@@ -251,7 +251,7 @@
    </dataLinks>
   </object>
   <object class="MultiStateImageWgt" id="MultistateImage2">
-   <wgtStyle imagePath="images/.images/,images/.images/,images/icons8-ok-25.png,images/.images/,images/.images/" continuousIndex="1" frame="2" x="427.89" y="158.93" imagePathIndexList="" cx="13.50" cy="14.73" width="26.99" height="29.46" forcePaint="9"/>
+   <wgtStyle imagePath="images/.images/,images/.images/,images/icons8-ok-25.png,images/.images/,images/.images/" continuousIndex="1" frame="2" x="427.89" y="158.93" imagePathIndexList="" cx="13.50" cy="14.73" width="26.99" height="29.46" forcePaint="13"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/LA_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
    </dataLinks>
@@ -490,51 +490,51 @@
    </links>
   </object>
   <object class="GroupWgt" id="GroupWgt3">
-   <wgtStyle staticFile="opt/LA_ReceitasGroupWgt3.png" x="615.45" y="285.27" cx="82.90" cy="78.88" width="165.81" height="157.77" forcePaint="97"/>
-   <object class="LabelWgt" id="GroupWgt3.label16" static="true">
-    <wgtStyle font-size="12" wrapping="true" cx="68.11" cy="23.99" x="14.64" marker="true" y="107.15" font-sizepx="16" font-bold="true" height="50.61" font-color="rgb(255,255,255)" min-font-size="8" width="136.23" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle x="615.45" y="285.27" cx="82.90" cy="78.88" width="165.81" height="157.77" forcePaint="69"/>
+   <object class="LabelWgt" id="GroupWgt3.label16">
+    <wgtStyle font-size="12" wrapping="true" cx="68.11" cy="23.99" x="14.64" marker="true" y="107.15" font-sizepx="16" font-bold="true" height="50.61" font-color="rgb(255,255,255)" min-font-size="8" width="136.23" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="69" font-family="Roboto" keypad-type="None" max-font-size="64"/>
     <links>
      <lang class="MLTextLink" textid="2"/>
     </links>
    </object>
    <object class="GroupWgt" id="GroupWgt3.GroupWgt1">
-    <wgtStyle x="22.70" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55"/>
-    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt4" static="true">
-     <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="0" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55"/>
+    <wgtStyle x="22.70" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55" forcePaint="5"/>
+    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt4">
+     <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="0" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55" forcePaint="5"/>
     </object>
-    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt6" static="true">
-     <wgtStyle imagePath="images/2114532.png" x="14.33" y="26.91" mtx="0.999768,0.0215225,0,-0.0226431,0.999744,0,1.59001,0,1" cx="45.72" cy="36.07" width="89.86" height="70.22"/>
+    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt6">
+     <wgtStyle imagePath="images/2114532.png" x="14.33" y="26.91" mtx="0.999768,0.0215225,0,-0.0226431,0.999744,0,1.59001,0,1" cx="45.72" cy="36.07" width="89.86" height="70.22" forcePaint="5"/>
     </object>
-    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt7" static="true">
-     <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="54.25" y="52.97" mtx="0.112511,0.993651,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93"/>
+    <object class="ImageWgt" id="GroupWgt3.GroupWgt1.ImageWgt7">
+     <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="54.25" y="52.97" mtx="0.112511,0.993651,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93" forcePaint="5"/>
     </object>
    </object>
    <object class="ButtonWgt" id="GroupWgt3.hotspotbtn2" hmiStyle="type:btn">
-    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="12.65" dx="1" dy="-1" cx="81.63" cy="66.80" value="0" width="165.81" height="136.29" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="12.65" dx="1" dy="-1" cx="81.63" cy="66.80" value="0" width="165.81" height="136.29" fill="rgb(160,160,164)" forcePaint="5" downFillColor="rgb(160,160,164)"/>
     <links>
      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_parametros - empilhador garra.jmx" attribute="onMouseRelease"/>
     </links>
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt1">
-   <wgtStyle x="439.37" y="284.07" cx="82.90" cy="75.05" width="165.81" height="150.09"/>
+   <wgtStyle x="439.37" y="284.07" cx="82.90" cy="75.05" width="165.81" height="150.09" forcePaint="4"/>
    <object class="ButtonWgt" id="GroupWgt1.hotspotbtn1" hmiStyle="type:btn">
-    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="13.39" dx="1" dy="-1" cx="81.63" cy="66.80" value="0" width="165.81" height="136.29" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)"/>
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="13.39" dx="1" dy="-1" cx="81.63" cy="66.80" value="0" width="165.81" height="136.29" fill="rgb(160,160,164)" forcePaint="5" downFillColor="rgb(160,160,164)"/>
     <links>
      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_parametros - envolvedor.jmx" attribute="onMouseRelease"/>
     </links>
    </object>
    <object class="ImageWgt" id="GroupWgt1.ImageWgt3">
-    <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="22.94" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55" forcePaint="1"/>
+    <wgtStyle imagePath="images/bloco_imgupscaler.ai_Afiador_2K.png" x="22.94" y="0" cx="60.05" cy="58.78" width="120.09" height="117.55" forcePaint="5"/>
    </object>
    <object class="ImageWgt" id="GroupWgt1.ImageWgt2">
-    <wgtStyle imagePath="images/bandage_3983709.png" x="48.12" y="24.01" cx="34.87" cy="41.63" width="69.73" height="83.27" forcePaint="1"/>
+    <wgtStyle imagePath="images/bandage_3983709.png" x="48.12" y="24.01" cx="34.87" cy="41.63" width="69.73" height="83.27" forcePaint="5"/>
    </object>
    <object class="ImageWgt" id="GroupWgt1.ImageWgt5">
-    <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="83.56" y="52.06" mtx="0.112511,0.993651,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93" forcePaint="1"/>
+    <wgtStyle imagePath="images/icons8-l_U225pis-100.png" x="83.56" y="52.06" mtx="0.112511,0.993651,0,-0.978184,0.207739,0,41.0145,0,1" cx="23.11" cy="27.39" width="46.34" height="41.93" forcePaint="5"/>
    </object>
    <object class="LabelWgt" id="GroupWgt1.label10">
-    <wgtStyle font-size="12" wrapping="true" cx="68.57" cy="20.12" x="14.81" marker="true" y="107.64" font-sizepx="16" font-bold="true" height="42.45" font-color="rgb(255,255,255)" min-font-size="8" width="137.14" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+    <wgtStyle font-size="12" wrapping="true" cx="68.57" cy="20.12" x="14.81" marker="true" y="107.64" font-sizepx="16" font-bold="true" height="42.45" font-color="rgb(255,255,255)" min-font-size="8" width="137.14" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="5" font-family="Roboto" keypad-type="None" max-font-size="64"/>
     <links>
      <lang class="MLTextLink" textid="1"/>
     </links>

@@ -380,7 +380,6 @@
   <tag>Application/LA_IHM/bit_EIXO_Z_ENVOLVEDOR_HABILITADO</tag>
   <tag>Application/LA_IHM/bit_ENV_CORTE_FILME</tag>
   <tag>Application/LA_IHM/bit_GIRO_SACOLA_RESET</tag>
-  <tag>Application/LA_IHM/bit_SIMULA_GIRO</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_EST_ENTRADA</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_EST_SAIDA</tag>
   <tag>Application/LA_IHM/bit_bt_RESET_EST_TR</tag>

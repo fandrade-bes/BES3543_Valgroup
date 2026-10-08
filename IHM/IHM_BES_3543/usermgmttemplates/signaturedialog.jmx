@@ -1,6 +1,6 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="DialogWgt" pageName="SignatureDialog" px="0" py="0" usedFonts="Roboto,Roboto Medium,Roboto Light" dataWndSize="0,70" dynPosition="false" titlebar="false" titleName="" pageSize="400,390" blur-background="false" id="SignatureDialog" staticOptEnable="false" downloadPrepDone="false" staticFile="opt/signaturedialog.png" pageType="modal" blur-radius="5" singleInstance="true">
-  <wgtStyle x="0" y="0" fitToSize="1" ver="0499004264" color="rgb(210,210,210)" width="400" height="390" forcePaint="512" v="04.99.00.4264"/>
+ <object class="DialogWgt" staticFile="opt/signaturedialog.png" downloadPrepDone="false" dynPosition="false" titlebar="false" singleInstance="true" staticOptEnable="false" titleName="" px="0" id="SignatureDialog" py="0" dataWndSize="0,70" pageType="modal" pageName="SignatureDialog" pageSize="400,390" usedFonts="Roboto,Roboto Medium,Roboto Light">
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" color="rgb(210,210,210)" width="400" height="390" forcePaint="512" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">

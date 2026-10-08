@@ -19,11 +19,6 @@
     <MLText id="13" L1="Pos. Giro LD"/>
     <MLText id="16" L1="Pos. Eixo X"/>
     <MLText id="18" L1="Pos. Eixo Z"/>
-    <MLText id="26" L1="Desligado"/>
-    <MLText id="34" L1="Ligado"/>
-    <MLText id="35" L1="Message"/>
-    <MLText id="36" L1="Message"/>
-    <MLText id="37" L1="Liberar Pega"/>
     <MLText id="54" L1="Reiniciar&#xa;Esteira Entrada"/>
     <MLText id="76" L1="Esteira Entrada"/>
     <MLText id="77" L1="Esteira Saída"/>
@@ -676,51 +671,6 @@
    </object>
    <object class="ImageWgt" id="GroupWgt3.ImageWgt2">
     <wgtStyle imagePath="images/Imagem2.png" x="5.30" y="0" cx="25.50" cy="32.50" width="51" height="65" forcePaint="1"/>
-   </object>
-  </object>
-  <object class="GroupWgt" id="GroupWgt13">
-   <wgtStyle x="414.56" y="272.23" cx="47.61" cy="64.73" width="95.22" height="129.46" forcePaint="1"/>
-   <object class="ButtonWgt" id="GroupWgt13.hotspotbtn1" hmiStyle="type:btn">
-    <wgtStyle form="hotspot" pushColor="rgb(128,128,0)" dx="1" dy="-1" type="maintained" fill="rgb(160,160,164)" cx="29.79" cy="45.37" x="17.36" y="36.91" height="92.54" downFillColor="rgb(160,160,164)" releasePath="../../shared/gallery/images/bu_other/win-like.svg" holdTime="1" width="60.51" forcePaint="9" value="0" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg"/>
-    <dataLinks>
-     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SIMULA_GIRO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
-    </dataLinks>
-   </object>
-   <object class="MsgTextWgt" id="GroupWgt13.msgtext1">
-    <wgtStyle min="0" font-size="10" cx="29.24" cy="9.92" x="17.36" marker="true" y="93.51" font-sizepx="13" font-bold="true" height="20.93" font-color="rgb(40,40,40)" min-font-size="8" width="59.49" alignment="center" max="3" continous="true" vert-align="top" wrap-type="wordWrap" forcePaint="9" viewindex="false" font-family="Calibri" text="" value="1" keypad-type="None" max-font-size="64">
-     <msgtxt>
-      <msg index="0"/>
-      <msg index="1"/>
-      <msg index="2"/>
-      <msg index="3"/>
-     </msgtxt>
-    </wgtStyle>
-    <dataLinks>
-     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SIMULA_GIRO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
-    </dataLinks>
-    <links>
-     <lang class="MLMsgLink:messages:">
-      <MLFontFamily L1="Calibri"/>
-      <textid idx="0" val="26"/>
-      <textid idx="1" val="34"/>
-      <textid idx="2" val="35"/>
-      <textid idx="3" val="36"/>
-     </lang>
-    </links>
-   </object>
-   <object class="MultiStateImageWgt" id="GroupWgt13.MultistateImage2">
-    <wgtStyle imagePath="images/icons8-desligar-48.png,images/icons8-ligar-48.png" continuousIndex="1" frame="1" x="23.41" y="43.48" imagePathIndexList="" cx="24.20" cy="26.44" width="48.40" height="52.88" forcePaint="9"/>
-    <dataLinks>
-     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SIMULA_GIRO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
-    </dataLinks>
-   </object>
-   <object class="LabelWgt" id="GroupWgt13.label1">
-    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="87.32" cy="28.74" x="0" marker="true" y="0" font-sizepx="13" height="54.87" min-font-size="8" width="95.22" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
-    <links>
-     <lang class="MLTextLink" textid="37">
-      <MLFontFamily L1="Calibri"/>
-     </lang>
-    </links>
    </object>
   </object>
  </object>

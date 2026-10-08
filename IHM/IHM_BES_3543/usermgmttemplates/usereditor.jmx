@@ -1,6 +1,6 @@
 <wgtPage projectType="HMI Project" rev="1">
  <object class="PageWgt" staticFile="opt/usereditor.png" downloadPrepDone="false" staticOptEnable="false" id="UserEditor" dataWndSize="0,70" pageName="UserEditor" pageSize="480,480" usedFonts="Roboto,Roboto Medium">
-  <wgtStyle x="0" y="0" fitToSize="1" ver="0499004264" width="480" height="480" v="04.99.00.4264"/>
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="480" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">

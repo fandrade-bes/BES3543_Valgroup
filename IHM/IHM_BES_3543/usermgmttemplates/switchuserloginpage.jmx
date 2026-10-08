@@ -1,6 +1,6 @@
 <wgtPage projectType="HMI Project" rev="1">
  <object class="PageWgt" staticFile="opt/switchuserloginpage.png" downloadPrepDone="false" staticOptEnable="false" id="switchuserloginpage" dataWndSize="0,70" pageName="switchuserloginpage" pageSize="480,400" usedFonts="Segoe UI Light,Segoe UI,Tahoma">
-  <wgtStyle x="0" y="0" mtx="1,0,0,0,1,0,0,0,1" fitToSize="1" ver="040502517" cx="200" cy="125" color="rgb(0,0,0)" width="480" height="400" v="04.05.02.517"/>
+  <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" cx="200" cy="125" color="rgb(0,0,0)" width="480" height="400" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" cx="0" cy="0" width="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">
