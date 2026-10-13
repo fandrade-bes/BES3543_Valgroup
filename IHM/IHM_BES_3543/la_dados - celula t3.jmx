@@ -1,6 +1,34 @@
 <wgtPage projectType="HMI Project" rev="1">
  <object class="PageWgt" staticFile="opt/la_dados - celula t3.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Dados - Celula T3" dataWndSize="0,70" pageName="LA_Dados - Celula T3" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Tahoma">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <object class="GroupWgt" id="GroupWgt15">
+   <wgtStyle x="557" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt15.BtnOthersRect1">
+    <wgtStyle x="0" y="0.05" cx="63.08" cy="14" width="126.17" height="28"/>
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton7" hmiStyle="type:btn">
+     <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="28" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
+     <links>
+      <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_dados - celula t4.jmx" attribute="onMouseRelease"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="SimpleRectBtn1-text7" static="true">
+     <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.52" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.66" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.96"/>
+     <links>
+      <lang class="MLTextLink" textid="33">
+       <MLFontFamily L1="Calibri"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt15.label1">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="30">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+  </object>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">
@@ -8,6 +36,7 @@
    </langs>
    <MLTexts>
     <MLText id="1" L1=""/>
+    <MLText id="33" L1=""/>
     <MLText id="0" L1="prod. / turno"/>
     <MLText id="2" L1="Pilhas Rejeitadas"/>
     <MLText id="3" L1="Pilhas Completadas"/>
@@ -20,6 +49,7 @@
     <MLText id="10" L1=":"/>
     <MLText id="11" L1="Reset"/>
     <MLText id="12" L1=":"/>
+    <MLText id="13" L1="Turno 1"/>
     <MLText id="14" L1="/"/>
     <MLText id="15" L1="erro"/>
     <MLText id="16" L1="jan"/>
@@ -34,10 +64,10 @@
     <MLText id="25" L1="out"/>
     <MLText id="26" L1="nov"/>
     <MLText id="27" L1="dez"/>
+    <MLText id="28" L1="Turno 2"/>
+    <MLText id="29" L1="Turno 3"/>
+    <MLText id="30" L1="Turno 4"/>
     <MLText id="31" L1="Máquina Ociosa"/>
-    <MLText id="45" L1="Turno C"/>
-    <MLText id="46" L1="Turno B"/>
-    <MLText id="106" L1="Turno A"/>
    </MLTexts>
   </object>
   <object class="GroupWgt" id="GroupWgt6">
@@ -136,13 +166,13 @@
     <object class="NumericWgt" id="GroupWgt4.GroupWgt15.field2">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="65.36" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="NumericWgt" id="GroupWgt4.GroupWgt15.field3">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="14" step="1" cx="37.01" cy="13.42" x="135.75" numberFormat="6" showThousandSeparator="false" y="3.20" font-sizepx="19" font-bold="true" height="29.81" min-font-size="8" width="80.45" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt4.GroupWgt15.label1">
@@ -317,7 +347,7 @@
     <object class="NumericWgt" id="GroupWgt23.GroupWgt21.field1">
      <wgtStyle form="Numeric" min="-1.79769e+308" timeSpec="local" font-size="14" step="1" cx="46.68" cy="13.02" x="1.43" numberFormat="6" showThousandSeparator="false" y="0" font-sizepx="19" font-bold="true" height="28.93" font-color="rgb(192,0,32)" min-font-size="8" width="101.46" alignment="center" max="1.79769e+308" vert-align="top" wrap-type="wordWrap" forcePaint="73" usingFormat="#" font-family="Tahoma" text="99999" value="99999" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_REJEITADAS_T2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="double" sourceType="Tag" tag="Application/LA_IHM/num_PILHAS_REJEITADAS_T3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="LabelWgt" id="GroupWgt23.GroupWgt21.label6">
@@ -383,7 +413,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt30">
-   <wgtStyle x="7" y="45" cx="44.31" cy="19.34" width="88.62" height="38.69"/>
+   <wgtStyle x="7" y="45" cx="44.31" cy="19.35" width="88.62" height="38.69"/>
    <object class="GroupWgt" id="GroupWgt30.GroupWgt20">
     <wgtStyle x="7.06" y="1.63" cx="33.72" cy="16.67" width="67.44" height="33.34"/>
     <object class="GroupWgt" id="GroupWgt30.GroupWgt20.GroupWgt15">
@@ -428,7 +458,7 @@
     <object class="NumericWgt" id="GroupWgt30.GroupWgt1.field4">
      <wgtStyle form="Numeric" min="-2147483648" timeSpec="local" font-size="12" step="1" cx="18.40" cy="11.84" x="0" numberFormat="6" showThousandSeparator="false" y="9.76" font-sizepx="16" font-bold="true" height="26.32" min-font-size="8" width="40" alignment="center" max="2147483647" vert-align="top" wrap-type="wordWrap" forcePaint="9" usingFormat="0#" font-family="Tahoma" text="59" value="59" keypad-type="Numeric" max-font-size="64"/>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[0]" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/PVAR/ihm_DIA_TURNO_ARRAY/TERCEIRO[0]" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
     </object>
     <object class="MsgTextWgt" id="GroupWgt30.GroupWgt1.msgtext4">
@@ -450,7 +480,7 @@
       </msgtxt>
      </wgtStyle>
      <dataLinks>
-      <dataLink class="TagMgrWgt" sourceType="Tag" tag="Application/PVAR/ihm_MES_TURNO_ARRAY/TERCEIRO[0]" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
+      <dataLink class="TagMgrWgt" tagType="int" sourceType="Tag" tag="Application/PVAR/ihm_MES_TURNO_ARRAY/TERCEIRO[0]" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value"/>
      </dataLinks>
      <links>
       <lang class="MLMsgLink:messages:">
@@ -1353,7 +1383,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt14">
-   <wgtStyle x="476" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
+   <wgtStyle x="417" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
    <object class="GroupWgt" customType="Shape Button" id="GroupWgt14.BtnOthersRect2">
     <wgtStyle x="0" y="0.05" cx="63.08" cy="14" width="126.17" height="28"/>
     <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton6" hmiStyle="type:btn">
@@ -1371,23 +1401,26 @@
    <object class="LabelWgt" id="GroupWgt14.label38">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.80" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="45">
+     <lang class="MLTextLink" textid="29">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
    </object>
   </object>
-  <object class="GroupWgt" id="GroupWgt15">
-   <wgtStyle x="336" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
-   <object class="GroupWgt" customType="Shape Button" id="GroupWgt15.BtnOthersRect1">
+  <object class="GroupSubscribeWgt" id="LA_Dados - Celula T3@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="GroupWgt" id="GroupWgt16">
+   <wgtStyle x="277" y="449" cx="63.08" cy="14.02" width="126.17" height="28.05"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt16.BtnOthersRect1">
     <wgtStyle x="0" y="0.05" cx="63.08" cy="14" width="126.17" height="28"/>
-    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton7" hmiStyle="type:btn">
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton15" hmiStyle="type:btn">
      <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="28" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
      <links>
       <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_dados - celula t2.jmx" attribute="onMouseRelease"/>
      </links>
     </object>
-    <object class="LabelWgt" id="SimpleRectBtn1-text7" static="true">
+    <object class="LabelWgt" id="SimpleRectBtn1-text15" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.52" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.66" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.96"/>
      <links>
       <lang class="MLTextLink" textid="1">
@@ -1396,26 +1429,26 @@
      </links>
     </object>
    </object>
-   <object class="LabelWgt" id="GroupWgt15.label1">
+   <object class="LabelWgt" id="GroupWgt16.label1">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="46">
+     <lang class="MLTextLink" textid="28">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
    </object>
   </object>
-  <object class="GroupWgt" id="GroupWgt17">
-   <wgtStyle x="196.73" y="449" cx="63.08" cy="14" width="126.17" height="28"/>
-   <object class="GroupWgt" customType="Shape Button" id="GroupWgt17.BtnOthersRect4">
+  <object class="GroupWgt" id="GroupWgt18">
+   <wgtStyle x="137" y="449" cx="63.08" cy="14" width="126.17" height="28"/>
+   <object class="GroupWgt" customType="Shape Button" id="GroupWgt18.BtnOthersRect4">
     <wgtStyle x="0" y="0.25" cx="63.08" cy="13.69" width="126.17" height="27.38"/>
-    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton8" hmiStyle="type:btn">
+    <object class="ButtonWgt" id="SimpleRectBtn1-pushbutton17" hmiStyle="type:btn">
      <wgtStyle type="momentary" releasePath="images\win-like.svg" x="0" form="rectangle" pushColor="rgb(0,255,0)" needlePath="images\win-like-press.svg" y="0" dx="1" dy="-1" value="0" width="126.17" height="27.38" fill="rgb(184,219,255)" downFillColor="rgb(184,219,255)"/>
      <links>
       <action class="LoadPageAction" actionID="1" event="onMouseUp" actionWgt="_PageMgr" pageName="la_dados - celula t1.jmx" attribute="onMouseRelease"/>
      </links>
     </object>
-    <object class="LabelWgt" id="SimpleRectBtn1-text8" static="true">
+    <object class="LabelWgt" id="SimpleRectBtn1-text17" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.31" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.56" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.76"/>
      <links>
       <lang class="MLTextLink" textid="1">
@@ -1424,17 +1457,14 @@
      </links>
     </object>
    </object>
-   <object class="LabelWgt" id="GroupWgt17.label2">
+   <object class="LabelWgt" id="GroupWgt18.label2">
     <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="88.96" cy="14.65" x="14.79" marker="true" y="0" font-sizepx="16" font-bold="true" height="28" min-font-size="8" width="97" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
     <links>
-     <lang class="MLTextLink" textid="106">
+     <lang class="MLTextLink" textid="13">
       <MLFontFamily L1="Calibri"/>
      </lang>
     </links>
    </object>
-  </object>
-  <object class="GroupSubscribeWgt" id="LA_Dados - Celula T3@$GroupSubscrWgt@$0">
-   <wgtStyle x="0" y="0" width="0" height="0"/>
   </object>
  </object>
 </wgtPage>

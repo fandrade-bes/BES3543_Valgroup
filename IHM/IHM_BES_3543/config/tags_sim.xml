@@ -12266,6 +12266,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_ABERTURA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12278,6 +12280,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_X</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12290,6 +12294,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_GARRA_SACOLA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12303,6 +12309,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_Z</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12316,6 +12324,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_X</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12328,6 +12338,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_PORTA_2</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12341,6 +12353,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_SAFETY</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12353,6 +12367,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_GIRO_LE</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12365,6 +12381,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_GARRA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12377,6 +12395,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_1</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12389,6 +12409,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_EIXO_GIRO_LD</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12401,6 +12423,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_EIXO_GIRO_MESA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12413,6 +12437,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_DESCE_MESA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12425,6 +12451,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_3</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12437,6 +12465,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/status_alarm_PORTA_1</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12449,6 +12479,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_FECHA_FILME_2</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12461,6 +12493,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_BANDEJA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12473,6 +12507,8 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_ENV/status_alarm_atu_GARRAS</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -12485,6 +12521,709 @@ TURNO 1</comment>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_EMP/status_alarm_atu_POSICIONA_SACOLA</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR?unsignedInt</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/rec_IHM/tmr_PARAR_ESTEIRA_TR</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>4294967295</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/bit_SACOLA_VALGROUP_POSICIONADA</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/bit_SACOLA_VALGROUP_POSICIONADA?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_SACOLA_VALGROUP_POSICIONADA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_RODANDO_HORAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_RODANDO_MINUTOS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <comment>TURNO 4</comment>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_RODANDO_SEGUNDOS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_PARADA_HORAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_PARADA_MINUTOS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_PARADA_SEGUNDOS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_OCIOSA_HORAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_OCIOSA_MINUTOS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_MAQUINA_OCIOSA_SEGUNDOS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_PORCENTAGEM_COMPLETADAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_PILHAS_COMPLETADAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_PILHAS_COMPLETADAS_T4?double</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_PILHAS_COMPLETADAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-1.79769e+308</min>
+        <max>1.79769e+308</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_PORCENTAGEM_REJEITADAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_PILHAS_REJEITADAS_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_PILHAS_REJEITADAS_T4?double</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_PILHAS_REJEITADAS_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-1.79769e+308</min>
+        <max>1.79769e+308</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/num_PILHAS_TOTAL_T4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/num_PILHAS_TOTAL_T4?double</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/num_PILHAS_TOTAL_T4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-1.79769e+308</min>
+        <max>1.79769e+308</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_GERAL/int_HIST_INDEX_TURNO4</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_GERAL/int_HIST_INDEX_TURNO4?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_GERAL/int_HIST_INDEX_TURNO4</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[3]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[3]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[3]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[1]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[1]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[1]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[8]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[8]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[8]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[9]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[9]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[9]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[4]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[4]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[4]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[5]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[5]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[5]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[2]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[2]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[2]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[6]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[6]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[6]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[7]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[7]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[7]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[0]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[0]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_DIA_TURNO_ARRAY/QUARTO[0]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[8]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[8]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[8]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[1]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[1]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[1]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[9]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[9]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[9]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[4]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[4]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[4]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[7]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[7]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[7]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[5]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[5]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[5]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[3]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[3]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[3]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[2]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[2]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[2]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[6]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[6]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[6]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[0]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[0]?int</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/ihm_MES_TURNO_ARRAY/QUARTO[0]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-2147483648</min>
+        <max>2147483647</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[0]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[0]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[0]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[9]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[9]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[9]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[4]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[4]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[4]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[7]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[7]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[7]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[6]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[6]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[6]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[8]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[8]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[8]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[3]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[3]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[3]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[1]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[1]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[1]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[2]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[2]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[2]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/ihm_HIST_INDEX_TURNO4[5]</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/ihm_HIST_INDEX_TURNO4[5]?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/ihm_HIST_INDEX_TURNO4[5]</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/PVAR/int_PILHAS_ENTREGUES</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/PVAR/int_PILHAS_ENTREGUES?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/PVAR/int_PILHAS_ENTREGUES</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/bit_bt_ENVIAR_PILHA_MANUAL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
