@@ -14,9 +14,9 @@ page.bindJSCallback(false);
 
 }
 ,
-// ------------------------------------  LA_Receitas  ------------------------------ 
+// ------------------------------------  Manual - Pesagem  ------------------------------ 
 
-"m11_page11": function(){
+"m10_page10": function(){
 // ------------------------------------  Header ------------------------------
 var $=null;var jQuery=null;
 $hmi.getActivePage().__eval__ = function(a){return eval(a);}

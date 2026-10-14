@@ -1,5 +1,5 @@
 <JMFiles>
- <ProjectInfo Size="58821979" AllowedSize="251658240"/>
+ <ProjectInfo Size="58823513" AllowedSize="251658240"/>
  <files>
   <file name="alarmes.jmxb" size="2865" sha256="9bacf978ecbe930456d5ca8e6dae84344014b910d8c390a0d186135b22c84b1e"/>
   <file name="historico alarmes.jmxb" size="8623" sha256="ef21cebfccf65d6bf1fd349acdca8f378b70002b7dff83df4eff6fdb00ebf305"/>
@@ -111,8 +111,8 @@
   <file name="keypads\numeric.jmx" size="13972" sha256="b0f97491e9dfbd497f8f9da100ed3e701e2e3015482f9cc9d32f3432139d0729"/>
   <file name="la_dados - celula t1.jmxb" size="49441" sha256="249799d708e3cd8b761150cab10d644ce6ec71f2920de6653e7b2a5357d4c7c8"/>
   <file name="la_dados - celula t2.jmxb" size="51530" sha256="23382cc27e490da8c8edbe854a687681e6736bf7fb8e22a56a5f16a3bbc3d8ad"/>
-  <file name="la_dados - celula t3.jmxb" size="49372" sha256="b3e1b59fa8249a359b7dd772050881c6d68fa17b776de634b8d8ad06094f8c4c"/>
-  <file name="la_dados - celula t4.jmxb" size="49342" sha256="bafafe14dfa6a361fac4c6dd12ac5a386448935fad2be27ae87aaadbce5de0b9"/>
+  <file name="la_dados - celula t3.jmxb" size="49372" sha256="d2548ca142d92df80e9ee53a19f8e6a20995f4dc36c5a88844f300a2af7a7f0a"/>
+  <file name="la_dados - celula t4.jmxb" size="49342" sha256="028ca5d578012a94b4c2e8ce9460b137ccfad4831762c1dd1cd641df41995109"/>
   <file name="la_geral.jmxb" size="5238" sha256="6352326f7601d4fb17c88bdaa674956178f9422f00d0d8a0ef347e065d372ed7"/>
   <file name="la_manual - empilhador atuadores.jmxb" size="14695" sha256="aa417ed567393ef197d9766a27b1c2228b53828ea1e9650c13d95da783755ff8"/>
   <file name="la_manual - empilhador motores.jmxb" size="37412" sha256="03c02eddb2bb354013fcc1666bc2dbeabd310436b46bb7391ab5383e17a4fa6b"/>
@@ -241,7 +241,7 @@
   <file name="config\print.xml" size="267" sha256="c87be14465abf4650b363bf711f5bcc3377b65b6cb1aaffe7af008cd0d920d47"/>
   <file name="config\usermgnt_group.xml" size="2140" sha256="ef8fc8be178e2668ee45d7c2264944df3e8511105e3b85fd92d68fa6abf6219e"/>
   <file name="config\usermgnt_user.xml" size="3612" sha256="316f1e03eb2fe35619411cad183e7a33d75d621dc53c529070eb27f2f5af0045"/>
-  <file name="config\usermgnt_uiauth.xml" size="66868" sha256="48cd2086b1b96d8b5bff8eabaf2db166d2d12695f6164bf3a0717d1e127dbdf7"/>
+  <file name="config\usermgnt_uiauth.xml" size="68608" sha256="3ebb0c69ecdd542ea919af675c468ecca19f84da19d6d40a78c3a6ce0fa5d55b"/>
   <file name="config\ftpd_security_auth.xml" size="336" sha256="71cf439d489f26d972877f9de049b1ff89dd68f40aa5e9ad7c5d1363c193a6f2"/>
   <file name="config\httpd_security_auth.xml" size="1100" sha256="ce91e80e0291543ca9211a43b9df042512c43cfd6d4656122c9f380d224ce5b3"/>
   <file name="config\usermgnt_taggroupauth.xml" size="512" sha256="957f50948706810807be7ba88e699db60195daf2601146629cedb319da3d518c"/>
@@ -258,7 +258,7 @@
   <file name="web/web/js/hmi.libs.min.js" size="419710" sha256="e97668791a2ab5bb4760c2440e9a083b1fd5df6d4b15ec720ac83809f3728c20"/>
   <file name="web/web/js/hmi.combined.min.js" size="944628" sha256="26e29cc125c473c2a6037176b214b31c2687c111dbcbebd7aa6b6f449ce05aec"/>
   <file name="web/web/js/loadProject.js" size="7427" sha256="113671de8091432e93b415ef32cd7ada2449340cb0b26fbfd675fb6ead4177e0"/>
-  <file name="web/web/js/page.combined.js" size="2117" sha256="56beb33068d6db0885e1cd645b30a0222da6ae2ae94c2a1e0071e38898d87534"/>
+  <file name="web/web/js/page.combined.js" size="1419" sha256="cd8080efe2c50c25e4335a81f60c62c949d467a80bf684b68ffb8a679f131882"/>
   <file name="web/web/js/index.html" size="101" sha256="b9734e4ee03768bc212384a3f00da0ded747e6f2a219d02bc97b174a9d1ae23c"/>
   <file name="web/web/js/eventsource.min.js" size="7091" sha256="5d8d34f059f75e9765f54a68a730674c42c72c26fec681c315a8b88e53ae8337"/>
   <file name="web/web/umtemplates/js/hmi.libs.min.js" size="419710" sha256="e97668791a2ab5bb4760c2440e9a083b1fd5df6d4b15ec720ac83809f3728c20"/>
@@ -267,13 +267,13 @@
   <file name="web/web/js/hmi.libs.min.js.gz" size="129855" sha256="b614707f3b793f62324a1308c588d63a2b18d4a8eff182049516eb723899356d"/>
   <file name="web/web/js/hmi.combined.min.js.gz" size="226287" sha256="b44cdded8d8e2deabc0962d05436794dab1e48c87ce8806f9586300ba137a760"/>
   <file name="web/web/js/loadProject.js.gz" size="2468" sha256="01be8845f029b5f82688b2950e89e2e75b44b1414132a857e27f35e463da32d1"/>
-  <file name="web/web/js/page.combined.js.gz" size="357" sha256="5796a0ff9d2663401db7ddf4cd58ee38475f40a5acb7cda77c81b8ed6f99f843"/>
+  <file name="web/web/js/page.combined.js.gz" size="333" sha256="f73f99f00181f8ce1d6069feef4462fd9a2487591ea96a9d39ad1814d0e6aa7f"/>
   <file name="web/web/js/index.html.gz" size="109" sha256="a7015ca06c075cd6e1fb6e33de923ce0c0551a1dcb0232b2cfb727babdd6b5a0"/>
   <file name="web/web/js/eventsource.min.js.gz" size="2498" sha256="40ef95da3ee28892f4156ba73f43f75dee4288821eef8c573da2724d1d8a80a6"/>
   <file name="web/web/umtemplates/js/hmi.libs.min.js.gz" size="129855" sha256="b614707f3b793f62324a1308c588d63a2b18d4a8eff182049516eb723899356d"/>
   <file name="web/web/umtemplates/js/hmi.combined.min.js.gz" size="226287" sha256="b44cdded8d8e2deabc0962d05436794dab1e48c87ce8806f9586300ba137a760"/>
   <file name="web/web/config/server.json" size="104" sha256="64c8544bafdf9f40f149c85f95d709ba5929a463c3c1ebc2c4cdfa57f9d81475"/>
-  <file name="web/web/config/conf.json" size="157183" sha256="7f24bd5385ad5d4e5fc2f0a41502f6b3c77923f06f075c28b8e15403b6126abf"/>
+  <file name="web/web/config/conf.json" size="157443" sha256="85e7263de53a33164d7bd0ebda9558d330a7005e846ca5ebe744251703182ceb"/>
   <file name="web/web/css/fonts.css" size="1116" sha256="23438f5be344221c2ca18d39801d5ed63c8a8a5d8100f608dc6b496deb25a7e1"/>
   <file name="web/web/css/pages/commons.css" size="639819" sha256="b6d87d498379dd543d7b83cc09af1a335092e5f31e383f0fa6860f32561cd767"/>
   <file name="web/web/css/lib.min.css" size="3337" sha256="a8f719e860b6e2c38ce4807705efe6d8825f0cc304391d698bdd5e5fad0b2797"/>
@@ -298,7 +298,7 @@
   <file name="web/web/pages/precached.html.gz" size="28" sha256="2b5a4fce9b2621787ec5d525d699f125430a7337e8ca3897185ccb612adbb854"/>
   <file name="web/web/index.html.gz" size="551" sha256="a57b35c5e656f48cced0b2e849105b147d126603eef5766e5077d108dcc21383"/>
   <file name="web/web/_webmain.html.gz" size="1511" sha256="c9c94152a8d542bcf8e9c37d16cc8f18935b654733dc03d0b7b915d24a43c9e3"/>
-  <file name="web\web\config\conf.json" size="157183" sha256="7f24bd5385ad5d4e5fc2f0a41502f6b3c77923f06f075c28b8e15403b6126abf"/>
+  <file name="web\web\config\conf.json" size="157443" sha256="85e7263de53a33164d7bd0ebda9558d330a7005e846ca5ebe744251703182ceb"/>
   <file name="web\web\config\server.json" size="104" sha256="64c8544bafdf9f40f149c85f95d709ba5929a463c3c1ebc2c4cdfa57f9d81475"/>
   <file name="web\web\css\pages\commons.css" size="639819" sha256="b6d87d498379dd543d7b83cc09af1a335092e5f31e383f0fa6860f32561cd767"/>
   <file name="web\web\css\pages\commons.css.gz" size="475430" sha256="55bc0e90467efac9fcdf427825257ed9f69467c3f6943d40c40f444b02b8b01e"/>
@@ -538,10 +538,10 @@
   <file name="web\web\pages\m15_page15.html.gz" size="15461" sha256="d917686b1d52d7da2baed33deae8d4049e5e77cb715a8e20ea0e9438b4fa1d89"/>
   <file name="web\web\pages\m16_page16.html" size="182520" sha256="04957e0747d26970b3cb06f93316470b3801855ec3fd6dccea042d77ceac71db"/>
   <file name="web\web\pages\m16_page16.html.gz" size="15916" sha256="e7d1d57ff6c9c73b8e458740155bebc881b75abaef058244456404ad054e9b05"/>
-  <file name="web\web\pages\m17_page17.html" size="175390" sha256="9c2a7f41a65bec2e36de2ac9d36174de687a7442f47498370b8af45c9420ec9d"/>
-  <file name="web\web\pages\m17_page17.html.gz" size="15469" sha256="a95fdf6aad0d33542b7cc677ee04f0e61f13ac56b59b8626ea7f1e51e6e10a70"/>
-  <file name="web\web\pages\m18_page18.html" size="175416" sha256="245646d9c0bf1395a7dcc3f159e99438f49820189bb38970f883546e4a7291ca"/>
-  <file name="web\web\pages\m18_page18.html.gz" size="15486" sha256="489b1e244035c487af2f0b7f40e5fbe3f8b3457090911f3733f2cf526bb293d4"/>
+  <file name="web\web\pages\m17_page17.html" size="175390" sha256="06d8fc1d1e4f1c490db1a5e8869c9f12f42632ec6a121219bfa877a2752aef6d"/>
+  <file name="web\web\pages\m17_page17.html.gz" size="15459" sha256="4517afe53aff9886b3b76a2c4e7fedfdb4ed23c6ffe6b25096d031645179ce03"/>
+  <file name="web\web\pages\m18_page18.html" size="175416" sha256="292910951c93d1c9011a00c38afe3360dd29c6a4894409a88955188edfcb3523"/>
+  <file name="web\web\pages\m18_page18.html.gz" size="15492" sha256="9a4c41709a40e435d6f002e959bbaa3e860ccc69f9fcc0e651c786b2b93ac52c"/>
   <file name="web\web\pages\m19_page19.html" size="21464" sha256="bc1cc378d6494e1a186a676352400ce647038144981b4ccd26fe3d6e45f9ceaa"/>
   <file name="web\web\pages\m19_page19.html.gz" size="4734" sha256="99f3bb183380f9870ad7d07292fd3ce1ea26c8084fa1144bba74f095990308bb"/>
   <file name="web\web\pages\m1_page1.html" size="47883" sha256="ca101ce2c252cc3d92661ce06ca828b77a73aa5b49bed35a61020dbebfa3c91c"/>
