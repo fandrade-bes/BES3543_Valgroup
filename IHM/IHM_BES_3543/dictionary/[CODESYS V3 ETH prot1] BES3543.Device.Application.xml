@@ -5045,6 +5045,14 @@ TURNO 1</comment>
             <comment></comment>
         </tag>
         <tag>
+            <tagname>Application/LA_IHM/tmr_PARAR_ESTEIRA_VALGROUP</tagname>
+            <datatype>unsignedInt</datatype>
+            <array>false</array>
+            <arraysize>0</arraysize>
+            <rw>R/W</rw>
+            <comment></comment>
+        </tag>
+        <tag>
             <tagname>Application/LA_IHM/turno_A</tagname>
             <datatype>boolean</datatype>
             <array>false</array>

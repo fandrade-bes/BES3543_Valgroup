@@ -363,6 +363,7 @@
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_GARRA_EMPILHADOR</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_GIRO_MESA</tag>
   <tag>Application/LA_IHM/info_MANI_POS_ATUAL_X_EMPILHADOR</tag>
+  <tag>Application/LA_IHM/tmr_PARAR_ESTEIRA_VALGROUP</tag>
   <tag>Application/PVAR/int_PILHAS_ENTREGUES</tag>
   <tag>Application/PVAR/int_PILHAS_ENTREGUES_MAX</tag>
  </group>

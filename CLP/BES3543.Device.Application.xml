@@ -463,6 +463,7 @@ TURNO 1</Comment>
         <Node name="tmr_MAQUINA_RODANDO_T2" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_RODANDO_T3" type="T_DINT" access="ReadWrite" />
         <Node name="tmr_MAQUINA_RODANDO_T4" type="T_DINT" access="ReadWrite" />
+        <Node name="tmr_PARAR_ESTEIRA_VALGROUP" type="T_TIME" access="ReadWrite" />
         <Node name="turno_A" type="T_BOOL" access="ReadWrite" />
         <Node name="turno_B" type="T_BOOL" access="ReadWrite" />
         <Node name="turno_C" type="T_BOOL" access="ReadWrite" />
