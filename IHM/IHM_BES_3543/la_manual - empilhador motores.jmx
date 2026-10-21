@@ -90,39 +90,10 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt1">
-   <wgtStyle x="470.77" y="332.42" cx="152.77" cy="50.66" width="305.55" height="101.32" forcePaint="8"/>
+   <wgtStyle x="470.77" y="332.42" cx="121.88" cy="49" width="243.75" height="97.99" forcePaint="8"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_MANUAL_HABILITAR_EIXOS" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="visibility"/>
    </dataLinks>
-   <object class="GroupWgt" id="GroupWgt1.GroupWgt9">
-    <wgtStyle x="245.01" y="24.86" cx="30.27" cy="38.23" width="60.54" height="76.46" forcePaint="1"/>
-    <object class="ButtonWgt" id="GroupWgt1.GroupWgt9.hotspotbtn3" hmiStyle="type:btn">
-     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="29.80" cy="37.47" value="0" width="60.54" height="76.46" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
-     <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_MESA_FAZER_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
-     </dataLinks>
-    </object>
-    <object class="LabelWgt" id="GroupWgt1.GroupWgt9.label3">
-     <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="53.67" cy="10.71" x="1.01" marker="true" y="54.92" font-sizepx="13" font-bold="true" height="20.46" font-color="rgb(40,40,40)" min-font-size="8" width="58.51" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
-     <links>
-      <lang class="MLTextLink" textid="1">
-       <MLFontFamily L1="Calibri"/>
-      </lang>
-     </links>
-    </object>
-    <object class="MultiStateImageWgt" id="GroupWgt1.GroupWgt9.MultistateImage5">
-     <wgtStyle imagePath="images/icons8-quadro-girat_U243rio-1-48 (1).png,images/icons8-quadro-girat_U243rio-2-48.png,images/icons8-quadro-girat_U243rio-3-48.png,images/icons8-quadro-girat_U243rio-4-48.png,images/icons8-quadro-girat_U243rio-5-48.png,images/icons8-quadro-girat_U243rio-6-48 (1).png,images/icons8-quadro-girat_U243rio-7-48.png,images/icons8-quadro-girat_U243rio-8-48.png" continuousIndex="1" x="5.04" updateRate="100" animate="1" y="2.16" imagePathIndexList="" cx="25.22" cy="26.91" width="50.44" height="53.84" forcePaint="9"/>
-     <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_MESA_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="animate"/>
-     </dataLinks>
-    </object>
-    <object class="MultiStateImageWgt" id="GroupWgt1.GroupWgt9.MultistateImage6">
-     <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="5.05" y="2.16" imagePathIndexList="" cx="25.22" cy="26.91" width="50.44" height="53.84" forcePaint="9"/>
-     <dataLinks>
-      <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_MESA_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
-     </dataLinks>
-    </object>
-   </object>
    <object class="ButtonWgt" id="GroupWgt1.hotspotbtn2" hmiStyle="type:btn">
     <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="94.87" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="24.94" dx="1" dy="-1" cx="31.90" cy="35.80" value="0" width="64.81" height="73.05" fill="rgb(160,160,164)" forcePaint="9" downFillColor="rgb(160,160,164)"/>
     <dataLinks>
@@ -850,6 +821,35 @@
   </object>
   <object class="GroupSubscribeWgt" id="LA_Manual - Empilhador Motores@$GroupSubscrWgt@$0">
    <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="GroupWgt" id="GroupWgt1.GroupWgt9">
+   <wgtStyle x="850" y="362.47" cx="30.27" cy="38.23" width="60.54" height="76.46"/>
+   <object class="ButtonWgt" id="GroupWgt1.GroupWgt9.hotspotbtn3" hmiStyle="type:btn">
+    <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="0" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="0" dx="1" dy="-1" cx="29.80" cy="37.47" value="0" width="60.54" height="76.46" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_MESA_FAZER_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt1.GroupWgt9.label3">
+    <wgtStyle frameColor="none" font-size="10" wrapping="true" frameSize="0" cx="53.67" cy="10.71" x="1.01" marker="true" y="54.92" font-sizepx="13" font-bold="true" height="20.46" font-color="rgb(40,40,40)" min-font-size="8" width="58.51" alignment="center" vert-align="middle" wrap-type="wordWrap" forcePaint="1" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="1">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
+   <object class="MultiStateImageWgt" id="GroupWgt1.GroupWgt9.MultistateImage5">
+    <wgtStyle imagePath="images/icons8-quadro-girat_U243rio-1-48 (1).png,images/icons8-quadro-girat_U243rio-2-48.png,images/icons8-quadro-girat_U243rio-3-48.png,images/icons8-quadro-girat_U243rio-4-48.png,images/icons8-quadro-girat_U243rio-5-48.png,images/icons8-quadro-girat_U243rio-6-48 (1).png,images/icons8-quadro-girat_U243rio-7-48.png,images/icons8-quadro-girat_U243rio-8-48.png" continuousIndex="1" x="5.04" updateRate="100" animate="1" y="2.16" imagePathIndexList="" cx="25.22" cy="26.91" width="50.44" height="53.84" forcePaint="9"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_MESA_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="animate"/>
+    </dataLinks>
+   </object>
+   <object class="MultiStateImageWgt" id="GroupWgt1.GroupWgt9.MultistateImage6">
+    <wgtStyle imagePath="images/icons8-compromisso-recorrente-50.png,images/" continuousIndex="1" x="5.05" y="2.16" imagePathIndexList="" cx="25.22" cy="26.91" width="50.44" height="53.84" forcePaint="9"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_EIXO_GIRO_MESA_FAZENDO_HOME" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="frame"/>
+    </dataLinks>
+   </object>
   </object>
  </object>
 </wgtPage>
