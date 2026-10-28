@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/selecao lado.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="Selecao Lado" dataWndSize="0,70" pageName="Selecao Lado" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI">
+ <object class="PageWgt" staticFile="opt/selecao lado.png" downloadPrepDone="false" templateFile="la_geral.jmx" staticOptEnable="true" id="Selecao Lado" dataWndSize="0,70" pageName="Selecao Lado" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="ImageWgt" id="ImageWgt2" static="true">
    <wgtStyle imagePath="images/VISTA SUPERIOR.png" x="137.36" y="36.51" cx="272.50" cy="204" width="545" height="408"/>
@@ -10,9 +10,12 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="1" L1=""/>
+    <MLText id="21" L1=""/>
+    <MLText id="4" L1="Enter"/>
     <MLText id="6" L1="Lado B"/>
+    <MLText id="7" L1="Down"/>
     <MLText id="9" L1="Lado A"/>
+    <MLText id="10" L1="Up"/>
    </MLTexts>
   </object>
   <object class="GroupWgt" id="GroupWgt3">
@@ -25,7 +28,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text2" static="true">
      <wgtStyle font-size="16" wrapping="true" cx="31.34" cy="9.68" x="13.08" y="19.78" font-sizepx="21" font-bold="true" height="18.62" font-color="rgb(232,232,232)" min-font-size="8" width="61.05" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
      <links>
-      <lang class="MLTextLink" textid="1">
+      <lang class="MLTextLink" textid="21">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -53,7 +56,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text1" static="true">
      <wgtStyle font-size="16" wrapping="true" cx="31.34" cy="9.68" x="13.08" y="19.78" font-sizepx="21" font-bold="true" height="18.62" font-color="rgb(232,232,232)" min-font-size="8" width="61.05" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
      <links>
-      <lang class="MLTextLink" textid="1">
+      <lang class="MLTextLink" textid="21">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -76,6 +79,85 @@
   </object>
   <object class="ShapeWgt" id="rect7">
    <wgtStyle x="623" y="-0.19" stroke-width="0" cx="36.48" cy="15.09" stroke="none" width="75.38" height="30.18" fill="rgb(40,40,40)" nodeName="rect" forcePaint="1"/>
+  </object>
+  <object class="GroupWgt" customType="ControlList" id="controlListbtn">
+   <wgtStyle x="158.71" y="140.12" cx="93" cy="141" width="186" height="282"/>
+   <object class="ControlListWgt" id="controlListbtn.controlList">
+    <wgtStyle list-readOnly="false" icon-image="images/listArrow.svg" font-size="12" list-scorllsize="25" cx="19" mode="1" cy="109" state="1" x="0" y="0" list-bgColor="rgb(255,255,255)" font-sizepx="21" height="234" font-color="rgb(0,0,255)" min-font-size="8" width="186" vert-align="top" wrap-type="wordWrap" forcePaint="8" font-family="Roboto" selection="1" state-color="rgb(255,0,0)" text="" keypad-type="None" max-font-size="64">
+     <list>
+      <listItem enable="true" name="State 1" value="1"/>
+      <listItem enable="true" name="" value="2"/>
+      <listItem enable="true" name="State 3" value="3"/>
+      <listItem enable="true" name="State 4" value="4"/>
+      <listItem enable="true" name="State 5" value="5"/>
+      <listItem enable="true" name="State 6" value="6"/>
+      <listItem enable="true" name="State 7" value="7"/>
+      <listItem enable="true" name="State 8" value="8"/>
+      <listItem enable="true" name="State 9" value="9"/>
+      <listItem enable="true" name="State 10" value="10"/>
+     </list>
+    </wgtStyle>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/LA_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="GroupWgt" customType="Keyboard Button" id="controlListbtn.btnup">
+    <wgtStyle x="0" y="241" cx="30" cy="14" width="60" height="41"/>
+    <object class="ButtonWgt" id="controlListbtn.btnup.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+     <wgtStyle type="momentary" releasePath="images\btn_kbdwht_med_1_rev1.svg" x="0" form="standard" needlePath="images\btn_kbdwht_med_2_rev1.svg" y="0" cx="30" cy="14" value="0" width="60" height="41" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)"/>
+     <links>
+      <action class="SendKeyWidgetAction" actionID="1" keyCode="Up" event="onMouseUp" actionWgt="_keyboardMgr" attribute="onMouseRelease" widgetId="controlListbtn.controlList"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="controlListbtn.btnup.lbl" hmiStyle="hmi-type:wgtlabel">
+     <wgtStyle font-family="Roboto" x="9" vert-align="middle" y="1" wrap-type="wordWrap" font-size="12" min-font-size="8" keypad-type="None" cx="20" alignment="center" cy="7" max-font-size="64" font-sizepx="12" width="43" wrapping="true" height="23" forcePaint="1"/>
+     <links>
+      <lang class="MLTextLink" textid="10"/>
+     </links>
+    </object>
+    <object class="ImageWgt" id="controlListbtn.btnup.img" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+     <wgtStyle x="21" y="1" cx="18" cy="8" width="18" height="21"/>
+    </object>
+   </object>
+   <object class="GroupWgt" customType="Keyboard Button" id="controlListbtn.btndwn">
+    <wgtStyle x="63" y="240" cx="30" cy="14" width="60" height="42"/>
+    <object class="ButtonWgt" id="controlListbtn.btndwn.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+     <wgtStyle type="momentary" releasePath="images\btn_kbdwht_med_1_rev1.svg" x="0" form="standard" needlePath="images\btn_kbdwht_med_2_rev1.svg" y="0" cx="30" cy="14" value="0" width="60" height="42" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)"/>
+     <links>
+      <action class="SendKeyWidgetAction" actionID="1" keyCode="Down" event="onMouseUp" actionWgt="_keyboardMgr" attribute="onMouseRelease" widgetId="controlListbtn.controlList"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="controlListbtn.btndwn.lbl" hmiStyle="hmi-type:wgtlabel">
+     <wgtStyle font-family="Roboto" x="9" vert-align="middle" y="2" wrap-type="wordWrap" font-size="12" min-font-size="8" keypad-type="None" cx="20" alignment="center" cy="7" max-font-size="64" font-sizepx="12" width="43" wrapping="true" height="23" forcePaint="1"/>
+     <links>
+      <lang class="MLTextLink" textid="7"/>
+     </links>
+    </object>
+    <object class="ImageWgt" id="controlListbtn.btndwn.img" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+     <wgtStyle x="21" y="2" cx="18" cy="8" width="18" height="21"/>
+    </object>
+   </object>
+   <object class="GroupWgt" customType="Keyboard Button" id="controlListbtn.btnntr">
+    <wgtStyle x="126" y="240" cx="30" cy="14" width="60" height="42"/>
+    <object class="ButtonWgt" id="controlListbtn.btnntr.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+     <wgtStyle type="momentary" releasePath="images\btn_kbdwht_med_1_rev1.svg" x="0" form="standard" needlePath="images\btn_kbdwht_med_2_rev1.svg" y="0" cx="30" cy="14" value="0" width="60" height="42" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)"/>
+     <links>
+      <action class="SendKeyWidgetAction" actionID="1" keyCode="Enter" event="onMouseUp" actionWgt="_keyboardMgr" attribute="onMouseRelease" widgetId="controlListbtn.controlList"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="controlListbtn.btnntr.lbl" hmiStyle="hmi-type:wgtlabel">
+     <wgtStyle font-family="Roboto" x="9" vert-align="middle" y="2" wrap-type="wordWrap" font-size="12" min-font-size="8" keypad-type="None" cx="20" alignment="center" cy="7" max-font-size="64" font-sizepx="12" width="43" wrapping="true" height="23" forcePaint="1"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="ImageWgt" id="controlListbtn.btnntr.img" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+     <wgtStyle x="21" y="2" cx="18" cy="8" width="18" height="21"/>
+    </object>
+   </object>
+  </object>
+  <object class="GroupSubscribeWgt" id="Selecao Lado@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
   </object>
  </object>
 </wgtPage>

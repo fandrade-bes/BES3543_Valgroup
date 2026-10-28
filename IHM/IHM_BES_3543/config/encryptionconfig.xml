@@ -1,6 +1,0 @@
-<EncryptionConfig>
- <enable>0</enable>
- <algorithm></algorithm>
- <resources></resources>
- <signProject>0</signProject>
-</EncryptionConfig>
