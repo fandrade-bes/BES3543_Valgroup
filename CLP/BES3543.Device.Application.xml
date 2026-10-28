@@ -96,8 +96,8 @@
       <UserDefElement iecname="tmr_PARAR_ESTEIRA_TR" type="T_TIME" byteoffset="1140" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="num_PESO_SACOLA" type="T_REAL" byteoffset="1144" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
-    <TypeArray name="T_ARRAY__0__10__OF_RECEITA" size="12672" nativesize="12672" typeclass="Array" iecname="ARRAY [0..10] OF RECEITA" basetype="T_RECEITA">
-      <ArrayDim minrange="0" maxrange="10" />
+    <TypeArray name="T_ARRAY__0__20__OF_RECEITA" size="24192" nativesize="24192" typeclass="Array" iecname="ARRAY [0..20] OF RECEITA" basetype="T_RECEITA">
+      <ArrayDim minrange="0" maxrange="20" />
     </TypeArray>
   </TypeList>
   <NodeList>
@@ -361,7 +361,17 @@ ESTEIRAS DO EMPILHAMENTO DE SACOLA</Comment>
         <Node name="int_STATUS_RECEITA" type="T_INT" access="ReadWrite" />
         <Node name="nome_RECEITA_1" type="T_STRING" access="ReadWrite" />
         <Node name="nome_RECEITA_10" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_11" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_12" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_13" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_14" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_15" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_16" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_17" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_18" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_19" type="T_STRING" access="ReadWrite" />
         <Node name="nome_RECEITA_2" type="T_STRING" access="ReadWrite" />
+        <Node name="nome_RECEITA_20" type="T_STRING" access="ReadWrite" />
         <Node name="nome_RECEITA_3" type="T_STRING" access="ReadWrite" />
         <Node name="nome_RECEITA_4" type="T_STRING" access="ReadWrite" />
         <Node name="nome_RECEITA_5" type="T_STRING" access="ReadWrite" />
@@ -478,7 +488,7 @@ TURNO 1</Comment>
           <Comment>================================================================================================================================================================================
 RECEITAS</Comment>
         </Node>
-        <Node name="RECEITAS" type="T_ARRAY__0__10__OF_RECEITA" access="ReadWrite" />
+        <Node name="RECEITAS" type="T_ARRAY__0__20__OF_RECEITA" access="ReadWrite" />
       </Node>
     </Node>
   </NodeList>

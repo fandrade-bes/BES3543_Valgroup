@@ -44,6 +44,8 @@
  <file isSvgFile="true" prePath="keypads" imgSize="76,60" numSizes="6" file="images/fe_btn_kbdwht_long_2.svg" numUses="6" stroke="none" fill="rgb(0,0,0)"/>
  <file isSvgFile="true" prePath="keypads" imgSize="76,60" numSizes="6" file="images/fe_btn_kbdwht_long_1.svg" numUses="6" stroke="none" fill="rgb(0,0,0)"/>
  <file isSvgFile="true" imgSize="32,17" numSizes="2" file="images/arrowsicon16.svg" numUses="5" stroke="none" fill="rgb(255,0,0)"/>
+ <file isSvgFile="true" imgSize="40,41" numSizes="4" file="images/btn_rect_dwn.svg" numUses="5" stroke="none" fill="rgb(0,70,136)"/>
+ <file isSvgFile="true" imgSize="40,41" numSizes="4" file="images/btn_rect_blueup.svg" numUses="5" stroke="none" fill="rgb(0,70,136)"/>
  <file imgSize="37,39" numSizes="4" file="images/icons8-erro-482.png" numUses="5"/>
  <file imgSize="77,70" numSizes="1" file="images/servo.png" numUses="4"/>
  <file isSvgFile="true" prePath="keypads" imgSize="72,33" numSizes="3" file="images/btn_rect_dwn.svg" numUses="4" stroke="none" fill="rgb(0,76,136)"/>
@@ -52,10 +54,9 @@
  <file imgSize="46,45" numSizes="1" file="images/inspecao.png" numUses="3"/>
  <file imgSize="120,118" numSizes="1" file="images/bloco_imgupscaler.ai_afiador_2k.png" numUses="3"/>
  <file imgSize="46,42" numSizes="1" file="images/icons8-l_u225pis-100.png" numUses="3"/>
+ <file isSvgFile="true" imgSize="42,41" numSizes="2" file="images/up_arrow_ico.svg" numUses="3" stroke="none" fill="none"/>
  <file imgSize="40,43" numSizes="2" file="images/icons8-sinal-de-alerta-geral-96.png" numUses="3"/>
  <file imgSize="52,60" numSizes="2" file="images/icons8-salvar-48.png" numUses="3"/>
- <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_dwn.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
- <file isSvgFile="true" imgSize="116,34" numSizes="3" file="images/btn_rect_blueup.svg" numUses="3" stroke="none" fill="rgb(0,70,136)"/>
  <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like-press.svg" numUses="2" stroke="none" fill="rgb(255,186,180)"/>
  <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like.svg" numUses="2" stroke="none" fill="rgb(255,186,180)"/>
  <file isSvgFile="true" imgSize="127,50" numSizes="1" file="images/win-like-press.svg" numUses="2" stroke="none" fill="rgb(152,251,152)"/>
@@ -92,7 +93,6 @@
  <file isSvgFile="true" prePath="keypads" imgSize="84,67" numSizes="1" file="images/ic_pl2_116_rev1.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
  <file isSvgFile="true" prePath="keypads" imgSize="47,50" numSizes="1" file="images/ic_cn2_04.svg" numUses="1" stroke="none" fill="rgb(0,145,220)"/>
  <file isSvgFile="true" imgSize="34,34" numSizes="1" file="images/dwn_arrow_ico.svg" numUses="1" stroke="none" fill="none"/>
- <file isSvgFile="true" imgSize="34,34" numSizes="1" file="images/up_arrow_ico.svg" numUses="1" stroke="none" fill="none"/>
  <file imgSize="630,407" numSizes="1" file="images/lado a.png" numUses="1"/>
  <file imgSize="441,407" numSizes="1" file="images/empilhador_5.png" numUses="1"/>
  <file imgSize="152,286" numSizes="1" file="images/empilhador_3.png" numUses="1"/>

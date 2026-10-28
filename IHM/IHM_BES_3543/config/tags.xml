@@ -14187,4 +14187,134 @@ TURNO 1</comment>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_17</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_17?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_17?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_17</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_19</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_19?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_19?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_19</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_18</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_18?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_18?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_18</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_20</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_20?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_20?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_20</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_11</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_11?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_11?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_11</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_16</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_16?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_16?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_16</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_13</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_13?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_13?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_13</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_14</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_14?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_14?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_14</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_15</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_15?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_15?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_15</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>Application/LA_IHM/nome_RECEITA_12</name>
+        <resourceLocator>prot1://0?M?Application/LA_IHM/nome_RECEITA_12?string-80</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://Application/LA_IHM/nome_RECEITA_12?string-80</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>CODESYS V3 ETH:prot1:uid0:Application/LA_IHM/nome_RECEITA_12</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
 </tags>

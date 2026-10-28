@@ -7,6 +7,7 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
+    <MLText id="82" L1=""/>
     <MLText id="0" L1="Nº de entrega p/ inspeção"/>
     <MLText id="2" L1="Reiniciar&#xa;Inspeção"/>
     <MLText id="3" L1="Recolher / Levar&#xa;Inspeção"/>
@@ -37,7 +38,6 @@
     <MLText id="59" L1="Habilitado"/>
     <MLText id="60" L1="Alarme"/>
     <MLText id="71" L1="ms"/>
-    <MLText id="82" L1=""/>
     <MLText id="83" L1="Tempo parar esteira"/>
    </MLTexts>
   </object>

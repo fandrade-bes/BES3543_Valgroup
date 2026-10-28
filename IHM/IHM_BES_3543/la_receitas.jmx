@@ -1,6 +1,12 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_receitas.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Receitas" dataWndSize="0,70" pageName="LA_Receitas" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto,Tahoma,Roboto Light">
+ <object class="PageWgt" staticFile="opt/la_receitas.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Receitas" dataWndSize="0,70" scriptFile="la_receitas.js" pageName="LA_Receitas" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto,Tahoma,Roboto Light">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
+  <links>
+   <action class="JavaScriptAction" f="LA_Receitas_onActivate" actionID="0" event="onActivate" actionWgt="_WgtMgr" attribute="onActivate"/>
+  </links>
+  <object class="ShapeWgt" id="GroupWgt4.rect3" static="true">
+   <wgtStyle x="251" y="44" cx="9.68" cy="173.47" width="20" height="346.93" fill="rgb(40,40,40)" nodeName="rect"/>
+  </object>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
    <langs defLangId="L1" curLangId="L1">
@@ -33,7 +39,7 @@
    </MLTexts>
   </object>
   <object class="ShapeWgt" id="GroupWgt4.rect2" static="true">
-   <wgtStyle x="14.26" y="42.04" cx="119.97" cy="197.92" width="247.94" height="395.85" fill="rgb(40,40,40)" nodeName="rect"/>
+   <wgtStyle x="940.12" y="48.94" cx="119.97" cy="197.92" width="247.94" height="395.85" fill="rgb(40,40,40)" nodeName="rect"/>
   </object>
   <object class="ShapeWgt" id="GroupWgt4.rect4" static="true">
    <wgtStyle x="286.46" y="43.49" cx="236.13" cy="108.99" width="488.01" height="217.97" fill="rgb(40,40,40)" nodeName="rect"/>
@@ -51,13 +57,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt6.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="69.20" dx="1" dy="-1" cx="113.38" cy="16.41" value="0" width="230.31" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="76.10" dx="1" dy="-1" cx="113.38" cy="16.41" value="0" width="230.31" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt6.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="74.77" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="81.67" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_1" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -66,13 +72,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt7.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="106.63" dx="1" dy="-1" cx="113.28" cy="16.41" value="0" width="230.12" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="113.53" dx="1" dy="-1" cx="113.28" cy="16.41" value="0" width="230.12" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="112.21" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="119.11" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_2" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -81,13 +87,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt8.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="144.07" dx="1" dy="-1" cx="113.18" cy="16.41" value="0" width="229.92" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="150.97" dx="1" dy="-1" cx="113.18" cy="16.41" value="0" width="229.92" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt8.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="149.64" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="156.54" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_3" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -96,13 +102,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt9.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="181.50" dx="1" dy="-1" cx="113.09" cy="16.41" value="0" width="229.73" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="188.40" dx="1" dy="-1" cx="113.09" cy="16.41" value="0" width="229.73" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_4" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt9.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="187.07" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="193.97" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_4" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -111,13 +117,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt10.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="218.94" dx="1" dy="-1" cx="113" cy="16.41" value="0" width="229.54" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="225.84" dx="1" dy="-1" cx="113" cy="16.41" value="0" width="229.54" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_5" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt10.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="224.51" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="231.41" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_5" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -126,13 +132,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt11.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="256.37" dx="1" dy="-1" cx="112.90" cy="16.41" value="0" width="229.35" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="263.27" dx="1" dy="-1" cx="112.90" cy="16.41" value="0" width="229.35" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_6" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt11.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="261.95" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="268.85" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_6" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -141,13 +147,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt12.hotspotbtn" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="293.01" dx="1" dy="-1" cx="112.81" cy="16.41" value="0" width="229.16" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="299.91" dx="1" dy="-1" cx="112.81" cy="16.41" value="0" width="229.16" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_7" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt12.label6">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="298.59" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="305.49" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_7" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -236,10 +242,10 @@
    </object>
   </object>
   <object class="ShapeWgt" id="GroupWgt8.rect4" static="true">
-   <wgtStyle x="14.26" y="42.55" stroke-width="0" cx="119.39" cy="9.59" width="246.75" height="19.18" fill="rgb(87,106,130)" nodeName="rect"/>
+   <wgtStyle x="940.12" y="49.45" stroke-width="0" cx="119.39" cy="9.59" width="246.75" height="19.18" fill="rgb(87,106,130)" nodeName="rect"/>
   </object>
   <object class="LabelWgt" id="label8" static="true">
-   <wgtStyle font-size="10" wrapping="true" cx="117.75" cy="8.30" x="17.65" marker="true" y="45.31" font-sizepx="13" font-bold="true" height="17.52" font-color="rgb(255,255,255)" min-font-size="8" width="235.48" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="117.75" cy="8.30" x="943.51" marker="true" y="52.21" font-sizepx="13" font-bold="true" height="17.52" font-color="rgb(255,255,255)" min-font-size="8" width="235.48" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="4"/>
    </links>
@@ -269,13 +275,13 @@
    </dataLinks>
   </object>
   <object class="ButtonWgt" id="GroupWgt20.hotspotbtn1" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="330.44" dx="1" dy="-1" cx="112.71" cy="16.41" value="0" width="228.96" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="337.34" dx="1" dy="-1" cx="112.71" cy="16.41" value="0" width="228.96" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_8" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt20.label1">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="336.02" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="342.92" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_8" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -284,13 +290,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt11.hotspotbtn1" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="367.88" dx="1" dy="-1" cx="112.62" cy="16.41" value="0" width="228.77" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="374.78" dx="1" dy="-1" cx="112.62" cy="16.41" value="0" width="228.77" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_9" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt11.label1">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="373.45" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="380.35" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_9" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -299,13 +305,13 @@
    </links>
   </object>
   <object class="ButtonWgt" id="GroupWgt12.hotspotbtn2" hmiStyle="type:btn">
-   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="19.23" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="404.52" dx="1" dy="-1" cx="112.52" cy="16.41" value="0" width="228.57" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
+   <wgtStyle type="momentary" releasePath="../../shared/gallery/images/bu_other/win-like.svg" x="945.09" form="hotspot" pushColor="rgb(128,128,0)" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" y="411.42" dx="1" dy="-1" cx="112.52" cy="16.41" value="0" width="228.57" height="33.47" fill="rgb(160,160,164)" forcePaint="8" downFillColor="rgb(160,160,164)"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/LA_IHM/bit_SELEC_RECEITA_10" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
    </dataLinks>
   </object>
   <object class="LabelWgt" id="GroupWgt12.label1">
-   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="69.72" marker="true" y="410.09" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="90" cy="10.93" x="995.58" marker="true" y="416.99" font-sizepx="13" height="23.09" font-color="rgb(255,255,255)" min-font-size="8" width="180.01" vert-align="top" wrap-type="wordWrap" forcePaint="9" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <dataLinks>
     <dataLink class="TagMgrWgt" tagType="string-80" sourceType="Tag" tag="Application/LA_IHM/nome_RECEITA_10" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="text"/>
    </dataLinks>
@@ -341,7 +347,7 @@
    </links>
   </object>
   <object class="ImageWgt" id="Arrows5">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="76.10" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="83" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -355,7 +361,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows1">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="113.32" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="120.22" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -369,7 +375,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows2">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="150.53" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="157.43" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -383,7 +389,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows3">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="187.74" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="194.63" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -397,7 +403,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows4">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="224.95" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="231.85" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -411,7 +417,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows6">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="262.17" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="269.07" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -425,7 +431,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows7">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="299.39" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="306.29" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -439,7 +445,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows8">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="336.60" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="343.50" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -453,7 +459,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows9">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="373.81" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="380.71" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -467,7 +473,7 @@
    </dataLinks>
   </object>
   <object class="ImageWgt" id="Arrows10">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="19.42" y="411.02" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.4088,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="945.28" y="417.92" mtx="0.00103898,-0.999999,0,0.999999,0.00115341,0,0,20.41,1" cx="12.40" cy="10.22" width="20.41" height="24.79" fill="rgb(50,205,50)" forcePaint="9"/>
    <dataLinks>
     <dataLink sourceType="Formula" attribute="visibility">
      <xForms>
@@ -568,6 +574,86 @@
   </object>
   <object class="GroupSubscribeWgt" id="LA_Receitas@$GroupSubscrWgt@$0">
    <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="GroupWgt" customType="ControlList" id="controlListbtn">
+   <wgtStyle x="15" y="72" wgtStaticOpt="dynamic" cx="125.50" cy="183.24" width="251" height="366.48" forcePaint="16"/>
+   <object class="ControlListWgt" id="controlListbtn.controlList">
+    <wgtStyle list-readOnly="false" icon-image="images/listArrow.svg" font-size="13" list-scorllsize="20" cx="25.64" mode="1" cy="148.60" state="1" x="0" y="0" list-bgColor="rgb(40,40,40)" font-sizepx="17" height="319" font-color="rgb(255,255,255)" min-font-size="8" width="251" scroll_type="1" vert-align="top" wrap-type="wordWrap" forcePaint="25" wgtStaticOpt="dynamic" font-family="Roboto" selection="1" state-color="rgb(102,102,102)" text="" keypad-type="None" max-font-size="64">
+     <list>
+      <listItem enable="true" name="Receita 1" value="1"/>
+      <listItem enable="true" name="Receita 2" value="2"/>
+      <listItem enable="true" name="Receita 3" value="3"/>
+      <listItem enable="true" name="Receita 4" value="4"/>
+      <listItem enable="true" name="Receita 5" value="5"/>
+      <listItem enable="true" name="Receita 6" value="6"/>
+      <listItem enable="true" name="Receita 7" value="7"/>
+      <listItem enable="true" name="Receita 8" value="8"/>
+      <listItem enable="true" name="Receita 9" value="9"/>
+      <listItem enable="true" name="Receita 10" value="10"/>
+      <listItem enable="true" name="Receita 11" value="11"/>
+      <listItem enable="true" name="Receita 12" value="12"/>
+      <listItem enable="true" name="Receita 13" value="13"/>
+      <listItem enable="true" name="Receita 14" value="14"/>
+      <listItem enable="true" name="Receita 15" value="15"/>
+      <listItem enable="true" name="Receita 16" value="16"/>
+      <listItem enable="true" name="Receita 17" value="17"/>
+      <listItem enable="true" name="Receita 18" value="18"/>
+      <listItem enable="true" name="Receita 19" value="19"/>
+      <listItem enable="true" name="Receita 20" value="20"/>
+     </list>
+    </wgtStyle>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/LA_IHM/int_RECEITA_ATUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+    </dataLinks>
+   </object>
+   <object class="GroupWgt" customType="ButtonsWithIcon" id="controlListbtn.AlrmHstry.Buttons.fwdBtn">
+    <wgtStyle x="155" y="325" wgtStaticOpt="dynamic" cx="21.01" cy="20.74" width="42" height="41.48" forcePaint="17"/>
+    <links>
+     <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+    </links>
+    <object class="ButtonWgt" id="controlListbtn.AlrmHstry.Buttons.fwdBtn.btn" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+     <wgtStyle form="standard" pushColor="rgb(128,128,0)" bdrSize="0.17,0.17,0.15,0.16" type="momentary" fill="rgb(0,70,136)" cx="19.75" cy="20.74" x="1.25" y="0" height="41.48" downFillColor="rgb(0,176,199)" releasePath="images\btn_rect_blueup.svg" width="39.52" forcePaint="17" bdrImageSize="54.00,44.00" wgtStaticOpt="dynamic" value="0" style="0" needlePath="images\btn_rect_dwn.svg"/>
+     <links>
+      <action class="SendKeyWidgetAction" actionID="1" keyCode="Up" event="onMouseClick" actionWgt="_keyboardMgr" attribute="onMouseClick" widgetId="controlListbtn.controlList"/>
+     </links>
+    </object>
+    <object class="ImageWgt" id="controlListbtn.AlrmHstry.Buttons.fwdBtn.icoImg" hmiStyle="hmi-name:solid; ; hmi-type:icon">
+     <wgtStyle imagePath="images/up_arrow_ico.svg" x="0" y="0" wgtStaticOpt="dynamic" stroke-width="2" cx="21.02" cy="20.74" stroke="rgb(245,245,245)" enableCache="true" width="42" height="41.48" fill="none" forcePaint="17"/>
+    </object>
+   </object>
+   <object class="GroupWgt" customType="ButtonsWithIcon" id="controlListbtn.AlrmHstry.Buttons.fwdBtn1">
+    <wgtStyle x="209" y="325" mtx="-1,1.06849e-07,0,-1.0955e-07,-1,0,42,41.479,1" wgtStaticOpt="dynamic" cx="20.99" cy="20.74" width="42" height="41.48" forcePaint="17"/>
+    <links>
+     <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+    </links>
+    <object class="ButtonWgt" id="controlListbtn.AlrmHstry.Buttons.fwdBtn1.btn" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+     <wgtStyle form="standard" pushColor="rgb(128,128,0)" bdrSize="0.17,0.17,0.15,0.16" type="momentary" fill="rgb(0,70,136)" cx="19.75" cy="20.74" x="1.25" y="0" height="41.48" downFillColor="rgb(0,176,199)" releasePath="images\btn_rect_blueup.svg" width="39.52" forcePaint="17" bdrImageSize="54.00,44.00" wgtStaticOpt="dynamic" value="0" style="0" needlePath="images\btn_rect_dwn.svg"/>
+     <links>
+      <action class="SendKeyWidgetAction" actionID="1" keyCode="Down" event="onMouseClick" actionWgt="_keyboardMgr" attribute="onMouseClick" widgetId="controlListbtn.controlList"/>
+     </links>
+    </object>
+    <object class="ImageWgt" id="controlListbtn.AlrmHstry.Buttons.fwdBtn1.icoImg" hmiStyle="hmi-name:solid; hmi-type:icon">
+     <wgtStyle imagePath="images/up_arrow_ico.svg" x="0" y="0" wgtStaticOpt="dynamic" stroke-width="2" cx="21.02" cy="20.74" stroke="rgb(245,245,245)" enableCache="true" width="42" height="41.48" fill="none" forcePaint="17"/>
+    </object>
+   </object>
+  </object>
+  <object class="ShapeWgt" id="GroupWgt8.rect2">
+   <wgtStyle x="14" y="43.14" stroke-width="0" cx="124.35" cy="14.76" width="257" height="29.51" fill="rgb(87,106,130)" nodeName="rect" forcePaint="1"/>
+  </object>
+  <object class="LabelWgt" id="label12">
+   <wgtStyle font-size="10" wrapping="true" cx="128.01" cy="10.33" x="15" marker="true" y="52.21" font-sizepx="13" font-bold="true" height="21.79" font-color="rgb(255,255,255)" min-font-size="8" width="256" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="1" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <links>
+    <lang class="MLTextLink" textid="4"/>
+   </links>
+  </object>
+  <object class="JSFunctBlockWgt" id="JSFunctBlock">
+   <wgtStyle value9="" value15="" value16="" x="834.71" y="78.22" height="55" width="71" forcePaint="8" initDelay="0" value1="" value2="" value3="" value4="" value10="" value5="" value11="" value6="" value12="" value7="" value13="" value8="" value14=""/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" tagType="short" sourceType="Tag" tag="Application/LA_IHM/int_STATUS_RECEITA" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="value1"/>
+   </dataLinks>
+   <links>
+    <action class="JavaScriptAction" f="JSFunctBlock_onDataUpdate" actionID="1" event="onDataUpdate" actionWgt="_WgtMgr" attribute="onDataUpdate"/>
+   </links>
   </object>
  </object>
 </wgtPage>

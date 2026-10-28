@@ -1023,16 +1023,6 @@
   <tag>Application/GVL_IHM/bt_UPLOAD_RECEITA</tag>
   <tag>Application/GVL_IHM/int_RECEITA_ATUAL</tag>
   <tag>Application/GVL_IHM/int_STATUS_RECEITA</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_1</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_10</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_2</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_3</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_4</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_5</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_6</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_7</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_8</tag>
-  <tag>Application/GVL_IHM/nome_RECEITA_9</tag>
   <tag>Application/PVAR/rec_ATUAL/NOME</tag>
  </group>
  <group Type="Auto">
