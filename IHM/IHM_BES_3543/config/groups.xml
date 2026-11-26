@@ -342,6 +342,8 @@
   <tag>Application/LA_IHM/hist_VALOR_PESAGEM_ARRAY[4]</tag>
   <tag>Application/LA_IHM/hist_VALOR_PESAGEM_ARRAY[5]</tag>
   <tag>Application/LA_IHM/hist_VALOR_PESAGEM_ARRAY[6]</tag>
+  <tag>Application/PVAR/sp_PESAGEM_VARIACAO_ALTO</tag>
+  <tag>Application/PVAR/sp_PESAGEM_VARIACAO_BAIXO</tag>
  </group>
  <group Type="Auto">
   <name>LA_Operacao - Empilhador@$GroupSubscrWgt@$0</name>

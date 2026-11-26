@@ -102,10 +102,58 @@
   </TypeList>
   <NodeList>
     <Node name="Application">
+      <Node name="B04_EMPILHADOR_X">
+        <Node name="passo_X_EMPILHADOR" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="B05_EMPILHA_SACOLA">
+        <Node name="passo_EMPILHADOR" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="B08_POSICIONADOR">
+        <Node name="passo_POSICIONADOR" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="C04_EST_ENTRADA">
+        <Node name="passo_EST_ENTRADA" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="C05_EST_ENVOLVEDOR">
+        <Node name="passo_EST_ENVOLVEDOR" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="C06_ENVOLVEDOR">
+        <Node name="passo_ENVOLVEDOR" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="C07_EST_SAIDA">
+        <Node name="passo_EST_SAIDA" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="D01_PESAGEM">
+        <Node name="passo_PESAGEM" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="D02_EST_ETIQUETA">
+        <Node name="passo_ETIQUETA" type="T_INT" access="ReadWrite" />
+      </Node>
       <Node name="GVL_PESAGEM">
+        <Node name="bit_BALANCA_ATIVA" type="T_BOOL" access="ReadWrite" />
         <Node name="bit_ENVIAR_PILHA_MANUAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_ETIQUETADORA" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_MESA_TRANSFER_1" type="T_BOOL" access="ReadWrite">
+          <Comment>	ENTRADAS	============//============//============//============//============//============//============
+ E-16DIO - SLOT 5 (RMT50005)	</Comment>
+        </Node>
+        <Node name="di_SENS_PRODUTO_BALANCA" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_PRODUTO_DISPONIVEL" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_PRODUTO_REJEITO" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_TRANSFERENCIA_AV" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_TRANSFERENCIA_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="do_EST_BALANCA" type="T_BOOL" access="ReadWrite">
+          <Comment>E-16DIO - SLOT 7 (RMT50007)</Comment>
+        </Node>
       </Node>
       <Node name="LA_EMP">
+        <Node name="di_SENS_APOIO_BANDEJA_AV" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_APOIO_BANDEJA_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_EST_INSPEC_PRODUTO_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_EST_INSPEC_PRODUTO_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_PINCA_GARRA_EMPILHADOR_AV" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_PINCA_GARRA_EMPILHADOR_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_PRODUTO_MESA_GIRO" type="T_BOOL" access="ReadWrite" />
         <Node name="status_alarm_atu_BANDEJA" type="T_INT" access="ReadWrite" />
         <Node name="status_alarm_atu_DESCE_MESA" type="T_INT" access="ReadWrite" />
         <Node name="status_alarm_atu_GARRA_SACOLA" type="T_INT" access="ReadWrite" />
@@ -117,6 +165,27 @@
         </Node>
       </Node>
       <Node name="LA_ENV">
+        <Node name="bit_valv_FECHA_FILME_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_valv_FECHA_FILME_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_valv_FECHA_FILME_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_valv_VACUO_FILME" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_EST_ENTRADA" type="T_BOOL" access="ReadWrite">
+          <Comment>	ENTRADAS	============//============//============//============//============//============//============
+E-16DIO - SLOT 3 (RMT50003)	</Comment>
+        </Node>
+        <Node name="di_SENS_EST_ENVOLVEDOR_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_EST_ENVOLVEDOR_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_FECHA_FILME_1_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_FECHA_FILME_2_AV" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_FECHA_FILME_2_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_FECHA_FILME_3_AV" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_FECHA_FILME_3_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_SAIDA_ENVOLVEDOR_1" type="T_BOOL" access="ReadWrite">
+          <Comment>E-16DIO - SLOT 4 (RMT50004)		</Comment>
+        </Node>
+        <Node name="di_SENS_SAIDA_ENVOLVEDOR_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_SAIDA_ENVOLVEDOR_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_SENS_SAIDA_ENVOLVEDOR_4" type="T_BOOL" access="ReadWrite" />
         <Node name="status_alarm_atu_ABERTURA" type="T_INT" access="ReadWrite" />
         <Node name="status_alarm_atu_FECHA_FILME_1" type="T_INT" access="ReadWrite" />
         <Node name="status_alarm_atu_FECHA_FILME_2" type="T_INT" access="ReadWrite" />
@@ -130,6 +199,18 @@
         </Node>
       </Node>
       <Node name="LA_GERAL">
+        <Node name="bit_MAQUINA_RODANDO" type="T_BOOL" access="ReadWrite" />
+        <Node name="bit_SAFETY_ATIVO" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_ENV_SENS_ATU_ABERTURA_AV" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_ENV_SENS_ATU_ABERTURA_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="di_ENV_SENS_ATU_GARRA_LD_RC" type="T_BOOL" access="ReadWrite">
+          <Comment>E-16DI - SLOT 2</Comment>
+        </Node>
+        <Node name="di_ENV_SENS_ATU_GARRA_LE_RC" type="T_BOOL" access="ReadWrite" />
+        <Node name="do_ENV_CORTE_FILME" type="T_BOOL" access="ReadWrite">
+          <Comment>E-8DO - SLOT 4</Comment>
+        </Node>
+        <Node name="do_SAIDA_COLAR_EQUIQUETA" type="T_BOOL" access="ReadWrite" />
         <Node name="int_HIST_INDEX_TURNO1" type="T_DINT" access="ReadWrite" />
         <Node name="int_HIST_INDEX_TURNO2" type="T_DINT" access="ReadWrite" />
         <Node name="int_HIST_INDEX_TURNO3" type="T_DINT" access="ReadWrite" />
@@ -489,6 +570,8 @@ TURNO 1</Comment>
 RECEITAS</Comment>
         </Node>
         <Node name="RECEITAS" type="T_ARRAY__0__20__OF_RECEITA" access="ReadWrite" />
+        <Node name="sp_PESAGEM_VARIACAO_ALTO" type="T_REAL" access="ReadWrite" />
+        <Node name="sp_PESAGEM_VARIACAO_BAIXO" type="T_REAL" access="ReadWrite" />
       </Node>
     </Node>
   </NodeList>

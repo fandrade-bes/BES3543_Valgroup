@@ -1,5 +1,5 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object class="PageWgt" staticFile="opt/la_operacao -  pesagem.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Operacao -  Pesagem" dataWndSize="0,70" pageName="LA_Operacao -  Pesagem" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto">
+ <object class="PageWgt" staticFile="opt/la_operacao -  pesagem.png" downloadPrepDone="true" templateFile="la_geral.jmx" staticOptEnable="true" id="LA_Operacao -  Pesagem" dataWndSize="0,70" pageName="LA_Operacao -  Pesagem" pageSize="800,480" usedFonts="Calibri,Segoe UI Light,Arial,Segoe UI,Roboto,Roboto Light">
   <wgtStyle x="0" y="0" fitToSize="1" ver="040502517" width="800" height="480" v="04.05.02.517"/>
   <object class="PageMLTextMgrWgt" mlFileName="" id="_PageMLTextMgrWgt" mgrType="Page">
    <wgtStyle x="0" y="0" width="0" height="0"/>
@@ -7,11 +7,13 @@
     <lang langId="L1" name="Lang1" removable="false" writingsystem="Any" keypads=";;" langCode="en-US" defaultFont="Roboto"/>
    </langs>
    <MLTexts>
-    <MLText id="4" L1=""/>
+    <MLText id="58" L1=""/>
     <MLText id="0" L1="Pesagem"/>
     <MLText id="1" L1="Envolvedor"/>
     <MLText id="2" L1="Empilhador"/>
     <MLText id="3" L1="Reiniciar&#xa;Pesagem"/>
+    <MLText id="4" L1="g"/>
+    <MLText id="5" L1="g"/>
     <MLText id="8" L1="Histórico Peso"/>
     <MLText id="9" L1="Imprimindo"/>
     <MLText id="10" L1="Impressão &#xa;Concluída"/>
@@ -22,10 +24,13 @@
     <MLText id="31" L1="Aguardando pilha"/>
     <MLText id="33" L1="g"/>
     <MLText id="45" L1="Enviar Pilha Manual"/>
+    <MLText id="55" L1="Variação de Peso"/>
+    <MLText id="56" L1="Para Baixo"/>
+    <MLText id="57" L1="Para Cima"/>
    </MLTexts>
   </object>
   <object class="ShapeWgt" id="rect5" static="true">
-   <wgtStyle x="29.28" y="101.77" cx="59.82" cy="141.16" width="123.63" height="282.32" fill="rgb(40,40,40)" nodeName="rect"/>
+   <wgtStyle x="33" y="139" cx="59.82" cy="141.16" width="123.63" height="282.32" fill="rgb(40,40,40)" nodeName="rect"/>
   </object>
   <object class="GroupWgt" id="GroupWgt11">
    <wgtStyle x="196.73" y="449" cx="63.09" cy="13.50" width="126.17" height="27"/>
@@ -40,7 +45,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text1" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
      <links>
-      <lang class="MLTextLink" textid="4">
+      <lang class="MLTextLink" textid="58">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -65,7 +70,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text6" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.16" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.49" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.62"/>
      <links>
-      <lang class="MLTextLink" textid="4">
+      <lang class="MLTextLink" textid="58">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -93,7 +98,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text2" static="true">
      <wgtStyle font-family="Calibri" x="19.58" vert-align="middle" y="9.18" wrap-type="wordWrap" font-size="16" min-font-size="8" keypad-type="None" cx="46.90" alignment="center" cy="4.50" max-font-size="64" font-sizepx="21" width="91.36" font-bold="true" wrapping="true" height="8.64"/>
      <links>
-      <lang class="MLTextLink" textid="4">
+      <lang class="MLTextLink" textid="58">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -133,7 +138,7 @@
       <textid idx="1" val="27"/>
       <textid idx="2" val="28"/>
       <textid idx="3" val="29"/>
-      <textid idx="4" val="4"/>
+      <textid idx="4" val="58"/>
      </lang>
     </links>
    </object>
@@ -160,7 +165,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text3" static="true">
      <wgtStyle font-size="16" wrapping="true" cx="22.57" cy="15.14" x="9.42" y="30.94" font-sizepx="21" font-bold="true" height="29.12" font-color="rgb(232,232,232)" min-font-size="8" width="43.94" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
      <links>
-      <lang class="MLTextLink" textid="4">
+      <lang class="MLTextLink" textid="58">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -179,16 +184,16 @@
    </object>
   </object>
   <object class="ShapeWgt" id="rect6" static="true">
-   <wgtStyle x="29.28" y="102.53" stroke-width="0" cx="59.81" cy="13.47" width="123.63" height="26.91" fill="rgb(87,106,130)" nodeName="rect"/>
+   <wgtStyle x="33" y="140" stroke-width="0" cx="59.81" cy="13.47" width="123.63" height="26.91" fill="rgb(87,106,130)" nodeName="rect"/>
   </object>
   <object class="LabelWgt" id="label8" static="true">
-   <wgtStyle font-size="10" wrapping="true" cx="44.49" cy="10.14" x="45.42" marker="true" y="108.32" font-sizepx="13" font-bold="true" height="21.40" font-color="rgb(255,255,255)" min-font-size="8" width="88.98" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
+   <wgtStyle font-size="10" wrapping="true" cx="44.49" cy="10.14" x="49" marker="true" y="146" font-sizepx="13" font-bold="true" height="21.40" font-color="rgb(255,255,255)" min-font-size="8" width="88.98" alignment="center" vert-align="top" wrap-type="wordWrap" font-family="Roboto" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="8"/>
    </links>
   </object>
   <object class="ImageWgt" id="Arrows5" static="true">
-   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="154.08" y="136.06" hor-flip="true" mtx="-0.00104727,-0.999999,0,-0.999999,0.00114428,0,25.219,20.577,1" cx="12.61" cy="10.30" width="20.58" height="25.20" fill="rgb(0,0,255)"/>
+   <wgtStyle imagePath="images/ArrowsIcon5.svg" x="158" y="174" hor-flip="true" mtx="-0.00104727,-0.999999,0,-0.999999,0.00114428,0,25.2215,20.58,1" cx="12.61" cy="10.30" width="20.58" height="25.20" fill="rgb(0,0,255)"/>
   </object>
   <object class="GroupWgt" id="GroupWgt3">
    <wgtStyle x="678.22" y="57.65" cx="61.03" cy="57.15" width="122.05" height="114.29" forcePaint="1"/>
@@ -210,9 +215,9 @@
       <MLFontFamily L1="Calibri"/>
       <textid idx="0" val="9"/>
       <textid idx="1" val="10"/>
-      <textid idx="2" val="4"/>
-      <textid idx="3" val="4"/>
-      <textid idx="4" val="4"/>
+      <textid idx="2" val="58"/>
+      <textid idx="3" val="58"/>
+      <textid idx="4" val="58"/>
      </lang>
     </links>
    </object>
@@ -221,7 +226,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt4">
-   <wgtStyle x="34.99" y="132.77" cx="56.14" cy="14.24" width="112.28" height="28.47"/>
+   <wgtStyle x="38" y="170" cx="56.14" cy="14.24" width="112.28" height="28.47"/>
    <object class="ShapeWgt" id="GroupWgt4.rect7">
     <wgtStyle x="0" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -243,7 +248,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt5">
-   <wgtStyle x="34.99" y="169.26" cx="56.34" cy="14.28" width="112.67" height="28.56"/>
+   <wgtStyle x="38" y="207" cx="56.34" cy="14.28" width="112.67" height="28.56"/>
    <object class="ShapeWgt" id="GroupWgt5.rect7">
     <wgtStyle x="0" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -265,7 +270,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt6">
-   <wgtStyle x="34.99" y="205.75" cx="56.17" cy="14.13" width="112.35" height="28.26"/>
+   <wgtStyle x="38" y="243" cx="56.17" cy="14.13" width="112.35" height="28.26"/>
    <object class="ShapeWgt" id="GroupWgt6.rect7">
     <wgtStyle x="0" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -287,7 +292,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt8">
-   <wgtStyle x="34.72" y="242.24" cx="56.24" cy="14.52" width="112.48" height="29.04"/>
+   <wgtStyle x="38" y="280" cx="56.24" cy="14.52" width="112.48" height="29.04"/>
    <object class="ShapeWgt" id="GroupWgt8.rect7">
     <wgtStyle x="0.27" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -309,7 +314,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt9">
-   <wgtStyle x="34.99" y="278.73" cx="56.17" cy="14.13" width="112.35" height="28.26"/>
+   <wgtStyle x="38" y="316" cx="56.17" cy="14.13" width="112.35" height="28.26"/>
    <object class="ShapeWgt" id="GroupWgt9.rect7">
     <wgtStyle x="0" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -331,7 +336,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt10">
-   <wgtStyle x="34.99" y="315.22" cx="56.17" cy="14.26" width="112.35" height="28.52"/>
+   <wgtStyle x="38" y="353" cx="56.17" cy="14.26" width="112.35" height="28.52"/>
    <object class="ShapeWgt" id="GroupWgt10.rect7">
     <wgtStyle x="0" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -353,7 +358,7 @@
    </object>
   </object>
   <object class="GroupWgt" id="GroupWgt12">
-   <wgtStyle x="34.99" y="351.71" cx="56.17" cy="14.13" width="112.35" height="28.26"/>
+   <wgtStyle x="38" y="389" cx="56.17" cy="14.13" width="112.35" height="28.26"/>
    <object class="ShapeWgt" id="GroupWgt12.rect7">
     <wgtStyle x="0" y="0" stroke-width="0" cx="54.28" cy="14.13" width="112.21" height="28.26" fill="rgb(255,106,106)" nodeName="rect" forcePaint="136"/>
     <dataLinks>
@@ -375,7 +380,7 @@
    </object>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label1" static="true">
-   <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="60.52" cy="24.13" x="181.75" marker="true" y="121.25" font-sizepx="16" font-bold="true" height="46.10" min-font-size="8" width="66" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="60.52" cy="24.13" x="185" marker="true" y="159" font-sizepx="16" font-bold="true" height="46.10" min-font-size="8" width="66" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="25">
      <MLFontFamily L1="Calibri"/>
@@ -386,7 +391,7 @@
    <wgtStyle x="0" y="0" width="0" height="0"/>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label2">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="132.89" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="170" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -394,7 +399,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label3">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="169.43" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="207" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -402,7 +407,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label4">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="205.76" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="243" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -410,7 +415,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label5">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="242.65" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="280" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -418,7 +423,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label7">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="278.75" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="316" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -426,7 +431,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label8">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="315.36" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="353" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -434,7 +439,7 @@
    </links>
   </object>
   <object class="LabelWgt" id="GroupWgt7.label9">
-   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="111.45" marker="true" y="351.73" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+   <wgtStyle frameColor="none" font-size="14" wrapping="true" frameSize="0" cx="32.28" cy="14.78" x="115" marker="true" y="389" font-sizepx="19" font-bold="true" height="28.23" min-font-size="8" width="35.20" alignment="center" vert-align="top" wrap-type="wordWrap" forcePaint="65" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
    <links>
     <lang class="MLTextLink" textid="33">
      <MLFontFamily L1="Calibri"/>
@@ -454,7 +459,7 @@
     <object class="LabelWgt" id="SimpleRectBtn1-text5" static="true">
      <wgtStyle font-size="16" wrapping="true" cx="21.98" cy="15.21" x="9.17" y="31.09" font-sizepx="21" font-bold="true" height="29.26" font-color="rgb(232,232,232)" min-font-size="8" width="42.82" alignment="center" vert-align="middle" wrap-type="wordWrap" font-family="Calibri" keypad-type="None" max-font-size="64"/>
      <links>
-      <lang class="MLTextLink" textid="4">
+      <lang class="MLTextLink" textid="58">
        <MLFontFamily L1="Calibri"/>
       </lang>
      </links>
@@ -484,6 +489,65 @@
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="blink"/>
     <dataLink class="TagMgrWgt" tagType="boolean" sourceType="Tag" tag="Application/GVL_PESAGEM/bit_ENVIAR_PILHA_MANUAL" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R" attribute="visibility"/>
    </dataLinks>
+  </object>
+  <object class="GroupWgt" id="GroupWgt15">
+   <wgtStyle x="7" y="58.71" cx="99.64" cy="31.10" width="199.28" height="62.19"/>
+   <object class="GroupWgt" id="GroupWgt15.GroupWgt2">
+    <wgtStyle x="0" y="23.14" cx="47.14" cy="19.22" width="94.28" height="38.43"/>
+    <object class="ShapeWgt" id="GroupWgt15.GroupWgt2.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.62" cy="19.22" stroke="rgb(192,192,192)" width="94.28" height="38.43" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt15.GroupWgt2.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.69" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.04" marker="true" cy="8.21" max-font-size="64" font-sizepx="11" width="74.08" wrapping="true" height="17.33"/>
+     <links>
+      <lang class="MLTextLink" textid="56"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt15.GroupWgt2.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.96" vert-align="top" y="20.15" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="18.64" alignment="center" marker="true" cy="6.76" max-font-size="64" font-sizepx="11" width="37.28" wrapping="true" height="14.28"/>
+     <links>
+      <lang class="MLTextLink" textid="4"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt15.GroupWgt2.numeric2">
+     <wgtStyle form="Numeric" min="-3.40282e+38" timeSpec="local" font-size="12" step="1" cx="30.18" cy="6.61" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="17.88" font-sizepx="16" height="14.70" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.61" alignment="center" max="3.40282e+38" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="float" sourceType="Tag" tag="Application/PVAR/sp_PESAGEM_VARIACAO_BAIXO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="GroupWgt" id="GroupWgt15.GroupWgt3">
+    <wgtStyle x="105" y="23.14" cx="47.14" cy="19.53" width="94.28" height="39.05"/>
+    <object class="ShapeWgt" id="GroupWgt15.GroupWgt3.rect4" static="true">
+     <wgtStyle x="0" y="0" cx="45.62" cy="19.22" stroke="rgb(192,192,192)" width="94.28" height="38.43" fill="rgb(245,245,245)" nodeName="rect"/>
+    </object>
+    <object class="LabelWgt" id="GroupWgt15.GroupWgt3.label9" static="true">
+     <wgtStyle font-family="Roboto" x="1.80" vert-align="top" y="2.69" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="37.04" marker="true" cy="8.21" max-font-size="64" font-sizepx="11" width="74.08" wrapping="true" height="17.33"/>
+     <links>
+      <lang class="MLTextLink" textid="57"/>
+     </links>
+    </object>
+    <object class="LabelWgt" id="GroupWgt15.GroupWgt3.label10" static="true">
+     <wgtStyle font-family="Roboto" x="56.96" vert-align="top" y="20.15" wrap-type="wordWrap" font-size="8" min-font-size="8" keypad-type="None" cx="18.64" alignment="center" marker="true" cy="7.23" max-font-size="64" font-sizepx="11" width="37.28" wrapping="true" height="15.28"/>
+     <links>
+      <lang class="MLTextLink" textid="5"/>
+     </links>
+    </object>
+    <object class="NumericWgt" id="GroupWgt15.GroupWgt3.numeric2">
+     <wgtStyle form="Numeric" min="-3.40282e+38" timeSpec="local" font-size="12" step="1" cx="30.18" cy="6.61" decimalDigits="1" x="2.09" numberFormat="1" showThousandSeparator="false" y="17.88" font-sizepx="16" height="14.70" font-color="rgb(76,76,77)" readWrite="true" min-font-size="8" width="65.61" alignment="center" max="3.40282e+38" vert-align="middle" wrap-type="wordWrap" forcePaint="8" usingFormat="" font-family="Roboto Light" text="999" value="999" keypad-type="Numeric" max-font-size="64"/>
+     <dataLinks>
+      <dataLink class="TagMgrWgt" tagType="float" sourceType="Tag" tag="Application/PVAR/sp_PESAGEM_VARIACAO_ALTO" dataSource="_TagMgr" tagIndex="-1" widgetType="Project" readWrite="R/W" attribute="value"/>
+     </dataLinks>
+    </object>
+   </object>
+   <object class="LabelWgt" id="GroupWgt15.label5" static="true">
+    <wgtStyle frameColor="none" font-size="12" wrapping="true" frameSize="0" cx="121.25" cy="9.34" x="33.53" marker="true" y="0" font-sizepx="16" font-bold="true" height="17.85" min-font-size="8" width="132.21" alignment="center" vert-align="middle" wrap-type="wordWrap" frame="true" font-family="Calibri" keypad-type="None" max-font-size="64"/>
+    <links>
+     <lang class="MLTextLink" textid="55">
+      <MLFontFamily L1="Calibri"/>
+     </lang>
+    </links>
+   </object>
   </object>
  </object>
 </wgtPage>
